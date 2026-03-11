@@ -1,0 +1,1624 @@
+#curie_map:
+#  EFO: http://www.ebi.ac.uk/efo/EFO_
+#  HP: http://purl.obolibrary.org/obo/HP_
+#  MP: http://purl.obolibrary.org/obo/MP_
+#  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+#  NCIT: http://purl.obolibrary.org/obo/NCIT_
+#  ORPHA: http://www.orpha.net/ORDO/Orphanet_
+#mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/ukbiobank.sssom.tsv
+#mapping_set_description: UK Biobank phenotype mappings to EFO
+#subject_type: rdfs literal
+#subject_source: https://github.com/EBISPOT/EFO-UKB-mappings
+subject_label	subject_category	predicate_id	object_id	mapping_justification	author_label	mapping_date
+"""Adverse effects, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009658	semapv:ManualMappingCuration	efo	2019-04-26
+"""Antepartum haemorrhage, not elsewhere classified"""	phenotype	skos:closeMatch	HP:0025328	semapv:ManualMappingCuration	efo	2019-04-26
+"""Bacterial pneumonia, not elsewhere classified"""	disease	skos:closeMatch	EFO:1001272	semapv:ManualMappingCuration	efo	2019-04-26
+"""Benign neoplasm of colon, rectum, anus and anal canal"""	disease	skos:closeMatch	EFO:0003835	semapv:ManualMappingCuration	efo	2019-04-26
+"""Bronchitis, not specified as acute or chronic"""	disease	skos:closeMatch	EFO:0009661	semapv:ManualMappingCuration	efo	2019-04-26
+"""Certain early complications of trauma, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009518	semapv:ManualMappingCuration	efo	2019-04-26
+"""Chronic rhinitis, nasopharyngitis and pharyngitis"""	disease	skos:closeMatch	EFO:0008521	semapv:ManualMappingCuration	efo	2019-04-26
+"""Complications of procedures, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009518	semapv:ManualMappingCuration	efo	2019-04-26
+"""Complications of the puerperium, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009683	semapv:ManualMappingCuration	efo	2019-04-26
+"""Convulsions, not elsewhere classified"""	phenotype	skos:closeMatch	HP:0001250	semapv:ManualMappingCuration	efo	2019-04-26
+"""Cysts of oral region, not elsewhere classified"""	disease	skos:closeMatch	EFO:0003868	semapv:ManualMappingCuration	efo	2019-04-26
+"""Diastolic blood pressure, automated reading"""	measurement	skos:closeMatch	EFO:0006336	semapv:ManualMappingCuration	efo	2019-04-26
+"""Diseases of vocal cords and larynx, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009673	semapv:ManualMappingCuration	efo	2019-04-26
+"""Dislocation, sprain and strain of joints and ligaments at ankle and foot level"""	disease	skos:closeMatch	EFO:1002021	semapv:ManualMappingCuration	efo	2019-04-26
+"""Dislocation, sprain and strain of joints and ligaments at neck level"""	disease	skos:closeMatch	EFO:0009476	semapv:ManualMappingCuration	efo	2019-04-26
+"""Dislocation, sprain and strain of joints and ligaments at wrist and hand level"""	disease	skos:closeMatch	EFO:0009521	semapv:ManualMappingCuration	efo	2019-04-26
+"""Dislocation, sprain and strain of joints and ligaments at wrist and hand level"""	disease	skos:closeMatch	EFO:0009582	semapv:ManualMappingCuration	efo	2019-04-26
+"""Dislocation, sprain and strain of joints and ligaments of knee"""	disease	skos:closeMatch	EFO:0009507	semapv:ManualMappingCuration	efo	2019-04-26
+"""Dislocation, sprain and strain of joints and ligaments of shoulder girdle"""	disease	skos:closeMatch	EFO:0009521	semapv:ManualMappingCuration	efo	2019-04-26
+"""Dislocation, sprain and strain of joints and ligaments of shoulder girdle"""	disease	skos:closeMatch	EFO:0009582	semapv:ManualMappingCuration	efo	2019-04-26
+"""Enthesopathies of lower limb, excluding foot"""	disease	skos:closeMatch	EFO:0009666	semapv:ManualMappingCuration	efo	2019-04-26
+"""Ever had stillbirth, spontaneous miscarriage or termination"""	disease	skos:closeMatch	EFO:1001255	semapv:ManualMappingCuration	efo	2019-04-26
+"""Excessive, frequent and irregular menstruation"""	phenotype	skos:closeMatch	HP:0000132	semapv:ManualMappingCuration	efo	2019-04-26
+"""Forced expiratory volume in 1-second (FEV1), Best measure"""	measurement	skos:closeMatch	EFO:0004314	semapv:ManualMappingCuration	efo	2019-04-26
+"""Forced vital capacity (FVC), Best measure"""	measurement	skos:closeMatch	EFO:0004312	semapv:ManualMappingCuration	efo	2019-04-26
+"""Fracture of foot, except ankle"""	disease	skos:closeMatch	EFO:0003931	semapv:ManualMappingCuration	efo	2019-04-26
+"""Fracture of lower leg, including ankle"""	disease	skos:closeMatch	EFO:0009512	semapv:ManualMappingCuration	efo	2019-04-26
+"""Fracture of rib(s), sternum and thoracic spine"""	disease	skos:closeMatch	EFO:0009620	semapv:ManualMappingCuration	efo	2019-04-26
+"""Haemangioma and lymphangioma, any site"""	disease	skos:closeMatch	EFO:1000635	semapv:ManualMappingCuration	efo	2019-04-26
+"""Heel bone mineral density (BMD) T-score, automated (left)"""	measurement	skos:closeMatch	EFO:0003923	semapv:ManualMappingCuration	efo	2019-04-26
+"""Heel bone mineral density (BMD) T-score, automated (right)"""	measurement	skos:closeMatch	EFO:0003923	semapv:ManualMappingCuration	efo	2019-04-26
+"""Heel bone mineral density (BMD) T-score, automated"""	measurement	skos:closeMatch	EFO:0009270	semapv:ManualMappingCuration	efo	2019-04-26
+"""Inflammatory disorders of male genital organs, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009555	semapv:ManualMappingCuration	efo	2019-04-26
+"""Localised swelling, mass and lump of skin and subcutaneous tissue"""	disease	skos:closeMatch	ORPHA:79383	semapv:ManualMappingCuration	efo	2019-04-26
+"""Loneliness, isolation"""	measurement	skos:closeMatch	EFO:0007865	semapv:ManualMappingCuration	efo	2019-04-26
+"""Long-standing illness, disability or infirmity"""	disease	skos:closeMatch	EFO:0009714	semapv:ManualMappingCuration	efo	2019-04-26
+"""Malignant neoplasm of kidney, except renal pelvis"""	disease	skos:closeMatch	EFO:0003865	semapv:ManualMappingCuration	efo	2019-04-26
+"""Mental disorder, not otherwise specified"""	disease	skos:closeMatch	EFO:0000677	semapv:ManualMappingCuration	efo	2019-04-26
+"""Neuromuscular dysfunction of bladder, not elsewhere classified"""	phenotype	skos:closeMatch	HP:0000011	semapv:ManualMappingCuration	efo	2019-04-26
+"""Number of operations, self-reported"""	quality	skos:closeMatch	EFO:0009802	semapv:ManualMappingCuration	efo	2019-04-26
+"""Occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction"""	disease	skos:closeMatch	EFO:0009677	semapv:ManualMappingCuration	efo	2019-04-26
+"""Oedema, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009373	semapv:ManualMappingCuration	efo	2019-04-26
+"""Open wound of abdomen, lower back and pelvis"""	disease	skos:closeMatch	EFO:0009502	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other and unspecified injuries of abdomen, lower back and pelvis"""	disease	skos:closeMatch	EFO:0009502	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other complications of labour and delivery, not elsewhere classified"""	phenotype	skos:closeMatch	HP:0001787	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other complications of surgical and medical care, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009518	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other congenital malformations of tongue, mouth and pharynx"""	disease	skos:closeMatch	ORPHA:183530	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other disorders involving the immune mechanism, not elsewhere classified"""	disease	skos:closeMatch	EFO:0000540	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other disorders of ear, not elsewhere classified"""	disease	skos:closeMatch	EFO:1001455	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other disorders of fluid, electrolyte and acid-base balance"""	phenotype	skos:closeMatch	HP:0001939	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other disorders of kidney and ureter, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009690	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other disorders of skin and subcutaneous tissue, not elsewhere classified"""	disease	skos:closeMatch	EFO:0000701	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other dorsopathies, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009676	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other joint disorders, not elsewhere classified"""	disease	skos:closeMatch	EFO:1000999	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other maternal diseases classifiable elsewhere but complicating pregnancy, childbirth and the puerperium"""	disease	skos:closeMatch	EFO:0009682	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other neoplasms of uncertain or unknown behaviour of lymphoid, haematopoietic and related tissue"""	disease	skos:closeMatch	EFO:0001642	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other neoplasms of uncertain or unknown behaviour of lymphoid, haematopoietic and related tissue"""	disease	skos:closeMatch	EFO:1000201	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other noninflammatory disorders of uterus, except cervix"""	disease	skos:closeMatch	EFO:0009549	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other predominantly sexually transmitted diseases, not elsewhere classified"""	disease	skos:closeMatch	EFO:0003955	semapv:ManualMappingCuration	efo	2019-04-26
+"""Other soft tissue disorders, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009470	semapv:ManualMappingCuration	efo	2019-04-26
+"""Persons encountering health services for other counselling and medical advice, not elsewhere classified"""	factor	skos:closeMatch	EFO:0009786	semapv:ManualMappingCuration	efo	2019-04-26
+"""Persons encountering health services for specifie procedures, not carried out"""	factor	skos:closeMatch	EFO:0009786	semapv:ManualMappingCuration	efo	2019-04-26
+"""Pleural effusion, not elsewhere classified"""	phenotype	skos:closeMatch	EFO:0009637	semapv:ManualMappingCuration	efo	2019-04-26
+"""Pneumonia, organism unspecified"""	disease	skos:closeMatch	EFO:0003106	semapv:ManualMappingCuration	efo	2019-04-26
+"""Poisoning by antiepileptic, sedative-hypnotic and anti-Parkinsonism drugs"""	disease	skos:closeMatch	EFO:0008546	semapv:ManualMappingCuration	efo	2019-04-26
+"""Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances"""	disease	skos:closeMatch	EFO:0008546	semapv:ManualMappingCuration	efo	2019-04-26
+"""Poisoning by nonopioid analgesics, antipyretics and antirheumatics"""	disease	skos:closeMatch	EFO:0008546	semapv:ManualMappingCuration	efo	2019-04-26
+"""Poisoning by psychotropic drugs, not elsewhere classified"""	disease	skos:closeMatch	EFO:0008546	semapv:ManualMappingCuration	efo	2019-04-26
+"""Postprocedural disorders of digestive system, not elsewhere classified"""	disease	skos:closeMatch	EFO:0000405	semapv:ManualMappingCuration	efo	2019-04-26
+"""Postprocedural disorders of eye and adnexa, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009546	semapv:ManualMappingCuration	efo	2019-04-26
+"""Postprocedural disorders of genito-urinary system, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009663	semapv:ManualMappingCuration	efo	2019-04-26
+"""Postprocedural musculoskeletal disorders, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009676	semapv:ManualMappingCuration	efo	2019-04-26
+"""Pulse rate, automated reading"""	measurement	skos:closeMatch	EFO:0004326	semapv:ManualMappingCuration	efo	2019-04-26
+"""Reaction to severe stress, and adjustment disorders"""	measurement	skos:closeMatch	EFO:0006783	semapv:ManualMappingCuration	efo	2019-04-26
+"""Redundant prepuce, phimosis and paraphimosis"""	disease	skos:closeMatch	EFO:1001104	semapv:ManualMappingCuration	efo	2019-04-26
+"""Respiratory failure, not elsewhere classified"""	disease	skos:closeMatch	EFO:0009686	semapv:ManualMappingCuration	efo	2019-04-26
+"""Seen a psychiatrist for nerves, anxiety, tension or depression"""	quality	skos:closeMatch	EFO:0009821	semapv:ManualMappingCuration	efo	2019-04-26
+"""Seen doctor (GP) for nerves, anxiety, tension or depression"""	quality	skos:closeMatch	EFO:0009820	semapv:ManualMappingCuration	efo	2019-04-26
+"""Sexual dysfunction, not caused by organic disorder or disease"""	phenotype	skos:closeMatch	EFO:0004714	semapv:ManualMappingCuration	efo	2019-04-26
+"""Somnolence, stupor and coma"""	phenotype	skos:closeMatch	HP:0001259	semapv:ManualMappingCuration	efo	2019-04-26
+"""Speech disturbances, not elsewhere classified"""	phenotype	skos:closeMatch	HP:0011098	semapv:ManualMappingCuration	efo	2019-04-26
+"""Systolic blood pressure, automated reading"""	measurement	skos:closeMatch	EFO:0006335	semapv:ManualMappingCuration	efo	2019-04-26
+"""Tubulo-interstitial nephritis, not specified as acute or chronic"""	disease	skos:closeMatch	EFO:1002050	semapv:ManualMappingCuration	efo	2019-04-26
+"""Ulcer of lower limb, not elsewhere classified"""	phenotype	skos:closeMatch	EFO:0007068	semapv:ManualMappingCuration	efo	2019-04-26
+"""malignant lymph node, unspecified"""	disease	skos:closeMatch	EFO:0001642	semapv:ManualMappingCuration	efo	2019-04-26
+Abdominal and pelvic pain	phenotype	skos:closeMatch	EFO:0003766	semapv:ManualMappingCuration	efo	2019-04-26
+Able to walk or cycle unaided for 10 minutes	quality	skos:closeMatch	EFO:0009822	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormal findings in cerebrospinal fluid	phenotype	skos:closeMatch	HP:0002921	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormal findings in specimens from female genital organs	phenotype	skos:closeMatch	HP:0000008	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormal findings in specimens from male genital organs	phenotype	skos:closeMatch	HP:0000022	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormal findings in specimens from respiratory organs and thorax	phenotype	skos:closeMatch	HP:0002086	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormal findings on diagnostic imaging of central nervous system	phenotype	skos:closeMatch	HP:0002011	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormal findings on diagnostic imaging of lung	phenotype	skos:closeMatch	HP:0002088	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormal findings on diagnostic imaging of other body structures	experimental process	skos:closeMatch	EFO:0009827	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormal leukocyte morphology	phenotype	skos:closeMatch	HP:0001881	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormal results of function studies	factor	skos:closeMatch	EFO:0009628	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormal serum enzyme levels	phenotype	skos:closeMatch	EFO:0009826	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormalities of breathing	phenotype	skos:closeMatch	HP:0005957	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormalities of forces of labour	phenotype	skos:closeMatch	HP:0001787	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormalities of gait and mobility	phenotype	skos:closeMatch	HP:0001288	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormalities of heart beat	disease	skos:closeMatch	EFO:0004269	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormality of aromatic amino acid family metabolism	phenotype	skos:closeMatch	HP:0004338	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormality of glycoprotein metabolism	phenotype	skos:closeMatch	HP:0004367	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormality of glycosaminoglycan metabolism	phenotype	skos:closeMatch	HP:0004371	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormality of movement	phenotype	skos:closeMatch	HP:0100022	semapv:ManualMappingCuration	efo	2019-04-26
+Abnormality of red blood cells	phenotype	skos:closeMatch	HP:0001877	semapv:ManualMappingCuration	efo	2019-04-26
+Abscess of anal and rectal regions	phenotype	skos:closeMatch	HP:0005224	semapv:ManualMappingCuration	efo	2019-04-26
+Acanthosis nigricans	disease	skos:closeMatch	EFO:1000660	semapv:ManualMappingCuration	efo	2019-04-26
+Acne	disease	skos:closeMatch	EFO:0003894	semapv:ManualMappingCuration	efo	2019-04-26
+Acquired absence of limb	experimental process	skos:closeMatch	EFO:0009632	semapv:ManualMappingCuration	efo	2019-04-26
+Acquired deformities of fingers and toes	disease	skos:closeMatch	ORPHA:294947	semapv:ManualMappingCuration	efo	2019-04-26
+Acquired haemolytic anaemia	disease	skos:closeMatch	EFO:0005558	semapv:ManualMappingCuration	efo	2019-04-26
+Acquired pure red cell aplasia	phenotype	skos:closeMatch	HP:0012410	semapv:ManualMappingCuration	efo	2019-04-26
+Actinomycosis	disease	skos:closeMatch	EFO:0007128	semapv:ManualMappingCuration	efo	2019-04-26
+Acute and subacute endocarditis	disease	skos:closeMatch	EFO:0000465	semapv:ManualMappingCuration	efo	2019-04-26
+Acute and transient psychotic disorders	disease	skos:closeMatch	EFO:0005940	semapv:ManualMappingCuration	efo	2019-04-26
+Acute appendicitis	disease	skos:closeMatch	EFO:0007149	semapv:ManualMappingCuration	efo	2019-04-26
+Acute hepatitis A	disease	skos:closeMatch	EFO:0007305	semapv:ManualMappingCuration	efo	2019-04-26
+Acute hepatitis B	disease	skos:closeMatch	EFO:0004197	semapv:ManualMappingCuration	efo	2019-04-26
+Acute lymphadenitis	phenotype	skos:closeMatch	HP:0002840	semapv:ManualMappingCuration	efo	2019-04-26
+Acute myocardial infarction	disease	skos:closeMatch	EFO:0008583	semapv:ManualMappingCuration	efo	2019-04-26
+Acute nephritic syndrome	disease	skos:closeMatch	EFO:1002050	semapv:ManualMappingCuration	efo	2019-04-26
+Acute pancreatitis	disease	skos:closeMatch	EFO:1000652	semapv:ManualMappingCuration	efo	2019-04-26
+Acute pericarditis	disease	skos:closeMatch	EFO:0007427	semapv:ManualMappingCuration	efo	2019-04-26
+Acute pharyngitis	disease	skos:closeMatch	EFO:0009657	semapv:ManualMappingCuration	efo	2019-04-26
+Acute poliomyelitis	disease	skos:closeMatch	EFO:0007450	semapv:ManualMappingCuration	efo	2019-04-26
+Acute renal failure	phenotype	skos:closeMatch	HP:0001919	semapv:ManualMappingCuration	efo	2019-04-26
+Acute sinusitis	disease	skos:closeMatch	EFO:0007486	semapv:ManualMappingCuration	efo	2019-04-26
+Acute tonsillitis	phenotype	skos:closeMatch	HP:0011110	semapv:ManualMappingCuration	efo	2019-04-26
+Acute tubulo-interstitial nephritis	disease	skos:closeMatch	EFO:1002050	semapv:ManualMappingCuration	efo	2019-04-26
+Acute upper respiratory infections of multiple and unspecified sites	disease	skos:closeMatch	EFO:0000684	semapv:ManualMappingCuration	efo	2019-04-26
+Adjustment and management of implanted device	factor	skos:closeMatch	EFO:0009786	semapv:ManualMappingCuration	efo	2019-04-26
+Adrenogenital disorders	disease	skos:closeMatch	ORPHA:181412	semapv:ManualMappingCuration	efo	2019-04-26
+Adult osteomalacia	disease	skos:closeMatch	EFO:1002027	semapv:ManualMappingCuration	efo	2019-04-26
+Age at death	measurement	skos:closeMatch	EFO:0005056	semapv:ManualMappingCuration	efo	2019-04-26
+Age at first live birth	measurement	skos:closeMatch	EFO:0009101	semapv:ManualMappingCuration	efo	2019-04-26
+Age at last live birth	measurement	skos:closeMatch	EFO:0009440	semapv:ManualMappingCuration	efo	2019-04-26
+Age completed full time education	measurement	skos:closeMatch	EFO:0004784	semapv:ManualMappingCuration	efo	2019-04-26
+Age of primiparous women at birth of child	measurement	skos:closeMatch	EFO:0009101	semapv:ManualMappingCuration	efo	2019-04-26
+Age when periods started (menarche)	measurement	skos:closeMatch	EFO:0004703	semapv:ManualMappingCuration	efo	2019-04-26
+Agranulocytosis	phenotype	skos:closeMatch	HP:0012234	semapv:ManualMappingCuration	efo	2019-04-26
+Alcohol intake frequency.	measurement	skos:closeMatch	EFO:0007878	semapv:ManualMappingCuration	efo	2019-04-26
+Alcoholic liver disease	disease	skos:closeMatch	EFO:0008573	semapv:ManualMappingCuration	efo	2019-04-26
+Allergic contact dermatitis	disease	skos:closeMatch	EFO:1000668	semapv:ManualMappingCuration	efo	2019-04-26
+Alopecia areata	disease	skos:closeMatch	EFO:0004192	semapv:ManualMappingCuration	efo	2019-04-26
+Alzheimer s disease	disease	skos:closeMatch	EFO:0000249	semapv:ManualMappingCuration	efo	2019-04-26
+Amoebiasis	disease	skos:closeMatch	EFO:0007144	semapv:ManualMappingCuration	efo	2019-04-26
+Amyloidosis	disease	skos:closeMatch	EFO:1001875	semapv:ManualMappingCuration	efo	2019-04-26
+Anaemia due to enzyme disorders	disease	skos:closeMatch	EFO:0009529	semapv:ManualMappingCuration	efo	2019-04-26
+Androgenic alopecia	disease	skos:closeMatch	EFO:0004191	semapv:ManualMappingCuration	efo	2019-04-26
+Angina pectoris	phenotype	skos:closeMatch	EFO:0003913	semapv:ManualMappingCuration	efo	2019-04-26
+Ankylosing spondylitis	disease	skos:closeMatch	EFO:0003898	semapv:ManualMappingCuration	efo	2019-04-26
+Anogenital herpesviral infection	disease	skos:closeMatch	EFO:0007282	semapv:ManualMappingCuration	efo	2019-04-26
+Antenatal screening	factor	skos:closeMatch	EFO:0009787	semapv:ManualMappingCuration	efo	2019-04-26
+Anuria and oliguria	disease	skos:closeMatch	EFO:0009530	semapv:ManualMappingCuration	efo	2019-04-26
+Aortic aneurysm and dissection	disease	skos:closeMatch	EFO:0001666	semapv:ManualMappingCuration	efo	2019-04-26
+Apocrine sweat disorders	disease	skos:closeMatch	EFO:1002046	semapv:ManualMappingCuration	efo	2019-04-26
+Arterial embolism and thrombosis	disease	skos:closeMatch	EFO:0004286	semapv:ManualMappingCuration	efo	2019-04-26
+Arthrosis of first carpometacarpal joint	disease	skos:closeMatch	EFO:1000999	semapv:ManualMappingCuration	efo	2019-04-26
+Artificial opening status	factor	skos:closeMatch	EFO:0009789	semapv:ManualMappingCuration	efo	2019-04-26
+Ascariasis	disease	skos:closeMatch	EFO:0007154	semapv:ManualMappingCuration	efo	2019-04-26
+Ascites	phenotype	skos:closeMatch	HP:0001541	semapv:ManualMappingCuration	efo	2019-04-26
+Ascorbic acid deficiency	disease	skos:closeMatch	EFO:1000822	semapv:ManualMappingCuration	efo	2019-04-26
+Aspergillosis	disease	skos:closeMatch	EFO:0007157	semapv:ManualMappingCuration	efo	2019-04-26
+Asthma	disease	skos:closeMatch	EFO:0000270	semapv:ManualMappingCuration	efo	2019-04-26
+Atherosclerosis	disease	skos:closeMatch	EFO:0003914	semapv:ManualMappingCuration	efo	2019-04-26
+Atopic dermatitis	disease	skos:closeMatch	EFO:0000274	semapv:ManualMappingCuration	efo	2019-04-26
+Atrial fibrillation and flutter	disease	skos:closeMatch	EFO:0000275	semapv:ManualMappingCuration	efo	2019-04-26
+Atrioventricular and left bundle-branch block	disease	skos:closeMatch	EFO:0004138	semapv:ManualMappingCuration	efo	2019-04-26
+Atrophic disorders of skin	disease	skos:closeMatch	EFO:1000766	semapv:ManualMappingCuration	efo	2019-04-26
+Attention to artificial openings	factor	skos:closeMatch	EFO:0009786	semapv:ManualMappingCuration	efo	2019-04-26
+Atypical virus infections of CNS	disease	skos:closeMatch	EFO:1001456	semapv:ManualMappingCuration	efo	2019-04-26
+Back pain for 3+ months	phenotype	skos:closeMatch	HP:0003418	semapv:ManualMappingCuration	efo	2019-04-26
+Bacterial meningitis	disease	skos:closeMatch	EFO:1000831	semapv:ManualMappingCuration	efo	2019-04-26
+Basal metabolic rate	measurement	skos:closeMatch	EFO:0007777	semapv:ManualMappingCuration	efo	2019-04-26
+Benign lipomatous neoplasm	disease	skos:closeMatch	EFO:0000759	semapv:ManualMappingCuration	efo	2019-04-26
+Benign mammary dysplasia	disease	skos:closeMatch	EFO:0003014	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of bone and articular cartilage	disease	skos:closeMatch	EFO:0003820	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of brain and other parts of central nervous system	disease	skos:closeMatch	EFO:1000107	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of breast	disease	skos:closeMatch	EFO:0003869	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of major salivary glands	disease	skos:closeMatch	EFO:0003826	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of meninges	disease	skos:closeMatch	EFO:1000107	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of middle ear and respiratory system	disease	skos:closeMatch	EFO:0003853	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of mouth and pharynx	disease	skos:closeMatch	EFO:0003868	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of other and ill-defined parts of digestive system	disease	skos:closeMatch	EFO:0008549	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of other and unspecified endocrine glands	disease	skos:closeMatch	EFO:0003769	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of other and unspecified female genital organs	disease	skos:closeMatch	EFO:1001331	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of other and unspecified sites	disease	skos:closeMatch	EFO:0002422	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of ovary	disease	skos:closeMatch	EFO:1000116	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of thyroid gland	disease	skos:closeMatch	EFO:1000122	semapv:ManualMappingCuration	efo	2019-04-26
+Benign neoplasm of urinary organs	disease	skos:closeMatch	EFO:0003863	semapv:ManualMappingCuration	efo	2019-04-26
+Bilateral oophorectomy (both ovaries removed)	experimental factor	skos:closeMatch	EFO:0009717	semapv:ManualMappingCuration	efo	2019-04-26
+Bipolar affective disorder	disease	skos:closeMatch	EFO:0000289	semapv:ManualMappingCuration	efo	2019-04-26
+Bipolar disorder status	disease	skos:closeMatch	EFO:0000289	semapv:ManualMappingCuration	efo	2019-04-26
+Birth weight	measurement	skos:closeMatch	EFO:0004344	semapv:ManualMappingCuration	efo	2019-04-26
+Birth weight of first child	measurement	skos:closeMatch	EFO:0004344	semapv:ManualMappingCuration	efo	2019-04-26
+Body fat percentage	measurement	skos:closeMatch	EFO:0007800	semapv:ManualMappingCuration	efo	2019-04-26
+Body mass index (BMI)	measurement	skos:closeMatch	EFO:0004340	semapv:ManualMappingCuration	efo	2019-04-26
+Bring up phlegm/sputum/mucus on most days	quality	skos:closeMatch	EFO:0009824	semapv:ManualMappingCuration	efo	2019-04-26
+Bronchiectasis	phenotype	skos:closeMatch	HP:0002110	semapv:ManualMappingCuration	efo	2019-04-26
+Burn and corrosion of ankle and foot	disease	skos:closeMatch	EFO:0009503	semapv:ManualMappingCuration	efo	2019-04-26
+Burn and corrosion of ankle and foot	disease	skos:closeMatch	EFO:0009516	semapv:ManualMappingCuration	efo	2019-04-26
+Burns and corrosions of multiple body regions	disease	skos:closeMatch	EFO:0009503	semapv:ManualMappingCuration	efo	2019-04-26
+Burns and corrosions of multiple body regions	disease	skos:closeMatch	EFO:0009516	semapv:ManualMappingCuration	efo	2019-04-26
+Burns classified according to extent of body surface involved	disease	skos:closeMatch	EFO:0009516	semapv:ManualMappingCuration	efo	2019-04-26
+COPD (chronic obstructive pulmonary disease)	disease	skos:closeMatch	EFO:0000341	semapv:ManualMappingCuration	efo	2019-04-26
+Cachexia	phenotype	skos:closeMatch	HP:0004326	semapv:ManualMappingCuration	efo	2019-04-26
+Calcification and ossification of muscle	phenotype	skos:closeMatch	HP:0100249	semapv:ManualMappingCuration	efo	2019-04-26
+Calculus of kidney and ureter	disease	skos:closeMatch	EFO:0004253	semapv:ManualMappingCuration	efo	2019-04-26
+Calculus of lower urinary tract	disease	skos:closeMatch	EFO:1001228	semapv:ManualMappingCuration	efo	2019-04-26
+Cancer diagnosed by doctor	disease	skos:closeMatch	EFO:0000311	semapv:ManualMappingCuration	efo	2019-04-26
+Candidiasis	disease	skos:closeMatch	EFO:1001283	semapv:ManualMappingCuration	efo	2019-04-26
+Carcinoma in situ of breast	disease	skos:closeMatch	EFO:0000305	semapv:ManualMappingCuration	efo	2019-04-26
+Carcinoma in situ of cervix uteri	disease	skos:closeMatch	EFO:0001061	semapv:ManualMappingCuration	efo	2019-04-26
+Carcinoma in situ of other and unspecified genital organs	disease	skos:closeMatch	EFO:0003863	semapv:ManualMappingCuration	efo	2019-04-26
+Carcinoma in situ of other and unspecified sites	disease	skos:closeMatch	EFO:0000313	semapv:ManualMappingCuration	efo	2019-04-26
+Carcinoma in situ of skin	disease	skos:closeMatch	EFO:0004198	semapv:ManualMappingCuration	efo	2019-04-26
+Cardiomyopathy	disease	skos:closeMatch	EFO:0000318	semapv:ManualMappingCuration	efo	2019-04-26
+Care involving use of rehabilitation procedures	experimental process	skos:closeMatch	EFO:0009581	semapv:ManualMappingCuration	efo	2019-04-26
+Carrier of infectious disease	disease	skos:closeMatch	EFO:0005741	semapv:ManualMappingCuration	efo	2019-04-26
+Cascot confidence score	measurement	skos:closeMatch	EFO:0009815	semapv:ManualMappingCuration	efo	2019-04-26
+Cellulitis	disease	skos:closeMatch	EFO:0003035	semapv:ManualMappingCuration	efo	2019-04-26
+Cerebral infarction	disease	skos:closeMatch	EFO:0004277	semapv:ManualMappingCuration	efo	2019-04-26
+Certain early complications of trauma not elsewhere classified	disease	skos:closeMatch	EFO:0009888	semapv:ManualMappingCuration	efo	2019-05-07
+Cervical disc disorders	disease	skos:closeMatch	EFO:0009537	semapv:ManualMappingCuration	efo	2019-04-26
+Cervicitis	phenotype	skos:closeMatch	HP:0030160	semapv:ManualMappingCuration	efo	2019-04-26
+Chest pain due to walking ceases when standing still	phenotype	skos:closeMatch	HP:0100749	semapv:ManualMappingCuration	efo	2019-04-26
+Chest pain felt during physical activity	phenotype	skos:closeMatch	HP:0100749	semapv:ManualMappingCuration	efo	2019-04-26
+Chest pain felt outside physical activity	phenotype	skos:closeMatch	HP:0100749	semapv:ManualMappingCuration	efo	2019-04-26
+Chest pain or discomfort	phenotype	skos:closeMatch	HP:0100749	semapv:ManualMappingCuration	efo	2019-04-26
+Chest pain or discomfort walking normally	phenotype	skos:closeMatch	HP:0100749	semapv:ManualMappingCuration	efo	2019-04-26
+Chest pain or discomfort when walking uphill or hurrying	phenotype	skos:closeMatch	HP:0100749	semapv:ManualMappingCuration	efo	2019-04-26
+Chlamydia psittaci infection	disease	skos:closeMatch	EFO:1001288	semapv:ManualMappingCuration	efo	2019-04-26
+Cholecystitis	phenotype	skos:closeMatch	HP:0001082	semapv:ManualMappingCuration	efo	2019-04-26
+Cholelithiasis	disease	skos:closeMatch	EFO:0004799	semapv:ManualMappingCuration	efo	2019-04-26
+Cholesteatoma of middle ear	disease	skos:closeMatch	EFO:1000678	semapv:ManualMappingCuration	efo	2019-04-26
+Chorioretinitis	phenotype	skos:closeMatch	HP:0012424	semapv:ManualMappingCuration	efo	2019-04-26
+Chronic diseases of tonsils and adenoids	disease	skos:closeMatch	EFO:0007352	semapv:ManualMappingCuration	efo	2019-04-26
+Chronic ischaemic heart disease	disease	skos:closeMatch	EFO:0001645	semapv:ManualMappingCuration	efo	2019-04-26
+Chronic renal failure	disease	skos:closeMatch	EFO:0003884	semapv:ManualMappingCuration	efo	2019-04-26
+Chronic sinusitis	disease	skos:closeMatch	EFO:0007486	semapv:ManualMappingCuration	efo	2019-04-26
+Chronic viral hepatitis	disease	skos:closeMatch	EFO:0007540	semapv:ManualMappingCuration	efo	2019-04-26
+Cicatricial alopecia	disease	skos:closeMatch	EFO:1002028	semapv:ManualMappingCuration	efo	2019-04-26
+Cleft lip	phenotype	skos:closeMatch	EFO:0003959	semapv:ManualMappingCuration	efo	2019-04-26
+Cleft palate	phenotype	skos:closeMatch	HP:0000175	semapv:ManualMappingCuration	efo	2019-04-26
+Cleft palate with cleft lip	phenotype	skos:closeMatch	HP:0000202	semapv:ManualMappingCuration	efo	2019-04-26
+Coalworker s pneumoconiosis	disease	skos:closeMatch	EFO:1000814	semapv:ManualMappingCuration	efo	2019-04-26
+Cochlear implant	experimental factor	skos:closeMatch	EFO:0009728	semapv:ManualMappingCuration	efo	2019-04-26
+Common variable immunodeficiency	disease	skos:closeMatch	ORPHA:1572	semapv:ManualMappingCuration	efo	2019-04-26
+Comparative body size at age 10	quality	skos:closeMatch	EFO:0009819	semapv:ManualMappingCuration	efo	2019-04-26
+Comparative height size at age 10	measurement	skos:closeMatch	EFO:0004339	semapv:ManualMappingCuration	efo	2019-04-26
+Complications and ill defined descriptions of heart disease	disease	skos:closeMatch	EFO:0003777	semapv:ManualMappingCuration	efo	2019-04-26
+Complications following infusion transfusion and therapeutic injection	disease	skos:closeMatch	EFO:0009518	semapv:ManualMappingCuration	efo	2019-04-26
+Complications of anaesthesia during the puerperium	disease	skos:closeMatch	EFO:0009683	semapv:ManualMappingCuration	efo	2019-04-26
+Complications of cardiac and vascular prosthetic devices implants and grafts	disease	skos:closeMatch	EFO:0009519	semapv:ManualMappingCuration	efo	2019-04-26
+Complications of genitourinary prosthetic devices implants and grafts	disease	skos:closeMatch	EFO:0009519	semapv:ManualMappingCuration	efo	2019-04-26
+Complications of internal orthopaedic prosthetic devices implants and grafts	disease	skos:closeMatch	EFO:0009519	semapv:ManualMappingCuration	efo	2019-04-26
+Complications of other internal prosthetic devices implants and grafts	disease	skos:closeMatch	EFO:0009519	semapv:ManualMappingCuration	efo	2019-04-26
+Complications peculiar to reattachment and amputation	disease	skos:closeMatch	EFO:0009518	semapv:ManualMappingCuration	efo	2019-04-26
+Conduct disorders	disease	skos:closeMatch	EFO:0004216	semapv:ManualMappingCuration	efo	2019-04-26
+Conductive and sensorineural hearing loss	disease	skos:closeMatch	EFO:1001176	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital deformities of feet	phenotype	skos:closeMatch	HP:0001760	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital deformities of hip	disease	skos:closeMatch	EFO:1000648	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital hydrocephalus	disease	skos:closeMatch	ORPHA:2185	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital ichthyosis	disease	skos:closeMatch	ORPHA:281097	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital lens malformations	phenotype	skos:closeMatch	HP:0000517	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of anterior segment of eye	phenotype	skos:closeMatch	HP:0007700	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of aortic and mitral valves	disease	skos:closeMatch	EFO:0009539	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of breast	phenotype	skos:closeMatch	HP:0000769	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of cardiac chambers and connections	disease	skos:closeMatch	EFO:0005269	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of ear causing impairment of hearing	disease	skos:closeMatch	EFO:0004238	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of ear causing impairment of hearing	phenotype	skos:closeMatch	HP:0031703	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of eyelid lacrimal apparatus and orbit	phenotype	skos:closeMatch	HP:0000614	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of gallbladder bile ducts and liver	phenotype	skos:closeMatch	HP:0001392	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of great arteries	disease	skos:closeMatch	ORPHA:98724	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of great veins	disease	skos:closeMatch	ORPHA:363189	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of larynx	phenotype	skos:closeMatch	HP:0025423	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of lung	phenotype	skos:closeMatch	HP:0002088	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of nose	phenotype	skos:closeMatch	HP:0000366	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of oesophagus	disease	skos:closeMatch	ORPHA:88993	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of posterior segment of eye	phenotype	skos:closeMatch	HP:0004329	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital malformations of uterus and cervix	phenotype	skos:closeMatch	HP:0000008	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital obstructive defects of renal pelvis and congenital malformations of ureter	phenotype	skos:closeMatch	HP:0000069	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital obstructive defects of renal pelvis and congenital malformations of ureter	phenotype	skos:closeMatch	HP:0010944	semapv:ManualMappingCuration	efo	2019-04-26
+Congenital septal defect	phenotype	skos:closeMatch	HP:0001671	semapv:ManualMappingCuration	efo	2019-04-26
+Conjunctivitis	disease	skos:closeMatch	EFO:0009450	semapv:ManualMappingCuration	efo	2019-04-26
+Contraceptive management	experimental process	skos:closeMatch	EFO:0009520	semapv:ManualMappingCuration	efo	2019-04-26
+Convalescence	factor	skos:closeMatch	EFO:0009630	semapv:ManualMappingCuration	efo	2019-04-26
+Corns and callosities	disease	skos:closeMatch	ORPHA:79141	semapv:ManualMappingCuration	efo	2019-04-26
+Cough	phenotype	skos:closeMatch	HP:0012735	semapv:ManualMappingCuration	efo	2019-04-26
+Cough on most days	phenotype	skos:closeMatch	HP:0012735	semapv:ManualMappingCuration	efo	2019-04-26
+Coxarthrosis	disease	skos:closeMatch	EFO:1000786	semapv:ManualMappingCuration	efo	2019-04-26
+Creatinine (enzymatic) in urine	measurement	skos:closeMatch	EFO:0007934	semapv:ManualMappingCuration	efo	2019-04-26
+Crohn s disease	disease	skos:closeMatch	EFO:0000384	semapv:ManualMappingCuration	efo	2019-04-26
+Crushing injuries involving multiple body regions	disease	skos:closeMatch	EFO:0009504	semapv:ManualMappingCuration	efo	2019-04-26
+Crushing injury of head	disease	skos:closeMatch	EFO:0009504	semapv:ManualMappingCuration	efo	2019-04-26
+Crushing injury of head	disease	skos:closeMatch	EFO:0009505	semapv:ManualMappingCuration	efo	2019-04-26
+Crushing injury of shoulder and upper arm	disease	skos:closeMatch	EFO:0009504	semapv:ManualMappingCuration	efo	2019-04-26
+Crushing injury of wrist and hand	disease	skos:closeMatch	EFO:0009504	semapv:ManualMappingCuration	efo	2019-04-26
+Cryptococcosis	disease	skos:closeMatch	EFO:0007229	semapv:ManualMappingCuration	efo	2019-04-26
+Current tobacco smoking	biological process	skos:closeMatch	EFO:0004318	semapv:ManualMappingCuration	efo	2019-04-26
+Cushing s syndrome	disease	skos:closeMatch	EFO:0003099	semapv:ManualMappingCuration	efo	2019-04-26
+Cutaneous abscess furuncle and carbuncle	phenotype	skos:closeMatch	HP:0031292	semapv:ManualMappingCuration	efo	2019-04-26
+Cystic fibrosis	disease	skos:closeMatch	ORPHA:586	semapv:ManualMappingCuration	efo	2019-04-26
+Cystic kidney disease	disease	skos:closeMatch	EFO:0008615	semapv:ManualMappingCuration	efo	2019-04-26
+Cystitis	disease	skos:closeMatch	EFO:1000025	semapv:ManualMappingCuration	efo	2019-04-26
+Cytomegaloviral disease	disease	skos:closeMatch	EFO:0001062	semapv:ManualMappingCuration	efo	2019-04-26
+Daytime dozing / sleeping (narcolepsy)	measurement	skos:closeMatch	EFO:0005855	semapv:ManualMappingCuration	efo	2019-04-26
+Daytime dozing / sleeping (narcolepsy)	measurement	skos:closeMatch	EFO:0007875	semapv:ManualMappingCuration	efo	2019-04-26
+Decubitus ulcer	phenotype	skos:closeMatch	EFO:0007067	semapv:ManualMappingCuration	efo	2019-04-26
+Dementia in Alzheimer s disease	disease	skos:closeMatch	EFO:0000249	semapv:ManualMappingCuration	efo	2019-04-26
+Dental caries	disease	skos:closeMatch	EFO:0003819	semapv:ManualMappingCuration	efo	2019-04-26
+Dentofacial anomalies	phenotype	skos:closeMatch	HP:0000153	semapv:ManualMappingCuration	efo	2019-04-26
+Depressive episode	disease	skos:closeMatch	EFO:0003761	semapv:ManualMappingCuration	efo	2019-04-26
+Dermatitis due to substances taken internally	phenotype	skos:closeMatch	HP:0000964	semapv:ManualMappingCuration	efo	2019-04-26
+Dermatopolymyositis	disease	skos:closeMatch	EFO:0000398	semapv:ManualMappingCuration	efo	2019-04-26
+Diabetes diagnosed by doctor	disease	skos:closeMatch	EFO:0000400	semapv:ManualMappingCuration	efo	2019-04-26
+Diabetes mellitus in pregnancy	disease	skos:closeMatch	EFO:0004593	semapv:ManualMappingCuration	efo	2019-04-26
+Diaphragmatic hernia	disease	skos:closeMatch	EFO:0008561	semapv:ManualMappingCuration	efo	2019-04-26
+Diarrhoea and gastro-enteritis of presumed infectious origin	disease	skos:closeMatch	EFO:1001463	semapv:ManualMappingCuration	efo	2019-04-26
+Diffuse non-Hodgkin's lymphoma	disease	skos:closeMatch	EFO:0005952	semapv:ManualMappingCuration	efo	2019-04-26
+Diseases of Bartholin s gland	disease	skos:closeMatch	EFO:0009469	semapv:ManualMappingCuration	efo	2019-04-26
+Diseases of capillaries	disease	skos:closeMatch	EFO:0004264	semapv:ManualMappingCuration	efo	2019-04-26
+Diseases of pulp and periapical tissues	disease	skos:closeMatch	EFO:0009540	semapv:ManualMappingCuration	efo	2019-04-26
+Diseases of salivary glands	disease	skos:closeMatch	EFO:0008581	semapv:ManualMappingCuration	efo	2019-04-26
+Diseases of spleen	disease	skos:closeMatch	EFO:0009002	semapv:ManualMappingCuration	efo	2019-04-26
+Diseases of tongue	disease	skos:closeMatch	EFO:1001047	semapv:ManualMappingCuration	efo	2019-04-26
+Dislocations sprains and strains involving multiple body regions	disease	skos:closeMatch	EFO:0009521	semapv:ManualMappingCuration	efo	2019-04-26
+Dislocations sprains and strains involving multiple body regions	disease	skos:closeMatch	EFO:0009582	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of autonomic nervous system	disease	skos:closeMatch	EFO:0009532	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of conjunctiva in diseases classified elsewhere	disease	skos:closeMatch	EFO:1000203	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of continuity of bone	disease	skos:closeMatch	EFO:0004260	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of eyelid in diseases classified elsewhere	disease	skos:closeMatch	EFO:0009547	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of globe	disease	skos:closeMatch	EFO:0003966	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of lacrimal system	disease	skos:closeMatch	EFO:0009455	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of lacrimal system and orbit in diseases classified elsewhere	disease	skos:closeMatch	ORPHA:98602	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of male genital organs in diseases classified elsewhere	disease	skos:closeMatch	EFO:0009555	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of mineral metabolism	disease	skos:closeMatch	EFO:0009556	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of orbit	disease	skos:closeMatch	EFO:0009664	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of patella	disease	skos:closeMatch	EFO:0009665	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of refraction and accommodation	phenotype	skos:closeMatch	HP:0000539	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of sclera and cornea in diseases classified elsewhere	disease	skos:closeMatch	EFO:0009464	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of tooth development and eruption	disease	skos:closeMatch	EFO:0005410	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of trigeminal nerve	disease	skos:closeMatch	EFO:0009569	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of vestibular function	disease	skos:closeMatch	EFO:0009691	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of vitreous body	disease	skos:closeMatch	EFO:0008624	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders of vitreous body and globe in diseases classified elsewhere	disease	skos:closeMatch	EFO:0008624	semapv:ManualMappingCuration	efo	2019-04-26
+Disorders resulting from impaired renal tubular function	disease	skos:closeMatch	EFO:0009566	semapv:ManualMappingCuration	efo	2019-04-26
+Disseminated intravascular coagulation	phenotype	skos:closeMatch	HP:0005521	semapv:ManualMappingCuration	efo	2019-04-26
+Disturbances of skin sensation	disease	skos:closeMatch	EFO:0009522	semapv:ManualMappingCuration	efo	2019-04-26
+Disturbances of smell and taste	disease	skos:closeMatch	EFO:0009543	semapv:ManualMappingCuration	efo	2019-04-26
+Diverticular disease of intestine	disease	skos:closeMatch	EFO:1001460	semapv:ManualMappingCuration	efo	2019-04-26
+Dizziness and giddiness	phenotype	skos:closeMatch	HP:0002321	semapv:ManualMappingCuration	efo	2019-04-26
+Donors of organs and tissues	factor	skos:closeMatch	EFO:0009633	semapv:ManualMappingCuration	efo	2019-04-26
+Donors of organs and tissues	factor	skos:closeMatch	EFO:0009634	semapv:ManualMappingCuration	efo	2019-04-26
+Dorsalgia	phenotype	skos:closeMatch	EFO:0003843	semapv:ManualMappingCuration	efo	2019-04-26
+Duodenal ulcer	disease	skos:closeMatch	EFO:0004607	semapv:ManualMappingCuration	efo	2019-04-26
+Dyspepsia	disease	skos:closeMatch	EFO:0008533	semapv:ManualMappingCuration	efo	2019-04-26
+Dysphagia	phenotype	skos:closeMatch	HP:0002015	semapv:ManualMappingCuration	efo	2019-04-26
+Dysplasia of cervix uteri	disease	skos:closeMatch	EFO:1000910	semapv:ManualMappingCuration	efo	2019-04-26
+Dystonia	phenotype	skos:closeMatch	HP:0001332	semapv:ManualMappingCuration	efo	2019-04-26
+Early syphilis	disease	skos:closeMatch	EFO:0007504	semapv:ManualMappingCuration	efo	2019-04-26
+Eating disorders	disease	skos:closeMatch	EFO:0005203	semapv:ManualMappingCuration	efo	2019-04-26
+Eccrine sweat disorders	disease	skos:closeMatch	EFO:1000772	semapv:ManualMappingCuration	efo	2019-04-26
+Echinococcosis	disease	skos:closeMatch	EFO:0007245	semapv:ManualMappingCuration	efo	2019-04-26
+Eclampsia	phenotype	skos:closeMatch	HP:0100601	semapv:ManualMappingCuration	efo	2019-04-26
+Ectopic pregnancy	phenotype	skos:closeMatch	HP:0031456	semapv:ManualMappingCuration	efo	2019-04-26
+Effects of air pressure and water pressure	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Effects of heat and light	phenotype	skos:closeMatch	EFO:1001340	semapv:ManualMappingCuration	efo	2019-04-26
+Elevated blood glucose level	measurement	skos:closeMatch	EFO:0004468	semapv:ManualMappingCuration	efo	2019-04-26
+Embedded and impacted teeth	phenotype	skos:closeMatch	HP:0011079	semapv:ManualMappingCuration	efo	2019-04-26
+Emphysema	disease	skos:closeMatch	EFO:0000464	semapv:ManualMappingCuration	efo	2019-04-26
+Encephalitis myelitis and encephalomyelitis	disease	skos:closeMatch	EFO:0007364	semapv:ManualMappingCuration	efo	2019-04-26
+Encephalocele	disease	skos:closeMatch	ORPHA:199647	semapv:ManualMappingCuration	efo	2019-04-26
+Endocarditis valve unspecified	disease	skos:closeMatch	EFO:0000465	semapv:ManualMappingCuration	efo	2019-04-26
+Endometriosis	disease	skos:closeMatch	EFO:0001065	semapv:ManualMappingCuration	efo	2019-04-26
+Enduring personality changes not attributable to brain damage and disease	phenotype	skos:closeMatch	HP:0000751	semapv:ManualMappingCuration	efo	2019-04-26
+Enterobiasis	disease	skos:closeMatch	EFO:0007254	semapv:ManualMappingCuration	efo	2019-04-26
+Epilepsy	disease	skos:closeMatch	EFO:0000474	semapv:ManualMappingCuration	efo	2019-04-26
+Erosion and ectropion of cervix uteri	disease	skos:closeMatch	EFO:1000862	semapv:ManualMappingCuration	efo	2019-04-26
+Erysipeloid	disease	skos:closeMatch	EFO:1000928	semapv:ManualMappingCuration	efo	2019-04-26
+Erythema multiforme	disease	skos:closeMatch	EFO:1000694	semapv:ManualMappingCuration	efo	2019-04-26
+Erythema nodosum	phenotype	skos:closeMatch	HP:0012219	semapv:ManualMappingCuration	efo	2019-04-26
+Essential primary hypertension	disease	skos:closeMatch	EFO:1002032	semapv:ManualMappingCuration	efo	2019-04-26
+Ever depressed for a whole week	measurement	skos:closeMatch	EFO:0007704	semapv:ManualMappingCuration	efo	2019-04-26
+Ever had hysterectomy (womb removed)	experimental process	skos:closeMatch	EFO:0003881	semapv:ManualMappingCuration	efo	2019-04-26
+Ever highly irritable/argumentative for 2 days	measurement	skos:closeMatch	EFO:0009594	semapv:ManualMappingCuration	efo	2019-04-26
+Ever manic/hyper for 2 days	measurement	skos:closeMatch	EFO:0007705	semapv:ManualMappingCuration	efo	2019-04-26
+Ever unenthusiastic/disinterested for a whole week	measurement	skos:closeMatch	EFO:0007006	semapv:ManualMappingCuration	efo	2019-04-26
+Ever used hormone-replacement therapy (HRT)	experimental process	skos:closeMatch	EFO:0003961	semapv:ManualMappingCuration	efo	2019-04-26
+Examination and observation for other reasons	experimental process	skos:closeMatch	EFO:0009517	semapv:ManualMappingCuration	efo	2019-04-26
+Excessive vomiting in pregnancy	disease	skos:closeMatch	EFO:1000971	semapv:ManualMappingCuration	efo	2019-04-26
+Exfoliative dermatitis	disease	skos:closeMatch	EFO:0009456	semapv:ManualMappingCuration	efo	2019-04-26
+Exposure to tobacco smoke at home	measurement	skos:closeMatch	EFO:0008361	semapv:ManualMappingCuration	efo	2019-04-26
+Exposure to tobacco smoke outside home	measurement	skos:closeMatch	EFO:0008361	semapv:ManualMappingCuration	efo	2019-04-26
+Facial nerve disorders	disease	skos:closeMatch	EFO:1002051	semapv:ManualMappingCuration	efo	2019-04-26
+Facial pains for 3+ months	phenotype	skos:closeMatch	EFO:0009625	semapv:ManualMappingCuration	efo	2019-04-26
+Faecal incontinence	disease	skos:closeMatch	EFO:0009523	semapv:ManualMappingCuration	efo	2019-04-26
+Failure and rejection of transplanted organs and tissues	measurement	skos:closeMatch	EFO:0005198	semapv:ManualMappingCuration	efo	2019-04-26
+Falls in the last year	factor	skos:closeMatch	EFO:0009631	semapv:ManualMappingCuration	efo	2019-04-26
+False labour	phenotype	skos:closeMatch	EFO:0009639	semapv:ManualMappingCuration	efo	2019-04-26
+Family history of malignant neoplasm	factor	skos:closeMatch	EFO:0009640	semapv:ManualMappingCuration	efo	2019-04-26
+Family history of other conditions	factor	skos:closeMatch	EFO:0000493	semapv:ManualMappingCuration	efo	2019-04-26
+Family relationship satisfaction	measurement	skos:closeMatch	EFO:0004424	semapv:ManualMappingCuration	efo	2019-04-26
+Family relationship satisfaction	measurement	skos:closeMatch	EFO:0007869	semapv:ManualMappingCuration	efo	2019-04-26
+Father's age at death	measurement	skos:closeMatch	EFO:0009712	semapv:ManualMappingCuration	efo	2019-04-26
+Fed-up feelings	measurement	skos:closeMatch	EFO:0007803	semapv:ManualMappingCuration	efo	2019-04-26
+Female genital prolapse	disease	skos:closeMatch	EFO:1001864	semapv:ManualMappingCuration	efo	2019-04-26
+Female infertility	disease	skos:closeMatch	EFO:0008560	semapv:ManualMappingCuration	efo	2019-04-26
+Femoral hernia	disease	skos:closeMatch	EFO:1001791	semapv:ManualMappingCuration	efo	2019-04-26
+Fever of unknown origin	phenotype	skos:closeMatch	EFO:0003952	semapv:ManualMappingCuration	efo	2019-04-26
+Fibroblastic disorders	disease	skos:closeMatch	EFO:0009432	semapv:ManualMappingCuration	efo	2019-04-26
+Fibrosis and cirrhosis of liver	disease	skos:closeMatch	EFO:0001422	semapv:ManualMappingCuration	efo	2019-04-26
+Financial situation satisfaction	measurement	skos:closeMatch	EFO:0009726	semapv:ManualMappingCuration	efo	2019-04-26
+Fissure and fistula of anal and rectal regions	phenotype	skos:closeMatch	HP:0012390	semapv:ManualMappingCuration	efo	2019-04-26
+Fistulae involving female genital tract	disease	skos:closeMatch	EFO:0009524	semapv:ManualMappingCuration	efo	2019-04-26
+Fitting and adjustment of external prosthetic device	factor	skos:closeMatch	EFO:0009786	semapv:ManualMappingCuration	efo	2019-04-26
+Fitting and adjustment of other devices	factor	skos:closeMatch	EFO:0009786	semapv:ManualMappingCuration	efo	2019-04-26
+Flatulence and related conditions	disease	skos:closeMatch	EFO:0009669	semapv:ManualMappingCuration	efo	2019-04-26
+Fluid intelligence score	biological process	skos:closeMatch	EFO:0004337	semapv:ManualMappingCuration	efo	2019-04-26
+Follicular [nodular] non-Hodgkin's lymphoma	disease	skos:closeMatch	EFO:1000211	semapv:ManualMappingCuration	efo	2019-04-26
+Follicular cysts of skin and subcutaneous tissue	disease	skos:closeMatch	EFO:1001329	semapv:ManualMappingCuration	efo	2019-04-26
+Follow-up care involving plastic surgery	experimental process	skos:closeMatch	EFO:0009642	semapv:ManualMappingCuration	efo	2019-04-26
+Follow-up examination after treatment for conditions other than malignant neoplasms	experimental process	skos:closeMatch	EFO:0009642	semapv:ManualMappingCuration	efo	2019-04-26
+Follow-up examination after treatment for malignant neoplasm	experimental process	skos:closeMatch	EFO:0009642	semapv:ManualMappingCuration	efo	2019-04-26
+Forced expiratory volume in 1-second (FEV1)	measurement	skos:closeMatch	EFO:0004314	semapv:ManualMappingCuration	efo	2019-04-26
+Forced vital capacity (FVC)	measurement	skos:closeMatch	EFO:0004312	semapv:ManualMappingCuration	efo	2019-04-26
+Foreign body in alimentary tract	factor	skos:closeMatch	EFO:0009526	semapv:ManualMappingCuration	efo	2019-04-26
+Foreign body in ear	factor	skos:closeMatch	EFO:0009525	semapv:ManualMappingCuration	efo	2019-04-26
+Foreign body in respiratory tract	factor	skos:closeMatch	EFO:0009525	semapv:ManualMappingCuration	efo	2019-04-26
+Fracture at wrist and hand level	disease	skos:closeMatch	EFO:0009515	semapv:ManualMappingCuration	efo	2019-04-26
+Fracture of femur	disease	skos:closeMatch	EFO:0008553	semapv:ManualMappingCuration	efo	2019-04-26
+Fracture of forearm	disease	skos:closeMatch	EFO:0003931	semapv:ManualMappingCuration	efo	2019-04-26
+Fracture of lower limb level unspecified	disease	skos:closeMatch	EFO:0009512	semapv:ManualMappingCuration	efo	2019-04-26
+Fracture of lumbar spine and pelvis	disease	skos:closeMatch	EFO:0003902	semapv:ManualMappingCuration	efo	2019-04-26
+Fracture of neck	disease	skos:closeMatch	EFO:0003902	semapv:ManualMappingCuration	efo	2019-04-26
+Fracture of shoulder and upper arm	disease	skos:closeMatch	EFO:0003931	semapv:ManualMappingCuration	efo	2019-04-26
+Fracture of skull and facial bones	disease	skos:closeMatch	EFO:1001425	semapv:ManualMappingCuration	efo	2019-04-26
+Fracture of spine level unspecified	disease	skos:closeMatch	EFO:0003902	semapv:ManualMappingCuration	efo	2019-04-26
+Fracture of upper limb level unspecified	disease	skos:closeMatch	EFO:0009514	semapv:ManualMappingCuration	efo	2019-04-26
+Fracture resulting from simple fall	disease	skos:closeMatch	EFO:0003931	semapv:ManualMappingCuration	efo	2019-04-26
+Fractured/broken bones in last 5 years	disease	skos:closeMatch	EFO:0003931	semapv:ManualMappingCuration	efo	2019-04-26
+Fractures involving multiple body regions	disease	skos:closeMatch	EFO:0009513	semapv:ManualMappingCuration	efo	2019-04-26
+Frequency of depressed mood in last 2 weeks	measurement	skos:closeMatch	EFO:0007803	semapv:ManualMappingCuration	efo	2019-04-26
+Frequency of tiredness / lethargy in last 2 weeks	measurement	skos:closeMatch	EFO:0007946	semapv:ManualMappingCuration	efo	2019-04-26
+Frequency of unenthusiasm / disinterest in last 2 weeks	measurement	skos:closeMatch	EFO:0007803	semapv:ManualMappingCuration	efo	2019-04-26
+Friendships satisfaction	measurement	skos:closeMatch	EFO:0009725	semapv:ManualMappingCuration	efo	2019-04-26
+Frostbite involving multiple body regions and unspecified frostbite	disease	skos:closeMatch	EFO:0009527	semapv:ManualMappingCuration	efo	2019-04-26
+Functional disorders of polymorphonuclear neutrophils	disease	skos:closeMatch	ORPHA:183681	semapv:ManualMappingCuration	efo	2019-04-26
+Gangrene	phenotype	skos:closeMatch	EFO:0008574	semapv:ManualMappingCuration	efo	2019-04-26
+Gastric ulcer	disease	skos:closeMatch	EFO:0009454	semapv:ManualMappingCuration	efo	2019-04-26
+Gastritis and duodenitis	disease	skos:closeMatch	EFO:0000217	semapv:ManualMappingCuration	efo	2019-04-26
+Gastro oesophageal reflux disease	disease	skos:closeMatch	EFO:0003948	semapv:ManualMappingCuration	efo	2019-04-26
+Gender identity disorders	disease	skos:closeMatch	EFO:0008587	semapv:ManualMappingCuration	efo	2019-04-26
+General examination and investigation of persons without complaint or reported diagnosis	experimental process	skos:closeMatch	EFO:0009517	semapv:ManualMappingCuration	efo	2019-04-26
+General pain for 3+ months	phenotype	skos:closeMatch	HP:0012532	semapv:ManualMappingCuration	efo	2019-04-26
+Gestational [pregnancy-induced] hypertension without significant proteinuria	disease	skos:closeMatch	EFO:0000668	semapv:ManualMappingCuration	efo	2019-04-26
+Gestational [pregnancy-induced] hypertension without significant proteinuria	phenotype	skos:closeMatch	HP:0000093	semapv:ManualMappingCuration	efo	2019-04-26
+Gestational diabetes only	disease	skos:closeMatch	EFO:0004593	semapv:ManualMappingCuration	efo	2019-04-26
+Gestational hypertension with significant proteinuria	disease	skos:closeMatch	EFO:0000668	semapv:ManualMappingCuration	efo	2019-04-26
+Getting up in morning	quality	skos:closeMatch	EFO:0009817	semapv:ManualMappingCuration	efo	2019-04-26
+Gingivitis and periodontal diseases	disease	skos:closeMatch	EFO:0000649	semapv:ManualMappingCuration	efo	2019-04-26
+Glaucoma	disease	skos:closeMatch	EFO:0000516	semapv:ManualMappingCuration	efo	2019-04-26
+Glomerular disorders in diseases classified elsewhere	disease	skos:closeMatch	EFO:1002049	semapv:ManualMappingCuration	efo	2019-04-26
+Glycosuria	phenotype	skos:closeMatch	HP:0003076	semapv:ManualMappingCuration	efo	2019-04-26
+Gonarthrosis	disease	skos:closeMatch	EFO:0004616	semapv:ManualMappingCuration	efo	2019-04-26
+Gout	disease	skos:closeMatch	EFO:0004274	semapv:ManualMappingCuration	efo	2019-04-26
+Granuloma inguinale	disease	skos:closeMatch	EFO:0007291	semapv:ManualMappingCuration	efo	2019-04-26
+Granulomatous disorders of skin and subcutaneous tissue	disease	skos:closeMatch	EFO:1000705	semapv:ManualMappingCuration	efo	2019-04-26
+Guilty feelings	measurement	skos:closeMatch	EFO:0007803	semapv:ManualMappingCuration	efo	2019-04-26
+Gynecomastia	phenotype	skos:closeMatch	HP:0010313	semapv:ManualMappingCuration	efo	2019-04-26
+HIV disease resulting in infectious and parasitic diseases	disease	skos:closeMatch	EFO:0000765	semapv:ManualMappingCuration	efo	2019-04-26
+HIV disease resulting in malignant neoplasms	disease	skos:closeMatch	EFO:0009553	semapv:ManualMappingCuration	efo	2019-04-26
+HIV disease resulting in other conditions	disease	skos:closeMatch	EFO:0009528	semapv:ManualMappingCuration	efo	2019-04-26
+HIV disease resulting in other specified diseases	disease	skos:closeMatch	EFO:0009528	semapv:ManualMappingCuration	efo	2019-04-26
+Habitual aborter	disease	skos:closeMatch	EFO:1000954	semapv:ManualMappingCuration	efo	2019-04-26
+Had menopause	phenotype	skos:closeMatch	EFO:0003922	semapv:ManualMappingCuration	efo	2019-04-26
+Haemorrhage from respiratory passages	phenotype	skos:closeMatch	MP:0001914	semapv:ManualMappingCuration	efo	2019-04-26
+Haemorrhage in early pregnancy	phenotype	skos:closeMatch	MP:0001914	semapv:ManualMappingCuration	efo	2019-04-26
+Haemorrhoids	disease	skos:closeMatch	EFO:0009552	semapv:ManualMappingCuration	efo	2019-04-26
+Hair/balding pattern: Pattern 2	disease	skos:closeMatch	EFO:0004191	semapv:ManualMappingCuration	efo	2019-04-26
+Hair/balding pattern: Pattern 2	disease	skos:closeMatch	EFO:0007825	semapv:ManualMappingCuration	efo	2019-04-26
+Hair/balding pattern: Pattern 3	disease	skos:closeMatch	EFO:0004191	semapv:ManualMappingCuration	efo	2019-04-26
+Hair/balding pattern: Pattern 3	disease	skos:closeMatch	EFO:0007825	semapv:ManualMappingCuration	efo	2019-04-26
+Hair/balding pattern: Pattern 4	disease	skos:closeMatch	EFO:0004191	semapv:ManualMappingCuration	efo	2019-04-26
+Hair/balding pattern: Pattern 4	disease	skos:closeMatch	EFO:0007825	semapv:ManualMappingCuration	efo	2019-04-26
+Hand grip strength (left)	measurement	skos:closeMatch	EFO:0006941	semapv:ManualMappingCuration	efo	2019-04-26
+Hand grip strength (right)	measurement	skos:closeMatch	EFO:0006941	semapv:ManualMappingCuration	efo	2019-04-26
+Handedness (chirality/laterality): Left-handed	phenotype	skos:closeMatch	EFO:0003889	semapv:ManualMappingCuration	efo	2019-04-26
+Handedness (chirality/laterality): Use both right and left hands equally	phenotype	skos:closeMatch	EFO:0003889	semapv:ManualMappingCuration	efo	2019-04-26
+Happiness	measurement	skos:closeMatch	EFO:0007803	semapv:ManualMappingCuration	efo	2019-04-26
+Headache	phenotype	skos:closeMatch	HP:0002315	semapv:ManualMappingCuration	efo	2019-04-26
+Headaches for 3+ months	disease	skos:closeMatch	EFO:0009550	semapv:ManualMappingCuration	efo	2019-04-26
+Headaches for 3+ months	phenotype	skos:closeMatch	HP:0002315	semapv:ManualMappingCuration	efo	2019-04-26
+Health satisfaction	measurement	skos:closeMatch	EFO:0009724	semapv:ManualMappingCuration	efo	2019-04-26
+Hearing aid user	measurement	skos:closeMatch	EFO:0009720	semapv:ManualMappingCuration	efo	2019-04-26
+Hearing difficulty/problems with background noise	disease	skos:closeMatch	EFO:0004238	semapv:ManualMappingCuration	efo	2019-04-26
+Hearing difficulty/problems: I am completely deaf	disease	skos:closeMatch	EFO:0001063	semapv:ManualMappingCuration	efo	2019-04-26
+Hearing difficulty/problems: Yes	disease	skos:closeMatch	EFO:0004238	semapv:ManualMappingCuration	efo	2019-04-26
+Heart failure	disease	skos:closeMatch	EFO:0003144	semapv:ManualMappingCuration	efo	2019-04-26
+Heartburn	disease	skos:closeMatch	EFO:0008533	semapv:ManualMappingCuration	efo	2019-04-26
+Helicobacter pylori	organism	skos:closeMatch	NCBITaxon:210	semapv:ManualMappingCuration	efo	2019-04-26
+Hemiplegia	disease	skos:closeMatch	EFO:0009453	semapv:ManualMappingCuration	efo	2019-04-26
+Hepatic failure	phenotype	skos:closeMatch	HP:0001399	semapv:ManualMappingCuration	efo	2019-04-26
+Hereditary and idiopathic neuropathy	disease	skos:closeMatch	EFO:0004149	semapv:ManualMappingCuration	efo	2019-04-26
+Hereditary ataxia	disease	skos:closeMatch	EFO:0009671	semapv:ManualMappingCuration	efo	2019-04-26
+Hereditary factor IX deficiency	disease	skos:closeMatch	ORPHA:98879	semapv:ManualMappingCuration	efo	2019-04-26
+Hereditary factor VIII deficiency	disease	skos:closeMatch	ORPHA:98878	semapv:ManualMappingCuration	efo	2019-04-26
+Hip circumference	measurement	skos:closeMatch	EFO:0005093	semapv:ManualMappingCuration	efo	2019-04-26
+Hip pain for 3+ months	phenotype	skos:closeMatch	HP:0030838	semapv:ManualMappingCuration	efo	2019-04-26
+Histoplasmosis	disease	skos:closeMatch	EFO:0007310	semapv:ManualMappingCuration	efo	2019-04-26
+Hodgkin's disease	disease	skos:closeMatch	EFO:0000183	semapv:ManualMappingCuration	efo	2019-04-26
+Hookworm diseases	disease	skos:closeMatch	EFO:0007314	semapv:ManualMappingCuration	efo	2019-04-26
+Hordeolum and chalazion	disease	skos:closeMatch	EFO:0007315	semapv:ManualMappingCuration	efo	2019-04-26
+Huntington s disease	disease	skos:closeMatch	ORPHA:399	semapv:ManualMappingCuration	efo	2019-04-26
+Hydrocele and spermatocele	disease	skos:closeMatch	EFO:1001189	semapv:ManualMappingCuration	efo	2019-04-26
+Hydrocele and spermatocele	disease	skos:closeMatch	EFO:1001859	semapv:ManualMappingCuration	efo	2019-04-26
+Hydrocephalus	phenotype	skos:closeMatch	HP:0000238	semapv:ManualMappingCuration	efo	2019-04-26
+Hyperaldosteronism	disease	skos:closeMatch	EFO:0009452	semapv:ManualMappingCuration	efo	2019-04-26
+Hyperfunction of pituitary gland	disease	skos:closeMatch	EFO:1000973	semapv:ManualMappingCuration	efo	2019-04-26
+Hyperhidrosis	disease	skos:closeMatch	EFO:1000712	semapv:ManualMappingCuration	efo	2019-04-26
+Hyperparathyroidism and other disorders of parathyroid gland	disease	skos:closeMatch	EFO:0008506	semapv:ManualMappingCuration	efo	2019-04-26
+Hyperplasia of prostate	disease	skos:closeMatch	EFO:0000284	semapv:ManualMappingCuration	efo	2019-04-26
+Hypertensive renal disease	disease	skos:closeMatch	EFO:1002039	semapv:ManualMappingCuration	efo	2019-04-26
+Hypertrichosis	disease	skos:closeMatch	ORPHA:79365	semapv:ManualMappingCuration	efo	2019-04-26
+Hypertrophic disorders of skin	disease	skos:closeMatch	EFO:0000701	semapv:ManualMappingCuration	efo	2019-04-26
+Hypofunction and other disorders of pituitary gland	disease	skos:closeMatch	EFO:0001380	semapv:ManualMappingCuration	efo	2019-04-26
+Hypofunction and other disorders of pituitary gland	disease	skos:closeMatch	EFO:0009607	semapv:ManualMappingCuration	efo	2019-04-26
+Hypoglycemic coma	phenotype	skos:closeMatch	HP:0001325	semapv:ManualMappingCuration	efo	2019-04-26
+Hypoparathyroidism	disease	skos:closeMatch	EFO:0009451	semapv:ManualMappingCuration	efo	2019-04-26
+Hypospadias	disease	skos:closeMatch	EFO:0004209	semapv:ManualMappingCuration	efo	2019-04-26
+Hypotension	disease	skos:closeMatch	EFO:0005251	semapv:ManualMappingCuration	efo	2019-04-26
+Hypothermia	phenotype	skos:closeMatch	HP:0002045	semapv:ManualMappingCuration	efo	2019-04-26
+Immunodeficiency with predominantly antibody defects	disease	skos:closeMatch	ORPHA:331244	semapv:ManualMappingCuration	efo	2019-04-26
+Impetigo	phenotype	skos:closeMatch	EFO:1000714	semapv:ManualMappingCuration	efo	2019-04-26
+Infections of genitourinary tract in pregnancy	disease	skos:closeMatch	EFO:0003103	semapv:ManualMappingCuration	efo	2019-04-26
+Infectious mononucleosis	disease	skos:closeMatch	EFO:0007326	semapv:ManualMappingCuration	efo	2019-04-26
+Inflammatory disease of uterus except cervix	disease	skos:closeMatch	EFO:0009572	semapv:ManualMappingCuration	efo	2019-04-26
+Inflammatory diseases of prostate	disease	skos:closeMatch	EFO:0003830	semapv:ManualMappingCuration	efo	2019-04-26
+Inflammatory disorders of breast	disease	skos:closeMatch	EFO:1001034	semapv:ManualMappingCuration	efo	2019-04-26
+Inflammatory polyneuropathy	disease	skos:closeMatch	EFO:0009538	semapv:ManualMappingCuration	efo	2019-04-26
+Inguinal hernia	phenotype	skos:closeMatch	HP:0000023	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of blood vessels at hip and thigh level	disease	skos:closeMatch	EFO:0009508	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of blood vessels at wrist and hand level	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of eye and orbit	disease	skos:closeMatch	EFO:0009485	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of heart	disease	skos:closeMatch	EFO:0009506	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of intra abdominal organs	disease	skos:closeMatch	EFO:0009502	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of muscle and tendon at forearm level	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of muscle and tendon at hip and thigh level	disease	skos:closeMatch	EFO:0009508	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of muscle and tendon at lower leg level	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of muscle and tendon at shoulder and upper arm level	disease	skos:closeMatch	EFO:1001178	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of muscle and tendon at wrist and hand level	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of nerves at forearm level	disease	skos:closeMatch	EFO:0004143	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of nerves at hip and thigh level	disease	skos:closeMatch	EFO:0009508	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of nerves at hip and thigh level	disease	skos:closeMatch	EFO:0009510	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of nerves at lower leg level	disease	skos:closeMatch	EFO:0009508	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of nerves at lower leg level	disease	skos:closeMatch	EFO:0009510	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of nerves at wrist and hand level	disease	skos:closeMatch	EFO:0004143	semapv:ManualMappingCuration	efo	2019-04-26
+Injury of unspecified body region	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Injury_of_blood_vessels_at_abdomen_lower_back_and_pelvis_level	disease	skos:closeMatch	EFO:0009886	semapv:ManualMappingCuration	efo	2019-05-07
+Injury_of_blood_vessels_at_neck_level	disease	skos:closeMatch	EFO:0009886	semapv:ManualMappingCuration	efo	2019-05-07
+Injury_of_blood_vessels_at_shoulder_and_upper_arm_level	disease	skos:closeMatch	EFO:0009886	semapv:ManualMappingCuration	efo	2019-05-07
+Injury_of_other_intrathoracic_organs	disease	skos:closeMatch	EFO:0009887	semapv:ManualMappingCuration	efo	2019-05-07
+Insulin dependent diabetes mellitus	disease	skos:closeMatch	EFO:0001359	semapv:ManualMappingCuration	efo	2019-04-26
+Internal derangement of knee	disease	skos:closeMatch	EFO:0009507	semapv:ManualMappingCuration	efo	2019-04-26
+Intestinal malabsorption	disease	skos:closeMatch	EFO:0009554	semapv:ManualMappingCuration	efo	2019-04-26
+Intracerebral haemorrhage	disease	skos:closeMatch	EFO:0005669	semapv:ManualMappingCuration	efo	2019-04-26
+Intracranial injury	disease	skos:closeMatch	EFO:0009505	semapv:ManualMappingCuration	efo	2019-04-26
+Intrauterine hypoxia	phenotype	skos:closeMatch	EFO:1001793	semapv:ManualMappingCuration	efo	2019-04-26
+Iridocyclitis	phenotype	skos:closeMatch	HP:0001094	semapv:ManualMappingCuration	efo	2019-04-26
+Iron deficiency anaemia	phenotype	skos:closeMatch	HP:0001891	semapv:ManualMappingCuration	efo	2019-04-26
+Irritability	phenotype	skos:closeMatch	HP:0000737	semapv:ManualMappingCuration	efo	2019-04-26
+Irritable bowel syndrome	disease	skos:closeMatch	EFO:0000555	semapv:ManualMappingCuration	efo	2019-04-26
+Irritant contact dermatitis	disease	skos:closeMatch	EFO:1000718	semapv:ManualMappingCuration	efo	2019-04-26
+Isolated proteinuria	phenotype	skos:closeMatch	HP:0000093	semapv:ManualMappingCuration	efo	2019-04-26
+Juvenile arthritis	disease	skos:closeMatch	EFO:0002609	semapv:ManualMappingCuration	efo	2019-04-26
+Juvenile osteochondrosis of hip and pelvis	disease	skos:closeMatch	ORPHA:2380	semapv:ManualMappingCuration	efo	2019-04-26
+Keratitis	disease	skos:closeMatch	EFO:0009449	semapv:ManualMappingCuration	efo	2019-04-26
+Knee pain for 3+ months	phenotype	skos:closeMatch	HP:0030839	semapv:ManualMappingCuration	efo	2019-04-26
+Labour and delivery complicated by foetal stress [distress]	phenotype	skos:closeMatch	HP:0001787	semapv:ManualMappingCuration	efo	2019-04-26
+Labour and delivery complicated by umbilical cord complications	phenotype	skos:closeMatch	HP:0001787	semapv:ManualMappingCuration	efo	2019-04-26
+Lack of food	disease	skos:closeMatch	EFO:0008572	semapv:ManualMappingCuration	efo	2019-04-26
+Lactose intolerance	disease	skos:closeMatch	EFO:1000062	semapv:ManualMappingCuration	efo	2019-04-26
+Leg pain in calf/calves	phenotype	skos:closeMatch	HP:0012514	semapv:ManualMappingCuration	efo	2019-04-26
+Leg pain on walking	phenotype	skos:closeMatch	HP:0012514	semapv:ManualMappingCuration	efo	2019-04-26
+Leg pain when standing still or sitting	phenotype	skos:closeMatch	HP:0012514	semapv:ManualMappingCuration	efo	2019-04-26
+Leiomyoma of uterus	disease	skos:closeMatch	EFO:0000731	semapv:ManualMappingCuration	efo	2019-04-26
+Leishmaniasis	disease	skos:closeMatch	EFO:0005044	semapv:ManualMappingCuration	efo	2019-04-26
+Length of longest manic/irritable episode	measurement	skos:closeMatch	EFO:0007705	semapv:ManualMappingCuration	efo	2019-04-26
+Length of longest manic/irritable episode	measurement	skos:closeMatch	EFO:0009594	semapv:ManualMappingCuration	efo	2019-04-26
+Length of menstrual cycle	measurement	skos:closeMatch	EFO:0007786	semapv:ManualMappingCuration	efo	2019-04-26
+Leptospirosis	disease	skos:closeMatch	EFO:0007344	semapv:ManualMappingCuration	efo	2019-04-26
+Lichen planus	disease	skos:closeMatch	EFO:1000726	semapv:ManualMappingCuration	efo	2019-04-26
+Lichen simplex chronicus and prurigo	disease	skos:closeMatch	EFO:1000724	semapv:ManualMappingCuration	efo	2019-04-26
+Listeriosis	disease	skos:closeMatch	EFO:0007347	semapv:ManualMappingCuration	efo	2019-04-26
+Localized adiposity	disease	skos:closeMatch	ORPHA:77243	semapv:ManualMappingCuration	efo	2019-04-26
+Long labour	disease	skos:closeMatch	EFO:0009682	semapv:ManualMappingCuration	efo	2019-04-26
+Longest period of depression	measurement	skos:closeMatch	EFO:0007704	semapv:ManualMappingCuration	efo	2019-04-26
+Longest period of unenthusiasm / disinterest	measurement	skos:closeMatch	EFO:0007803	semapv:ManualMappingCuration	efo	2019-04-26
+Lymphadenopathy	phenotype	skos:closeMatch	HP:0002716	semapv:ManualMappingCuration	efo	2019-04-26
+Lymphoid leukaemia	disease	skos:closeMatch	EFO:0004289	semapv:ManualMappingCuration	efo	2019-04-26
+Malaise and fatigue	phenotype	skos:closeMatch	EFO:0009641	semapv:ManualMappingCuration	efo	2019-04-26
+Malaise and fatigue	phenotype	skos:closeMatch	HP:0012378	semapv:ManualMappingCuration	efo	2019-04-26
+Male infertility	disease	skos:closeMatch	EFO:0004248	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant melanoma of skin	disease	skos:closeMatch	EFO:0000389	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of anus and anal canal	disease	skos:closeMatch	EFO:0003835	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of bladder	disease	skos:closeMatch	EFO:0000292	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of brain	disease	skos:closeMatch	EFO:0003833	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of breast	disease	skos:closeMatch	EFO:0003869	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of bronchus and lung	disease	skos:closeMatch	EFO:0001071	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of cervix uteri	disease	skos:closeMatch	EFO:0001061	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of colon	disease	skos:closeMatch	EFO:1001950	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of corpus uteri	disease	skos:closeMatch	EFO:0007532	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of eye and adnexa	disease	skos:closeMatch	EFO:0003824	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of larynx	disease	skos:closeMatch	EFO:1000354	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of liver and intrahepatic bile ducts	disease	skos:closeMatch	EFO:1001513	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of oesophagus	disease	skos:closeMatch	EFO:0002916	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of other and unspecified parts of tongue	disease	skos:closeMatch	EFO:0003871	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of other connective and soft tissue	disease	skos:closeMatch	EFO:1000541	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of ovary	disease	skos:closeMatch	EFO:0003893	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of pancreas	disease	skos:closeMatch	EFO:0002618	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of prostate	disease	skos:closeMatch	EFO:0001663	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of rectosigmoid junction	disease	skos:closeMatch	EFO:1000657	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of rectum	disease	skos:closeMatch	EFO:1000657	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of stomach	disease	skos:closeMatch	EFO:0003897	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of testis	disease	skos:closeMatch	EFO:0005088	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of thyroid gland	disease	skos:closeMatch	EFO:0002892	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm of tonsil	disease	skos:closeMatch	EFO:1001214	semapv:ManualMappingCuration	efo	2019-04-26
+Malignant neoplasm without specification of site	disease	skos:closeMatch	EFO:0000311	semapv:ManualMappingCuration	efo	2019-04-26
+Manic episode	phenotype	skos:closeMatch	EFO:0007706	semapv:ManualMappingCuration	efo	2019-04-26
+Maternal care for known or suspected abnormality of pelvic organs	disease	skos:closeMatch	EFO:0009682	semapv:ManualMappingCuration	efo	2019-04-26
+Maternal care for known or suspected disproportion	disease	skos:closeMatch	EFO:0009682	semapv:ManualMappingCuration	efo	2019-04-26
+Maternal care for known or suspected foetal abnormality and damage	disease	skos:closeMatch	EFO:0009682	semapv:ManualMappingCuration	efo	2019-04-26
+Maternal care for known or suspected malpresentation of fetus	disease	skos:closeMatch	EFO:0009682	semapv:ManualMappingCuration	efo	2019-04-26
+Maternal care for other conditions predominantly related to pregnancy	disease	skos:closeMatch	EFO:0009682	semapv:ManualMappingCuration	efo	2019-04-26
+Maternal care for other known or suspected foetal problems	disease	skos:closeMatch	EFO:0009682	semapv:ManualMappingCuration	efo	2019-04-26
+Maximum heart rate during fitness test	measurement	skos:closeMatch	EFO:0009184	semapv:ManualMappingCuration	efo	2019-04-26
+Maximum workload during fitness test	measurement	skos:closeMatch	EFO:0004328	semapv:ManualMappingCuration	efo	2019-04-26
+Mean time to correctly identify matches	measurement	skos:closeMatch	EFO:0008393	semapv:ManualMappingCuration	efo	2019-04-26
+Medical abortion	disease	skos:closeMatch	EFO:1001491	semapv:ManualMappingCuration	efo	2019-04-26
+Medical observation and evaluation for suspected diseases and conditions	experimental process	skos:closeMatch	EFO:0009517	semapv:ManualMappingCuration	efo	2019-04-26
+Melanocytic naevi	disease	skos:closeMatch	EFO:0009675	semapv:ManualMappingCuration	efo	2019-04-26
+Melanoma in situ	factor	skos:closeMatch	EFO:0004957	semapv:ManualMappingCuration	efo	2019-04-26
+Meningitis due to other causes	disease	skos:closeMatch	EFO:0000584	semapv:ManualMappingCuration	efo	2019-04-26
+Meningococcal infection	disease	skos:closeMatch	EFO:0004249	semapv:ManualMappingCuration	efo	2019-04-26
+Menopausal and other perimenopausal disorders	phenotype	skos:closeMatch	EFO:0003922	semapv:ManualMappingCuration	efo	2019-04-26
+Mental and behavioural disorders due to use of alcohol	disease	skos:closeMatch	EFO:0003829	semapv:ManualMappingCuration	efo	2019-04-26
+Mental and behavioural disorders due to use of cannabinoids	disease	skos:closeMatch	EFO:0007191	semapv:ManualMappingCuration	efo	2019-04-26
+Mental and behavioural disorders due to use of cocaine	disease	skos:closeMatch	EFO:0002610	semapv:ManualMappingCuration	efo	2019-04-26
+Mental and behavioural disorders due to use of hallucinogens	disease	skos:closeMatch	EFO:0003890	semapv:ManualMappingCuration	efo	2019-04-26
+Mental and behavioural disorders due to use of opioids	disease	skos:closeMatch	EFO:0005611	semapv:ManualMappingCuration	efo	2019-04-26
+Mental and behavioural disorders due to use of sedatives or hypnotics	disease	skos:closeMatch	EFO:0003890	semapv:ManualMappingCuration	efo	2019-04-26
+Mental and behavioural disorders due to use of tobacco	disease	skos:closeMatch	EFO:0003768	semapv:ManualMappingCuration	efo	2019-04-26
+Mental and behavioural disorders due to use of volatile solvents	disease	skos:closeMatch	EFO:0003890	semapv:ManualMappingCuration	efo	2019-04-26
+Mesothelioma	disease	skos:closeMatch	EFO:0000588	semapv:ManualMappingCuration	efo	2019-04-26
+Migraine	disease	skos:closeMatch	EFO:0003821	semapv:ManualMappingCuration	efo	2019-04-26
+Miliary tuberculosis	disease	skos:closeMatch	EFO:0007368	semapv:ManualMappingCuration	efo	2019-04-26
+Miserableness	measurement	skos:closeMatch	EFO:0007803	semapv:ManualMappingCuration	efo	2019-04-26
+Mixed and other personality disorders	phenotype	skos:closeMatch	HP:0012075	semapv:ManualMappingCuration	efo	2019-04-26
+Mononeuropathies of lower limb	disease	skos:closeMatch	EFO:0009558	semapv:ManualMappingCuration	efo	2019-04-26
+Mononeuropathies of upper limb	disease	skos:closeMatch	EFO:0009558	semapv:ManualMappingCuration	efo	2019-04-26
+Mood swings	phenotype	skos:closeMatch	HP:0000720	semapv:ManualMappingCuration	efo	2019-04-26
+Morning/evening person (chronotype)	measurement	skos:closeMatch	EFO:0008328	semapv:ManualMappingCuration	efo	2019-04-26
+Mosquito borne viral encephalitis	disease	skos:closeMatch	EFO:0007538	semapv:ManualMappingCuration	efo	2019-04-26
+Mother's age at death	measurement	skos:closeMatch	EFO:0009721	semapv:ManualMappingCuration	efo	2019-04-26
+Multiple delivery	phenotype	skos:closeMatch	HP:0001787	semapv:ManualMappingCuration	efo	2019-04-26
+Multiple gestation	biological process	skos:closeMatch	EFO:0009576	semapv:ManualMappingCuration	efo	2019-04-26
+Multiple myeloma and malignant plasma cell neoplasms	disease	skos:closeMatch	EFO:0001378	semapv:ManualMappingCuration	efo	2019-04-26
+Multiple sclerosis	disease	skos:closeMatch	EFO:0003885	semapv:ManualMappingCuration	efo	2019-04-26
+Multiple valve diseases	disease	skos:closeMatch	EFO:0009551	semapv:ManualMappingCuration	efo	2019-04-26
+Myasthenia gravis and other myoneural disorders	disease	skos:closeMatch	EFO:0004991	semapv:ManualMappingCuration	efo	2019-04-26
+Mycetoma	disease	skos:closeMatch	EFO:0007265	semapv:ManualMappingCuration	efo	2019-04-26
+Myelodysplastic syndromes	disease	skos:closeMatch	EFO:0000198	semapv:ManualMappingCuration	efo	2019-04-26
+Myeloid leukaemia	disease	skos:closeMatch	EFO:0000222	semapv:ManualMappingCuration	efo	2019-04-26
+Myiasis	disease	skos:closeMatch	EFO:0007389	semapv:ManualMappingCuration	efo	2019-04-26
+Myositis	disease	skos:closeMatch	EFO:0000783	semapv:ManualMappingCuration	efo	2019-04-26
+Nail disorders	disease	skos:closeMatch	ORPHA:183454	semapv:ManualMappingCuration	efo	2019-04-26
+Nap during day	quality	skos:closeMatch	EFO:0009818	semapv:ManualMappingCuration	efo	2019-04-26
+Nasal polyp	disease	skos:closeMatch	EFO:1000391	semapv:ManualMappingCuration	efo	2019-04-26
+Nausea and vomiting	phenotype	skos:closeMatch	HP:0002017	semapv:ManualMappingCuration	efo	2019-04-26
+Neck/shoulder pain for 3+ months	phenotype	skos:closeMatch	HP:0030833	semapv:ManualMappingCuration	efo	2019-04-26
+Neck/shoulder pain for 3+ months	phenotype	skos:closeMatch	HP:0030834	semapv:ManualMappingCuration	efo	2019-04-26
+Need for immunization against certain single viral diseases	factor	skos:closeMatch	EFO:0004292	semapv:ManualMappingCuration	efo	2019-04-26
+Need for immunization against combinations of infectious diseases	factor	skos:closeMatch	EFO:0004292	semapv:ManualMappingCuration	efo	2019-04-26
+Need for immunization against other single infectious diseases	factor	skos:closeMatch	EFO:0004292	semapv:ManualMappingCuration	efo	2019-04-26
+Need for immunization against other single viral diseases	factor	skos:closeMatch	EFO:0004292	semapv:ManualMappingCuration	efo	2019-04-26
+Neonatal jaundice from other causes	disease	skos:closeMatch	EFO:1000739	semapv:ManualMappingCuration	efo	2019-04-26
+Neoplasm of uncertain or unknown behaviour of endocrine glands	disease	skos:closeMatch	EFO:0003769	semapv:ManualMappingCuration	efo	2019-04-26
+Neoplasm of uncertain or unknown behaviour of female genital organs	disease	skos:closeMatch	EFO:1001331	semapv:ManualMappingCuration	efo	2019-04-26
+Neoplasm of uncertain or unknown behaviour of middle ear and respiratory and intrathoracic organs	disease	skos:closeMatch	EFO:0003853	semapv:ManualMappingCuration	efo	2019-04-26
+Neoplasm of uncertain or unknown behaviour of oral cavity and digestive organs	disease	skos:closeMatch	EFO:0008549	semapv:ManualMappingCuration	efo	2019-04-26
+Neoplasm of uncertain or unknown behaviour of other and unspecified sites	disease	skos:closeMatch	EFO:0000616	semapv:ManualMappingCuration	efo	2019-04-26
+Neoplasm of uncertain or unknown behaviour of urinary organs	disease	skos:closeMatch	EFO:0003863	semapv:ManualMappingCuration	efo	2019-04-26
+Nephrotic syndrome	disease	skos:closeMatch	EFO:0004255	semapv:ManualMappingCuration	efo	2019-04-26
+Nerve root and plexus disorders	disease	skos:closeMatch	EFO:0009559	semapv:ManualMappingCuration	efo	2019-04-26
+Nervous feelings	measurement	skos:closeMatch	EFO:0007803	semapv:ManualMappingCuration	efo	2019-04-26
+Neuroticism score	measurement	skos:closeMatch	EFO:0007660	semapv:ManualMappingCuration	efo	2019-04-26
+Niacin deficiency	phenotype	skos:closeMatch	EFO:0008570	semapv:ManualMappingCuration	efo	2019-04-26
+Non insulin dependent diabetes mellitus	disease	skos:closeMatch	EFO:0001360	semapv:ManualMappingCuration	efo	2019-04-26
+Noninflammatory disorders of ovary fallopian tube and broad ligament	disease	skos:closeMatch	EFO:0009548	semapv:ManualMappingCuration	efo	2019-04-26
+Nonrheumatic aortic valve disorders	disease	skos:closeMatch	EFO:0009531	semapv:ManualMappingCuration	efo	2019-04-26
+Nonrheumatic mitral valve disorders	disease	skos:closeMatch	EFO:0009557	semapv:ManualMappingCuration	efo	2019-04-26
+Nonrheumatic tricuspid valve disorders	disease	skos:closeMatch	EFO:0009568	semapv:ManualMappingCuration	efo	2019-04-26
+Nonspecific lymphadenitis	phenotype	skos:closeMatch	HP:0002840	semapv:ManualMappingCuration	efo	2019-04-26
+Nonsuppurative otitis media	disease	skos:closeMatch	EFO:0007415	semapv:ManualMappingCuration	efo	2019-04-26
+Number of children fathered	measurement	skos:closeMatch	EFO:0009814	semapv:ManualMappingCuration	efo	2019-04-26
+Number of depression episodes	measurement	skos:closeMatch	EFO:0007704	semapv:ManualMappingCuration	efo	2019-04-26
+Number of full brothers	measurement	skos:closeMatch	EFO:0009713	semapv:ManualMappingCuration	efo	2019-04-26
+Number of full sisters	measurement	skos:closeMatch	EFO:0009713	semapv:ManualMappingCuration	efo	2019-04-26
+Number of incorrect matches in round	quality	skos:closeMatch	EFO:0008354	semapv:ManualMappingCuration	efo	2019-04-26
+Number of live births	measurement	skos:closeMatch	EFO:0006921	semapv:ManualMappingCuration	efo	2019-04-26
+Number of self-reported cancers	quality	skos:closeMatch	EFO:0009800	semapv:ManualMappingCuration	efo	2019-04-26
+Number of self-reported non-cancer illnesses	quality	skos:closeMatch	EFO:0009801	semapv:ManualMappingCuration	efo	2019-04-26
+Number of spontaneous miscarriages	disease	skos:closeMatch	EFO:1001255	semapv:ManualMappingCuration	efo	2019-04-26
+Number of stillbirths	measurement	skos:closeMatch	EFO:0009722	semapv:ManualMappingCuration	efo	2019-04-26
+Number of treatments/medications taken	quality	skos:closeMatch	EFO:0009803	semapv:ManualMappingCuration	efo	2019-04-26
+Number of unenthusiastic/disinterested episodes	measurement	skos:closeMatch	EFO:0007704	semapv:ManualMappingCuration	efo	2019-04-26
+Obesity	disease	skos:closeMatch	EFO:0001073	semapv:ManualMappingCuration	efo	2019-04-26
+Obstructed labour due to malposition and malpresentation of foetus	phenotype	skos:closeMatch	HP:0001787	semapv:ManualMappingCuration	efo	2019-04-26
+Obstructed labour due to maternal pelvic abnormality	phenotype	skos:closeMatch	HP:0001438	semapv:ManualMappingCuration	efo	2019-04-26
+Obstructive and reflux uropathy	disease	skos:closeMatch	EFO:0009571	semapv:ManualMappingCuration	efo	2019-04-26
+Occlusion and stenosis of cerebral arteries notcerebral infarction	disease	skos:closeMatch	EFO:0003763	semapv:ManualMappingCuration	efo	2019-04-26
+Oesophageal varices	disease	skos:closeMatch	EFO:0009545	semapv:ManualMappingCuration	efo	2019-04-26
+Oesophagitis	phenotype	skos:closeMatch	HP:0100633	semapv:ManualMappingCuration	efo	2019-04-26
+Open wound of ankle and foot	disease	skos:closeMatch	EFO:0005756	semapv:ManualMappingCuration	efo	2019-04-26
+Open wound of ankle and foot	disease	skos:closeMatch	EFO:1002021	semapv:ManualMappingCuration	efo	2019-04-26
+Open wound of forearm	disease	skos:closeMatch	EFO:0005756	semapv:ManualMappingCuration	efo	2019-04-26
+Open wound of head	disease	skos:closeMatch	EFO:0009505	semapv:ManualMappingCuration	efo	2019-04-26
+Open wound of hip and thigh	disease	skos:closeMatch	EFO:0009508	semapv:ManualMappingCuration	efo	2019-04-26
+Open wound of lower leg	disease	skos:closeMatch	EFO:0009508	semapv:ManualMappingCuration	efo	2019-04-26
+Open wound of wrist and hand	disease	skos:closeMatch	EFO:0005756	semapv:ManualMappingCuration	efo	2019-04-26
+Open wounds involving multiple body regions	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Optic neuritis	disease	skos:closeMatch	EFO:0007405	semapv:ManualMappingCuration	efo	2019-04-26
+Orchitis and epididymitis	disease	skos:closeMatch	EFO:1001078	semapv:ManualMappingCuration	efo	2019-04-26
+Osteochondrodysplasia with defects of growth of tubular bones and spine	disease	skos:closeMatch	EFO:0005571	semapv:ManualMappingCuration	efo	2019-04-26
+Osteomyelitis	disease	skos:closeMatch	EFO:0003102	semapv:ManualMappingCuration	efo	2019-04-26
+Osteonecrosis	disease	skos:closeMatch	EFO:0004259	semapv:ManualMappingCuration	efo	2019-04-26
+Osteopathies in diseases classified elsewhere	disease	skos:closeMatch	EFO:0004260	semapv:ManualMappingCuration	efo	2019-04-26
+Osteoporosis in diseases classified elsewhere	disease	skos:closeMatch	EFO:0003882	semapv:ManualMappingCuration	efo	2019-04-26
+Osteoporosis with pathological fracture	disease	skos:closeMatch	EFO:0003882	semapv:ManualMappingCuration	efo	2019-04-26
+Osteoporosis without pathological fracture	disease	skos:closeMatch	EFO:0003882	semapv:ManualMappingCuration	efo	2019-04-26
+Otalgia and effusion of ear	disease	skos:closeMatch	EFO:0007415	semapv:ManualMappingCuration	efo	2019-04-26
+Otalgia and effusion of ear	phenotype	skos:closeMatch	HP:0030766	semapv:ManualMappingCuration	efo	2019-04-26
+Other abnormal findings in urine	phenotype	skos:closeMatch	HP:0003110	semapv:ManualMappingCuration	efo	2019-04-26
+Other abnormal findings of blood chemistry	phenotype	skos:closeMatch	HP:0001871	semapv:ManualMappingCuration	efo	2019-04-26
+Other abnormal immunological findings in serum	phenotype	skos:closeMatch	HP:0002715	semapv:ManualMappingCuration	efo	2019-04-26
+Other abnormal products of conception	disease	skos:closeMatch	EFO:0009682	semapv:ManualMappingCuration	efo	2019-04-26
+Other abnormal uterine and vaginal bleeding	phenotype	skos:closeMatch	HP:0100608	semapv:ManualMappingCuration	efo	2019-04-26
+Other acquired deformities of limbs	disease	skos:closeMatch	ORPHA:294944	semapv:ManualMappingCuration	efo	2019-04-26
+Other acquired deformities of musculoskeletal system and connective tissue	disease	skos:closeMatch	EFO:0009676	semapv:ManualMappingCuration	efo	2019-04-26
+Other acquired deformities of musculoskeletal system and connective tissue	disease	skos:closeMatch	EFO:1001986	semapv:ManualMappingCuration	efo	2019-04-26
+Other acute ischaemic heart diseases	disease	skos:closeMatch	EFO:0003777	semapv:ManualMappingCuration	efo	2019-04-26
+Other anaemias	phenotype	skos:closeMatch	EFO:0004272	semapv:ManualMappingCuration	efo	2019-04-26
+Other and specified injuries of hip and thigh	disease	skos:closeMatch	EFO:0009508	semapv:ManualMappingCuration	efo	2019-04-26
+Other and unspecified injuries of head	disease	skos:closeMatch	EFO:0009505	semapv:ManualMappingCuration	efo	2019-04-26
+Other and unspecified injuries of lower leg	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Other and unspecified injuries of wrist and hand	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Other and unspecified types of non-Hodgkin's lymphoma	disease	skos:closeMatch	EFO:0005952	semapv:ManualMappingCuration	efo	2019-04-26
+Other aneurysm	disease	skos:closeMatch	EFO:0009659	semapv:ManualMappingCuration	efo	2019-04-26
+Other anxiety disorders	disease	skos:closeMatch	EFO:0006788	semapv:ManualMappingCuration	efo	2019-04-26
+Other aplastic anaemias	phenotype	skos:closeMatch	HP:0001915	semapv:ManualMappingCuration	efo	2019-04-26
+Other arthritis	disease	skos:closeMatch	EFO:0005856	semapv:ManualMappingCuration	efo	2019-04-26
+Other arthrosis	disease	skos:closeMatch	EFO:0002506	semapv:ManualMappingCuration	efo	2019-04-26
+Other assisted single delivery	phenotype	skos:closeMatch	HP:0001787	semapv:ManualMappingCuration	efo	2019-04-26
+Other bacterial intestinal infections	disease	skos:closeMatch	EFO:0000771	semapv:ManualMappingCuration	efo	2019-04-26
+Other bacterial intestinal infections	disease	skos:closeMatch	EFO:0009431	semapv:ManualMappingCuration	efo	2019-04-26
+Other benign neoplasms of connective and other soft tissue	disease	skos:closeMatch	EFO:1000541	semapv:ManualMappingCuration	efo	2019-04-26
+Other benign neoplasms of skin	disease	skos:closeMatch	EFO:0004198	semapv:ManualMappingCuration	efo	2019-04-26
+Other benign neoplasms of uterus	disease	skos:closeMatch	EFO:0003859	semapv:ManualMappingCuration	efo	2019-04-26
+Other bursopathies	disease	skos:closeMatch	EFO:1000999	semapv:ManualMappingCuration	efo	2019-04-26
+Other cardiac arrhythmias	disease	skos:closeMatch	EFO:0004269	semapv:ManualMappingCuration	efo	2019-04-26
+Other cataract	disease	skos:closeMatch	EFO:0001059	semapv:ManualMappingCuration	efo	2019-04-26
+Other cerebrovascular diseases	disease	skos:closeMatch	EFO:0003763	semapv:ManualMappingCuration	efo	2019-04-26
+Other chronic obstructive pulmonary disease	disease	skos:closeMatch	EFO:0000341	semapv:ManualMappingCuration	efo	2019-04-26
+Other coagulation defects	disease	skos:closeMatch	EFO:0009314	semapv:ManualMappingCuration	efo	2019-04-26
+Other conduction disorders	disease	skos:closeMatch	EFO:0005137	semapv:ManualMappingCuration	efo	2019-04-26
+Other congenital malformations of circulatory system	phenotype	skos:closeMatch	HP:0030680	semapv:ManualMappingCuration	efo	2019-04-26
+Other congenital malformations of digestive system	phenotype	skos:closeMatch	HP:0025031	semapv:ManualMappingCuration	efo	2019-04-26
+Other congenital malformations of ear	phenotype	skos:closeMatch	HP:0031703	semapv:ManualMappingCuration	efo	2019-04-26
+Other congenital malformations of face and neck	disease	skos:closeMatch	ORPHA:183530	semapv:ManualMappingCuration	efo	2019-04-26
+Other congenital malformations of heart	disease	skos:closeMatch	EFO:0005269	semapv:ManualMappingCuration	efo	2019-04-26
+Other congenital malformations of intestine	disease	skos:closeMatch	ORPHA:97945	semapv:ManualMappingCuration	efo	2019-04-26
+Other congenital malformations of male genital organs	phenotype	skos:closeMatch	HP:0000022	semapv:ManualMappingCuration	efo	2019-04-26
+Other congenital malformations of peripheral vascular system	phenotype	skos:closeMatch	HP:0002597	semapv:ManualMappingCuration	efo	2019-04-26
+Other congenital malformations of skin	disease	skos:closeMatch	ORPHA:139027	semapv:ManualMappingCuration	efo	2019-04-26
+Other congenital malformations of upper alimentary tract	phenotype	skos:closeMatch	HP:0012718	semapv:ManualMappingCuration	efo	2019-04-26
+Other congenital musculoskeletal deformities	disease	skos:closeMatch	EFO:0005541	semapv:ManualMappingCuration	efo	2019-04-26
+Other deforming dorsopathies	disease	skos:closeMatch	EFO:0002461	semapv:ManualMappingCuration	efo	2019-04-26
+Other degenerative diseases of basal ganglia	disease	skos:closeMatch	EFO:0009533	semapv:ManualMappingCuration	efo	2019-04-26
+Other demyelinating diseases of central nervous system	disease	skos:closeMatch	EFO:1000870	semapv:ManualMappingCuration	efo	2019-04-26
+Other dermatitis	disease	skos:closeMatch	EFO:0000701	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of anus and rectum	disease	skos:closeMatch	EFO:0009660	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of anus and rectum	disease	skos:closeMatch	EFO:0009685	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of appendix	disease	skos:closeMatch	EFO:0009542	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of biliary tract	disease	skos:closeMatch	EFO:0009534	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of blood and blood-forming organs	disease	skos:closeMatch	EFO:0005803	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of digestive system	disease	skos:closeMatch	EFO:0000405	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of gallbladder	disease	skos:closeMatch	EFO:0003832	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of inner ear	disease	skos:closeMatch	EFO:0009672	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of intestine	disease	skos:closeMatch	EFO:0009431	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of jaws	disease	skos:closeMatch	EFO:0009468	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of lip and oral mucosa	disease	skos:closeMatch	EFO:1001047	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of liver	disease	skos:closeMatch	EFO:0001421	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of oesophagus	disease	skos:closeMatch	EFO:0009544	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of pancreas	disease	skos:closeMatch	EFO:0009605	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of pericardium	disease	skos:closeMatch	EFO:0007427	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of spinal cord	disease	skos:closeMatch	EFO:0009488	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of stomach and duodenum	disease	skos:closeMatch	EFO:0000405	semapv:ManualMappingCuration	efo	2019-04-26
+Other diseases of upper respiratory tract	disease	skos:closeMatch	EFO:0000684	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of Eustachian tube	disease	skos:closeMatch	EFO:0009667	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of adrenal gland	disease	skos:closeMatch	EFO:0005539	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of amniotic fluid and membranes	phenotype	skos:closeMatch	HP:0001560	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of arteries and arterioles	disease	skos:closeMatch	EFO:0004264	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of binocular movement	disease	skos:closeMatch	EFO:0009535	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of bladder	disease	skos:closeMatch	EFO:1000018	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of bone	disease	skos:closeMatch	EFO:0004260	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of bone density and structure	disease	skos:closeMatch	EFO:0003923	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of brain	disease	skos:closeMatch	EFO:0005774	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of breast	disease	skos:closeMatch	EFO:0009483	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of cartilage	disease	skos:closeMatch	EFO:0005802	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of circulatory system in diseases classified elsewhere	disease	skos:closeMatch	EFO:0000319	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of conjunctiva	disease	skos:closeMatch	EFO:1000203	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of cornea	disease	skos:closeMatch	EFO:0009464	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of external ear	disease	skos:closeMatch	EFO:0009668	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of eye and adnexa	disease	skos:closeMatch	EFO:0009546	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of eye and adnexa in diseases classified elsewhere	disease	skos:closeMatch	EFO:0009546	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of eyelid	disease	skos:closeMatch	EFO:0009547	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of gingiva and edentulous alveolar ridge	disease	skos:closeMatch	EFO:0009670	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of lens	disease	skos:closeMatch	EFO:0009674	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of male genital organs	disease	skos:closeMatch	EFO:0009555	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of middle ear and mastoid	disease	skos:closeMatch	EFO:1001455	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of muscle	disease	skos:closeMatch	EFO:0002970	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of nervous system	disease	skos:closeMatch	EFO:0000618	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of nose and nasal sinuses	disease	skos:closeMatch	EFO:0000684	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of pancreatic internal secretion	disease	skos:closeMatch	EFO:0009605	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of penis	disease	skos:closeMatch	EFO:0009555	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of peripheral nervous system	disease	skos:closeMatch	EFO:0009387	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of peritoneum	disease	skos:closeMatch	EFO:0009541	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of pigmentation	disease	skos:closeMatch	EFO:1000755	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of prostate	disease	skos:closeMatch	EFO:0009602	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of synovium and tendon	disease	skos:closeMatch	EFO:1001435	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of teeth and supporting structures	disease	skos:closeMatch	EFO:1001216	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of thyroid	disease	skos:closeMatch	EFO:1000627	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of tympanic membrane	disease	skos:closeMatch	EFO:0009570	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of urethra	disease	skos:closeMatch	EFO:0009689	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of urinary system	disease	skos:closeMatch	EFO:0009690	semapv:ManualMappingCuration	efo	2019-04-26
+Other disorders of veins	disease	skos:closeMatch	EFO:0004264	semapv:ManualMappingCuration	efo	2019-04-26
+Other endocrine disorders	disease	skos:closeMatch	EFO:0001379	semapv:ManualMappingCuration	efo	2019-04-26
+Other enthesopathies	disease	skos:closeMatch	EFO:0009666	semapv:ManualMappingCuration	efo	2019-04-26
+Other epidermal thickening	phenotype	skos:closeMatch	HP:0011368	semapv:ManualMappingCuration	efo	2019-04-26
+Other erythematous conditions	disease	skos:closeMatch	EFO:0000701	semapv:ManualMappingCuration	efo	2019-04-26
+Other extrapyramidal and movement disorders	disease	skos:closeMatch	EFO:0004280	semapv:ManualMappingCuration	efo	2019-04-26
+Other female pelvic inflammatory diseases	disease	skos:closeMatch	EFO:1001388	semapv:ManualMappingCuration	efo	2019-04-26
+Other fluke infections	disease	skos:closeMatch	EFO:1001342	semapv:ManualMappingCuration	efo	2019-04-26
+Other follicular disorders	disease	skos:closeMatch	EFO:1000702	semapv:ManualMappingCuration	efo	2019-04-26
+Other functional intestinal disorders	disease	skos:closeMatch	EFO:0009431	semapv:ManualMappingCuration	efo	2019-04-26
+Other general symptoms and signs	phenotype	skos:closeMatch	EFO:0003765	semapv:ManualMappingCuration	efo	2019-04-26
+Other headache syndromes	disease	skos:closeMatch	EFO:0009550	semapv:ManualMappingCuration	efo	2019-04-26
+Other hearing loss	disease	skos:closeMatch	EFO:0004238	semapv:ManualMappingCuration	efo	2019-04-26
+Other helminthiases	disease	skos:closeMatch	EFO:1001342	semapv:ManualMappingCuration	efo	2019-04-26
+Other hypothyroidism	disease	skos:closeMatch	EFO:0004705	semapv:ManualMappingCuration	efo	2019-04-26
+Other ill defined and unspecified causes of mortality	disease	skos:closeMatch	EFO:0009434	semapv:ManualMappingCuration	efo	2019-04-26
+Other infestations	disease	skos:closeMatch	EFO:0001067	semapv:ManualMappingCuration	efo	2019-04-26
+Other inflammation of eyelid	disease	skos:closeMatch	EFO:0009536	semapv:ManualMappingCuration	efo	2019-04-26
+Other inflammation of vagina and vulva	phenotype	skos:closeMatch	EFO:0005757	semapv:ManualMappingCuration	efo	2019-04-26
+Other inflammatory liver diseases	disease	skos:closeMatch	EFO:0001421	semapv:ManualMappingCuration	efo	2019-04-26
+Other inflammatory spondylopathies	disease	skos:closeMatch	EFO:0004260	semapv:ManualMappingCuration	efo	2019-04-26
+Other injuries involving multiple body regions	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Other injuries of lower limb level unspecified	disease	skos:closeMatch	EFO:0009508	semapv:ManualMappingCuration	efo	2019-04-26
+Other injuries of spine and trunk level unspecified	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Other injuries of upper limb level unspecified	disease	skos:closeMatch	EFO:0009509	semapv:ManualMappingCuration	efo	2019-04-26
+Other interstitial pulmonary diseases	disease	skos:closeMatch	EFO:0004244	semapv:ManualMappingCuration	efo	2019-04-26
+Other intervertebral disk disorders	disease	skos:closeMatch	EFO:1000900	semapv:ManualMappingCuration	efo	2019-04-26
+Other local infections of skin and subcutaneous tissue	disease	skos:closeMatch	EFO:0000701	semapv:ManualMappingCuration	efo	2019-04-26
+Other malignant neoplasms of skin	disease	skos:closeMatch	EFO:0004198	semapv:ManualMappingCuration	efo	2019-04-26
+Other medical care	factor	skos:closeMatch	EFO:0009786	semapv:ManualMappingCuration	efo	2019-04-26
+Other mononeuropathies	disease	skos:closeMatch	EFO:0009558	semapv:ManualMappingCuration	efo	2019-04-26
+Other mood	disease	skos:closeMatch	EFO:0004247	semapv:ManualMappingCuration	efo	2019-04-26
+Other mosquito borne viral fevers	disease	skos:closeMatch	EFO:0009575	semapv:ManualMappingCuration	efo	2019-04-26
+Other necrotising vasculopathies	disease	skos:closeMatch	EFO:0006803	semapv:ManualMappingCuration	efo	2019-04-26
+Other non-infective disorders of lymphatic vessels and lymph nodes	disease	skos:closeMatch	EFO:0007352	semapv:ManualMappingCuration	efo	2019-04-26
+Other non-infective gastro-enteritis and colitis	disease	skos:closeMatch	EFO:1001463	semapv:ManualMappingCuration	efo	2019-04-26
+Other non-toxic goitre	disease	skos:closeMatch	EFO:0004283	semapv:ManualMappingCuration	efo	2019-04-26
+Other noninflammatory disorders of cervix uteri	disease	skos:closeMatch	EFO:0009549	semapv:ManualMappingCuration	efo	2019-04-26
+Other noninflammatory disorders of vagina	disease	skos:closeMatch	EFO:0009549	semapv:ManualMappingCuration	efo	2019-04-26
+Other noninflammatory disorders of vulva and perineum	disease	skos:closeMatch	EFO:0009549	semapv:ManualMappingCuration	efo	2019-04-26
+Other nontraumatic intracranial haemorrhage	disease	skos:closeMatch	EFO:0000551	semapv:ManualMappingCuration	efo	2019-04-26
+Other nutritional deficiencies	disease	skos:closeMatch	EFO:1001067	semapv:ManualMappingCuration	efo	2019-04-26
+Other obstetric trauma	disease	skos:closeMatch	EFO:0009682	semapv:ManualMappingCuration	efo	2019-04-26
+Other obstructed labour	phenotype	skos:closeMatch	HP:0001787	semapv:ManualMappingCuration	efo	2019-04-26
+Other orthopaedic follow up care	experimental process	skos:closeMatch	EFO:0009577	semapv:ManualMappingCuration	efo	2019-04-26
+Other peripheral vascular diseases	disease	skos:closeMatch	EFO:0003875	semapv:ManualMappingCuration	efo	2019-04-26
+Other polyneuropathies	disease	skos:closeMatch	EFO:0009562	semapv:ManualMappingCuration	efo	2019-04-26
+Other postsurgical states	factor	skos:closeMatch	EFO:0009789	semapv:ManualMappingCuration	efo	2019-04-26
+Other respiratory disorders	disease	skos:closeMatch	EFO:0000684	semapv:ManualMappingCuration	efo	2019-04-26
+Other retinal disorders	disease	skos:closeMatch	EFO:0003839	semapv:ManualMappingCuration	efo	2019-04-26
+Other rheumatic heart diseases	disease	skos:closeMatch	EFO:1001161	semapv:ManualMappingCuration	efo	2019-04-26
+Other rheumatoid arthritis	disease	skos:closeMatch	EFO:0000685	semapv:ManualMappingCuration	efo	2019-04-26
+Other rickettsioses	disease	skos:closeMatch	EFO:1001162	semapv:ManualMappingCuration	efo	2019-04-26
+Other septicaemia	phenotype	skos:closeMatch	HP:0100806	semapv:ManualMappingCuration	efo	2019-04-26
+Other skin changes	phenotype	skos:closeMatch	HP:0000951	semapv:ManualMappingCuration	efo	2019-04-26
+Other special examinations and investigations of persons without complaint or reported diagnosis	experimental process	skos:closeMatch	EFO:0009517	semapv:ManualMappingCuration	efo	2019-04-26
+Other specific arthropathies	disease	skos:closeMatch	EFO:1000999	semapv:ManualMappingCuration	efo	2019-04-26
+Other specific joint derangements	disease	skos:closeMatch	EFO:1000999	semapv:ManualMappingCuration	efo	2019-04-26
+Other specified diabetes mellitus	disease	skos:closeMatch	EFO:0000400	semapv:ManualMappingCuration	efo	2019-04-26
+Other spirochaetal infections	disease	skos:closeMatch	EFO:0009567	semapv:ManualMappingCuration	efo	2019-04-26
+Other spondylopathies	disease	skos:closeMatch	EFO:0004260	semapv:ManualMappingCuration	efo	2019-04-26
+Other strabismus	phenotype	skos:closeMatch	HP:0000486	semapv:ManualMappingCuration	efo	2019-04-26
+Other surgical follow-up care	experimental process	skos:closeMatch	EFO:0009642	semapv:ManualMappingCuration	efo	2019-04-26
+Other symptoms and signs involving cognitive functions and awareness	phenotype	skos:closeMatch	HP:0100543	semapv:ManualMappingCuration	efo	2019-04-26
+Other symptoms and signs involving the circulatory and respiratory systems	phenotype	skos:closeMatch	HP:0001626	semapv:ManualMappingCuration	efo	2019-04-26
+Other symptoms and signs involving the circulatory and respiratory systems	phenotype	skos:closeMatch	HP:0002086	semapv:ManualMappingCuration	efo	2019-04-26
+Other symptoms and signs involving the digestive system and abdomen	phenotype	skos:closeMatch	HP:0025031	semapv:ManualMappingCuration	efo	2019-04-26
+Other symptoms and signs involving the nervous and musculoskeletal systems	phenotype	skos:closeMatch	HP:0000707	semapv:ManualMappingCuration	efo	2019-04-26
+Other symptoms and signs involving the nervous and musculoskeletal systems	phenotype	skos:closeMatch	HP:0000924	semapv:ManualMappingCuration	efo	2019-04-26
+Other symptoms and signs involving the nervous and musculoskeletal systems	phenotype	skos:closeMatch	HP:0003011	semapv:ManualMappingCuration	efo	2019-04-26
+Other symptoms and signs involving the urinary system	phenotype	skos:closeMatch	HP:0000079	semapv:ManualMappingCuration	efo	2019-04-26
+Other systemic involvement of connective tissue	disease	skos:closeMatch	EFO:1001986	semapv:ManualMappingCuration	efo	2019-04-26
+Other venous embolism and thrombosis	disease	skos:closeMatch	EFO:0004286	semapv:ManualMappingCuration	efo	2019-04-26
+Other vitamin deficiencies	phenotype	skos:closeMatch	EFO:0005878	semapv:ManualMappingCuration	efo	2019-04-26
+Otitis externa	disease	skos:closeMatch	EFO:0009560	semapv:ManualMappingCuration	efo	2019-04-26
+Otosclerosis	disease	skos:closeMatch	EFO:0004213	semapv:ManualMappingCuration	efo	2019-04-26
+Ovarian dysfunction	disease	skos:closeMatch	EFO:0009003	semapv:ManualMappingCuration	efo	2019-04-26
+Overall health rating	factor	skos:closeMatch	EFO:0004778	semapv:ManualMappingCuration	efo	2019-04-26
+Pace-maker	experimental factor	skos:closeMatch	EFO:0009719	semapv:ManualMappingCuration	efo	2019-04-26
+Paget s disease of bone	disease	skos:closeMatch	EFO:0004261	semapv:ManualMappingCuration	efo	2019-04-26
+Pain	phenotype	skos:closeMatch	EFO:0003843	semapv:ManualMappingCuration	efo	2019-04-26
+Pain and other conditions associated with female genital organs and menstrual cycle	disease	skos:closeMatch	EFO:0009549	semapv:ManualMappingCuration	efo	2019-04-26
+Pain associated with micturition	phenotype	skos:closeMatch	EFO:0003901	semapv:ManualMappingCuration	efo	2019-04-26
+Pain in throat and chest	phenotype	skos:closeMatch	EFO:0003843	semapv:ManualMappingCuration	efo	2019-04-26
+Paralytic ileus and intestinal obstruction without hernia	phenotype	skos:closeMatch	HP:0004796	semapv:ManualMappingCuration	efo	2019-04-26
+Paralytic strabismus	disease	skos:closeMatch	EFO:0009678	semapv:ManualMappingCuration	efo	2019-04-26
+Paraplegia and tetraplegia	disease	skos:closeMatch	EFO:0009679	semapv:ManualMappingCuration	efo	2019-04-26
+Paraplegia and tetraplegia	disease	skos:closeMatch	EFO:0009684	semapv:ManualMappingCuration	efo	2019-04-26
+Parapsoriasis	disease	skos:closeMatch	EFO:1000747	semapv:ManualMappingCuration	efo	2019-04-26
+Parkinson s disease	disease	skos:closeMatch	EFO:0002508	semapv:ManualMappingCuration	efo	2019-04-26
+Paroxysmal tachycardia	disease	skos:closeMatch	EFO:0009493	semapv:ManualMappingCuration	efo	2019-04-26
+Past tobacco smoking	biological process	skos:closeMatch	EFO:0004319	semapv:ManualMappingCuration	efo	2019-04-26
+Peak expiratory flow (PEF)	measurement	skos:closeMatch	EFO:0009718	semapv:ManualMappingCuration	efo	2019-04-26
+Pemphigoid	disease	skos:closeMatch	EFO:1000673	semapv:ManualMappingCuration	efo	2019-04-26
+Pemphigus	disease	skos:closeMatch	EFO:1000749	semapv:ManualMappingCuration	efo	2019-04-26
+Peptic ulcer site unspecified	phenotype	skos:closeMatch	HP:0004398	semapv:ManualMappingCuration	efo	2019-04-26
+Perforation of tympanic membrane	phenotype	skos:closeMatch	EFO:0009472	semapv:ManualMappingCuration	efo	2019-04-26
+Perineal laceration during delivery	disease	skos:closeMatch	EFO:0009816	semapv:ManualMappingCuration	efo	2019-04-26
+Peritonitis	disease	skos:closeMatch	EFO:0008588	semapv:ManualMappingCuration	efo	2019-04-26
+Peritonsillar abscess	disease	skos:closeMatch	EFO:0007429	semapv:ManualMappingCuration	efo	2019-04-26
+Persistent mood	disease	skos:closeMatch	EFO:0008623	semapv:ManualMappingCuration	efo	2019-04-26
+Personal history of malignant neoplasm	disease	skos:closeMatch	EFO:0000616	semapv:ManualMappingCuration	efo	2019-04-26
+Personal history of other diseases and conditions	factor	skos:closeMatch	EFO:0000352	semapv:ManualMappingCuration	efo	2019-04-26
+Personality disorder	phenotype	skos:closeMatch	HP:0012075	semapv:ManualMappingCuration	efo	2019-04-26
+Persons encountering health services in other circumstances	factor	skos:closeMatch	EFO:0009786	semapv:ManualMappingCuration	efo	2019-04-26
+Pervasive developmental disorders	disease	skos:closeMatch	EFO:0003759	semapv:ManualMappingCuration	efo	2019-04-26
+Phlebitis and thrombophlebitis	disease	skos:closeMatch	EFO:1001395	semapv:ManualMappingCuration	efo	2019-04-26
+Phlebitis and thrombophlebitis	phenotype	skos:closeMatch	HP:0004418	semapv:ManualMappingCuration	efo	2019-04-26
+Phobic anxiety disorders	disease	skos:closeMatch	EFO:1001908	semapv:ManualMappingCuration	efo	2019-04-26
+Pilonidal cyst	phenotype	skos:closeMatch	HP:0010771	semapv:ManualMappingCuration	efo	2019-04-26
+Pityriasis rosea	disease	skos:closeMatch	EFO:1000756	semapv:ManualMappingCuration	efo	2019-04-26
+Placenta praevia	disease	skos:closeMatch	EFO:0007442	semapv:ManualMappingCuration	efo	2019-04-26
+Plasmodium falciparum malaria	disease	skos:closeMatch	EFO:0007444	semapv:ManualMappingCuration	efo	2019-04-26
+Plasmodium vivax malaria	disease	skos:closeMatch	EFO:0007445	semapv:ManualMappingCuration	efo	2019-04-26
+Pneumoconiosis due to other inorganic dusts	disease	skos:closeMatch	ORPHA:182098	semapv:ManualMappingCuration	efo	2019-04-26
+Pneumonia due to Streptococcus pneumoniae	disease	skos:closeMatch	EFO:0000772	semapv:ManualMappingCuration	efo	2019-04-26
+Pneumothorax	phenotype	skos:closeMatch	HP:0002108	semapv:ManualMappingCuration	efo	2019-04-26
+Poisoning by narcotics and psychodysleptics [hallucinogens]	disease	skos:closeMatch	EFO:0008546	semapv:ManualMappingCuration	efo	2019-04-26
+Polyarteritis nodosa and related conditions	disease	skos:closeMatch	EFO:0009012	semapv:ManualMappingCuration	efo	2019-04-26
+Polyarthrosis	disease	skos:closeMatch	EFO:0002506	semapv:ManualMappingCuration	efo	2019-04-26
+Polycythaemia vera	disease	skos:closeMatch	EFO:0002429	semapv:ManualMappingCuration	efo	2019-04-26
+Polydactyly	disease	skos:closeMatch	ORPHA:2913	semapv:ManualMappingCuration	efo	2019-04-26
+Polyhydramnios	phenotype	skos:closeMatch	HP:0001561	semapv:ManualMappingCuration	efo	2019-04-26
+Polyneuropathy in diseases classified elsewhere	disease	skos:closeMatch	EFO:0009562	semapv:ManualMappingCuration	efo	2019-04-26
+Polyp of female genital tract	disease	skos:closeMatch	EFO:0008622	semapv:ManualMappingCuration	efo	2019-04-26
+Polyuria	phenotype	skos:closeMatch	HP:0000103	semapv:ManualMappingCuration	efo	2019-04-26
+Portal vein thrombosis	phenotype	skos:closeMatch	HP:0030242	semapv:ManualMappingCuration	efo	2019-04-26
+Postinfective and reactive arthropathies in diseases classified elsewhere	disease	skos:closeMatch	EFO:0007460	semapv:ManualMappingCuration	efo	2019-04-26
+Postpartum care and examination	factor	skos:closeMatch	EFO:0009787	semapv:ManualMappingCuration	efo	2019-04-26
+Postpartum haemorrhage	phenotype	skos:closeMatch	EFO:0009579	semapv:ManualMappingCuration	efo	2019-04-26
+Postpolio syndrome	disease	skos:closeMatch	EFO:0007454	semapv:ManualMappingCuration	efo	2019-04-26
+Potassium in urine	phenotype	skos:closeMatch	HP:0012598	semapv:ManualMappingCuration	efo	2019-04-26
+Pre existing hypertension complicating pregnancy childbirth and the puerperium	disease	skos:closeMatch	EFO:0000537	semapv:ManualMappingCuration	efo	2019-04-26
+Pre existing hypertensive disorder with superimposed proteinuria	disease	skos:closeMatch	EFO:0000537	semapv:ManualMappingCuration	efo	2019-04-26
+Pregnancy examination and test	experimental process	skos:closeMatch	EFO:0009643	semapv:ManualMappingCuration	efo	2019-04-26
+Premature rupture of membranes	phenotype	skos:closeMatch	EFO:0006917	semapv:ManualMappingCuration	efo	2019-04-26
+Premature separation of placenta	disease	skos:closeMatch	EFO:1001754	semapv:ManualMappingCuration	efo	2019-04-26
+Preterm delivery	phenotype	skos:closeMatch	EFO:0003917	semapv:ManualMappingCuration	efo	2019-04-26
+Primary disorders of muscles	disease	skos:closeMatch	EFO:0002970	semapv:ManualMappingCuration	efo	2019-04-26
+Problems related to life management difficulty	factor	skos:closeMatch	EFO:0009786	semapv:ManualMappingCuration	efo	2019-04-26
+Problems related to physical environment	experimental process	skos:closeMatch	EFO:0000487	semapv:ManualMappingCuration	efo	2019-04-26
+Problems related to social environment	factor	skos:closeMatch	EFO:0009788	semapv:ManualMappingCuration	efo	2019-04-26
+Procedures for purposes other than remedying health state	experimental process	skos:closeMatch	EFO:0002571	semapv:ManualMappingCuration	efo	2019-04-26
+Procreative management	factor	skos:closeMatch	EFO:0009787	semapv:ManualMappingCuration	efo	2019-04-26
+Prolonged pregnancy	disease	skos:closeMatch	EFO:0009681	semapv:ManualMappingCuration	efo	2019-04-26
+Prophylactic surgery	experimental process	skos:closeMatch	EFO:0009580	semapv:ManualMappingCuration	efo	2019-04-26
+Prospective memory result	biological process	skos:closeMatch	EFO:0004333	semapv:ManualMappingCuration	efo	2019-04-26
+Pruritus	phenotype	skos:closeMatch	HP:0000989	semapv:ManualMappingCuration	efo	2019-04-26
+Psoriasis	disease	skos:closeMatch	EFO:0000676	semapv:ManualMappingCuration	efo	2019-04-26
+Psoriatic and enteropathic arthropathies	disease	skos:closeMatch	EFO:0003778	semapv:ManualMappingCuration	efo	2019-04-26
+Pulmonary embolism	disease	skos:closeMatch	EFO:0003827	semapv:ManualMappingCuration	efo	2019-04-26
+Pulmonary valve disorders	disease	skos:closeMatch	EFO:0009564	semapv:ManualMappingCuration	efo	2019-04-26
+Pulse rate	measurement	skos:closeMatch	EFO:0004326	semapv:ManualMappingCuration	efo	2019-04-26
+Pulse wave Arterial Stiffness index	measurement	skos:closeMatch	EFO:0004517	semapv:ManualMappingCuration	efo	2019-04-26
+Pulse wave reflection index	measurement	skos:closeMatch	EFO:0009804	semapv:ManualMappingCuration	efo	2019-04-26
+Purpura and other haemorrhagic conditions	phenotype	skos:closeMatch	HP:0000979	semapv:ManualMappingCuration	efo	2019-04-26
+Pyoderma gangrenosum	phenotype	skos:closeMatch	EFO:0006835	semapv:ManualMappingCuration	efo	2019-04-26
+Pyogenic arthritis	disease	skos:closeMatch	EFO:1001351	semapv:ManualMappingCuration	efo	2019-04-26
+Pyothorax	disease	skos:closeMatch	EFO:0009680	semapv:ManualMappingCuration	efo	2019-04-26
+Rapidly progressive nephritic syndrome	disease	skos:closeMatch	EFO:0003086	semapv:ManualMappingCuration	efo	2019-04-26
+Rash and other nonspecific skin eruption	disease	skos:closeMatch	EFO:0000701	semapv:ManualMappingCuration	efo	2019-04-26
+Recurrent and persistent haematuria	phenotype	skos:closeMatch	HP:0000790	semapv:ManualMappingCuration	efo	2019-04-26
+Recurrent depressive disorder	disease	skos:closeMatch	EFO:0003761	semapv:ManualMappingCuration	efo	2019-04-26
+Reduction defects of lower limb	disease	skos:closeMatch	ORPHA:2130	semapv:ManualMappingCuration	efo	2019-04-26
+Relative age of first facial hair	measurement	skos:closeMatch	EFO:0009716	semapv:ManualMappingCuration	efo	2019-04-26
+Relative age voice broke	measurement	skos:closeMatch	EFO:0007888	semapv:ManualMappingCuration	efo	2019-04-26
+Renal tubulo interstitial disorders in diseases classified elsewhere	disease	skos:closeMatch	EFO:0009566	semapv:ManualMappingCuration	efo	2019-04-26
+Reported occurrences of cancer	disease	skos:closeMatch	EFO:0000311	semapv:ManualMappingCuration	efo	2019-04-26
+Respiratory disorders in diseases classified elsewhere	disease	skos:closeMatch	EFO:0000684	semapv:ManualMappingCuration	efo	2019-04-26
+Respiratory tuberculosis confimed	disease	skos:closeMatch	EFO:1000049	semapv:ManualMappingCuration	efo	2019-04-26
+Respiratory tuberculosis not confimed	disease	skos:closeMatch	EFO:1000049	semapv:ManualMappingCuration	efo	2019-04-26
+Retained placenta and membranes without haemorrhage	disease	skos:closeMatch	EFO:0009578	semapv:ManualMappingCuration	efo	2019-04-26
+Retention of urine	phenotype	skos:closeMatch	HP:0000016	semapv:ManualMappingCuration	efo	2019-04-26
+Retinal detachments and breaks	disease	skos:closeMatch	EFO:0005773	semapv:ManualMappingCuration	efo	2019-04-26
+Retinal vascular occlusions	disease	skos:closeMatch	EFO:1001157	semapv:ManualMappingCuration	efo	2019-04-26
+Rheumatic aortic valve diseases	disease	skos:closeMatch	EFO:0009531	semapv:ManualMappingCuration	efo	2019-04-26
+Rheumatic fever with heart involvement	disease	skos:closeMatch	EFO:1001161	semapv:ManualMappingCuration	efo	2019-04-26
+Rheumatic fever without mention of heart involvement	disease	skos:closeMatch	EFO:1001160	semapv:ManualMappingCuration	efo	2019-04-26
+Rheumatic mitral valve diseases	disease	skos:closeMatch	EFO:0009557	semapv:ManualMappingCuration	efo	2019-04-26
+Risk taking	measurement	skos:closeMatch	EFO:0006946	semapv:ManualMappingCuration	efo	2019-04-26
+Rosacea	disease	skos:closeMatch	EFO:1000760	semapv:ManualMappingCuration	efo	2019-04-26
+Routine general health check up of defined subpopulation	experimental process	skos:closeMatch	EFO:0009517	semapv:ManualMappingCuration	efo	2019-04-26
+Salpingitis and oophoritis	disease	skos:closeMatch	EFO:1001388	semapv:ManualMappingCuration	efo	2019-04-26
+Sarcoidosis	disease	skos:closeMatch	ORPHA:797	semapv:ManualMappingCuration	efo	2019-04-26
+Scarlet fever	disease	skos:closeMatch	EFO:0007477	semapv:ManualMappingCuration	efo	2019-04-26
+Schistosomiasis	disease	skos:closeMatch	EFO:1001475	semapv:ManualMappingCuration	efo	2019-04-26
+Schizoaffective disorders	disease	skos:closeMatch	EFO:0005411	semapv:ManualMappingCuration	efo	2019-04-26
+Schizophrenia	disease	skos:closeMatch	EFO:0000692	semapv:ManualMappingCuration	efo	2019-04-26
+Scoliosis	disease	skos:closeMatch	EFO:0004273	semapv:ManualMappingCuration	efo	2019-04-26
+Seborrhoeic dermatitis	disease	skos:closeMatch	EFO:1000764	semapv:ManualMappingCuration	efo	2019-04-26
+Seborrhoeic keratosis	disease	skos:closeMatch	EFO:0005584	semapv:ManualMappingCuration	efo	2019-04-26
+Secondary and unspecified malignant neoplasm of lymph nodes	disease	skos:closeMatch	EFO:0004906	semapv:ManualMappingCuration	efo	2019-04-26
+Secondary malignant neoplasm of other sites	disease	skos:closeMatch	EFO:0009812	semapv:ManualMappingCuration	efo	2019-04-26
+Secondary malignant neoplasm of respiratory and digestive organs	disease	skos:closeMatch	EFO:0009812	semapv:ManualMappingCuration	efo	2019-04-26
+Secondary parkinsonism	disease	skos:closeMatch	EFO:1001175	semapv:ManualMappingCuration	efo	2019-04-26
+Senile cataract	phenotype	skos:closeMatch	HP:0011141	semapv:ManualMappingCuration	efo	2019-04-26
+Senility	phenotype	skos:closeMatch	HP:0100543	semapv:ManualMappingCuration	efo	2019-04-26
+Sensitivity / hurt feelings	measurement	skos:closeMatch	EFO:0007803	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of burns corrosions and frostbite	disease	skos:closeMatch	EFO:0009503	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of burns corrosions and frostbite	disease	skos:closeMatch	EFO:0009516	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of burns corrosions and frostbite	disease	skos:closeMatch	EFO:0009527	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of cerebrovascular disease	disease	skos:closeMatch	EFO:0003763	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of inflammatory diseases of CNS	disease	skos:closeMatch	EFO:0009386	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of injuries involving multiple and unspecified body regions	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of injuries of head	disease	skos:closeMatch	EFO:0009505	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of injuries of lower limb	disease	skos:closeMatch	EFO:0009508	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of injuries of neck and trunk	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of injuries of upper limb	disease	skos:closeMatch	EFO:0009509	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of other effects of external causes	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of other effects of external causes	disease	skos:closeMatch	EFO:0008546	semapv:ManualMappingCuration	efo	2019-04-26
+Sequelae of toxic effects of substances chiefly nonmedicinal as to source	disease	skos:closeMatch	EFO:0008546	semapv:ManualMappingCuration	efo	2019-04-26
+Seropositive rheumatoid arthritis	disease	skos:closeMatch	EFO:0000685	semapv:ManualMappingCuration	efo	2019-04-26
+Severity of manic/irritable episodes	measurement	skos:closeMatch	EFO:0007705	semapv:ManualMappingCuration	efo	2019-04-26
+Severity of manic/irritable episodes	measurement	skos:closeMatch	EFO:0009594	semapv:ManualMappingCuration	efo	2019-04-26
+Shigellosis	disease	skos:closeMatch	EFO:0005585	semapv:ManualMappingCuration	efo	2019-04-26
+Shortness of breath walking on level ground	phenotype	skos:closeMatch	EFO:0009727	semapv:ManualMappingCuration	efo	2019-04-26
+Shoulder lesions	disease	skos:closeMatch	EFO:0009470	semapv:ManualMappingCuration	efo	2019-04-26
+Sickle cell disorders	disease	skos:closeMatch	ORPHA:232	semapv:ManualMappingCuration	efo	2019-04-26
+Single delivery by Caesarean section	experimental process	skos:closeMatch	EFO:0009636	semapv:ManualMappingCuration	efo	2019-04-26
+Single delivery by forceps and vacuum extractor	phenotype	skos:closeMatch	HP:0011411	semapv:ManualMappingCuration	efo	2019-04-26
+Single spontaneous delivery	factor	skos:closeMatch	EFO:0009638	semapv:ManualMappingCuration	efo	2019-04-26
+Sitting height	measurement	skos:closeMatch	EFO:0007118	semapv:ManualMappingCuration	efo	2019-04-26
+Skin changes due to chronic exposure to nonionizing radiation	disease	skos:closeMatch	EFO:0009565	semapv:ManualMappingCuration	efo	2019-04-26
+Sleep disorders	disease	skos:closeMatch	EFO:0008568	semapv:ManualMappingCuration	efo	2019-04-26
+Sleep duration	measurement	skos:closeMatch	EFO:0005271	semapv:ManualMappingCuration	efo	2019-04-26
+Sleeplessness / insomnia	disease	skos:closeMatch	EFO:0004698	semapv:ManualMappingCuration	efo	2019-04-26
+Small kidney of unknown cause	phenotype	skos:closeMatch	EFO:0009471	semapv:ManualMappingCuration	efo	2019-04-26
+Snoring	measurement	skos:closeMatch	EFO:0008341	semapv:ManualMappingCuration	efo	2019-04-26
+Sodium in urine	phenotype	skos:closeMatch	HP:0012603	semapv:ManualMappingCuration	efo	2019-04-26
+Soft tissue disorders in diseases classified elsewhere	disease	skos:closeMatch	EFO:0009470	semapv:ManualMappingCuration	efo	2019-04-26
+Soft tissue disorders related to use overuse and pressure	disease	skos:closeMatch	EFO:0009470	semapv:ManualMappingCuration	efo	2019-04-26
+Somatoform disorders	disease	skos:closeMatch	EFO:0009687	semapv:ManualMappingCuration	efo	2019-04-26
+Special screening examination for infectious and parasitic diseases	experimental process	skos:closeMatch	EFO:0009517	semapv:ManualMappingCuration	efo	2019-04-26
+Special screening examination for neoplasms	experimental process	skos:closeMatch	EFO:0009517	semapv:ManualMappingCuration	efo	2019-04-26
+Special screening examination for other diseases and disorders	experimental process	skos:closeMatch	EFO:0009517	semapv:ManualMappingCuration	efo	2019-04-26
+Spina bifida	disease	skos:closeMatch	EFO:0003105	semapv:ManualMappingCuration	efo	2019-04-26
+Spinal osteochondrosis	disease	skos:closeMatch	EFO:0008576	semapv:ManualMappingCuration	efo	2019-04-26
+Spondylopathies in diseases classified elsewhere	disease	skos:closeMatch	EFO:0004260	semapv:ManualMappingCuration	efo	2019-04-26
+Spondylosis	disease	skos:closeMatch	EFO:0000706	semapv:ManualMappingCuration	efo	2019-04-26
+Spontaneous abortion	disease	skos:closeMatch	EFO:1001255	semapv:ManualMappingCuration	efo	2019-04-26
+Spontaneous rupture of synovium and tendon	phenotype	skos:closeMatch	HP:0100550	semapv:ManualMappingCuration	efo	2019-04-26
+Spotted fever	disease	skos:closeMatch	EFO:1002047	semapv:ManualMappingCuration	efo	2019-04-26
+Standing height	measurement	skos:closeMatch	EFO:0004339	semapv:ManualMappingCuration	efo	2019-04-26
+Staphylococcal scalded skin syndrome	disease	skos:closeMatch	EFO:1001849	semapv:ManualMappingCuration	efo	2019-04-26
+Status asthmaticus	disease	skos:closeMatch	EFO:0008590	semapv:ManualMappingCuration	efo	2019-04-26
+Status epilepticus	disease	skos:closeMatch	EFO:0008526	semapv:ManualMappingCuration	efo	2019-04-26
+Stomach/abdominal pain for 3+ months	phenotype	skos:closeMatch	EFO:0003766	semapv:ManualMappingCuration	efo	2019-04-26
+Stomatitis and related lesions	disease	skos:closeMatch	EFO:0009688	semapv:ManualMappingCuration	efo	2019-04-26
+Stroke not specified as haemorrhage or infarction	disease	skos:closeMatch	EFO:0000712	semapv:ManualMappingCuration	efo	2019-04-26
+Strongyloidiasis	disease	skos:closeMatch	EFO:0007501	semapv:ManualMappingCuration	efo	2019-04-26
+Subarachnoid haemorrhage	disease	skos:closeMatch	EFO:0000713	semapv:ManualMappingCuration	efo	2019-04-26
+Subclinical iodine deficiency hypothyroidism	disease	skos:closeMatch	EFO:0008614	semapv:ManualMappingCuration	efo	2019-04-26
+Subsequent myocardial infarction	disease	skos:closeMatch	EFO:0008584	semapv:ManualMappingCuration	efo	2019-04-26
+Suffer from 'nerves'	disease	skos:closeMatch	NCIT:C74532	semapv:ManualMappingCuration	efo	2019-04-26
+Sunburn	disease	skos:closeMatch	EFO:0003958	semapv:ManualMappingCuration	efo	2019-04-26
+Superficial injuries involving multiple body regions	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Superficial injury of abdomen lower back and pelvis	disease	skos:closeMatch	EFO:0009502	semapv:ManualMappingCuration	efo	2019-04-26
+Superficial injury of head	disease	skos:closeMatch	EFO:0009505	semapv:ManualMappingCuration	efo	2019-04-26
+Superficial injury of lower leg	disease	skos:closeMatch	EFO:0009508	semapv:ManualMappingCuration	efo	2019-04-26
+Superficial injury of thorax	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Superficial injury of wrist and hand	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+Supervision of high risk pregnancy	disease	skos:closeMatch	EFO:0009573	semapv:ManualMappingCuration	efo	2019-04-26
+Supervision of normal pregnancy	biological process	skos:closeMatch	EFO:0002950	semapv:ManualMappingCuration	efo	2019-04-26
+Suppurative and unspecified otitis media	disease	skos:closeMatch	EFO:0007503	semapv:ManualMappingCuration	efo	2019-04-26
+Surgery on leg arteries (other than for varicose veins)	experimental factor	skos:closeMatch	EFO:0009729	semapv:ManualMappingCuration	efo	2019-04-26
+Symptoms and signs concerning food and fluid intake	phenotype	skos:closeMatch	EFO:0009825	semapv:ManualMappingCuration	efo	2019-04-26
+Syncope and collapse	phenotype	skos:closeMatch	HP:0001279	semapv:ManualMappingCuration	efo	2019-04-26
+Syndactyly	disease	skos:closeMatch	ORPHA:90025	semapv:ManualMappingCuration	efo	2019-04-26
+Synovitis and tenosynovitis	disease	skos:closeMatch	EFO:1001435	semapv:ManualMappingCuration	efo	2019-04-26
+Systemic lupus erythematosus	disease	skos:closeMatch	EFO:0002690	semapv:ManualMappingCuration	efo	2019-04-26
+Systemic sclerosis	disease	skos:closeMatch	EFO:0000717	semapv:ManualMappingCuration	efo	2019-04-26
+Taeniasis	disease	skos:closeMatch	EFO:1001433	semapv:ManualMappingCuration	efo	2019-04-26
+Target heart rate achieved	quality	skos:closeMatch	EFO:0009823	semapv:ManualMappingCuration	efo	2019-04-26
+Tense / 'highly strung'	measurement	skos:closeMatch	EFO:0009596	semapv:ManualMappingCuration	efo	2019-04-26
+Thiamine deficiency	phenotype	skos:closeMatch	EFO:0008569	semapv:ManualMappingCuration	efo	2019-04-26
+Thyroiditis	disease	skos:closeMatch	EFO:1000627	semapv:ManualMappingCuration	efo	2019-04-26
+Thyrotoxicosis [hyperthyroidism]	disease	skos:closeMatch	EFO:0009189	semapv:ManualMappingCuration	efo	2019-04-26
+Tick borne viral encephalitis	disease	skos:closeMatch	EFO:0007538	semapv:ManualMappingCuration	efo	2019-04-26
+Tinnitus severity/nuisance	phenotype	skos:closeMatch	HP:0000360	semapv:ManualMappingCuration	efo	2019-04-26
+Townsend deprivation index at recruitment	quality	skos:closeMatch	EFO:0009711	semapv:ManualMappingCuration	efo	2019-04-26
+Toxic effect of metals	disease	skos:closeMatch	EFO:1001518	semapv:ManualMappingCuration	efo	2019-04-26
+Toxic effect of organic solvents	disease	skos:closeMatch	EFO:0009574	semapv:ManualMappingCuration	efo	2019-04-26
+Toxic effect of other gases fumes and vapours	disease	skos:closeMatch	EFO:0009574	semapv:ManualMappingCuration	efo	2019-04-26
+Toxic effect of pesticides	disease	skos:closeMatch	EFO:0009574	semapv:ManualMappingCuration	efo	2019-04-26
+Toxic effect of soaps and detergents	disease	skos:closeMatch	EFO:0009574	semapv:ManualMappingCuration	efo	2019-04-26
+Toxoplasmosis	disease	skos:closeMatch	EFO:0007517	semapv:ManualMappingCuration	efo	2019-04-26
+Transient cerebral ischaemic attacks and related syndromes	disease	skos:closeMatch	EFO:0003764	semapv:ManualMappingCuration	efo	2019-04-26
+Transplanted organ and tissue status	measurement	skos:closeMatch	EFO:0005198	semapv:ManualMappingCuration	efo	2019-04-26
+Traumatic amputation of wrist and hand	disease	skos:closeMatch	EFO:0009632	semapv:ManualMappingCuration	efo	2019-04-26
+Traumatic amputations involving multiple body regions	experimental process	skos:closeMatch	EFO:0009632	semapv:ManualMappingCuration	efo	2019-04-26
+Tuberculosis of nervous system	disease	skos:closeMatch	EFO:0007199	semapv:ManualMappingCuration	efo	2019-04-26
+Tuberculosis of other organs	disease	skos:closeMatch	ORPHA:3389	semapv:ManualMappingCuration	efo	2019-04-26
+Turner s syndrome	disease	skos:closeMatch	ORPHA:881	semapv:ManualMappingCuration	efo	2019-04-26
+Typhus fever	disease	skos:closeMatch	EFO:0009117	semapv:ManualMappingCuration	efo	2019-04-26
+Ulcerative colitis	disease	skos:closeMatch	EFO:0000729	semapv:ManualMappingCuration	efo	2019-04-26
+Umbilical hernia	phenotype	skos:closeMatch	HP:0001537	semapv:ManualMappingCuration	efo	2019-04-26
+Unknown and unspecified causes of morbidity	disease	skos:closeMatch	EFO:0000408	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified abdominal hernia	phenotype	skos:closeMatch	HP:0004299	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified abortion	disease	skos:closeMatch	EFO:1001491	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified acute lower respiratory infection	disease	skos:closeMatch	EFO:0009433	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified appendicitis	disease	skos:closeMatch	EFO:0007149	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified arthropod borne viral fever	disease	skos:closeMatch	EFO:0000763	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified contact dermatitis	disease	skos:closeMatch	EFO:0005319	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified contracted kidney	disease	skos:closeMatch	EFO:0003086	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified dementia	phenotype	skos:closeMatch	HP:0000726	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified diabetes mellitus	disease	skos:closeMatch	EFO:0000400	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified fall	process	skos:closeMatch	EFO:0009631	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified haematuria	phenotype	skos:closeMatch	HP:0000790	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified human immunodeficiency virus	disease	skos:closeMatch	EFO:0000764	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified intestinal parasitism	disease	skos:closeMatch	EFO:0009561	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified jaundice	phenotype	skos:closeMatch	HP:0000952	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified lump in breast	disease	skos:closeMatch	EFO:1000848	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified maternal hypertension	disease	skos:closeMatch	EFO:0000668	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified nephritic syndrome	disease	skos:closeMatch	EFO:1002050	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified renal colic	phenotype	skos:closeMatch	EFO:1001412	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified urinary incontinence	phenotype	skos:closeMatch	HP:0000020	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified viral hepatitis	phenotype	skos:closeMatch	HP:0012115	semapv:ManualMappingCuration	efo	2019-04-26
+Unspecified viral infection of CNS	disease	skos:closeMatch	EFO:1001456	semapv:ManualMappingCuration	efo	2019-04-26
+Urethral stricture	disease	skos:closeMatch	EFO:1000840	semapv:ManualMappingCuration	efo	2019-04-26
+Urethritis and urethral syndrome	disease	skos:closeMatch	EFO:0003878	semapv:ManualMappingCuration	efo	2019-04-26
+Urticaria	disease	skos:closeMatch	EFO:0005531	semapv:ManualMappingCuration	efo	2019-04-26
+Varicella	disease	skos:closeMatch	EFO:0007204	semapv:ManualMappingCuration	efo	2019-04-26
+Varicose veins of lower extremities	phenotype	skos:closeMatch	HP:0002619	semapv:ManualMappingCuration	efo	2019-04-26
+Varicose veins of other sites	phenotype	skos:closeMatch	HP:0002619	semapv:ManualMappingCuration	efo	2019-04-26
+Vascular disorders of intestine	disease	skos:closeMatch	EFO:0004264	semapv:ManualMappingCuration	efo	2019-04-26
+Vascular disorders of intestine	disease	skos:closeMatch	EFO:0009431	semapv:ManualMappingCuration	efo	2019-04-26
+Ventral hernia	disease	skos:closeMatch	EFO:1001866	semapv:ManualMappingCuration	efo	2019-04-26
+Viral and other specified intestinal infections	disease	skos:closeMatch	EFO:0000763	semapv:ManualMappingCuration	efo	2019-04-26
+Viral and other specified intestinal infections	disease	skos:closeMatch	EFO:0009431	semapv:ManualMappingCuration	efo	2019-04-26
+Viral conjunctivitis	disease	skos:closeMatch	EFO:0008571	semapv:ManualMappingCuration	efo	2019-04-26
+Viral infection of unspecified site	disease	skos:closeMatch	EFO:0000763	semapv:ManualMappingCuration	efo	2019-04-26
+Viral meningitis	disease	skos:closeMatch	EFO:1001236	semapv:ManualMappingCuration	efo	2019-04-26
+Viral warts	disease	skos:closeMatch	EFO:0009662	semapv:ManualMappingCuration	efo	2019-04-26
+Visual disturbances	phenotype	skos:closeMatch	HP:0000505	semapv:ManualMappingCuration	efo	2019-04-26
+Vitamin A deficiency	disease	skos:closeMatch	EFO:1001237	semapv:ManualMappingCuration	efo	2019-04-26
+Vitamin B12 deficiency anaemia	disease	skos:closeMatch	EFO:0000734	semapv:ManualMappingCuration	efo	2019-04-26
+Vitamin D deficiency	phenotype	skos:closeMatch	EFO:0003762	semapv:ManualMappingCuration	efo	2019-04-26
+Vitiligo	disease	skos:closeMatch	EFO:0004208	semapv:ManualMappingCuration	efo	2019-04-26
+Voice disturbances	disease	skos:closeMatch	EFO:0009692	semapv:ManualMappingCuration	efo	2019-04-26
+Volume depletion	phenotype	skos:closeMatch	HP:0011106	semapv:ManualMappingCuration	efo	2019-04-26
+Waist circumference	measurement	skos:closeMatch	EFO:0004342	semapv:ManualMappingCuration	efo	2019-04-26
+Weight	measurement	skos:closeMatch	EFO:0004338	semapv:ManualMappingCuration	efo	2019-04-26
+Wheeze or whistling in the chest in last year	phenotype	skos:closeMatch	EFO:0009715	semapv:ManualMappingCuration	efo	2019-04-26
+Which eye(s) are affected by cataract: Left eye	disease	skos:closeMatch	EFO:0001059	semapv:ManualMappingCuration	efo	2019-04-26
+Which eye(s) are affected by cataract: Right eye	disease	skos:closeMatch	EFO:0001059	semapv:ManualMappingCuration	efo	2019-04-26
+Whole body fat mass	measurement	skos:closeMatch	EFO:0005409	semapv:ManualMappingCuration	efo	2019-04-26
+Whole body fat-free mass	measurement	skos:closeMatch	EFO:0004995	semapv:ManualMappingCuration	efo	2019-04-26
+Whole body water mass	measurement	skos:closeMatch	EFO:0009805	semapv:ManualMappingCuration	efo	2019-04-26
+Work/job satisfaction	measurement	skos:closeMatch	EFO:0009723	semapv:ManualMappingCuration	efo	2019-04-26
+Worrier / anxious feelings	phenotype	skos:closeMatch	EFO:0005230	semapv:ManualMappingCuration	efo	2019-04-26
+Worry too long after embarrassment	measurement	skos:closeMatch	EFO:0009589	semapv:ManualMappingCuration	efo	2019-04-26
+Yaws	disease	skos:closeMatch	EFO:0007548	semapv:ManualMappingCuration	efo	2019-04-26
+Years of cough on most days	phenotype	skos:closeMatch	HP:0012735	semapv:ManualMappingCuration	efo	2019-04-26
+Zoster	disease	skos:closeMatch	EFO:0006510	semapv:ManualMappingCuration	efo	2019-04-26
+abdominal hernia	phenotype	skos:closeMatch	HP:0004299	semapv:ManualMappingCuration	efo	2019-04-26
+abnormal smear (cervix)	factor	skos:closeMatch	EFO:0009511	semapv:ManualMappingCuration	efo	2019-04-26
+acne/acne vulgaris	disease	skos:closeMatch	EFO:0003894	semapv:ManualMappingCuration	efo	2019-04-26
+acute infective polyneuritis/guillain-barre syndrome	disease	skos:closeMatch	EFO:0007292	semapv:ManualMappingCuration	efo	2019-04-26
+adrenocortical insufficiency/addison's disease	disease	skos:closeMatch	EFO:0009491	semapv:ManualMappingCuration	efo	2019-04-26
+alcohol dependency	disease	skos:closeMatch	EFO:0003829	semapv:ManualMappingCuration	efo	2019-04-26
+allergy or anaphylactic reaction to drug	disease	skos:closeMatch	EFO:0009482	semapv:ManualMappingCuration	efo	2019-04-26
+allergy or anaphylactic reaction to food	disease	skos:closeMatch	EFO:1001890	semapv:ManualMappingCuration	efo	2019-04-26
+allergy to house dust mite	biological process	skos:closeMatch	EFO:0006992	semapv:ManualMappingCuration	efo	2019-04-26
+allergy/hypersensitivity/anaphylaxis	disease	skos:closeMatch	EFO:0003785	semapv:ManualMappingCuration	efo	2019-04-26
+alopecia / hair loss	disease	skos:closeMatch	ORPHA:79364	semapv:ManualMappingCuration	efo	2019-04-26
+anaemia	phenotype	skos:closeMatch	EFO:0004272	semapv:ManualMappingCuration	efo	2019-04-26
+anal fissure	phenotype	skos:closeMatch	HP:0012390	semapv:ManualMappingCuration	efo	2019-04-26
+anal problem	phenotype	skos:closeMatch	HP:0004378	semapv:ManualMappingCuration	efo	2019-04-26
+angina	phenotype	skos:closeMatch	EFO:0003913	semapv:ManualMappingCuration	efo	2019-04-26
+ankylosing spondylitis	disease	skos:closeMatch	EFO:0003898	semapv:ManualMappingCuration	efo	2019-04-26
+anorexia/bulimia/other eating disorder	disease	skos:closeMatch	EFO:0005203	semapv:ManualMappingCuration	efo	2019-04-26
+anxiety/panic attacks	phenotype	skos:closeMatch	EFO:0004262	semapv:ManualMappingCuration	efo	2019-04-26
+anxiety/panic attacks	phenotype	skos:closeMatch	EFO:0005230	semapv:ManualMappingCuration	efo	2019-04-26
+aortic regurgitation / incompetence	disease	skos:closeMatch	EFO:0007148	semapv:ManualMappingCuration	efo	2019-04-26
+appendicitis	disease	skos:closeMatch	EFO:0007149	semapv:ManualMappingCuration	efo	2019-04-26
+arthritis (nos)	disease	skos:closeMatch	EFO:0005856	semapv:ManualMappingCuration	efo	2019-04-26
+asbestosis	disease	skos:closeMatch	EFO:0007153	semapv:ManualMappingCuration	efo	2019-04-26
+asthma	disease	skos:closeMatch	EFO:0000270	semapv:ManualMappingCuration	efo	2019-04-26
+atrial fibrillation	disease	skos:closeMatch	EFO:0000275	semapv:ManualMappingCuration	efo	2019-04-26
+back pain	phenotype	skos:closeMatch	HP:0003418	semapv:ManualMappingCuration	efo	2019-04-26
+back problem	phenotype	skos:closeMatch	HP:0003418	semapv:ManualMappingCuration	efo	2019-04-26
+basal cell carcinoma	disease	skos:closeMatch	EFO:0004193	semapv:ManualMappingCuration	efo	2019-04-26
+bell's palsy/facial nerve palsy	disease	skos:closeMatch	EFO:0007167	semapv:ManualMappingCuration	efo	2019-04-26
+benign / essential tremor	phenotype	skos:closeMatch	EFO:0003108	semapv:ManualMappingCuration	efo	2019-04-26
+benign breast lump	disease	skos:closeMatch	EFO:0003014	semapv:ManualMappingCuration	efo	2019-04-26
+benign neuroma	disease	skos:closeMatch	EFO:0009619	semapv:ManualMappingCuration	efo	2019-04-26
+bladder cancer	disease	skos:closeMatch	EFO:0000292	semapv:ManualMappingCuration	efo	2019-04-26
+bladder problem (not cancer)	disease	skos:closeMatch	EFO:1000018	semapv:ManualMappingCuration	efo	2019-04-26
+blepharitis / eyelid infection	disease	skos:closeMatch	EFO:0009536	semapv:ManualMappingCuration	efo	2019-04-26
+blistering/desquamating skin disorder	disease	skos:closeMatch	EFO:1000673	semapv:ManualMappingCuration	efo	2019-04-26
+bone disorder	disease	skos:closeMatch	EFO:0004260	semapv:ManualMappingCuration	efo	2019-04-26
+bowel / intestinal obstruction	phenotype	skos:closeMatch	HP:0004796	semapv:ManualMappingCuration	efo	2019-04-26
+bph / benign prostatic hypertrophy	disease	skos:closeMatch	EFO:0000284	semapv:ManualMappingCuration	efo	2019-04-26
+brain cancer / primary malignant brain tumour	disease	skos:closeMatch	EFO:0003833	semapv:ManualMappingCuration	efo	2019-04-26
+brain haemorrhage	disease	skos:closeMatch	EFO:0000551	semapv:ManualMappingCuration	efo	2019-04-26
+breast cancer	disease	skos:closeMatch	EFO:0000305	semapv:ManualMappingCuration	efo	2019-04-26
+breast cysts	disease	skos:closeMatch	EFO:1000848	semapv:ManualMappingCuration	efo	2019-04-26
+breast disease (not cancer)	disease	skos:closeMatch	EFO:0009483	semapv:ManualMappingCuration	efo	2019-04-26
+breast fibroadenoma	disease	skos:closeMatch	EFO:1000254	semapv:ManualMappingCuration	efo	2019-04-26
+bronchiectasis	phenotype	skos:closeMatch	HP:0002110	semapv:ManualMappingCuration	efo	2019-04-26
+bronchitis	disease	skos:closeMatch	EFO:1002018	semapv:ManualMappingCuration	efo	2019-04-26
+burns	disease	skos:closeMatch	EFO:0009516	semapv:ManualMappingCuration	efo	2019-04-26
+bursitis	disease	skos:closeMatch	EFO:1000941	semapv:ManualMappingCuration	efo	2019-04-26
+cancer of lip/mouth/pharynx/oral cavity	disease	skos:closeMatch	EFO:0005570	semapv:ManualMappingCuration	efo	2019-04-26
+cardiac arrest	disease	skos:closeMatch	EFO:0009492	semapv:ManualMappingCuration	efo	2019-04-26
+cardiomyopathy	disease	skos:closeMatch	EFO:0000318	semapv:ManualMappingCuration	efo	2019-04-26
+carpal tunnel syndrome	disease	skos:closeMatch	EFO:0004143	semapv:ManualMappingCuration	efo	2019-04-26
+cataract	disease	skos:closeMatch	EFO:0001059	semapv:ManualMappingCuration	efo	2019-04-26
+cellulitis	disease	skos:closeMatch	EFO:0003035	semapv:ManualMappingCuration	efo	2019-04-26
+cerebral aneurysm	disease	skos:closeMatch	EFO:0003870	semapv:ManualMappingCuration	efo	2019-04-26
+cerebral palsy	disease	skos:closeMatch	EFO:1000632	semapv:ManualMappingCuration	efo	2019-04-26
+cervical cancer	disease	skos:closeMatch	EFO:0001061	semapv:ManualMappingCuration	efo	2019-04-26
+cervical erosion	disease	skos:closeMatch	EFO:1000862	semapv:ManualMappingCuration	efo	2019-04-26
+cervical intra-epithelial neoplasia (cin) / precancerous cells cervix	disease	skos:closeMatch	EFO:1000910	semapv:ManualMappingCuration	efo	2019-04-26
+cervical polyps	disease	skos:closeMatch	EFO:0009475	semapv:ManualMappingCuration	efo	2019-04-26
+cervical spondylosis	disease	skos:closeMatch	EFO:0009610	semapv:ManualMappingCuration	efo	2019-04-26
+chickenpox	disease	skos:closeMatch	EFO:0007204	semapv:ManualMappingCuration	efo	2019-04-26
+cholecystitis	phenotype	skos:closeMatch	HP:0001082	semapv:ManualMappingCuration	efo	2019-04-26
+cholelithiasis/gall stones	disease	skos:closeMatch	EFO:0004210	semapv:ManualMappingCuration	efo	2019-04-26
+cholelithiasis/gall stones	disease	skos:closeMatch	EFO:0004799	semapv:ManualMappingCuration	efo	2019-04-26
+chronic bronchitis	disease	skos:closeMatch	EFO:0006505	semapv:ManualMappingCuration	efo	2019-04-26
+chronic fatigue syndrome	disease	skos:closeMatch	EFO:0004540	semapv:ManualMappingCuration	efo	2019-04-26
+chronic lymphocytic	disease	skos:closeMatch	EFO:0000095	semapv:ManualMappingCuration	efo	2019-04-26
+chronic myeloid	disease	skos:closeMatch	EFO:0000339	semapv:ManualMappingCuration	efo	2019-04-26
+chronic obstructive airways disease/copd	disease	skos:closeMatch	EFO:0000341	semapv:ManualMappingCuration	efo	2019-04-26
+chronic sinusitis	disease	skos:closeMatch	EFO:0007486	semapv:ManualMappingCuration	efo	2019-04-26
+chronic skin ulcers	phenotype	skos:closeMatch	EFO:0007066	semapv:ManualMappingCuration	efo	2019-04-26
+chronic/degenerative neurological problem	disease	skos:closeMatch	EFO:0005772	semapv:ManualMappingCuration	efo	2019-04-26
+cin/pre-cancer cells cervix	disease	skos:closeMatch	EFO:1000910	semapv:ManualMappingCuration	efo	2019-04-26
+clotting disorder/excessive bleeding	disease	skos:closeMatch	EFO:0009314	semapv:ManualMappingCuration	efo	2019-04-26
+colitis/not crohns or ulcerative colitis	disease	skos:closeMatch	EFO:0003872	semapv:ManualMappingCuration	efo	2019-04-26
+colon cancer/sigmoid cancer	disease	skos:closeMatch	EFO:1001950	semapv:ManualMappingCuration	efo	2019-04-26
+connective tissue disorder	disease	skos:closeMatch	EFO:1001986	semapv:ManualMappingCuration	efo	2019-04-26
+constipation	phenotype	skos:closeMatch	HP:0002019	semapv:ManualMappingCuration	efo	2019-04-26
+cranial nerve problem/palsy	disease	skos:closeMatch	EFO:0009489	semapv:ManualMappingCuration	efo	2019-04-26
+crohns disease	disease	skos:closeMatch	EFO:0000384	semapv:ManualMappingCuration	efo	2019-04-26
+cystitis	disease	skos:closeMatch	EFO:1000025	semapv:ManualMappingCuration	efo	2019-04-26
+deep venous thrombosis (dvt)	phenotype	skos:closeMatch	EFO:0003907	semapv:ManualMappingCuration	efo	2019-04-26
+deliberate self-harm/suicide attempt	biological process	skos:closeMatch	EFO:0004321	semapv:ManualMappingCuration	efo	2019-04-26
+dementia/alzheimers/cognitive impairment	disease	skos:closeMatch	EFO:0000249	semapv:ManualMappingCuration	efo	2019-04-26
+dementia/alzheimers/cognitive impairment	phenotype	skos:closeMatch	HP:0000726	semapv:ManualMappingCuration	efo	2019-04-26
+dementia/alzheimers/cognitive impairment	phenotype	skos:closeMatch	HP:0100543	semapv:ManualMappingCuration	efo	2019-04-26
+depression	disease	skos:closeMatch	EFO:0003761	semapv:ManualMappingCuration	efo	2019-04-26
+diabetes	disease	skos:closeMatch	EFO:0000400	semapv:ManualMappingCuration	efo	2019-04-26
+diabetic eye disease	disease	skos:closeMatch	EFO:0009486	semapv:ManualMappingCuration	efo	2019-04-26
+diabetic neuropathy/ulcers	disease	skos:closeMatch	EFO:1000783	semapv:ManualMappingCuration	efo	2019-04-26
+disc degeneration	disease	skos:closeMatch	EFO:0004994	semapv:ManualMappingCuration	efo	2019-04-26
+disc problem	disease	skos:closeMatch	EFO:0009477	semapv:ManualMappingCuration	efo	2019-04-26
+diverticular disease/diverticulitis	disease	skos:closeMatch	EFO:1001460	semapv:ManualMappingCuration	efo	2019-04-26
+dry eyes	disease	skos:closeMatch	EFO:1000906	semapv:ManualMappingCuration	efo	2019-04-26
+duodenal ulcer	disease	skos:closeMatch	EFO:0004607	semapv:ManualMappingCuration	efo	2019-04-26
+dupuytren's contracture	disease	skos:closeMatch	EFO:0004229	semapv:ManualMappingCuration	efo	2019-04-26
+dysmenorrhoea / dysmenorrhea	phenotype	skos:closeMatch	HP:0100607	semapv:ManualMappingCuration	efo	2019-04-26
+dyspepsia / indigestion	disease	skos:closeMatch	EFO:0008533	semapv:ManualMappingCuration	efo	2019-04-26
+ear/vestibular disorder	disease	skos:closeMatch	EFO:1001455	semapv:ManualMappingCuration	efo	2019-04-26
+ectopic pregnancy	phenotype	skos:closeMatch	HP:0031456	semapv:ManualMappingCuration	efo	2019-04-26
+eczema/dermatitis	phenotype	skos:closeMatch	HP:0000964	semapv:ManualMappingCuration	efo	2019-04-26
+emphysema	disease	skos:closeMatch	EFO:0000464	semapv:ManualMappingCuration	efo	2019-04-26
+emphysema/chronic bronchitis	disease	skos:closeMatch	EFO:0000464	semapv:ManualMappingCuration	efo	2019-04-26
+encephalitis	disease	skos:closeMatch	EFO:0001423	semapv:ManualMappingCuration	efo	2019-04-26
+endometriosis	disease	skos:closeMatch	EFO:0001065	semapv:ManualMappingCuration	efo	2019-04-26
+enlarged prostate	disease	skos:closeMatch	EFO:0000284	semapv:ManualMappingCuration	efo	2019-04-26
+epilepsy	disease	skos:closeMatch	EFO:0000474	semapv:ManualMappingCuration	efo	2019-04-26
+erectile dysfunction / impotence	disease	skos:closeMatch	EFO:0004234	semapv:ManualMappingCuration	efo	2019-04-26
+essential hypertension	disease	skos:closeMatch	EFO:1002032	semapv:ManualMappingCuration	efo	2019-04-26
+eye and/or adnexal cancer	disease	skos:closeMatch	EFO:0003824	semapv:ManualMappingCuration	efo	2019-04-26
+eye infection	disease	skos:closeMatch	EFO:1001888	semapv:ManualMappingCuration	efo	2019-04-26
+eye trauma	disease	skos:closeMatch	EFO:0009485	semapv:ManualMappingCuration	efo	2019-04-26
+eye/eyelid problem	disease	skos:closeMatch	EFO:0003966	semapv:ManualMappingCuration	efo	2019-04-26
+female infertility	disease	skos:closeMatch	EFO:0008560	semapv:ManualMappingCuration	efo	2019-04-26
+femoral hernia	disease	skos:closeMatch	EFO:1001791	semapv:ManualMappingCuration	efo	2019-04-26
+fibrocystic disease	disease	skos:closeMatch	EFO:0003014	semapv:ManualMappingCuration	efo	2019-04-26
+fibromyalgia	disease	skos:closeMatch	EFO:0005687	semapv:ManualMappingCuration	efo	2019-04-26
+fibrosing alveolitis/unspecified alveolitis	disease	skos:closeMatch	EFO:0009624	semapv:ManualMappingCuration	efo	2019-04-26
+food intolerance	disease	skos:closeMatch	EFO:1001890	semapv:ManualMappingCuration	efo	2019-04-26
+fracture clavicle / collar bone	disease	skos:closeMatch	EFO:0009614	semapv:ManualMappingCuration	efo	2019-04-26
+fracture face / orbit / eye socket	disease	skos:closeMatch	EFO:0009611	semapv:ManualMappingCuration	efo	2019-04-26
+fracture fibula	disease	skos:closeMatch	EFO:0009613	semapv:ManualMappingCuration	efo	2019-04-26
+fracture finger	disease	skos:closeMatch	EFO:0009616	semapv:ManualMappingCuration	efo	2019-04-26
+fracture foot	disease	skos:closeMatch	EFO:0009618	semapv:ManualMappingCuration	efo	2019-04-26
+fracture forearm / wrist	disease	skos:closeMatch	EFO:0009515	semapv:ManualMappingCuration	efo	2019-04-26
+fracture hand	disease	skos:closeMatch	EFO:0009514	semapv:ManualMappingCuration	efo	2019-04-26
+fracture jaw	disease	skos:closeMatch	EFO:0009612	semapv:ManualMappingCuration	efo	2019-04-26
+fracture lower leg / ankle	disease	skos:closeMatch	EFO:0009512	semapv:ManualMappingCuration	efo	2019-04-26
+fracture lower leg / ankle	disease	skos:closeMatch	EFO:0009615	semapv:ManualMappingCuration	efo	2019-04-26
+fracture metatarsal	disease	skos:closeMatch	EFO:0003931	semapv:ManualMappingCuration	efo	2019-04-26
+fracture neck of femur / hip	disease	skos:closeMatch	EFO:0003964	semapv:ManualMappingCuration	efo	2019-04-26
+fracture neck of femur / hip	disease	skos:closeMatch	EFO:0008553	semapv:ManualMappingCuration	efo	2019-04-26
+fracture nose	disease	skos:closeMatch	EFO:0009623	semapv:ManualMappingCuration	efo	2019-04-26
+fracture patella / knee	disease	skos:closeMatch	EFO:0009617	semapv:ManualMappingCuration	efo	2019-04-26
+fracture pelvis	disease	skos:closeMatch	EFO:0009622	semapv:ManualMappingCuration	efo	2019-04-26
+fracture radius	disease	skos:closeMatch	EFO:0003957	semapv:ManualMappingCuration	efo	2019-04-26
+fracture rib	disease	skos:closeMatch	EFO:0009620	semapv:ManualMappingCuration	efo	2019-04-26
+fracture shaft of femur	disease	skos:closeMatch	EFO:0008553	semapv:ManualMappingCuration	efo	2019-04-26
+fracture shoulder / scapula	disease	skos:closeMatch	EFO:0009621	semapv:ManualMappingCuration	efo	2019-04-26
+fracture skull / head	disease	skos:closeMatch	EFO:1001425	semapv:ManualMappingCuration	efo	2019-04-26
+fracture thumb	disease	skos:closeMatch	EFO:0009616	semapv:ManualMappingCuration	efo	2019-04-26
+fracture tibia	disease	skos:closeMatch	EFO:0003944	semapv:ManualMappingCuration	efo	2019-04-26
+fracture toe	disease	skos:closeMatch	EFO:0009618	semapv:ManualMappingCuration	efo	2019-04-26
+fracture ulna	disease	skos:closeMatch	EFO:0003950	semapv:ManualMappingCuration	efo	2019-04-26
+fracture upper arm / humerus / elbow	disease	skos:closeMatch	EFO:0009514	semapv:ManualMappingCuration	efo	2019-04-26
+fracture vertebra / crush fracture / vertebral collapse	disease	skos:closeMatch	EFO:0003902	semapv:ManualMappingCuration	efo	2019-04-26
+fracture wrist / colles fracture	disease	skos:closeMatch	EFO:0009515	semapv:ManualMappingCuration	efo	2019-04-26
+gall bladder disease	disease	skos:closeMatch	EFO:0003832	semapv:ManualMappingCuration	efo	2019-04-26
+gastric/stomach ulcers	phenotype	skos:closeMatch	HP:0004398	semapv:ManualMappingCuration	efo	2019-04-26
+gastritis/gastric erosions	disease	skos:closeMatch	EFO:0000217	semapv:ManualMappingCuration	efo	2019-04-26
+gastro-oesophageal reflux (gord) / gastric reflux	disease	skos:closeMatch	EFO:0003948	semapv:ManualMappingCuration	efo	2019-04-26
+gastroenteritis/dysentry	disease	skos:closeMatch	EFO:1001463	semapv:ManualMappingCuration	efo	2019-04-26
+gastroenteritis/dysentry	disease	skos:closeMatch	EFO:1001869	semapv:ManualMappingCuration	efo	2019-04-26
+gastrointestinal bleeding	phenotype	skos:closeMatch	HP:0002239	semapv:ManualMappingCuration	efo	2019-04-26
+gestational diabetes	disease	skos:closeMatch	EFO:0004593	semapv:ManualMappingCuration	efo	2019-04-26
+gestational hypertension/pre-eclampsia	disease	skos:closeMatch	EFO:0000668	semapv:ManualMappingCuration	efo	2019-04-26
+giant cell/temporal arteritis	disease	skos:closeMatch	EFO:1001209	semapv:ManualMappingCuration	efo	2019-04-26
+glaucoma	disease	skos:closeMatch	EFO:0000516	semapv:ManualMappingCuration	efo	2019-04-26
+gout	disease	skos:closeMatch	EFO:0004274	semapv:ManualMappingCuration	efo	2019-04-26
+grave's disease	disease	skos:closeMatch	EFO:0004237	semapv:ManualMappingCuration	efo	2019-04-26
+gynaecological disorder (not cancer)	disease	skos:closeMatch	EFO:0009549	semapv:ManualMappingCuration	efo	2019-04-26
+haemorrhoids / piles	disease	skos:closeMatch	EFO:0009552	semapv:ManualMappingCuration	efo	2019-04-26
+hayfever or allergic rhinitis	disease	skos:closeMatch	EFO:0003956	semapv:ManualMappingCuration	efo	2019-04-26
+hayfever/allergic rhinitis	disease	skos:closeMatch	EFO:0003956	semapv:ManualMappingCuration	efo	2019-04-26
+hayfever/allergic rhinitis	disease	skos:closeMatch	EFO:0005854	semapv:ManualMappingCuration	efo	2019-04-26
+head injury	disease	skos:closeMatch	EFO:0009505	semapv:ManualMappingCuration	efo	2019-04-26
+headaches (not migraine)	phenotype	skos:closeMatch	HP:0002315	semapv:ManualMappingCuration	efo	2019-04-26
+heart arrhythmia	disease	skos:closeMatch	EFO:0004269	semapv:ManualMappingCuration	efo	2019-04-26
+heart attack/myocardial infarction	disease	skos:closeMatch	EFO:0000612	semapv:ManualMappingCuration	efo	2019-04-26
+heart failure/pulmonary odema	disease	skos:closeMatch	EFO:0003144	semapv:ManualMappingCuration	efo	2019-04-26
+heart valve problem/heart murmur	disease	skos:closeMatch	EFO:0009551	semapv:ManualMappingCuration	efo	2019-04-26
+heart/cardiac problem	disease	skos:closeMatch	EFO:0003777	semapv:ManualMappingCuration	efo	2019-04-26
+helicobacter pylori	organism	skos:closeMatch	NCBITaxon:210	semapv:ManualMappingCuration	efo	2019-04-26
+hepatitis	phenotype	skos:closeMatch	HP:0012115	semapv:ManualMappingCuration	efo	2019-04-26
+hepatitis a	disease	skos:closeMatch	EFO:0007305	semapv:ManualMappingCuration	efo	2019-04-26
+hepatitis b	disease	skos:closeMatch	EFO:0004197	semapv:ManualMappingCuration	efo	2019-04-26
+hepatitis c	disease	skos:closeMatch	EFO:0003047	semapv:ManualMappingCuration	efo	2019-04-26
+hereditary/genetic haematological disorder	disease	skos:closeMatch	EFO:0005803	semapv:ManualMappingCuration	efo	2019-04-26
+herpes simplex	disease	skos:closeMatch	EFO:1002022	semapv:ManualMappingCuration	efo	2019-04-26
+hiatus hernia	phenotype	skos:closeMatch	HP:0002036	semapv:ManualMappingCuration	efo	2019-04-26
+high cholesterol	phenotype	skos:closeMatch	HP:0003124	semapv:ManualMappingCuration	efo	2019-04-26
+hiv/aids	disease	skos:closeMatch	EFO:0000764	semapv:ManualMappingCuration	efo	2019-04-26
+hiv/aids	disease	skos:closeMatch	EFO:0000765	semapv:ManualMappingCuration	efo	2019-04-26
+hodgkins lymphoma / hodgkins disease	disease	skos:closeMatch	EFO:0000183	semapv:ManualMappingCuration	efo	2019-04-26
+hypertension	disease	skos:closeMatch	EFO:0000537	semapv:ManualMappingCuration	efo	2019-04-26
+hyperthyroidism/thyrotoxicosis	disease	skos:closeMatch	EFO:0009189	semapv:ManualMappingCuration	efo	2019-04-26
+hyperthyroidism/thyrotoxicosis	disease	skos:closeMatch	EFO:0009190	semapv:ManualMappingCuration	efo	2019-04-26
+hypertrophic cardiomyopathy (hcm / hocm)	disease	skos:closeMatch	EFO:0000538	semapv:ManualMappingCuration	efo	2019-04-26
+hypopituitarism	disease	skos:closeMatch	EFO:0001380	semapv:ManualMappingCuration	efo	2019-04-26
+hypothyroidism/myxoedema	disease	skos:closeMatch	EFO:0004705	semapv:ManualMappingCuration	efo	2019-04-26
+hypothyroidism/myxoedema	disease	skos:closeMatch	EFO:1001055	semapv:ManualMappingCuration	efo	2019-04-26
+idiopathic pulmonary fibrosis	disease	skos:closeMatch	EFO:0000768	semapv:ManualMappingCuration	efo	2019-04-26
+incisional hernia	phenotype	skos:closeMatch	HP:0004872	semapv:ManualMappingCuration	efo	2019-04-26
+infectious mononucleosis / glandular fever / epstein barr virus (ebv)	disease	skos:closeMatch	EFO:0000769	semapv:ManualMappingCuration	efo	2019-04-26
+infectious mononucleosis / glandular fever / epstein barr virus (ebv)	disease	skos:closeMatch	EFO:0007326	semapv:ManualMappingCuration	efo	2019-04-26
+infective/viral hepatitis	disease	skos:closeMatch	EFO:0004196	semapv:ManualMappingCuration	efo	2019-04-26
+inflammatory bowel disease	disease	skos:closeMatch	EFO:0003767	semapv:ManualMappingCuration	efo	2019-04-26
+inguinal hernia	phenotype	skos:closeMatch	HP:0000023	semapv:ManualMappingCuration	efo	2019-04-26
+insomnia	disease	skos:closeMatch	EFO:0004698	semapv:ManualMappingCuration	efo	2019-04-26
+interstitial lung disease	disease	skos:closeMatch	EFO:0004244	semapv:ManualMappingCuration	efo	2019-04-26
+iritis	disease	skos:closeMatch	EFO:1000997	semapv:ManualMappingCuration	efo	2019-04-26
+iron deficiency anaemia	phenotype	skos:closeMatch	HP:0001891	semapv:ManualMappingCuration	efo	2019-04-26
+irregular heart beat	disease	skos:closeMatch	EFO:0004269	semapv:ManualMappingCuration	efo	2019-04-26
+irritable bowel syndrome	disease	skos:closeMatch	EFO:0000555	semapv:ManualMappingCuration	efo	2019-04-26
+jaundice (unknown cause)	phenotype	skos:closeMatch	HP:0000952	semapv:ManualMappingCuration	efo	2019-04-26
+joint disorder	disease	skos:closeMatch	EFO:1000999	semapv:ManualMappingCuration	efo	2019-04-26
+joint pain	phenotype	skos:closeMatch	HP:0002829	semapv:ManualMappingCuration	efo	2019-04-26
+kidney stone/ureter stone/bladder stone	disease	skos:closeMatch	EFO:0004253	semapv:ManualMappingCuration	efo	2019-04-26
+kidney stone/ureter stone/bladder stone	disease	skos:closeMatch	EFO:1000839	semapv:ManualMappingCuration	efo	2019-04-26
+kidney stone/ureter stone/bladder stone	disease	skos:closeMatch	EFO:1001228	semapv:ManualMappingCuration	efo	2019-04-26
+kidney/renal cell cancer	disease	skos:closeMatch	EFO:0003865	semapv:ManualMappingCuration	efo	2019-04-26
+labyrinthitis	disease	skos:closeMatch	EFO:0009604	semapv:ManualMappingCuration	efo	2019-04-26
+large bowel cancer/colorectal cancer	disease	skos:closeMatch	EFO:1001951	semapv:ManualMappingCuration	efo	2019-04-26
+larynx/throat cancer	disease	skos:closeMatch	EFO:0003817	semapv:ManualMappingCuration	efo	2019-04-26
+leg claudication/ intermittent claudication	disease	skos:closeMatch	EFO:0003876	semapv:ManualMappingCuration	efo	2019-04-26
+leukaemia	disease	skos:closeMatch	EFO:0000565	semapv:ManualMappingCuration	efo	2019-04-26
+lichen planus	disease	skos:closeMatch	EFO:1000726	semapv:ManualMappingCuration	efo	2019-04-26
+lichen sclerosis	disease	skos:closeMatch	EFO:1000724	semapv:ManualMappingCuration	efo	2019-04-26
+liver failure/cirrhosis	disease	skos:closeMatch	EFO:0001422	semapv:ManualMappingCuration	efo	2019-04-26
+liver/biliary/pancreas problem	disease	skos:closeMatch	EFO:0001421	semapv:ManualMappingCuration	efo	2019-04-26
+liver/biliary/pancreas problem	disease	skos:closeMatch	EFO:0009534	semapv:ManualMappingCuration	efo	2019-04-26
+liver/biliary/pancreas problem	disease	skos:closeMatch	EFO:0009605	semapv:ManualMappingCuration	efo	2019-04-26
+liver/hepatocellular cancer	disease	skos:closeMatch	EFO:0000182	semapv:ManualMappingCuration	efo	2019-04-26
+low platelets/platelet disorder	phenotype	skos:closeMatch	HP:0001873	semapv:ManualMappingCuration	efo	2019-04-26
+lung cancer	disease	skos:closeMatch	EFO:0001071	semapv:ManualMappingCuration	efo	2019-04-26
+lung cancer (not mesothelioma)	disease	skos:closeMatch	EFO:0001071	semapv:ManualMappingCuration	efo	2019-04-26
+lymphoedema	disease	skos:closeMatch	ORPHA:79383	semapv:ManualMappingCuration	efo	2019-04-26
+lymphoma	disease	skos:closeMatch	EFO:0000574	semapv:ManualMappingCuration	efo	2019-04-26
+macular degeneration	disease	skos:closeMatch	EFO:0009606	semapv:ManualMappingCuration	efo	2019-04-26
+malabsorption/coeliac disease	disease	skos:closeMatch	EFO:0001060	semapv:ManualMappingCuration	efo	2019-04-26
+malaria	disease	skos:closeMatch	EFO:0001068	semapv:ManualMappingCuration	efo	2019-04-26
+malignant melanoma	disease	skos:closeMatch	EFO:0000756	semapv:ManualMappingCuration	efo	2019-04-26
+mania/bipolar disorder/manic depression	disease	skos:closeMatch	EFO:0000289	semapv:ManualMappingCuration	efo	2019-04-26
+marasmus	disease	skos:closeMatch	EFO:0009563	semapv:ManualMappingCuration	efo	2019-04-26
+measles / morbillivirus	disease	skos:closeMatch	EFO:1002025	semapv:ManualMappingCuration	efo	2019-04-26
+meniere's disease	disease	skos:closeMatch	EFO:0006862	semapv:ManualMappingCuration	efo	2019-04-26
+meningioma / benign meningeal tumour	disease	skos:closeMatch	ORPHA:2495	semapv:ManualMappingCuration	efo	2019-04-26
+meningitis	disease	skos:closeMatch	EFO:0000584	semapv:ManualMappingCuration	efo	2019-04-26
+menopausal symptoms / menopause	phenotype	skos:closeMatch	EFO:0003922	semapv:ManualMappingCuration	efo	2019-04-26
+menorrhagia (unknown cause)	phenotype	skos:closeMatch	HP:0000132	semapv:ManualMappingCuration	efo	2019-04-26
+migraine	disease	skos:closeMatch	EFO:0003821	semapv:ManualMappingCuration	efo	2019-04-26
+miscarriage	disease	skos:closeMatch	EFO:1001255	semapv:ManualMappingCuration	efo	2019-04-26
+mitral regurgitation / incompetence	disease	skos:closeMatch	EFO:0009557	semapv:ManualMappingCuration	efo	2019-04-26
+multiple myeloma	disease	skos:closeMatch	EFO:0001378	semapv:ManualMappingCuration	efo	2019-04-26
+multiple sclerosis	disease	skos:closeMatch	EFO:0003885	semapv:ManualMappingCuration	efo	2019-04-26
+mumps / epidemic parotitis	disease	skos:closeMatch	EFO:0007383	semapv:ManualMappingCuration	efo	2019-04-26
+muscle or soft tissue injuries	disease	skos:closeMatch	EFO:0000546	semapv:ManualMappingCuration	efo	2019-04-26
+muscle/soft tissue problem	disease	skos:closeMatch	EFO:0009470	semapv:ManualMappingCuration	efo	2019-04-26
+myasthenia gravis	disease	skos:closeMatch	EFO:0004991	semapv:ManualMappingCuration	efo	2019-04-26
+myocarditis	disease	skos:closeMatch	EFO:0009609	semapv:ManualMappingCuration	efo	2019-04-26
+myositis/myopathy	disease	skos:closeMatch	EFO:0000783	semapv:ManualMappingCuration	efo	2019-04-26
+myositis/myopathy	disease	skos:closeMatch	EFO:0004145	semapv:ManualMappingCuration	efo	2019-04-26
+nasal polyps	disease	skos:closeMatch	EFO:1000391	semapv:ManualMappingCuration	efo	2019-04-26
+nasal/sinus disorder	disease	skos:closeMatch	EFO:0009481	semapv:ManualMappingCuration	efo	2019-04-26
+neck problem/injury	disease	skos:closeMatch	EFO:0009476	semapv:ManualMappingCuration	efo	2019-04-26
+nephritis	disease	skos:closeMatch	EFO:1002050	semapv:ManualMappingCuration	efo	2019-04-26
+nervous breakdown	disease	skos:closeMatch	EFO:0000677	semapv:ManualMappingCuration	efo	2019-04-26
+neurological injury/trauma	disease	skos:closeMatch	EFO:0009490	semapv:ManualMappingCuration	efo	2019-04-26
+neutropenia/lymphopenia	phenotype	skos:closeMatch	HP:0001875	semapv:ManualMappingCuration	efo	2019-04-26
+neutropenia/lymphopenia	phenotype	skos:closeMatch	HP:0001888	semapv:ManualMappingCuration	efo	2019-04-26
+non-hodgkins lymphoma	disease	skos:closeMatch	EFO:0005952	semapv:ManualMappingCuration	efo	2019-04-26
+non-infective hepatitis	phenotype	skos:closeMatch	HP:0012115	semapv:ManualMappingCuration	efo	2019-04-26
+non-melanoma skin cancer	disease	skos:closeMatch	EFO:0009260	semapv:ManualMappingCuration	efo	2019-04-26
+obsessive compulsive disorder (ocd)	disease	skos:closeMatch	EFO:0004242	semapv:ManualMappingCuration	efo	2019-04-26
+oesophageal cancer	disease	skos:closeMatch	EFO:0002916	semapv:ManualMappingCuration	efo	2019-04-26
+oesophageal disorder	disease	skos:closeMatch	EFO:0009544	semapv:ManualMappingCuration	efo	2019-04-26
+oesophageal stricture	phenotype	skos:closeMatch	HP:0002043	semapv:ManualMappingCuration	efo	2019-04-26
+oesophagitis/barretts oesophagus	disease	skos:closeMatch	EFO:0000280	semapv:ManualMappingCuration	efo	2019-04-26
+oesophagitis/barretts oesophagus	phenotype	skos:closeMatch	HP:0100633	semapv:ManualMappingCuration	efo	2019-04-26
+optic neuritis	disease	skos:closeMatch	EFO:0007405	semapv:ManualMappingCuration	efo	2019-04-26
+osteoarthritis	disease	skos:closeMatch	EFO:0002506	semapv:ManualMappingCuration	efo	2019-04-26
+osteomyelitis	disease	skos:closeMatch	EFO:0003102	semapv:ManualMappingCuration	efo	2019-04-26
+osteopenia	phenotype	skos:closeMatch	HP:0000938	semapv:ManualMappingCuration	efo	2019-04-26
+osteoporosis	disease	skos:closeMatch	EFO:0003882	semapv:ManualMappingCuration	efo	2019-04-26
+other abdominal problem	phenotype	skos:closeMatch	EFO:0003766	semapv:ManualMappingCuration	efo	2019-04-26
+other disorders of circulatory system	disease	skos:closeMatch	EFO:0000319	semapv:ManualMappingCuration	efo	2019-04-26
+other injuries of shoulder and upper arm	disease	skos:closeMatch	EFO:1001250	semapv:ManualMappingCuration	efo	2019-04-26
+other joint disorder	disease	skos:closeMatch	EFO:1000999	semapv:ManualMappingCuration	efo	2019-04-26
+other neurological problem	disease	skos:closeMatch	EFO:0000618	semapv:ManualMappingCuration	efo	2019-04-26
+other renal/kidney problem	disease	skos:closeMatch	EFO:0003086	semapv:ManualMappingCuration	efo	2019-04-26
+other respiratory problems	disease	skos:closeMatch	EFO:0000684	semapv:ManualMappingCuration	efo	2019-04-26
+other syphilis	disease	skos:closeMatch	EFO:0007504	semapv:ManualMappingCuration	efo	2019-04-26
+otosclerosis	disease	skos:closeMatch	EFO:0004213	semapv:ManualMappingCuration	efo	2019-04-26
+ovarian cancer	disease	skos:closeMatch	EFO:0001075	semapv:ManualMappingCuration	efo	2019-04-26
+ovarian cyst or cysts	phenotype	skos:closeMatch	HP:0000138	semapv:ManualMappingCuration	efo	2019-04-26
+pancreatitis	disease	skos:closeMatch	EFO:0000278	semapv:ManualMappingCuration	efo	2019-04-26
+parathyroid gland problem (not cancer)	disease	skos:closeMatch	EFO:0005754	semapv:ManualMappingCuration	efo	2019-04-26
+parathyroid hyperplasia/adenoma	disease	skos:closeMatch	EFO:1000457	semapv:ManualMappingCuration	efo	2019-04-26
+parkinsons disease	disease	skos:closeMatch	EFO:0002508	semapv:ManualMappingCuration	efo	2019-04-26
+peptic ulcer	phenotype	skos:closeMatch	HP:0004398	semapv:ManualMappingCuration	efo	2019-04-26
+pericardial problem	disease	skos:closeMatch	EFO:0007427	semapv:ManualMappingCuration	efo	2019-04-26
+pericarditis	disease	skos:closeMatch	EFO:0007427	semapv:ManualMappingCuration	efo	2019-04-26
+peripheral nerve disorder	disease	skos:closeMatch	EFO:0009387	semapv:ManualMappingCuration	efo	2019-04-26
+peripheral nerve injury	disease	skos:closeMatch	EFO:0009510	semapv:ManualMappingCuration	efo	2019-04-26
+peripheral neuropathy	disease	skos:closeMatch	EFO:0003100	semapv:ManualMappingCuration	efo	2019-04-26
+peripheral vascular disease	disease	skos:closeMatch	EFO:0003875	semapv:ManualMappingCuration	efo	2019-04-26
+peritonitis	disease	skos:closeMatch	EFO:0008588	semapv:ManualMappingCuration	efo	2019-04-26
+pernicious anaemia	disease	skos:closeMatch	EFO:0005576	semapv:ManualMappingCuration	efo	2019-04-26
+pituitary adenoma/tumour	disease	skos:closeMatch	EFO:1000478	semapv:ManualMappingCuration	efo	2019-04-26
+plantar fascitis	phenotype	skos:closeMatch	EFO:1001909	semapv:ManualMappingCuration	efo	2019-04-26
+pleurisy	disease	skos:closeMatch	EFO:1001825	semapv:ManualMappingCuration	efo	2019-04-26
+pneumonia	disease	skos:closeMatch	EFO:0003106	semapv:ManualMappingCuration	efo	2019-04-26
+pneumothorax	phenotype	skos:closeMatch	HP:0002107	semapv:ManualMappingCuration	efo	2019-04-26
+polio / poliomyelitis	disease	skos:closeMatch	EFO:0007450	semapv:ManualMappingCuration	efo	2019-04-26
+polycystic kidney	disease	skos:closeMatch	EFO:0008620	semapv:ManualMappingCuration	efo	2019-04-26
+polycystic ovaries/polycystic ovarian syndrome	disease	skos:closeMatch	EFO:0000660	semapv:ManualMappingCuration	efo	2019-04-26
+polycythaemia vera	disease	skos:closeMatch	EFO:0002429	semapv:ManualMappingCuration	efo	2019-04-26
+polymyalgia rheumatica	disease	skos:closeMatch	EFO:0008518	semapv:ManualMappingCuration	efo	2019-04-26
+post-natal depression	disease	skos:closeMatch	EFO:0007453	semapv:ManualMappingCuration	efo	2019-04-26
+post-traumatic stress disorder	disease	skos:closeMatch	EFO:0001358	semapv:ManualMappingCuration	efo	2019-04-26
+primary bone cancer	disease	skos:closeMatch	EFO:0003820	semapv:ManualMappingCuration	efo	2019-04-26
+prolapsed disc/slipped disc	disease	skos:closeMatch	EFO:1002005	semapv:ManualMappingCuration	efo	2019-04-26
+prostate cancer	disease	skos:closeMatch	EFO:0001663	semapv:ManualMappingCuration	efo	2019-04-26
+prostate problem (not cancer)	disease	skos:closeMatch	EFO:0009602	semapv:ManualMappingCuration	efo	2019-04-26
+prostatitis	disease	skos:closeMatch	EFO:0003830	semapv:ManualMappingCuration	efo	2019-04-26
+psoriasis	disease	skos:closeMatch	EFO:0000676	semapv:ManualMappingCuration	efo	2019-04-26
+psoriatic arthropathy	disease	skos:closeMatch	EFO:0003778	semapv:ManualMappingCuration	efo	2019-04-26
+psychological/psychiatric problem	disease	skos:closeMatch	EFO:0005407	semapv:ManualMappingCuration	efo	2019-04-26
+pulmonary embolism +/- dvt	disease	skos:closeMatch	EFO:0003827	semapv:ManualMappingCuration	efo	2019-04-26
+pulmonary fibrosis	disease	skos:closeMatch	EFO:0009448	semapv:ManualMappingCuration	efo	2019-04-26
+pyloric stenosis	disease	skos:closeMatch	EFO:0009626	semapv:ManualMappingCuration	efo	2019-04-26
+raynaud's phenomenon/disease	disease	skos:closeMatch	EFO:1001145	semapv:ManualMappingCuration	efo	2019-04-26
+rectal cancer	disease	skos:closeMatch	EFO:1000657	semapv:ManualMappingCuration	efo	2019-04-26
+rectal or colon adenoma/polyps	disease	skos:closeMatch	EFO:1000633	semapv:ManualMappingCuration	efo	2019-04-26
+rectal prolapse	phenotype	skos:closeMatch	HP:0002035	semapv:ManualMappingCuration	efo	2019-04-26
+renal failure not requiring dialysis	disease	skos:closeMatch	EFO:1002048	semapv:ManualMappingCuration	efo	2019-04-26
+renal failure requiring dialysis	disease	skos:closeMatch	EFO:1002048	semapv:ManualMappingCuration	efo	2019-04-26
+renal/kidney failure	disease	skos:closeMatch	EFO:1002048	semapv:ManualMappingCuration	efo	2019-04-26
+respiratory infection	disease	skos:closeMatch	EFO:0003106	semapv:ManualMappingCuration	efo	2019-04-26
+retinal artery/vein occlusion	disease	skos:closeMatch	EFO:1001154	semapv:ManualMappingCuration	efo	2019-04-26
+retinal artery/vein occlusion	disease	skos:closeMatch	EFO:1001157	semapv:ManualMappingCuration	efo	2019-04-26
+retinal detachment	disease	skos:closeMatch	EFO:0005773	semapv:ManualMappingCuration	efo	2019-04-26
+retinal problem	disease	skos:closeMatch	EFO:0003839	semapv:ManualMappingCuration	efo	2019-04-26
+rheumatic fever	disease	skos:closeMatch	EFO:1001160	semapv:ManualMappingCuration	efo	2019-04-26
+rheumatoid arthritis	disease	skos:closeMatch	EFO:0000685	semapv:ManualMappingCuration	efo	2019-04-26
+rodent ulcer	disease	skos:closeMatch	EFO:0004193	semapv:ManualMappingCuration	efo	2019-04-26
+rosacea	disease	skos:closeMatch	EFO:1000760	semapv:ManualMappingCuration	efo	2019-04-26
+rubella / german measles	disease	skos:closeMatch	EFO:1002026	semapv:ManualMappingCuration	efo	2019-04-26
+sarcoidosis	disease	skos:closeMatch	ORPHA:797	semapv:ManualMappingCuration	efo	2019-04-26
+sarcoma/fibrosarcoma	disease	skos:closeMatch	EFO:0000691	semapv:ManualMappingCuration	efo	2019-04-26
+sarcoma/fibrosarcoma	disease	skos:closeMatch	EFO:0002087	semapv:ManualMappingCuration	efo	2019-04-26
+scarlet fever / scarlatina	disease	skos:closeMatch	EFO:0007477	semapv:ManualMappingCuration	efo	2019-04-26
+schizophrenia	disease	skos:closeMatch	EFO:0000692	semapv:ManualMappingCuration	efo	2019-04-26
+sciatica	phenotype	skos:closeMatch	HP:0011868	semapv:ManualMappingCuration	efo	2019-04-26
+scleroderma/systemic sclerosis	disease	skos:closeMatch	EFO:0000717	semapv:ManualMappingCuration	efo	2019-04-26
+scleroderma/systemic sclerosis	disease	skos:closeMatch	EFO:1001993	semapv:ManualMappingCuration	efo	2019-04-26
+scoliosis	disease	skos:closeMatch	EFO:0004273	semapv:ManualMappingCuration	efo	2019-04-26
+septicaemia / sepsis	phenotype	skos:closeMatch	HP:0100806	semapv:ManualMappingCuration	efo	2019-04-26
+shingles	disease	skos:closeMatch	EFO:0006510	semapv:ManualMappingCuration	efo	2019-04-26
+sjogren's syndrome/sicca syndrome	disease	skos:closeMatch	EFO:0000699	semapv:ManualMappingCuration	efo	2019-04-26
+skin cancer	disease	skos:closeMatch	EFO:0009259	semapv:ManualMappingCuration	efo	2019-04-26
+sleep apnoea	disease	skos:closeMatch	EFO:0003877	semapv:ManualMappingCuration	efo	2019-04-26
+small intestine/small bowel cancer	disease	skos:closeMatch	EFO:0005588	semapv:ManualMappingCuration	efo	2019-04-26
+soft tissue inflammation	disease	skos:closeMatch	EFO:0009470	semapv:ManualMappingCuration	efo	2019-04-26
+spinal cord disorder	disease	skos:closeMatch	EFO:0009488	semapv:ManualMappingCuration	efo	2019-04-26
+spinal injury	disease	skos:closeMatch	EFO:1001919	semapv:ManualMappingCuration	efo	2019-04-26
+spinal stenosis	disease	skos:closeMatch	EFO:0007490	semapv:ManualMappingCuration	efo	2019-04-26
+spine arthritis/spondylitis	disease	skos:closeMatch	EFO:1000787	semapv:ManualMappingCuration	efo	2019-04-26
+spontaneous pneumothorax/recurrent pneumothorax	phenotype	skos:closeMatch	HP:0002108	semapv:ManualMappingCuration	efo	2019-04-26
+squamous cell carcinoma	disease	skos:closeMatch	EFO:0000707	semapv:ManualMappingCuration	efo	2019-04-26
+stomach cancer	disease	skos:closeMatch	EFO:0003897	semapv:ManualMappingCuration	efo	2019-04-26
+stomach disorder	disease	skos:closeMatch	EFO:0009608	semapv:ManualMappingCuration	efo	2019-04-26
+stress	biological process	skos:closeMatch	EFO:1001920	semapv:ManualMappingCuration	efo	2019-04-26
+stroke	disease	skos:closeMatch	EFO:0000712	semapv:ManualMappingCuration	efo	2019-04-26
+subarachnoid haemorrhage	disease	skos:closeMatch	EFO:0000713	semapv:ManualMappingCuration	efo	2019-04-26
+subdural haemorrhage/haematoma	phenotype	skos:closeMatch	HP:0100309	semapv:ManualMappingCuration	efo	2019-04-26
+svt / supraventricular tachycardia	phenotype	skos:closeMatch	HP:0004755	semapv:ManualMappingCuration	efo	2019-04-26
+systemic lupus erythematosis/sle	disease	skos:closeMatch	EFO:0002690	semapv:ManualMappingCuration	efo	2019-04-26
+tendonitis / tendinitis / tenosynovitis	disease	skos:closeMatch	EFO:1001434	semapv:ManualMappingCuration	efo	2019-04-26
+tendonitis / tendinitis / tenosynovitis	disease	skos:closeMatch	EFO:1001435	semapv:ManualMappingCuration	efo	2019-04-26
+tennis elbow / lateral epicondylitis	disease	skos:closeMatch	EFO:1001896	semapv:ManualMappingCuration	efo	2019-04-26
+testicular cancer	disease	skos:closeMatch	EFO:0005088	semapv:ManualMappingCuration	efo	2019-04-26
+testicular problems (not cancer)	disease	skos:closeMatch	EFO:0009601	semapv:ManualMappingCuration	efo	2019-04-26
+thalassaemia	disease	skos:closeMatch	EFO:1001996	semapv:ManualMappingCuration	efo	2019-04-26
+throat or larynx disorder	disease	skos:closeMatch	EFO:0009479	semapv:ManualMappingCuration	efo	2019-04-26
+thyroid cancer	disease	skos:closeMatch	EFO:0002892	semapv:ManualMappingCuration	efo	2019-04-26
+thyroid goitre	disease	skos:closeMatch	EFO:0004283	semapv:ManualMappingCuration	efo	2019-04-26
+thyroid problem (not cancer)	disease	skos:closeMatch	EFO:1000627	semapv:ManualMappingCuration	efo	2019-04-26
+thyroid radioablation therapy	experimental process	skos:closeMatch	EFO:0009600	semapv:ManualMappingCuration	efo	2019-04-26
+thyroiditis	disease	skos:closeMatch	EFO:1000627	semapv:ManualMappingCuration	efo	2019-04-26
+tinnitus / tiniitis	phenotype	skos:closeMatch	HP:0000360	semapv:ManualMappingCuration	efo	2019-04-26
+tongue cancer	disease	skos:closeMatch	EFO:0003871	semapv:ManualMappingCuration	efo	2019-04-26
+tonsiltis	phenotype	skos:closeMatch	HP:0011110	semapv:ManualMappingCuration	efo	2019-04-26
+transient ischaemic attack (tia)	disease	skos:closeMatch	EFO:0003764	semapv:ManualMappingCuration	efo	2019-04-26
+trapped nerve/compressed nerve	disease	skos:closeMatch	EFO:0009487	semapv:ManualMappingCuration	efo	2019-04-26
+trigemminal neuralgia	disease	skos:closeMatch	EFO:1001219	semapv:ManualMappingCuration	efo	2019-04-26
+tuberculosis	disease	skos:closeMatch	ORPHA:3389	semapv:ManualMappingCuration	efo	2019-04-26
+tuberculosis (tb)	disease	skos:closeMatch	ORPHA:3389	semapv:ManualMappingCuration	efo	2019-04-26
+type 1 diabetes	disease	skos:closeMatch	EFO:0001359	semapv:ManualMappingCuration	efo	2019-04-26
+type 2 diabetes	disease	skos:closeMatch	EFO:0001360	semapv:ManualMappingCuration	efo	2019-04-26
+ulcerative colitis	disease	skos:closeMatch	EFO:0000729	semapv:ManualMappingCuration	efo	2019-04-26
+umbilical hernia	phenotype	skos:closeMatch	HP:0001537	semapv:ManualMappingCuration	efo	2019-04-26
+undescended testicle	disease	skos:closeMatch	EFO:0004562	semapv:ManualMappingCuration	efo	2019-04-26
+uremia	disease	skos:closeMatch	EFO:1002048	semapv:ManualMappingCuration	efo	2019-04-26
+ureteric obstruction/hydronephrosis	disease	skos:closeMatch	EFO:0005562	semapv:ManualMappingCuration	efo	2019-04-26
+urinary frequency / incontinence	phenotype	skos:closeMatch	EFO:0006865	semapv:ManualMappingCuration	efo	2019-04-26
+urinary tract infection/kidney infection	disease	skos:closeMatch	EFO:0003103	semapv:ManualMappingCuration	efo	2019-04-26
+urticaria	disease	skos:closeMatch	EFO:0005531	semapv:ManualMappingCuration	efo	2019-04-26
+uterine fibroids	disease	skos:closeMatch	EFO:0000731	semapv:ManualMappingCuration	efo	2019-04-26
+uterine polyps	disease	skos:closeMatch	EFO:0009484	semapv:ManualMappingCuration	efo	2019-04-26
+uterine/endometrial cancer	disease	skos:closeMatch	EFO:0002919	semapv:ManualMappingCuration	efo	2019-04-26
+vaginal prolapse/uterine prolapse	disease	skos:closeMatch	EFO:1001864	semapv:ManualMappingCuration	efo	2019-04-26
+varicose veins	phenotype	skos:closeMatch	HP:0002619	semapv:ManualMappingCuration	efo	2019-04-26
+vasculitis	disease	skos:closeMatch	EFO:0006803	semapv:ManualMappingCuration	efo	2019-04-26
+venous thromboembolic disease	phenotype	skos:closeMatch	HP:0004936	semapv:ManualMappingCuration	efo	2019-04-26
+vertigo	phenotype	skos:closeMatch	HP:0002321	semapv:ManualMappingCuration	efo	2019-04-26
+vitiligo	disease	skos:closeMatch	EFO:0004208	semapv:ManualMappingCuration	efo	2019-04-26
+vocal cord polyp	disease	skos:closeMatch	EFO:0009478	semapv:ManualMappingCuration	efo	2019-04-26
+wegners granulmatosis	disease	skos:closeMatch	EFO:0005297	semapv:ManualMappingCuration	efo	2019-04-26
+whooping cough / pertussis	disease	skos:closeMatch	EFO:0000650	semapv:ManualMappingCuration	efo	2019-04-26

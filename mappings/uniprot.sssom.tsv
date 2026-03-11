@@ -1,0 +1,413 @@
+#curie_map:
+#  EFO: http://www.ebi.ac.uk/efo/EFO_
+#  HP: http://purl.obolibrary.org/obo/HP_
+#  ORPHA: http://www.orpha.net/ORDO/Orphanet_
+#mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/uniprot.sssom.tsv
+#mapping_set_description: Curated disease mappings from UniProt
+#subject_type: rdfs literal
+#subject_source: https://www.ebi.ac.uk/uniprot
+subject_label	subject_category	predicate_id	object_id	mapping_justification	author_label	mapping_date
+*Ablepharon-macrostomia syndrome	disease	skos:closeMatch	ORPHA:920	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Amyotrophic lateral sclerosis 5, juvenile	disease	skos:closeMatch	ORPHA:300605	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Arthrogryposis, distal, 8	disease	skos:closeMatch	ORPHA:65743	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Barber-Say syndrome	disease	skos:closeMatch	ORPHA:1231	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Beukes familial hip dysplasia	disease	skos:closeMatch	ORPHA:2114	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Congenital anomalies of kidney and urinary tract 2	disease	skos:closeMatch	ORPHA:2190	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Corneal dystrophy, Fuchs endothelial, 3	disease	skos:closeMatch	ORPHA:98974	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Deafness, autosomal recessive, 66	disease	skos:closeMatch	ORPHA:90636	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Distal spinal muscular atrophy, autosomal recessive, 2	disease	skos:closeMatch	ORPHA:139552	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Epilepsy, familial adult myoclonic, 2	disease	skos:closeMatch	ORPHA:86814	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+*Epithelial recurrent erosion dystrophy	disease	skos:closeMatch	ORPHA:293381	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Heimler syndrome 1	disease	skos:closeMatch	ORPHA:3220	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Hypertension and brachydactyly syndrome	disease	skos:closeMatch	ORPHA:1276	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+*Hypotrichosis-lymphedema-telangiectasia-renal defect syndrome	disease	skos:closeMatch	ORPHA:2087	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+*Immunodeficiency 41 with lymphoproliferation and autoimmunity	disease	skos:closeMatch	ORPHA:169100	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Lateral meningocele syndrome	disease	skos:closeMatch	ORPHA:2789	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Myopathy, myosin storage, autosomal recessive	disease	skos:closeMatch	ORPHA:53698	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+*Nevus spilus	disease	skos:closeMatch	ORPHA:626	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+*Palmoplantar keratoderma and congenital alopecia 1	disease	skos:closeMatch	ORPHA:1010	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Pontocerebellar hypoplasia 3	disease	skos:closeMatch	ORPHA:97249	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+*Premature aging syndrome, Penttinen type	disease	skos:closeMatch	ORPHA:363665	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Spastic paraplegia 9A, autosomal dominant	disease	skos:closeMatch	ORPHA:100990	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Spitz nevus	disease	skos:closeMatch	ORPHA:626	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+*Spondyloocular syndrome	disease	skos:closeMatch	ORPHA:85194	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Thyroid cancer, non-medullary, 2	disease	skos:closeMatch	EFO:0000501	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+*Zimmermann-Laband syndrome 1	disease	skos:closeMatch	ORPHA:3473	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+2-aminoadipic 2-oxoadipic aciduria	disease	skos:closeMatch	ORPHA:79154	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+3-methylglutaconic aciduria with cataracts, neurologic involvement and neutropenia	disease	skos:closeMatch	ORPHA:289902	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+46,XY sex reversal 10	disease	skos:closeMatch	ORPHA:242	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+46,XY sex reversal 9	disease	skos:closeMatch	ORPHA:251510	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Achondroplasia, severe, with developmental delay and acanthosis nigricans	disease	skos:closeMatch	ORPHA:85165	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Achromatopsia 7	disease	skos:closeMatch	ORPHA:49382	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Acid-labile subunit deficiency	disease	skos:closeMatch	ORPHA:140941	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Acrofacial dysostosis, Cincinnati type	disease	skos:closeMatch	ORPHA:364574	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Acromelic frontonasal dysostosis	disease	skos:closeMatch	ORPHA:1827	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Adams-Oliver syndrome 5	disease	skos:closeMatch	ORPHA:974	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Adams-Oliver syndrome 6	disease	skos:closeMatch	ORPHA:974	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Aicardi-Goutieres syndrome 7	disease	skos:closeMatch	ORPHA:51	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Alpha-fetoprotein deficiency	disease	skos:closeMatch	ORPHA:168612	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Alpha-fetoprotein, hereditary persistence	disease	skos:closeMatch	ORPHA:168615	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Amelogenesis imperfecta 1A	disease	skos:closeMatch	ORPHA:88661	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Amelogenesis imperfecta 1F	disease	skos:closeMatch	ORPHA:88661	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Amelogenesis imperfecta 1G	disease	skos:closeMatch	ORPHA:1031	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Amelogenesis imperfecta 1H	disease	skos:closeMatch	ORPHA:88661	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Amelogenesis imperfecta, hypomaturation type, 2A5	disease	skos:closeMatch	ORPHA:100033	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Amyotrophic lateral sclerosis 22, with or without frontotemporal dementia	disease	skos:closeMatch	EFO:0000253	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Analbuminemia	disease	skos:closeMatch	ORPHA:86816	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Aortic aneurysm, familial thoracic 9	disease	skos:closeMatch	ORPHA:91387	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Arthrogryposis, distal, 3	disease	skos:closeMatch	ORPHA:376	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Atrial fibrillation, familial, 15	disease	skos:closeMatch	EFO:0000275	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Atrial fibrillation, familial, 16	disease	skos:closeMatch	EFO:0000275	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Atrial fibrillation, familial, 17	disease	skos:closeMatch	EFO:0000275	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Atrial standstill 2	disease	skos:closeMatch	ORPHA:1344	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Autism, X-linked 4	disease	skos:closeMatch	EFO:0003758	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Autoimmune interstitial lung, joint, and kidney disease	disease	skos:closeMatch	EFO:0004244	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Autoimmune lymphoproliferative syndrome 5	disease	skos:closeMatch	ORPHA:3261	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Bardet-Biedl syndrome 16	disease	skos:closeMatch	ORPHA:110	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Bardet-Biedl syndrome 17	disease	skos:closeMatch	ORPHA:110	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Bardet-Biedl syndrome 18	disease	skos:closeMatch	ORPHA:110	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Bardet-Biedl syndrome 19	disease	skos:closeMatch	ORPHA:110	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Basal ganglia calcification, idiopathic, 6	disease	skos:closeMatch	ORPHA:1980	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Bethlem myopathy 2	disease	skos:closeMatch	ORPHA:610	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Bleeding disorder, platelet-type 19	disease	skos:closeMatch	ORPHA:71202	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Bosch-Boonstra-Schaaf optic atrophy syndrome	disease	skos:closeMatch	ORPHA:401777	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Brugada syndrome 9	disease	skos:closeMatch	ORPHA:130	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Burn-McKeown syndrome	disease	skos:closeMatch	ORPHA:1200	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+CODAS syndrome	disease	skos:closeMatch	ORPHA:1458	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Candidiasis, familial, 9	disease	skos:closeMatch	ORPHA:1334	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Cardiac conduction disease with or without dilated cardiomyopathy	disease	skos:closeMatch	EFO:0005304	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency 3	disease	skos:closeMatch	ORPHA:1561	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency 4	disease	skos:closeMatch	ORPHA:1561	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Cardiomyopathy, dilated 1NN	disease	skos:closeMatch	EFO:0000407	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Cardiomyopathy, familial hypertrophic 23, with or without left ventricular non-compaction	disease	skos:closeMatch	ORPHA:154	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Cardiomyopathy, familial hypertrophic 24	disease	skos:closeMatch	EFO:0000538	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Cataract 42	disease	skos:closeMatch	EFO:0001059	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Cataract 43	disease	skos:closeMatch	EFO:0001059	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Cataract 44	disease	skos:closeMatch	EFO:0001059	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Catel-Manzke syndrome	disease	skos:closeMatch	ORPHA:1388	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Cavitary optic disc anomalies	disease	skos:closeMatch	ORPHA:98671	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Cerebellar ataxia, areflexia, pes cavus, optic atrophy, and sensorineural hearing loss	disease	skos:closeMatch	ORPHA:1171	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Cerebro-oculo-facio-skeletal syndrome 3	disease	skos:closeMatch	ORPHA:1466	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Cerebrocostomandibular syndrome	disease	skos:closeMatch	ORPHA:1393	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Charcot-Marie-Tooth disease 2S	disease	skos:closeMatch	ORPHA:166	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Charcot-Marie-Tooth disease 2T	disease	skos:closeMatch	ORPHA:166	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Charcot-Marie-Tooth disease 2U	disease	skos:closeMatch	ORPHA:397735	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Charcot-Marie-Tooth disease 2V	disease	skos:closeMatch	ORPHA:64746	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Charcot-Marie-Tooth disease, recessive, intermediate type, D	disease	skos:closeMatch	ORPHA:268337	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Cholestasis, progressive familial intrahepatic, 4	disease	skos:closeMatch	ORPHA:172	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Ciliary dyskinesia, primary, 29	disease	skos:closeMatch	ORPHA:244	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Ciliary dyskinesia, primary, 30	disease	skos:closeMatch	ORPHA:244	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Ciliary dyskinesia, primary, 31	disease	skos:closeMatch	ORPHA:244	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Ciliary dyskinesia, primary, 32	disease	skos:closeMatch	ORPHA:244	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Cole-Carpenter syndrome 1	disease	skos:closeMatch	ORPHA:2050	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Cole-Carpenter syndrome 2	disease	skos:closeMatch	ORPHA:2050	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Coloboma, ocular, autosomal recessive	disease	skos:closeMatch	ORPHA:194	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Combined oxidative phosphorylation deficiency 26	disease	skos:closeMatch	ORPHA:223713	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Cone-rod dystrophy 19	disease	skos:closeMatch	ORPHA:1872	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Cone-rod dystrophy 20	disease	skos:closeMatch	ORPHA:1872	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Cone-rod dystrophy 21	disease	skos:closeMatch	ORPHA:1872	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Congenital disorder of glycosylation 1Y	disease	skos:closeMatch	ORPHA:370927	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Congenital disorder of glycosylation 1Z	disease	skos:closeMatch	EFO:0005545	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Congenital heart defects, hamartomas of tongue, and polysyndactyly	disease	skos:closeMatch	ORPHA:1338	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Congenital heart defects, multiple types, 4	disease	skos:closeMatch	EFO:0005207	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Craniosynostosis 6	disease	skos:closeMatch	ORPHA:1531	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Cutis laxa, autosomal dominant, 3	disease	skos:closeMatch	ORPHA:90348	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Deafness, autosomal dominant, 40	disease	skos:closeMatch	ORPHA:90635	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Deafness, autosomal dominant, 65	disease	skos:closeMatch	ORPHA:90635	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Deafness, autosomal dominant, 67	disease	skos:closeMatch	ORPHA:90635	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Deafness, autosomal recessive, 101	disease	skos:closeMatch	ORPHA:90636	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Deafness, autosomal recessive, 102	disease	skos:closeMatch	ORPHA:90636	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Deafness, autosomal recessive, 103	disease	skos:closeMatch	ORPHA:90636	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Deafness, autosomal recessive, 104	disease	skos:closeMatch	ORPHA:90636	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Deafness, autosomal recessive, 44	disease	skos:closeMatch	ORPHA:90636	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Desbuquois dysplasia 2	disease	skos:closeMatch	ORPHA:1425	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Diabetes mellitus, non-insulin-dependent, 5	disease	skos:closeMatch	EFO:0001360	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Diamond-Blackfan anemia 13	disease	skos:closeMatch	ORPHA:124	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Diamond-Blackfan anemia 14, with mandibulofacial dysostosis	disease	skos:closeMatch	ORPHA:124	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Diamond-Blackfan anemia 15, with mandibulofacial dysostosis	disease	skos:closeMatch	ORPHA:124	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Diarrhea 7	disease	skos:closeMatch	HP:0002014	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Dicarboxylic aminoaciduria	disease	skos:closeMatch	ORPHA:2195	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Dysfibrinogenemia, congenital	disease	skos:closeMatch	ORPHA:98881	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Dyskeratosis congenita, autosomal dominant, 6	disease	skos:closeMatch	ORPHA:1775	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Dyskeratosis congenita, autosomal recessive, 6	disease	skos:closeMatch	ORPHA:1775	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Dyskeratosis congenita, autosomal recessive, 7	disease	skos:closeMatch	ORPHA:1775	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Dystonia 2, torsion, autosomal recessive	disease	skos:closeMatch	ORPHA:99657	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Dystonia 27	disease	skos:closeMatch	ORPHA:156159	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Ectodermal dysplasia 7, hair/nail type	disease	skos:closeMatch	ORPHA:69084	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Epidermolysis bullosa simplex with nail dystrophy	disease	skos:closeMatch	ORPHA:304	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Epilepsy, familial temporal lobe, 7	disease	skos:closeMatch	EFO:0000773	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Epilepsy, familial temporal lobe, 8	disease	skos:closeMatch	EFO:0000773	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Epilepsy, idiopathic generalized 13	disease	skos:closeMatch	ORPHA:307	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Epilepsy, progressive myoclonic 7	disease	skos:closeMatch	ORPHA:98261	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Epilepsy, progressive myoclonic 8	disease	skos:closeMatch	ORPHA:98261	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Epilepsy, progressive myoclonic 9	disease	skos:closeMatch	ORPHA:98261	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Epileptic encephalopathy, early infantile, 19	disease	skos:closeMatch	ORPHA:33069	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Epileptic encephalopathy, early infantile, 21	disease	skos:closeMatch	ORPHA:1934	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Epileptic encephalopathy, early infantile, 23	disease	skos:closeMatch	ORPHA:1934	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Epileptic encephalopathy, early infantile, 24	disease	skos:closeMatch	ORPHA:1934	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Epileptic encephalopathy, early infantile, 25	disease	skos:closeMatch	ORPHA:1934	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Epileptic encephalopathy, early infantile, 26	disease	skos:closeMatch	ORPHA:1934	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Epileptic encephalopathy, early infantile, 27	disease	skos:closeMatch	ORPHA:3451	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Epileptic encephalopathy, early infantile, 28	disease	skos:closeMatch	ORPHA:1934	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Epileptic encephalopathy, early infantile, 29	disease	skos:closeMatch	ORPHA:1934	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Epileptic encephalopathy, early infantile, 30	disease	skos:closeMatch	ORPHA:1934	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Epileptic encephalopathy, early infantile, 31	disease	skos:closeMatch	ORPHA:1934	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Epileptic encephalopathy, early infantile, 32	disease	skos:closeMatch	ORPHA:1934	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Epileptic encephalopathy, early infantile, 33	disease	skos:closeMatch	ORPHA:1934	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Epiphyseal chondrodysplasia, Miura type	disease	skos:closeMatch	ORPHA:329191	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Familial adenomatous polyposis 3	disease	skos:closeMatch	ORPHA:733	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Familial cold autoinflammatory syndrome 4	disease	skos:closeMatch	ORPHA:47045	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Fanconi anemia complementation group T	disease	skos:closeMatch	ORPHA:84	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Fibrosis of extraocular muscles, congenital, 3B	disease	skos:closeMatch	ORPHA:45358	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Fibrosis of extraocular muscles, congenital, 5	disease	skos:closeMatch	ORPHA:45358	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Filippi syndrome	disease	skos:closeMatch	ORPHA:3255	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Focal segmental glomerulosclerosis 7	disease	skos:closeMatch	EFO:0004236	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Focal segmental glomerulosclerosis 8	disease	skos:closeMatch	EFO:0004236	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Focal segmental glomerulosclerosis 9	disease	skos:closeMatch	EFO:0004236	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Frontotemporal dementia and/or amyotrophic lateral sclerosis 2	disease	skos:closeMatch	ORPHA:275872	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Frontotemporal dementia and/or amyotrophic lateral sclerosis 3	disease	skos:closeMatch	ORPHA:275872	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Frontotemporal dementia and/or amyotrophic lateral sclerosis 4	disease	skos:closeMatch	ORPHA:275872	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Galloway-Mowat syndrome	disease	skos:closeMatch	ORPHA:2065	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Generalized epilepsy with febrile seizures plus 9	disease	skos:closeMatch	ORPHA:36387	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Giant axonal neuropathy 2, autosomal dominant	disease	skos:closeMatch	ORPHA:401964	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Glioma 9	disease	skos:closeMatch	EFO:0000326	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Glucocorticoid resistance, generalized	disease	skos:closeMatch	ORPHA:786	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Growth hormone deficiency, isolated partial	disease	skos:closeMatch	ORPHA:314811	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Growth restriction, severe, with distinctive facies	disease	skos:closeMatch	ORPHA:813	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Heimler syndrome 2	disease	skos:closeMatch	ORPHA:3220	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Helsmoortel-van der Aa syndrome	disease	skos:closeMatch	ORPHA:404448	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Hennekam lymphangiectasia-lymphedema syndrome 2	disease	skos:closeMatch	ORPHA:2136	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Herpes simplex encephalitis 7	disease	skos:closeMatch	ORPHA:1930	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Hydroxykynureninuria	disease	skos:closeMatch	ORPHA:79155	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Hyperammonemia due to carbonic anhydrase VA deficiency	disease	skos:closeMatch	ORPHA:401948	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Hyperlipoproteinemia 1D	disease	skos:closeMatch	ORPHA:411	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Hypermanganesemia with dystonia, polycythemia, and cirrhosis	disease	skos:closeMatch	ORPHA:309854	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Hyperphosphatasia with mental retardation syndrome 5	disease	skos:closeMatch	ORPHA:247262	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Hypomagnesemia, seizures, and mental retardation	disease	skos:closeMatch	ORPHA:34527	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Hypotrichosis 12	disease	skos:closeMatch	ORPHA:55654	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Ichthyosis, congenital, autosomal recessive 11	disease	skos:closeMatch	ORPHA:91132	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Immunodeficiency 22	disease	skos:closeMatch	ORPHA:280142	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Immunodeficiency 26 with or without neurologic abnormalities	disease	skos:closeMatch	ORPHA:317425	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Immunodeficiency 27B	disease	skos:closeMatch	ORPHA:319581	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Immunodeficiency 28	disease	skos:closeMatch	ORPHA:319547	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Immunodeficiency 29	disease	skos:closeMatch	ORPHA:319558	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Immunodeficiency 30	disease	skos:closeMatch	ORPHA:319552	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Immunodeficiency 31A	disease	skos:closeMatch	ORPHA:319595	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Immunodeficiency 36	disease	skos:closeMatch	ORPHA:397596	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Immunodeficiency 38	disease	skos:closeMatch	ORPHA:319563	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Immunodeficiency 39	disease	skos:closeMatch	ORPHA:101997	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Immunodeficiency 40	disease	skos:closeMatch	ORPHA:101997	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Immunodeficiency, common variable, 11	disease	skos:closeMatch	ORPHA:238569	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Immunodeficiency, common variable, 12	disease	skos:closeMatch	ORPHA:1572	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Infantile liver failure syndrome 2	disease	skos:closeMatch	ORPHA:370088	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Inflammatory skin and bowel disease, neonatal, 2	disease	skos:closeMatch	ORPHA:294023	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Joubert syndrome 23	disease	skos:closeMatch	ORPHA:475	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Kaufman oculocerebrofacial syndrome	disease	skos:closeMatch	ORPHA:2707	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Klippel-Feil syndrome 4, autosomal recessive, with myopathy and facial dysmorphism	disease	skos:closeMatch	ORPHA:2345	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Lactate dehydrogenase B deficiency	disease	skos:closeMatch	ORPHA:284435	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Laurence-Moon syndrome	disease	skos:closeMatch	ORPHA:2377	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Laurin-Sandrow syndrome	disease	skos:closeMatch	ORPHA:2378	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Leber congenital amaurosis 18	disease	skos:closeMatch	ORPHA:791	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Lethal congenital contracture syndrome 6	disease	skos:closeMatch	ORPHA:294965	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Lethal congenital contracture syndrome 7	disease	skos:closeMatch	ORPHA:294965�	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Lethal congenital contracture syndrome 8	disease	skos:closeMatch	ORPHA:294965�	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Lethal congenital contracture syndrome 9	disease	skos:closeMatch	ORPHA:294965	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Leukodystrophy, hypomyelinating, 10	disease	skos:closeMatch	ORPHA:289494	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Leukodystrophy, hypomyelinating, 11	disease	skos:closeMatch	ORPHA:289494	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Leukodystrophy, hypomyelinating, 9	disease	skos:closeMatch	ORPHA:289494	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Limb-girdle muscular dystrophy 1F	disease	skos:closeMatch	ORPHA:55595	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Limb-girdle muscular dystrophy 1G	disease	skos:closeMatch	ORPHA:55596	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Lipodystrophy, familial partial, 6	disease	skos:closeMatch	ORPHA:98306	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Lipoyltransferase 1 deficiency	disease	skos:closeMatch	ORPHA:401862�	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Lissencephaly 6, with microcephaly	disease	skos:closeMatch	ORPHA:48471	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Lissencephaly 7, with cerebellar hypoplasia	disease	skos:closeMatch	ORPHA:86823	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Long QT syndrome 14	disease	skos:closeMatch	ORPHA:768	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Long QT syndrome 15	disease	skos:closeMatch	ORPHA:768	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Lymphedema, hereditary, 1D	disease	skos:closeMatch	ORPHA:79452	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+MEND syndrome	disease	skos:closeMatch	ORPHA:401973	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Macular degeneration, early-onset	disease	skos:closeMatch	EFO:0001365	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Macular dystrophy with central cone involvement	disease	skos:closeMatch	EFO:0001365	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Macular dystrophy, vitelliform, 4	disease	skos:closeMatch	ORPHA:99000	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Macular dystrophy, vitelliform, 5	disease	skos:closeMatch	ORPHA:99000	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mandibulofacial dysostosis with alopecia	disease	skos:closeMatch	ORPHA:155899	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Marden-Walker syndrome	disease	skos:closeMatch	ORPHA:2461	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Maturity-onset diabetes of the young 13	disease	skos:closeMatch	ORPHA:552	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Maturity-onset diabetes of the young 14	disease	skos:closeMatch	ORPHA:552	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Meckel syndrome 12	disease	skos:closeMatch	ORPHA:564	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 2	disease	skos:closeMatch	ORPHA:83473	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 3	disease	skos:closeMatch	ORPHA:83473	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Melanocytic nevus syndrome, congenital	disease	skos:closeMatch	ORPHA:626	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Melanoma, cutaneous malignant 10	disease	skos:closeMatch	EFO:0000389	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Meningioma	disease	skos:closeMatch	ORPHA:2495	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, X-linked 100	disease	skos:closeMatch	EFO:0003847	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mental retardation, X-linked 101	disease	skos:closeMatch	ORPHA:777	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mental retardation, X-linked 102	disease	skos:closeMatch	ORPHA:777	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Mental retardation, X-linked 12	disease	skos:closeMatch	ORPHA:777	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Mental retardation, X-linked 99	disease	skos:closeMatch	ORPHA:777	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mental retardation, autosomal dominant 24	disease	skos:closeMatch	ORPHA:178469	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mental retardation, autosomal dominant 26	disease	skos:closeMatch	ORPHA:352490	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mental retardation, autosomal dominant 27	disease	skos:closeMatch	ORPHA:1465	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mental retardation, autosomal dominant 29	disease	skos:closeMatch	EFO:0003847	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, autosomal dominant 30	disease	skos:closeMatch	EFO:0003847	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, autosomal dominant 33	disease	skos:closeMatch	ORPHA:2514�	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, autosomal dominant 34	disease	skos:closeMatch	EFO:0003847	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, autosomal dominant 35	disease	skos:closeMatch	EFO:0003847	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, autosomal dominant 36	disease	skos:closeMatch	EFO:0003847	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, autosomal dominant 37	disease	skos:closeMatch	EFO:0003847	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, autosomal dominant 38	disease	skos:closeMatch	EFO:0003847	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, autosomal dominant 39	disease	skos:closeMatch	ORPHA:178469	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Mental retardation, autosomal dominant 40	disease	skos:closeMatch	ORPHA:178469	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Mental retardation, autosomal recessive 42	disease	skos:closeMatch	ORPHA:88616	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mental retardation, autosomal recessive 43	disease	skos:closeMatch	ORPHA:88616	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mental retardation, autosomal recessive 44	disease	skos:closeMatch	ORPHA:88616	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mental retardation, autosomal recessive 45	disease	skos:closeMatch	ORPHA:88616	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mental retardation, autosomal recessive 46	disease	skos:closeMatch	ORPHA:88616	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, autosomal recessive 47	disease	skos:closeMatch	ORPHA:88616	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, autosomal recessive 48	disease	skos:closeMatch	ORPHA:88616	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mental retardation, autosomal recessive 50	disease	skos:closeMatch	ORPHA:88616	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Metaphyseal dysplasia, Spahr type	disease	skos:closeMatch	ORPHA:2501	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Microcephaly 12, primary, autosomal recessive	disease	skos:closeMatch	ORPHA:2512	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Microcephaly 13, primary, autosomal recessive	disease	skos:closeMatch	ORPHA:2512	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Microcephaly 14, primary, autosomal recessive	disease	skos:closeMatch	ORPHA:2512	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Microcephaly 15, primary, autosomal recessive	disease	skos:closeMatch	ORPHA:2512	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Microcephaly and chorioretinopathy, autosomal recessive, 2	disease	skos:closeMatch	ORPHA:808	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Microcephaly and chorioretinopathy, autosomal recessive, 3	disease	skos:closeMatch	ORPHA:2518	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Microcephaly, short stature, and impaired glucose metabolism	disease	skos:closeMatch	ORPHA:391408	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Microphthalmia, isolated, with coloboma, 10	disease	skos:closeMatch	ORPHA:98938	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Microphthalmia, syndromic, 13	disease	skos:closeMatch	ORPHA:202948	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Microphthalmia, syndromic, 14	disease	skos:closeMatch	ORPHA:202948	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mirror movements 3	disease	skos:closeMatch	ORPHA:238722	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mitochondrial complex III deficiency, nuclear 7	disease	skos:closeMatch	ORPHA:1460	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mitochondrial complex III deficiency, nuclear 8	disease	skos:closeMatch	ORPHA:1460	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Mitochondrial complex III deficiency, nuclear 9	disease	skos:closeMatch	ORPHA:1460	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mitochondrial myopathy with lactic acidosis	disease	skos:closeMatch	ORPHA:2597	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Mitochondrial short-chain enoyl-CoA hydratase 1 deficiency	disease	skos:closeMatch	ORPHA:506	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Monocarboxylate transporter 1 deficiency	disease	skos:closeMatch	ORPHA:165991	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Moyamoya disease 6 with achalasia	disease	skos:closeMatch	ORPHA:401945	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Muscular dystrophy-dystroglycanopathy congenital with brain and eye anomalies A9	disease	skos:closeMatch	ORPHA:899	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Muscular dystrophy-dystroglycanopathy limb-girdle C7	disease	skos:closeMatch	ORPHA:352479	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Myasthenic syndrome, congenital, 11, associated with acetylcholine receptor deficiency	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, 17	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, 18	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, 2A, slow-channel	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, 2C, associated with acetylcholine receptor deficiency	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, 3A, slow-channel	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, 3B, fast-channel	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, 3C, associated with acetylcholine receptor deficiency	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, 4A, slow-channel	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, 4B, fast-channel	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, 7, presynaptic	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, 8	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, with tubular aggregates, 3	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myasthenic syndrome, congenital, without tubular aggregates	disease	skos:closeMatch	ORPHA:590	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myoclonic-atonic epilepsy	disease	skos:closeMatch	ORPHA:1942	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Myopathy, centronuclear, 5	disease	skos:closeMatch	ORPHA:169186	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Myopathy, lactic acidosis, and sideroblastic anemia 3	disease	skos:closeMatch	ORPHA:2598	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myopathy, tubular aggregate, 2	disease	skos:closeMatch	ORPHA:2593	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Myopathy, vacuolar, with CASQ1 aggregates	disease	skos:closeMatch	ORPHA:88635	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Myopia 24, autosomal dominant	disease	skos:closeMatch	EFO:0003927	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Nanophthalmos 4	disease	skos:closeMatch	EFO:0005569	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Nemaline myopathy 10	disease	skos:closeMatch	ORPHA:607	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Nemaline myopathy 9	disease	skos:closeMatch	ORPHA:607	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Nephronophthisis 18	disease	skos:closeMatch	ORPHA:655	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Nephronophthisis 19	disease	skos:closeMatch	ORPHA:655	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Nephrotic syndrome 10	disease	skos:closeMatch	EFO:0004255	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Neu-Laxova syndrome 1	disease	skos:closeMatch	ORPHA:2671	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Neu-Laxova syndrome 2	disease	skos:closeMatch	ORPHA:2671	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Neuropathy, hereditary motor and sensory, 6B	disease	skos:closeMatch	ORPHA:90120	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Neuropathy, hereditary sensory and autonomic, 8	disease	skos:closeMatch	ORPHA:140477	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Neutropenia, severe congenital 6, autosomal recessive	disease	skos:closeMatch	ORPHA:42738	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Night blindness, congenital stationary, 1G	disease	skos:closeMatch	ORPHA:215	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Noonan syndrome 10	disease	skos:closeMatch	ORPHA:648	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Noonan syndrome 9	disease	skos:closeMatch	ORPHA:648	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Oliver-McFarlane syndrome	disease	skos:closeMatch	ORPHA:3363	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Olmsted syndrome, X-linked	disease	skos:closeMatch	ORPHA:659	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Oocyte maturation defect	disease	skos:closeMatch	ORPHA:404466	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Opitz GBBB syndrome 2	disease	skos:closeMatch	ORPHA:2745	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Orofaciodigital syndrome 14	disease	skos:closeMatch	ORPHA:369902	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Orofaciodigital syndrome 6	disease	skos:closeMatch	ORPHA:2754	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Osteogenesis imperfecta 16	disease	skos:closeMatch	ORPHA:666	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Osteogenesis imperfecta 17	disease	skos:closeMatch	ORPHA:666	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Ovarian dysgenesis 4	disease	skos:closeMatch	ORPHA:243	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Pachyonychia congenita 3	disease	skos:closeMatch	ORPHA:2309	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Pachyonychia congenita 4	disease	skos:closeMatch	ORPHA:2309	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Palmoplantar keratoderma, non-epidermolytic, focal 2	disease	skos:closeMatch	ORPHA:2337	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Palmoplantar keratoderma, non-epidermolytic, focal or diffuse	disease	skos:closeMatch	ORPHA:2337	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Pancreatic agenesis 2	disease	skos:closeMatch	ORPHA:2805	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Peeling skin syndrome 3	disease	skos:closeMatch	ORPHA:263548	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Perrault syndrome 5	disease	skos:closeMatch	ORPHA:2855	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Pettigrew syndrome	disease	skos:closeMatch	ORPHA:1568	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Pituitary adenoma, growth hormone-secreting, 2	disease	skos:closeMatch	EFO:0004125	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Polyglucosan body myopathy 1 with or without immunodeficiency	disease	skos:closeMatch	ORPHA:397937	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Polyglucosan body myopathy 2	disease	skos:closeMatch	ORPHA:397937	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Polymicrogyria, bilateral perisylvian, autosomal recessive	disease	skos:closeMatch	ORPHA:98889	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Polymicrogyria, bilateral temporooccipital	disease	skos:closeMatch	ORPHA:268940	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis	disease	skos:closeMatch	ORPHA:98889	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Pontocerebellar hypoplasia 1C	disease	skos:closeMatch	ORPHA:2254	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Pontocerebellar hypoplasia 2E	disease	skos:closeMatch	ORPHA:247198	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Pontocerebellar hypoplasia 5	disease	skos:closeMatch	ORPHA:166068	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Pontocerebellar hypoplasia 9	disease	skos:closeMatch	ORPHA:369920	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Poretti-Boltshauser syndrome	disease	skos:closeMatch	ORPHA:370022	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Porokeratosis 8, disseminated superficial actinic type	disease	skos:closeMatch	ORPHA:79152	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Premature ovarian failure 8	disease	skos:closeMatch	EFO:0004266	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Premature ovarian failure 9	disease	skos:closeMatch	EFO:0004266	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Primary pigmented nodular adrenocortical disease 4	disease	skos:closeMatch	ORPHA:189439	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Primrose syndrome	disease	skos:closeMatch	ORPHA:3042	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 2	disease	skos:closeMatch	ORPHA:329336	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Pseudohyperkalemia, familial, 2, due to red cell leak	disease	skos:closeMatch	ORPHA:90044	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Psoriasis 15, pustular	disease	skos:closeMatch	ORPHA:247353	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Pulmonary fibrosis, and/or bone marrow failure, telomere-related, 3	disease	skos:closeMatch	EFO:0000768	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Pulmonary fibrosis, and/or bone marrow failure, telomere-related, 4	disease	skos:closeMatch	EFO:0000768	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Retinal dystrophy and obesity	disease	skos:closeMatch	ORPHA:791	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Retinal dystrophy with inner retinal dysfunction and ganglion cell abnormalities	disease	skos:closeMatch	ORPHA:397758	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Retinal dystrophy, early-onset, with or without pituitary dysfunction	disease	skos:closeMatch	ORPHA:71862	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Retinitis pigmentosa 70	disease	skos:closeMatch	ORPHA:791	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Retinitis pigmentosa 71	disease	skos:closeMatch	ORPHA:791	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Retinitis pigmentosa 72	disease	skos:closeMatch	ORPHA:791	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Retinitis pigmentosa 73	disease	skos:closeMatch	ORPHA:791	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Retinitis pigmentosa 74	disease	skos:closeMatch	ORPHA:791	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Robinow syndrome, autosomal dominant 2	disease	skos:closeMatch	ORPHA:3107�	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Sacral agenesis with vertebral anomalies	disease	skos:closeMatch	ORPHA:397927	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Seckel syndrome 8	disease	skos:closeMatch	ORPHA:808	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Senior-Loken syndrome 8	disease	skos:closeMatch	ORPHA:3156�	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Short stature, auditory canal atresia, mandibular hypoplasia, skeletal abnormalities	disease	skos:closeMatch	ORPHA:397623	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Short-rib thoracic dysplasia 13 with or without polydactyly	disease	skos:closeMatch	ORPHA:474�	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Short-rib thoracic dysplasia 14 with polydactyly	disease	skos:closeMatch	ORPHA:93426	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Sideroblastic anemia with B-cell immunodeficiency, periodic fevers, and developmental delay	disease	skos:closeMatch	ORPHA:369861	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Singleton-Merten syndrome 1	disease	skos:closeMatch	ORPHA:85191	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Singleton-Merten syndrome 2	disease	skos:closeMatch	ORPHA:85191	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Spastic ataxia 1, autosomal dominant	disease	skos:closeMatch	ORPHA:251282	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Spastic paraplegia 73, autosomal dominant	disease	skos:closeMatch	ORPHA:100980	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Spastic paraplegia 74, autosomal recessive	disease	skos:closeMatch	ORPHA:100981	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Spastic paraplegia 9B, autosomal recessive	disease	skos:closeMatch	ORPHA:100981	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Spermatogenic failure 13	disease	skos:closeMatch	ORPHA:399805	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Spermatogenic failure 14	disease	skos:closeMatch	ORPHA:399805	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Spermatogenic failure, X-linked, 2	disease	skos:closeMatch	ORPHA:399805	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Spinal muscular atrophy, Jokela type	disease	skos:closeMatch	ORPHA:276435	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Spinocerebellar ataxia 21	disease	skos:closeMatch	ORPHA:98773	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Spinocerebellar ataxia 34	disease	skos:closeMatch	ORPHA:1955	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Spinocerebellar ataxia 41	disease	skos:closeMatch	ORPHA:99	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Spinocerebellar ataxia, autosomal recessive, 17	disease	skos:closeMatch	ORPHA:1172	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Spinocerebellar ataxia, autosomal recessive, 20	disease	skos:closeMatch	ORPHA:397709�	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Spondylocostal dysostosis 6, autosomal recessive	disease	skos:closeMatch	ORPHA:2311	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Spondylometaphyseal dysplasia, Megarbane-Dagher-Melike type	disease	skos:closeMatch	ORPHA:401979	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Spondylometaphyseal dysplasia, Sedaghatian type	disease	skos:closeMatch	ORPHA:93317	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Stormorken syndrome	disease	skos:closeMatch	ORPHA:3204	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Syndactyly, mesoaxial synostotic, with phalangeal reduction	disease	skos:closeMatch	ORPHA:157801	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Tatton-Brown-Rahman syndrome	disease	skos:closeMatch	ORPHA:404443	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Temple-Baraitser syndrome	disease	skos:closeMatch	EFO:0003847	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Thyroid cancer, non-medullary, 4	disease	skos:closeMatch	EFO:0000501	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Thyroid cancer, non-medullary, 5	disease	skos:closeMatch	EFO:0000501	semapv:ManualMappingCuration	Barbara Polka	2015-11-24
+Tortuosity of retinal arteries	disease	skos:closeMatch	ORPHA:75326	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Trichothiodystrophy 2, photosensitive	disease	skos:closeMatch	ORPHA:33364	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Trichothiodystrophy 3, photosensitive	disease	skos:closeMatch	ORPHA:33364	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Trichothiodystrophy 5, non-photosensitive	disease	skos:closeMatch	ORPHA:33364	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Ullrich congenital muscular dystrophy 2	disease	skos:closeMatch	ORPHA:75840	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Vesicoureteral reflux 8	disease	skos:closeMatch	ORPHA:289365	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Visceral myopathy	disease	skos:closeMatch	ORPHA:2604	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Vitreoretinopathy, exudative 6	disease	skos:closeMatch	ORPHA:891	semapv:ManualMappingCuration	Barbara Polka	2015-11-17
+Waisman syndrome	disease	skos:closeMatch	ORPHA:2379	semapv:ManualMappingCuration	Barbara Polka	2015-08-21
+Webb-Dattani syndrome	disease	skos:closeMatch	ORPHA:370006	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+White sponge nevus 2	disease	skos:closeMatch	ORPHA:171723	semapv:ManualMappingCuration	Barbara Polka	2015-08-28
+Zimmermann-Laband syndrome 2	disease	skos:closeMatch	ORPHA:3473	semapv:ManualMappingCuration	Barbara Polka	2015-11-17

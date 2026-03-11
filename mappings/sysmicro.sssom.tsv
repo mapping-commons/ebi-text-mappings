@@ -1,0 +1,118 @@
+#curie_map:
+#  cmpo: http://www.ebi.ac.uk/cmpo/CMPO_
+#mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/sysmicro.sssom.tsv
+#mapping_set_description: Curated cellular microscopy phenotype mappings from SysMicro
+#subject_type: rdfs literal
+#subject_source: https://www.ebi.ac.uk/fg/sym
+subject_label	subject_category	predicate_id	object_id	mapping_justification	author_label	mapping_date
+Accumulation of GFP-RNF168 on nuclear bodies	phenotype	skos:closeMatch	cmpo:0000126	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Accumulation of GFP-RNF168 on nuclear bodies	phenotype	skos:closeMatch	cmpo:0000335	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Actin fiber cells	phenotype	skos:closeMatch	cmpo:0000105	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Apoptotic DNA	phenotype	skos:closeMatch	cmpo:0000262	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Asymmetric lamellae	phenotype	skos:closeMatch	cmpo:0000266	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+BL phenotype	phenotype	skos:closeMatch	cmpo:0000128	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+BL phenotype	phenotype	skos:closeMatch	cmpo:0000154	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Big cells	phenotype	skos:closeMatch	cmpo:0000128	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Binuclear	phenotype	skos:closeMatch	cmpo:0000213	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Bright nuclei	phenotype	skos:closeMatch	cmpo:0000154	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Cell shape bipolar or elongated	phenotype	skos:closeMatch	cmpo:0000077	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Cell shape geometric	phenotype	skos:closeMatch	cmpo:0000261	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Cell shape processes or spiky or stretchy	phenotype	skos:closeMatch	cmpo:0000267	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Cell shape round or non-adherent	phenotype	skos:closeMatch	cmpo:0000118	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Cell shape variable	phenotype	skos:closeMatch	cmpo:0000270	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Cells with protrusions	phenotype	skos:closeMatch	cmpo:0000071	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Decreased DNA area	phenotype	skos:closeMatch	cmpo:0000141	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Decreased cell number	phenotype	skos:closeMatch	cmpo:0000052	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Decreased cell size	phenotype	skos:closeMatch	cmpo:0000129	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Decreased level of actin	phenotype	skos:closeMatch	cmpo:0000106	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Decreased level of microtubules	phenotype	skos:closeMatch	cmpo:0000068	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Decreased number of filopodia	phenotype	skos:closeMatch	cmpo:0000067	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Decreased peripheral actin	phenotype	skos:closeMatch	cmpo:0000273	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Decreased width of lamellae	phenotype	skos:closeMatch	cmpo:0000277	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Disorganised peripheral actin	phenotype	skos:closeMatch	cmpo:0000274	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Dynamic changes	phenotype	skos:closeMatch	cmpo:0000345	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Elongated cells	phenotype	skos:closeMatch	cmpo:0000077	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Elongated cells with protrusions	phenotype	skos:closeMatch	cmpo:0000071	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Elongated cells with protrusions	phenotype	skos:closeMatch	cmpo:0000077	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Grape	phenotype	skos:closeMatch	cmpo:0000156	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+High actin ratio cells	phenotype	skos:closeMatch	cmpo:0000105	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Impaired cell migration	phenotype	skos:closeMatch	cmpo:0000309	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Impaired cell migration with increased protrusive activity	phenotype	skos:closeMatch	cmpo:0000309	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Impaired cell migration with increased protrusive activity	phenotype	skos:closeMatch	cmpo:0000349	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased DNA area	phenotype	skos:closeMatch	cmpo:0000140	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased actin over nucleus	phenotype	skos:closeMatch	cmpo:0000294	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased cell migration and increased cell area	phenotype	skos:closeMatch	cmpo:0000128	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased cell migration and increased cell area	phenotype	skos:closeMatch	cmpo:0000232	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased cell migration and increased cell area	phenotype	skos:closeMatch	cmpo:0000237	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased cell number	phenotype	skos:closeMatch	cmpo:0000051	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased cell size	phenotype	skos:closeMatch	cmpo:0000128	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased cytoplasmic actin	phenotype	skos:closeMatch	cmpo:0000296	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased directional cell migration	phenotype	skos:closeMatch	cmpo:0000350	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased level of actin	phenotype	skos:closeMatch	cmpo:0000105	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased level of microtubules	phenotype	skos:closeMatch	cmpo:0000097	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased mitotic index	phenotype	skos:closeMatch	cmpo:0000056	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased nuclear actin	phenotype	skos:closeMatch	cmpo:0000294	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased number of actin puncta or dots	phenotype	skos:closeMatch	cmpo:0000291	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased number of actin stress fibers	phenotype	skos:closeMatch	cmpo:0000289	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased number of cortical actin stress fibers	phenotype	skos:closeMatch	cmpo:0000297	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased number of filopodia	phenotype	skos:closeMatch	cmpo:0000076	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased number of multinucleate cells	phenotype	skos:closeMatch	cmpo:0000300	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased number of transverse actin stress fibers	phenotype	skos:closeMatch	cmpo:0000298	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased number of zigzag actin stress fibers	phenotype	skos:closeMatch	cmpo:0000299	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased peripheral actin	phenotype	skos:closeMatch	cmpo:0000272	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Increased width of lamellae	phenotype	skos:closeMatch	cmpo:0000276	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Intracellular retention of SH4(HASPB)-GFP	phenotype	skos:closeMatch	cmpo:0000346	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Intracellular retention of SH4(YES)-mCherry	phenotype	skos:closeMatch	cmpo:0000346	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Lamellipodia + high actin ratio cells	phenotype	skos:closeMatch	cmpo:0000083	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Lamellipodia + high actin ratio cells	phenotype	skos:closeMatch	cmpo:0000105	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Lamellipodia cells	phenotype	skos:closeMatch	cmpo:0000083	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Large	phenotype	skos:closeMatch	cmpo:0000140	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Large cells	phenotype	skos:closeMatch	cmpo:0000340	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Large nuclei	phenotype	skos:closeMatch	cmpo:0000140	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Loss of cell monolayer	phenotype	skos:closeMatch	cmpo:0000293	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Low eccentricity cells	phenotype	skos:closeMatch	cmpo:0000118	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Metaphase cells	phenotype	skos:closeMatch	cmpo:0000305	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Microtubule clumps	phenotype	skos:closeMatch	cmpo:0000286	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Microtubule nuclear bracket	phenotype	skos:closeMatch	cmpo:0000287	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Microtubule nuclear ring	phenotype	skos:closeMatch	cmpo:0000288	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Microtubule processes	phenotype	skos:closeMatch	cmpo:0000351	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Microtubules disorganised	phenotype	skos:closeMatch	cmpo:0000147	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Misshapen DNA	phenotype	skos:closeMatch	cmpo:0000177	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Mitotic delay/arrest	phenotype	skos:closeMatch	cmpo:0000202	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Mitotic delay/arrest	phenotype	skos:closeMatch	cmpo:0000338	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Motile lamellae	phenotype	skos:closeMatch	cmpo:0000278	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Multiple layers of cells	phenotype	skos:closeMatch	cmpo:0000282	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+No cells	phenotype	skos:closeMatch	cmpo:0000301	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Normal mitotic exit	phenotype	skos:closeMatch	cmpo:0000314	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Nuclear actin ring	phenotype	skos:closeMatch	cmpo:0000302	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Polylobed	phenotype	skos:closeMatch	cmpo:0000157	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Proliferating cells	phenotype	skos:closeMatch	cmpo:0000241	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Prolonged mitotic exit	phenotype	skos:closeMatch	cmpo:0000205	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Reduction in IR-induced 53BP1 foci in HeLa cells	phenotype	skos:closeMatch	cmpo:0000180	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Reduction in IR-induced 53BP1 foci in HeLa cells	phenotype	skos:closeMatch	cmpo:0000181	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Reduction in IR-induced 53BP1 foci in U2OS cells	phenotype	skos:closeMatch	cmpo:0000180	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Reduction in IR-induced 53BP1 foci in U2OS cells	phenotype	skos:closeMatch	cmpo:0000181	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+SM phenotype	phenotype	skos:closeMatch	cmpo:0000118	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+SM phenotype	phenotype	skos:closeMatch	cmpo:0000305	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Small cells	phenotype	skos:closeMatch	cmpo:0000129	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+Variable cell size	phenotype	skos:closeMatch	cmpo:0000269	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+cell death	phenotype	skos:closeMatch	cmpo:0000030	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+cell migration	phenotype	skos:closeMatch	cmpo:0000033	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+decreased NF-kB oscillation	phenotype	skos:closeMatch	cmpo:0000330	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+different NF-kB  oscillation pattern	phenotype	skos:closeMatch	cmpo:0000333	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+enhanced secretion	phenotype	skos:closeMatch	cmpo:0000246	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+increased NF-kB oscillation	phenotype	skos:closeMatch	cmpo:0000331	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+increased proliferation	phenotype	skos:closeMatch	cmpo:0000241	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+large nucleus	phenotype	skos:closeMatch	cmpo:0000140	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+metaphase alignment problems/including no metaphase	phenotype	skos:closeMatch	cmpo:0000212	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+metaphase alignment problems/including no metaphase	phenotype	skos:closeMatch	cmpo:0000348	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+metaphase delay/arrest	phenotype	skos:closeMatch	cmpo:0000305	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+metaphase delay/arrest	phenotype	skos:closeMatch	cmpo:0000307	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+mild inhibition of secretion	phenotype	skos:closeMatch	cmpo:0000318	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+no NF-kB  oscillation	phenotype	skos:closeMatch	cmpo:0000332	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+nuclei stay close together	phenotype	skos:closeMatch	cmpo:0000213	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+reduced mitotic index	phenotype	skos:closeMatch	cmpo:0000058	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+segregation problems/chromatin bridges/lagging chromosomes/multiple DNA masses	phenotype	skos:closeMatch	cmpo:0000326	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+small nucleus	phenotype	skos:closeMatch	cmpo:0000141	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+strange nuclear shape	phenotype	skos:closeMatch	cmpo:0000157	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22
+strong inhibition of secretion	phenotype	skos:closeMatch	cmpo:0000319	semapv:ManualMappingCuration	Gabriella Rustici	2013-11-22

@@ -1,0 +1,969 @@
+#curie_map:
+#  BTO: http://purl.obolibrary.org/obo/BTO_
+#  CL: http://purl.obolibrary.org/obo/CL_
+#  CLO: http://purl.obolibrary.org/obo/CLO_
+#  EFO: http://www.ebi.ac.uk/efo/EFO_
+#  EO: http://purl.obolibrary.org/obo/EO_
+#  FMA: http://purl.obolibrary.org/obo/FMA_
+#  GO: http://purl.obolibrary.org/obo/GO_
+#  MONDO: http://purl.obolibrary.org/obo/MONDO_
+#  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+#  NCIT: http://purl.obolibrary.org/obo/NCIT_
+#  OBI: http://purl.obolibrary.org/obo/OBI_
+#  OMIT: http://purl.obolibrary.org/obo/OMIT_
+#  PATO: http://purl.obolibrary.org/obo/PATO_
+#  PO: http://purl.obolibrary.org/obo/PO_
+#  UBERON: http://purl.obolibrary.org/obo/UBERON_
+#  UO: http://purl.obolibrary.org/obo/UO_
+#  lbo: http://purl.obolibrary.org/obo/LBO_
+#mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/faang.sssom.tsv
+#mapping_set_description: FAANG project curated mappings
+#subject_type: rdfs literal
+#subject_source: https://www.ebi.ac.uk/vg/faang
+subject_label	subject_category	predicate_id	object_id	mapping_justification
+2 cell stage	developmentalStage	skos:closeMatch	UBERON:0007232	semapv:ManualMappingCuration
+2-cell	organismPart, cellType, developmentalStage	skos:closeMatch	EFO:0001285	semapv:ManualMappingCuration
+6 Weeks	developmentalStage	skos:closeMatch	UO:0000034	semapv:ManualMappingCuration
+6 weeks	developmentalStage	skos:closeMatch	UO:0000034	semapv:ManualMappingCuration
+8-cell	organismPart, cellType	skos:closeMatch	EFO:0001289	semapv:ManualMappingCuration
+AM	cellType	skos:closeMatch	EFO:0001063	semapv:ManualMappingCuration
+Abomasum	organismPart, cellType	skos:closeMatch	UBERON:0007358	semapv:ManualMappingCuration
+Abomasum (smooth muscle)	organismPart, cellType	skos:closeMatch	UBERON:0007358	semapv:ManualMappingCuration
+Adipose	organismPart, cellType	skos:closeMatch	UBERON:0001013	semapv:ManualMappingCuration
+Adipose (messenteric)	organismPart, cellType	skos:closeMatch	UBERON:0014454	semapv:ManualMappingCuration
+Adipose (perirenal)	organismPart, cellType	skos:closeMatch	UBERON:0014454	semapv:ManualMappingCuration
+Adipose Tissue	organismPart, cellType	skos:closeMatch	UBERON:0001013	semapv:ManualMappingCuration
+Adipose tissue	organismPart, cellType	skos:closeMatch	UBERON:0001013	semapv:ManualMappingCuration
+Adrenal	organismPart, cellType	skos:closeMatch	UBERON:0002369	semapv:ManualMappingCuration
+Adrenal Cortex	organismPart, cellType	skos:closeMatch	UBERON:0001235	semapv:ManualMappingCuration
+Adult	developmentalStage	skos:closeMatch	EFO:0001272	semapv:ManualMappingCuration
+Adult stage	developmentalStage	skos:closeMatch	EFO:0001272	semapv:ManualMappingCuration
+Alpine	breed	skos:closeMatch	lbo:0000955	semapv:ManualMappingCuration
+Alveolar macrophage	cellType	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+Alveolar macrophage	organismPart, cellType	skos:closeMatch	BTO:0000802	semapv:ManualMappingCuration
+Amygdala	organismPart, cellType	skos:closeMatch	UBERON:0001876	semapv:ManualMappingCuration
+Angus	breed	skos:closeMatch	lbo:0000017	semapv:ManualMappingCuration
+Aorta	organismPart, cellType	skos:closeMatch	UBERON:0000947	semapv:ManualMappingCuration
+Appendix	breed	skos:closeMatch	UBERON:0001154	semapv:ManualMappingCuration
+Ascending colon	organismPart, cellType	skos:closeMatch	UBERON:0001156	semapv:ManualMappingCuration
+B cell	cellType	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+B lymphocyte	organismPart, cellType	skos:closeMatch	CL:0000945	semapv:ManualMappingCuration
+B-cell	cellType	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+B-lymphocyte	organismPart, cellType	skos:closeMatch	BTO:0000776	semapv:ManualMappingCuration
+Bhadawari	breed	skos:closeMatch	lbo:0001046	semapv:ManualMappingCuration
+Bladder	organismPart, cellType	skos:closeMatch	UBERON:0001255	semapv:ManualMappingCuration
+Blastocyst	organismPart, cellType, developmentalStage	skos:closeMatch	UBERON:0000358	semapv:ManualMappingCuration
+Blastula stage	developmentalStage	skos:closeMatch	UBERON:0000108	semapv:ManualMappingCuration
+Blastula stage (early blastula)	developmentalStage	skos:closeMatch	UBERON:0000108	semapv:ManualMappingCuration
+Blood	organismPart, cellType	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+Blood plasma	organismPart, cellType	skos:closeMatch	UBERON:0001969	semapv:ManualMappingCuration
+Bone Marrow	organismPart, cellType	skos:closeMatch	UBERON:0002371	semapv:ManualMappingCuration
+Bone marrow	organismPart, cellType	skos:closeMatch	UBERON:0002371	semapv:ManualMappingCuration
+Bos indicus	organism, species	skos:closeMatch	NCBITaxon:9915	semapv:ManualMappingCuration
+Bos indicus x Bos taurus	organism	skos:closeMatch	NCBITaxon:30523	semapv:ManualMappingCuration
+Bos taurus	organism, species, breed	skos:closeMatch	NCBITaxon:9913	semapv:ManualMappingCuration
+Brahman	breed	skos:closeMatch	lbo:0000058	semapv:ManualMappingCuration
+Brain	organismPart, cellType	skos:closeMatch	UBERON:0000955	semapv:ManualMappingCuration
+Breast	organismPart, cellType	skos:closeMatch	UBERON:0000310	semapv:ManualMappingCuration
+Breast Muscle	organismPart, cellType	skos:closeMatch	UBERON:0001495	semapv:ManualMappingCuration
+Breast muscle	organismPart, cellType	skos:closeMatch	UBERON:0001495	semapv:ManualMappingCuration
+Bronchial epithelium	organismPart, cellType	skos:closeMatch	UBERON:0002031	semapv:ManualMappingCuration
+Bubalus bubalis	organism, species	skos:closeMatch	NCBITaxon:89462	semapv:ManualMappingCuration
+Bursa of Fabricius	organismPart, cellType	skos:closeMatch	BTO:0001699	semapv:ManualMappingCuration
+Bursa of Fabricius	organismPart, cellType	skos:closeMatch	UBERON:0003903	semapv:ManualMappingCuration
+C1 segment of cervical spinal cord	organismPart, cellType	skos:closeMatch	UBERON:0006469	semapv:ManualMappingCuration
+C57BL	breed	skos:closeMatch	EFO:0005181	semapv:ManualMappingCuration
+C6 segment of cervical spinal cord	organismPart, cellType	skos:closeMatch	UBERON:0006492	semapv:ManualMappingCuration
+CD14-positive monocyte	cellType	skos:closeMatch	CL:0001054	semapv:ManualMappingCuration
+CD4-positive T cell	cellType	skos:closeMatch	CL:0000492	semapv:ManualMappingCuration
+CD4-positive helper T cell	cellType	skos:closeMatch	CL:0000492	semapv:ManualMappingCuration
+CD4-positive, alpha-beta T cell	cellType	skos:closeMatch	CL:0000624	semapv:ManualMappingCuration
+CD8-positive T cell	cellType	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+CD8-positive, alpha-beta cytotoxic T cell	cellType	skos:closeMatch	CL:0000794	semapv:ManualMappingCuration
+Caecum	organismPart, cellType	skos:closeMatch	UBERON:0001153	semapv:ManualMappingCuration
+Caecum (smooth muscle)	organismPart, cellType	skos:closeMatch	UBERON:0001153	semapv:ManualMappingCuration
+Capra aegagrus	organism	skos:closeMatch	NCBITaxon:9923	semapv:ManualMappingCuration
+Capra hircus	organism, species	skos:closeMatch	NCBITaxon:9925	semapv:ManualMappingCuration
+Caput epididymis	organismPart, cellType	skos:closeMatch	UBERON:0004358	semapv:ManualMappingCuration
+Cartilage	organismPart, cellType	skos:closeMatch	UBERON:0002418	semapv:ManualMappingCuration
+Cartilage tissue	organismPart, cellType	skos:closeMatch	UBERON:0002418	semapv:ManualMappingCuration
+Cattle crossbreed	breed	skos:closeMatch	lbo:0001036	semapv:ManualMappingCuration
+Cauda epididymis	organismPart, cellType	skos:closeMatch	UBERON:0004360	semapv:ManualMappingCuration
+Cecum	organismPart, cellType	skos:closeMatch	UBERON:0001153	semapv:ManualMappingCuration
+Cell	organismPart, cellType	skos:closeMatch	GO:0005623	semapv:ManualMappingCuration
+Cells	organismPart, cellType	skos:closeMatch	OMIT:0003806	semapv:ManualMappingCuration
+Cerebellar Vermis	organismPart, cellType	skos:closeMatch	UBERON:0004720	semapv:ManualMappingCuration
+Cerebellum	organismPart, cellType	skos:closeMatch	UBERON:0002037	semapv:ManualMappingCuration
+Cerebral cortex	organismPart, cellType	skos:closeMatch	UBERON:0000956	semapv:ManualMappingCuration
+Cerebrum	organismPart, cellType	skos:closeMatch	UBERON:0001893	semapv:ManualMappingCuration
+Chicken crossbreed	breed	skos:closeMatch	lbo:0001037	semapv:ManualMappingCuration
+Chorioallantoic membrane	organismPart, cellType	skos:closeMatch	UBERON:0005335	semapv:ManualMappingCuration
+Cleavage stage (64-cells)	developmentalStage	skos:closeMatch	UBERON:0000107	semapv:ManualMappingCuration
+Cold	breed	skos:closeMatch	EO:0007174	semapv:ManualMappingCuration
+Colon	organismPart, cellType	skos:closeMatch	UBERON:0001155	semapv:ManualMappingCuration
+Colonic epithelium	organismPart, cellType	skos:closeMatch	UBERON:0000397	semapv:ManualMappingCuration
+Cornea	organismPart, cellType	skos:closeMatch	UBERON:0000964	semapv:ManualMappingCuration
+Corpus Luteum	organismPart, cellType	skos:closeMatch	UBERON:0002512	semapv:ManualMappingCuration
+Corpus epididymis	organismPart, cellType	skos:closeMatch	UBERON:0004359	semapv:ManualMappingCuration
+Cyprinus carpio carpio	organism, species	skos:closeMatch	NCBITaxon:630221	semapv:ManualMappingCuration
+Descending Colon	organismPart, cellType	skos:closeMatch	UBERON:0001158	semapv:ManualMappingCuration
+Descending colon	organismPart, cellType	skos:closeMatch	UBERON:0001158	semapv:ManualMappingCuration
+Diaphragm	organismPart, cellType	skos:closeMatch	UBERON:0001103	semapv:ManualMappingCuration
+Dicentrarchus labrax	organism, species	skos:closeMatch	NCBITaxon:13489	semapv:ManualMappingCuration
+Diencephalon	organismPart, cellType	skos:closeMatch	UBERON:0001894	semapv:ManualMappingCuration
+Duodenum	organismPart, cellType	skos:closeMatch	UBERON:0002114	semapv:ManualMappingCuration
+Duroc	breed	skos:closeMatch	lbo:0000358	semapv:ManualMappingCuration
+E14	developmentalStage	skos:closeMatch	EFO:0007075	semapv:ManualMappingCuration
+Ear	organismPart, cellType	skos:closeMatch	UBERON:0001690	semapv:ManualMappingCuration
+Early (10%) somitogenesis stage	developmentalStage	skos:closeMatch	UBERON:0007220	semapv:ManualMappingCuration
+Early blastula stage	developmentalStage	skos:closeMatch	UBERON:0000108	semapv:ManualMappingCuration
+Early gastrula stage	developmentalStage	skos:closeMatch	UBERON:0000109	semapv:ManualMappingCuration
+Embryo	organismPart, cellType, developmentalStage	skos:closeMatch	UBERON:0000922	semapv:ManualMappingCuration
+Embryonic cell	organismPart, cellType	skos:closeMatch	CL:0002321	semapv:ManualMappingCuration
+Embryonic fibroblasts	cellType	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+Endometrium	organismPart, cellType	skos:closeMatch	UBERON:0001295	semapv:ManualMappingCuration
+Equus caballus	organism, species, breed	skos:closeMatch	NCBITaxon:9796	semapv:ManualMappingCuration
+Esophagus	organismPart, cellType	skos:closeMatch	UBERON:0001043	semapv:ManualMappingCuration
+Eye	organismPart, cellType	skos:closeMatch	UBERON:0000970	semapv:ManualMappingCuration
+Fat tissue	organismPart, cellType	skos:closeMatch	UBERON:0001013	semapv:ManualMappingCuration
+Fayoumi	breed	skos:closeMatch	lbo:0000697	semapv:ManualMappingCuration
+Female	sex	skos:closeMatch	PATO:0000383	semapv:ManualMappingCuration
+Fetal	developmentalStage	skos:closeMatch	UBERON:0000323	semapv:ManualMappingCuration
+Fetus	developmentalStage	skos:closeMatch	UBERON:0000323	semapv:ManualMappingCuration
+Fibroblast	cellType	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+Fibroblasts	cellType	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+Frontal Cortex	organismPart, cellType	skos:closeMatch	UBERON:0001870	semapv:ManualMappingCuration
+G84	breed	skos:closeMatch	EFO:0006411	semapv:ManualMappingCuration
+Gall Bladder	organismPart, cellType	skos:closeMatch	UBERON:0002110	semapv:ManualMappingCuration
+Gall bladder	organismPart, cellType	skos:closeMatch	UBERON:0002110	semapv:ManualMappingCuration
+Gallus Gallus	breed	skos:closeMatch	NCBITaxon:9031	semapv:ManualMappingCuration
+Gallus gallus	organism, species, breed	skos:closeMatch	NCBITaxon:9031	semapv:ManualMappingCuration
+Gastrula stage	developmentalStage	skos:closeMatch	UBERON:0000109	semapv:ManualMappingCuration
+German Landrace	breed	skos:closeMatch	lbo:0000363	semapv:ManualMappingCuration
+Gluteal Muscle	organismPart, cellType	skos:closeMatch	UBERON:0002000	semapv:ManualMappingCuration
+Gluteus medius	organismPart, cellType	skos:closeMatch	UBERON:0001371	semapv:ManualMappingCuration
+Goat crossbreed	breed	skos:closeMatch	lbo:0001038	semapv:ManualMappingCuration
+Gonad	organismPart, cellType	skos:closeMatch	UBERON:0000991	semapv:ManualMappingCuration
+Grade	breed	skos:closeMatch	EFO:0000326	semapv:ManualMappingCuration
+Granulosa	organismPart, cellType	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+Gut	organismPart, cellType	skos:closeMatch	UBERON:0001007	semapv:ManualMappingCuration
+HT	breed	skos:closeMatch	EFO:0002200	semapv:ManualMappingCuration
+Hair follicle	organismPart, cellType	skos:closeMatch	UBERON:0002073	semapv:ManualMappingCuration
+Hatching stage	developmentalStage	skos:closeMatch	UBERON:0007220	semapv:ManualMappingCuration
+Heart	organismPart, cellType	skos:closeMatch	UBERON:0000948	semapv:ManualMappingCuration
+Hepatocytes	cellType	skos:closeMatch	CL:0000182	semapv:ManualMappingCuration
+Hereford	breed	skos:closeMatch	lbo:0000127	semapv:ManualMappingCuration
+Hereford (Line 1)	breed	skos:closeMatch	lbo:0000127	semapv:ManualMappingCuration
+Hippocampus	organismPart, cellType	skos:closeMatch	UBERON:0002421	semapv:ManualMappingCuration
+Holstein	breed	skos:closeMatch	lbo:0000132	semapv:ManualMappingCuration
+Hypothalamus	organismPart, cellType	skos:closeMatch	UBERON:0001898	semapv:ManualMappingCuration
+Ileal mucosa	organismPart, cellType	skos:closeMatch	UBERON:0000331	semapv:ManualMappingCuration
+Ileal mucosa	organismPart, cellType	skos:closeMatch	UBERON:0012377	semapv:ManualMappingCuration
+Ileum	organismPart, cellType	skos:closeMatch	UBERON:0002116	semapv:ManualMappingCuration
+Induced pluripotent stem cells	cellType	skos:closeMatch	EFO:0004905	semapv:ManualMappingCuration
+Inguinal lymph node	organismPart, cellType	skos:closeMatch	UBERON:0001542	semapv:ManualMappingCuration
+Internal Tongue Muscle	organismPart, cellType	skos:closeMatch	UBERON:0001576	semapv:ManualMappingCuration
+Isthmus	organismPart, cellType	skos:closeMatch	EFO:0010310	semapv:ManualMappingCuration
+Jafarabadi	breed	skos:closeMatch	lbo:0001045	semapv:ManualMappingCuration
+Jejunal mucosa	organismPart, cellType	skos:closeMatch	UBERON:0000399	semapv:ManualMappingCuration
+Jejunal mucosa	organismPart, cellType	skos:closeMatch	UBERON:0012488	semapv:ManualMappingCuration
+Jejunum	organismPart, cellType	skos:closeMatch	UBERON:0002115	semapv:ManualMappingCuration
+Keratinocyte	cellType	skos:closeMatch	CL:0000312	semapv:ManualMappingCuration
+Kidney	organismPart, cellType	skos:closeMatch	UBERON:0002113	semapv:ManualMappingCuration
+Kidney Cortex	organismPart, cellType	skos:closeMatch	UBERON:0001225	semapv:ManualMappingCuration
+Kidney cortex	organismPart, cellType	skos:closeMatch	UBERON:0001225	semapv:ManualMappingCuration
+L2	breed	skos:closeMatch	EFO:0002719	semapv:ManualMappingCuration
+Lamina	organismPart, cellType	skos:closeMatch	UBERON:0000957	semapv:ManualMappingCuration
+Landrace	breed	skos:closeMatch	lbo:0000692	semapv:ManualMappingCuration
+Landrace,Large White	breed	skos:closeMatch	lbo:0001040	semapv:ManualMappingCuration
+Large White	breed	skos:closeMatch	lbo:0000378	semapv:ManualMappingCuration
+Large intestine	organismPart, cellType	skos:closeMatch	UBERON:0000059	semapv:ManualMappingCuration
+Large white	breed	skos:closeMatch	lbo:0000378	semapv:ManualMappingCuration
+Large white sire x Landrace dam	breed	skos:closeMatch	lbo:0001040	semapv:ManualMappingCuration
+Late (90%) somitogenesis stage	developmentalStage	skos:closeMatch	UBERON:0007220	semapv:ManualMappingCuration
+Late embryonic sage (Late segmenation)	developmentalStage	skos:closeMatch	UBERON:0007220	semapv:ManualMappingCuration
+Late embryonic stage (Early segmentation)	developmentalStage	skos:closeMatch	UBERON:0007220	semapv:ManualMappingCuration
+Late-gastrula (90% epiboly) stage	developmentalStage	skos:closeMatch	UBERON:0000109	semapv:ManualMappingCuration
+Left Testis	organismPart, cellType	skos:closeMatch	UBERON:0004533	semapv:ManualMappingCuration
+Left ovary	organismPart, cellType	skos:closeMatch	UBERON:0002119	semapv:ManualMappingCuration
+Leg muscle	organismPart, cellType	skos:closeMatch	UBERON:0001383	semapv:ManualMappingCuration
+Lens	organismPart, cellType	skos:closeMatch	UBERON:0000965	semapv:ManualMappingCuration
+Liver	organismPart, cellType	skos:closeMatch	UBERON:0002107	semapv:ManualMappingCuration
+Longissimus Dorsi	organismPart, cellType	skos:closeMatch	UBERON:0001401	semapv:ManualMappingCuration
+Longissimus dorsi	organismPart, cellType	skos:closeMatch	UBERON:0001401	semapv:ManualMappingCuration
+Lung	organismPart, cellType	skos:closeMatch	UBERON:0002048	semapv:ManualMappingCuration
+Lymph Node	organismPart, cellType	skos:closeMatch	UBERON:0000029	semapv:ManualMappingCuration
+Lymph node	organismPart, cellType	skos:closeMatch	UBERON:0000029	semapv:ManualMappingCuration
+Macrophage	cellType	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+Male	sex	skos:closeMatch	PATO:0000384	semapv:ManualMappingCuration
+Mammary	organismPart, cellType	skos:closeMatch	UBERON:0001911	semapv:ManualMappingCuration
+Mammary epithelial cell	cellType	skos:closeMatch	CL:0002327	semapv:ManualMappingCuration
+Mammary gland	organismPart, cellType	skos:closeMatch	UBERON:0001911	semapv:ManualMappingCuration
+Mediterranean	breed	skos:closeMatch	lbo:0001043	semapv:ManualMappingCuration
+Medulla Oblongata	organismPart, cellType	skos:closeMatch	UBERON:0001896	semapv:ManualMappingCuration
+Meishan	breed	skos:closeMatch	lbo:0000381	semapv:ManualMappingCuration
+Meishan sire x White Composite dam	breed	skos:closeMatch	lbo:0001040	semapv:ManualMappingCuration
+Mid (50%) somitogenesis stage	developmentalStage	skos:closeMatch	UBERON:0007220	semapv:ManualMappingCuration
+Mid-gastrula (60% epiboly) stage	developmentalStage	skos:closeMatch	UBERON:0000109	semapv:ManualMappingCuration
+Midbrain	organismPart, cellType	skos:closeMatch	UBERON:0001891	semapv:ManualMappingCuration
+Milk	organismPart, cellType	skos:closeMatch	BTO:0000868	semapv:ManualMappingCuration
+Mixed	cellType, breed	skos:closeMatch	EFO:0001271	semapv:ManualMappingCuration
+Monocyte	organismPart, cellType	skos:closeMatch	BTO:0000876	semapv:ManualMappingCuration
+Muscle	organismPart, cellType	skos:closeMatch	UBERON:0002385	semapv:ManualMappingCuration
+ND064	breed	skos:closeMatch	EFO:0005182	semapv:ManualMappingCuration
+ND118	breed	skos:closeMatch	EFO:0005182	semapv:ManualMappingCuration
+ND131	breed	skos:closeMatch	EFO:0005182	semapv:ManualMappingCuration
+ND148	breed	skos:closeMatch	EFO:0005182	semapv:ManualMappingCuration
+ND158	breed	skos:closeMatch	EFO:0005182	semapv:ManualMappingCuration
+ND166	breed	skos:closeMatch	EFO:0005182	semapv:ManualMappingCuration
+ND169	breed	skos:closeMatch	EFO:0005182	semapv:ManualMappingCuration
+ND183	breed	skos:closeMatch	EFO:0005182	semapv:ManualMappingCuration
+ND719	breed	skos:closeMatch	EFO:0005182	semapv:ManualMappingCuration
+ND730	breed	skos:closeMatch	EFO:0005182	semapv:ManualMappingCuration
+Nasal pharynx	organismPart, cellType	skos:closeMatch	UBERON:0001042	semapv:ManualMappingCuration
+Near to hatching stage	developmentalStage	skos:closeMatch	UBERON:0007220	semapv:ManualMappingCuration
+Nellore	breed	skos:closeMatch	lbo:0000563	semapv:ManualMappingCuration
+Neonatal	developmentalStage	skos:closeMatch	EFO:0001372	semapv:ManualMappingCuration
+Neural crest	organismPart, cellType	skos:closeMatch	CL:0000333	semapv:ManualMappingCuration
+Newborn	developmentalStage	skos:closeMatch	EFO:0001372	semapv:ManualMappingCuration
+Newcastle disease	healthStatus	skos:closeMatch	EFO:0007395	semapv:ManualMappingCuration
+Nodose ganglion	organismPart, cellType	skos:closeMatch	UBERON:0005363	semapv:ManualMappingCuration
+Normal	healthStatus, breed	skos:closeMatch	PATO:0000461	semapv:ManualMappingCuration
+Norwegian Red	breed	skos:closeMatch	lbo:0000198	semapv:ManualMappingCuration
+Oncorhynchus mykiss	organism, species	skos:closeMatch	NCBITaxon:8022	semapv:ManualMappingCuration
+Oocyte	organismPart, cellType, developmentalStage	skos:closeMatch	CL:0000023	semapv:ManualMappingCuration
+Oryctolagus cuniculus	organism	skos:closeMatch	NCBITaxon:9986	semapv:ManualMappingCuration
+Ovarian section (without Corpus Luteum)	organismPart, cellType	skos:closeMatch	UBERON:0006960	semapv:ManualMappingCuration
+Ovary	organismPart, cellType	skos:closeMatch	UBERON:0000992	semapv:ManualMappingCuration
+Ovis aries	organism, species, breed	skos:closeMatch	NCBITaxon:9940	semapv:ManualMappingCuration
+Ovis orientalis	organism	skos:closeMatch	NCBITaxon:469796	semapv:ManualMappingCuration
+P1	breed	skos:closeMatch	EFO:0002948	semapv:ManualMappingCuration
+Palatine Tonsil	organismPart, cellType	skos:closeMatch	UBERON:0002373	semapv:ManualMappingCuration
+Pancreas	organismPart, cellType	skos:closeMatch	UBERON:0001264	semapv:ManualMappingCuration
+Pandharpuri	breed	skos:closeMatch	lbo:0001044	semapv:ManualMappingCuration
+Parietal Cortex	organismPart, cellType	skos:closeMatch	UBERON:0016530	semapv:ManualMappingCuration
+Pectoral muscle	organismPart, cellType	skos:closeMatch	UBERON:0001495	semapv:ManualMappingCuration
+Peripheral blood	organismPart, cellType	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+Peripheral blood leukocytes	organismPart, cellType	skos:closeMatch	CL:0000738	semapv:ManualMappingCuration
+Peripheral blood mononuclear cells	organismPart, cellType	skos:closeMatch	CL:2000001	semapv:ManualMappingCuration
+Peyer patches	organismPart, cellType	skos:closeMatch	UBERON:0001211	semapv:ManualMappingCuration
+Peyer's gland	organismPart, cellType	skos:closeMatch	BTO:0001784	semapv:ManualMappingCuration
+Peyer's patch	organismPart, cellType	skos:closeMatch	UBERON:0001211	semapv:ManualMappingCuration
+Pharyngula	developmentalStage	skos:closeMatch	UBERON:0004707	semapv:ManualMappingCuration
+Pharyngula (otocyst) stage	developmentalStage	skos:closeMatch	UBERON:0004707	semapv:ManualMappingCuration
+Pharyngula stage	developmentalStage	skos:closeMatch	UBERON:0004707	semapv:ManualMappingCuration
+Pharyngula stage (Prehatching)	developmentalStage	skos:closeMatch	UBERON:0004707	semapv:ManualMappingCuration
+Pietrain	breed	skos:closeMatch	lbo:0000395	semapv:ManualMappingCuration
+Pig crossbreed	breed	skos:closeMatch	lbo:0001040	semapv:ManualMappingCuration
+Pineal Gland	organismPart, cellType	skos:closeMatch	UBERON:0001905	semapv:ManualMappingCuration
+Pineal gland	organismPart, cellType	skos:closeMatch	UBERON:0001905	semapv:ManualMappingCuration
+Pituitary	organismPart, cellType	skos:closeMatch	UBERON:0000007	semapv:ManualMappingCuration
+Pituitary gland	organismPart, cellType	skos:closeMatch	UBERON:0000007	semapv:ManualMappingCuration
+Pituitary-gland	organismPart, cellType	skos:closeMatch	UBERON:0000007	semapv:ManualMappingCuration
+Placenta	organismPart, cellType	skos:closeMatch	UBERON:0001987	semapv:ManualMappingCuration
+Plasma	organismPart, cellType	skos:closeMatch	UBERON:0001969	semapv:ManualMappingCuration
+Pons	organismPart, cellType	skos:closeMatch	UBERON:0000988	semapv:ManualMappingCuration
+Prostate	organismPart, cellType	skos:closeMatch	UBERON:0002367	semapv:ManualMappingCuration
+Puberty	developmentalStage	skos:closeMatch	EFO:0001382	semapv:ManualMappingCuration
+Rambouillet	breed	skos:closeMatch	lbo:0000591	semapv:ManualMappingCuration
+Rangifer tarandus	organism	skos:closeMatch	NCBITaxon:9870	semapv:ManualMappingCuration
+Rectum	organismPart, cellType	skos:closeMatch	UBERON:0001052	semapv:ManualMappingCuration
+Retina	organismPart, cellType	skos:closeMatch	UBERON:0000966	semapv:ManualMappingCuration
+Rhode Island Red	breed	skos:closeMatch	lbo:0000327	semapv:ManualMappingCuration
+Right ovary	organismPart, cellType	skos:closeMatch	UBERON:0002118	semapv:ManualMappingCuration
+Rumen	organismPart, cellType	skos:closeMatch	UBERON:0007365	semapv:ManualMappingCuration
+Salivary Gland	organismPart, cellType	skos:closeMatch	UBERON:0001044	semapv:ManualMappingCuration
+Salmo salar	organism, species	skos:closeMatch	NCBITaxon:8030	semapv:ManualMappingCuration
+Scophthalmus maximus	organism, species	skos:closeMatch	NCBITaxon:52904	semapv:ManualMappingCuration
+Scottish Blackface	breed	skos:closeMatch	lbo:0000612	semapv:ManualMappingCuration
+Segmentation	developmentalStage	skos:closeMatch	EFO:0001315	semapv:ManualMappingCuration
+Segmentation stage	developmentalStage	skos:closeMatch	EFO:0001315	semapv:ManualMappingCuration
+Semen	organismPart, cellType	skos:closeMatch	CL:0000019	semapv:ManualMappingCuration
+Serum	organismPart, cellType	skos:closeMatch	BTO:0000133	semapv:ManualMappingCuration
+Skeletal muscle	organismPart, cellType	skos:closeMatch	UBERON:0001134	semapv:ManualMappingCuration
+Skin	organismPart, cellType	skos:closeMatch	UBERON:0000014	semapv:ManualMappingCuration
+Small Intestine	organismPart, cellType	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+Small intestine	organismPart, cellType	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+Small intestine 1	organismPart, cellType	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+Small intestine 3	organismPart, cellType	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+Small intestine 4	organismPart, cellType	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+Small intestine 5	organismPart, cellType	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+Small intestine 7	organismPart, cellType	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+Small intestine 8	organismPart, cellType	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+Spanish Assaf	breed	skos:closeMatch	lbo:0001062	semapv:ManualMappingCuration
+Spanish Churra	breed	skos:closeMatch	lbo:0000704	semapv:ManualMappingCuration
+Sparus aurata	species, organism	skos:closeMatch	NCBITaxon:8175	semapv:ManualMappingCuration
+Sperm	organismPart, cellType	skos:closeMatch	CL:0000019	semapv:ManualMappingCuration
+Spinal cord	organismPart, cellType	skos:closeMatch	UBERON:0002240	semapv:ManualMappingCuration
+Spleen	organismPart, cellType	skos:closeMatch	UBERON:0002106	semapv:ManualMappingCuration
+Staphylococcus aureus	breed	skos:closeMatch	NCBITaxon:1280	semapv:ManualMappingCuration
+Subcutaneous Adipose	organismPart, cellType	skos:closeMatch	UBERON:0002190	semapv:ManualMappingCuration
+Subcutaneous adipose tissue	organismPart, cellType	skos:closeMatch	EFO:0004766	semapv:ManualMappingCuration
+Subcutaneous fat	organismPart, cellType	skos:closeMatch	UBERON:0002190	semapv:ManualMappingCuration
+Suffolk	breed	skos:closeMatch	lbo:0000632	semapv:ManualMappingCuration
+Sus scrofa	organism, species, breed	skos:closeMatch	NCBITaxon:9823	semapv:ManualMappingCuration
+T-lymphocyte	organismPart, cellType	skos:closeMatch	BTO:0000782	semapv:ManualMappingCuration
+TE85	developmentalStage	skos:closeMatch	EFO:0002866	semapv:ManualMappingCuration
+TN60	breed	skos:closeMatch	lbo:0001040	semapv:ManualMappingCuration
+TN70	breed	skos:closeMatch	lbo:0001040	semapv:ManualMappingCuration
+Tail	organismPart, cellType	skos:closeMatch	UBERON:0002415	semapv:ManualMappingCuration
+Targhee x Polypay	breed	skos:closeMatch	lbo:0001041	semapv:ManualMappingCuration
+Temporal Cortex	organismPart, cellType	skos:closeMatch	UBERON:0016538	semapv:ManualMappingCuration
+Testes	organismPart, cellType	skos:closeMatch	UBERON:0000473	semapv:ManualMappingCuration
+Testis	organismPart, cellType	skos:closeMatch	UBERON:0000473	semapv:ManualMappingCuration
+Texel	breed	skos:closeMatch	lbo:0000640	semapv:ManualMappingCuration
+Texel sire x (Texel sire x Scottish Blackface dam) dam	breed	skos:closeMatch	lbo:0001041	semapv:ManualMappingCuration
+Texel sire x Scottish Blackface dam	breed	skos:closeMatch	lbo:0001041	semapv:ManualMappingCuration
+Thalamus	organismPart, cellType	skos:closeMatch	UBERON:0001897	semapv:ManualMappingCuration
+Thoroughbred	breed	skos:closeMatch	lbo:0000910	semapv:ManualMappingCuration
+Thymus	organismPart, cellType	skos:closeMatch	UBERON:0002370	semapv:ManualMappingCuration
+Thyroid	organismPart, cellType	skos:closeMatch	UBERON:0002046	semapv:ManualMappingCuration
+Thyroid gland	organismPart, cellType	skos:closeMatch	UBERON:0002046	semapv:ManualMappingCuration
+Tongue Superficial	organismPart, cellType	skos:closeMatch	UBERON:0007367	semapv:ManualMappingCuration
+Trachea	organismPart, cellType	skos:closeMatch	UBERON:0003126	semapv:ManualMappingCuration
+Ureter	organismPart, cellType	skos:closeMatch	UBERON:0000056	semapv:ManualMappingCuration
+Urethra	organismPart, cellType	skos:closeMatch	UBERON:0000057	semapv:ManualMappingCuration
+Urine	organismPart, cellType	skos:closeMatch	UBERON:0001088	semapv:ManualMappingCuration
+Uterus	organismPart, cellType	skos:closeMatch	UBERON:0000995	semapv:ManualMappingCuration
+Ventricle	organismPart, cellType	skos:closeMatch	UBERON:0002082	semapv:ManualMappingCuration
+White Adipose	organismPart, cellType	skos:closeMatch	UBERON:0001347	semapv:ManualMappingCuration
+White Composite	breed	skos:closeMatch	lbo:0001077	semapv:ManualMappingCuration
+White Composite sire x Meishan dam	breed	skos:closeMatch	lbo:0001040	semapv:ManualMappingCuration
+White Leghorn	breed	skos:closeMatch	lbo:0001061	semapv:ManualMappingCuration
+White Leghorn line 6x White Leghorn line 7	breed	skos:closeMatch	lbo:0001037	semapv:ManualMappingCuration
+White adipose	organismPart, cellType	skos:closeMatch	UBERON:0001347	semapv:ManualMappingCuration
+Whole Blood	organismPart, cellType	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+Whole blood	organismPart, cellType	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+Whole-blood	organismPart, cellType	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+Wild-type	breed	skos:closeMatch	EFO:0005168	semapv:ManualMappingCuration
+Yolk Sac	organismPart, cellType	skos:closeMatch	UBERON:0001040	semapv:ManualMappingCuration
+Yorkshire	breed	skos:closeMatch	lbo:0000338	semapv:ManualMappingCuration
+Yorkshire sire x Landrace dam	breed	skos:closeMatch	lbo:0001040	semapv:ManualMappingCuration
+Zygote	developmentalStage	skos:closeMatch	CL:0000365	semapv:ManualMappingCuration
+abdominal adipose tissue	organismPart, cellType	skos:closeMatch	BTO:0004041	semapv:ManualMappingCuration
+abdominal aorta	organismPart, cellType	skos:closeMatch	UBERON:0001516	semapv:ManualMappingCuration
+abdominal part of esophagus	organismPart, cellType	skos:closeMatch	UBERON:0035177	semapv:ManualMappingCuration
+abomasum	organismPart, cellType	skos:closeMatch	UBERON:0007358	semapv:ManualMappingCuration
+abomasum	organismPart, cellType	skos:closeMatch	UBERON:0007365	semapv:ManualMappingCuration
+adipocyte	organismPart, cellType	skos:closeMatch	CL:0000136	semapv:ManualMappingCuration
+adipose	organismPart, cellType	skos:closeMatch	UBERON:0001013	semapv:ManualMappingCuration
+adipose tissue	organismPart, cellType	skos:closeMatch	UBERON:0001013	semapv:ManualMappingCuration
+adrenal cortex	organismPart, cellType	skos:closeMatch	BTO:0000045	semapv:ManualMappingCuration
+adrenal cortex	organismPart, cellType	skos:closeMatch	UBERON:0001235	semapv:ManualMappingCuration
+adrenal gland	organismPart, cellType	skos:closeMatch	UBERON:0002369	semapv:ManualMappingCuration
+adrenal gland cortex zone	organismPart, cellType	skos:closeMatch	UBERON:0009753	semapv:ManualMappingCuration
+adrenal medulla	organismPart, cellType	skos:closeMatch	UBERON:0001236	semapv:ManualMappingCuration
+adrenal tissue	organismPart, cellType	skos:closeMatch	UBERON:0018303	semapv:ManualMappingCuration
+adult	developmentalStage	skos:closeMatch	EFO:0001272	semapv:ManualMappingCuration
+adult	developmentalStage	skos:closeMatch	UBERON:0007023	semapv:ManualMappingCuration
+adult organism	developmentalStage	skos:closeMatch	UBERON:0007023	semapv:ManualMappingCuration
+airway epithelial cells	cellType	skos:closeMatch	CL:0002368	semapv:ManualMappingCuration
+allantoic fluid	organismPart, cellType	skos:closeMatch	BTO:0001662	semapv:ManualMappingCuration
+alveolar macrophage	cellType	skos:closeMatch	CL:0000583	semapv:ManualMappingCuration
+alveolar macrophage	organismPart, cellType	skos:closeMatch	BTO:0000802	semapv:ManualMappingCuration
+alveolus of lung	organismPart, cellType	skos:closeMatch	UBERON:0002299	semapv:ManualMappingCuration
+amnion	organismPart, cellType	skos:closeMatch	UBERON:0000305	semapv:ManualMappingCuration
+amniotic fluid	organismPart, cellType	skos:closeMatch	UBERON:0000173	semapv:ManualMappingCuration
+ampulla of uterine tube (contralateral to Corpus Luteum)	organismPart, cellType	skos:closeMatch	UBERON:0012648	semapv:ManualMappingCuration
+ampulla of uterine tube (ipsilateral to Corpus Luteum)	organismPart, cellType	skos:closeMatch	UBERON:0012648	semapv:ManualMappingCuration
+ampullary gland	organismPart, cellType	skos:closeMatch	UBERON:0009645	semapv:ManualMappingCuration
+amygdala	organismPart, cellType	skos:closeMatch	UBERON:0001876	semapv:ManualMappingCuration
+anterior part of tongue	organismPart, cellType	skos:closeMatch	UBERON:0010032	semapv:ManualMappingCuration
+anterior vena cava	organismPart, cellType	skos:closeMatch	UBERON:0001585	semapv:ManualMappingCuration
+aorta	organismPart, cellType	skos:closeMatch	UBERON:0000947	semapv:ManualMappingCuration
+aortic arch	organismPart, cellType	skos:closeMatch	UBERON:0004363	semapv:ManualMappingCuration
+aortic valve	organismPart, cellType	skos:closeMatch	UBERON:0002137	semapv:ManualMappingCuration
+appendix	breed	skos:closeMatch	UBERON:0001154	semapv:ManualMappingCuration
+arch of aorta	organismPart, cellType	skos:closeMatch	UBERON:0001508	semapv:ManualMappingCuration
+artery	organismPart, cellType	skos:closeMatch	UBERON:0001637	semapv:ManualMappingCuration
+articular cartilage	organismPart, cellType	skos:closeMatch	BTO:0001572	semapv:ManualMappingCuration
+articular cartilage	organismPart, cellType	skos:closeMatch	UBERON:0010996	semapv:ManualMappingCuration
+articular cartilage of joint	organismPart, cellType	skos:closeMatch	UBERON:0010996	semapv:ManualMappingCuration
+ascending aorta	organismPart, cellType	skos:closeMatch	UBERON:0001496	semapv:ManualMappingCuration
+ascending colon	organismPart, cellType	skos:closeMatch	UBERON:0001156	semapv:ManualMappingCuration
+atrioventricular node	organismPart, cellType	skos:closeMatch	UBERON:0002352	semapv:ManualMappingCuration
+biceps brachii	organismPart, cellType	skos:closeMatch	UBERON:0001507	semapv:ManualMappingCuration
+biceps femoris	organismPart, cellType	skos:closeMatch	UBERON:0001374	semapv:ManualMappingCuration
+bladder	organismPart, cellType	skos:closeMatch	UBERON:0001255	semapv:ManualMappingCuration
+blastocyst	organismPart, cellType, developmentalStage	skos:closeMatch	UBERON:0000358	semapv:ManualMappingCuration
+blastula	developmentalStage	skos:closeMatch	UBERON:0000108	semapv:ManualMappingCuration
+blastula stage	developmentalStage	skos:closeMatch	UBERON:0000108	semapv:ManualMappingCuration
+blood	organismPart, cellType	skos:closeMatch	BTO:0000089	semapv:ManualMappingCuration
+blood	organismPart, cellType	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+blood plasma	organismPart, cellType	skos:closeMatch	UBERON:0001969	semapv:ManualMappingCuration
+blood serum	organismPart, cellType	skos:closeMatch	BTO:0000133	semapv:ManualMappingCuration
+blood serum	organismPart, cellType	skos:closeMatch	UBERON:0001977	semapv:ManualMappingCuration
+body of corpus callosum	organismPart, cellType	skos:closeMatch	UBERON:0015510	semapv:ManualMappingCuration
+bone	organismPart, cellType	skos:closeMatch	UBERON:0002481	semapv:ManualMappingCuration
+bone marrow	organismPart, cellType	skos:closeMatch	BTO:0000141	semapv:ManualMappingCuration
+bone marrow	organismPart, cellType	skos:closeMatch	UBERON:0000361	semapv:ManualMappingCuration
+bone marrow	organismPart, cellType	skos:closeMatch	UBERON:0002371	semapv:ManualMappingCuration
+bone marrow cell	cellType	skos:closeMatch	CL:0002092	semapv:ManualMappingCuration
+bone marrow macrophage	cellType	skos:closeMatch	CL:0002476	semapv:ManualMappingCuration
+brachial nerve plexus	organismPart, cellType	skos:closeMatch	UBERON:0001814	semapv:ManualMappingCuration
+brain	organismPart, cellType	skos:closeMatch	UBERON:0000955	semapv:ManualMappingCuration
+brain cerebellum	organismPart, cellType	skos:closeMatch	UBERON:0002037	semapv:ManualMappingCuration
+brain frontal cortex	organismPart, cellType	skos:closeMatch	UBERON:0001870	semapv:ManualMappingCuration
+brainstem	organismPart, cellType	skos:closeMatch	UBERON:0002298	semapv:ManualMappingCuration
+breast muscle	organismPart, cellType	skos:closeMatch	UBERON:0001495	semapv:ManualMappingCuration
+bronchus	organismPart, cellType	skos:closeMatch	UBERON:0002185	semapv:ManualMappingCuration
+bulbo-urethral gland	organismPart, cellType	skos:closeMatch	UBERON:0002366	semapv:ManualMappingCuration
+bursa of Fabricius	organismPart, cellType	skos:closeMatch	UBERON:0003903	semapv:ManualMappingCuration
+cDC1	cellType	skos:closeMatch	EFO:0000649	semapv:ManualMappingCuration
+cDC2	cellType	skos:closeMatch	EFO:0000649	semapv:ManualMappingCuration
+caecum	organismPart, cellType	skos:closeMatch	UBERON:0001153	semapv:ManualMappingCuration
+caecum	organismPart, cellType	skos:closeMatch	UBERON:0014390	semapv:ManualMappingCuration
+caput epididymis	organismPart, cellType	skos:closeMatch	UBERON:0004358	semapv:ManualMappingCuration
+caput epididymus	organismPart, cellType	skos:closeMatch	UBERON:0004358	semapv:ManualMappingCuration
+cardiac atrium	organismPart, cellType	skos:closeMatch	UBERON:0002081	semapv:ManualMappingCuration
+cardiac muscle	organismPart, cellType	skos:closeMatch	BTO:0000199	semapv:ManualMappingCuration
+cardiac muscle	organismPart, cellType	skos:closeMatch	UBERON:0002349	semapv:ManualMappingCuration
+cardiac muscle of left atrium	organismPart, cellType	skos:closeMatch	UBERON:0003380	semapv:ManualMappingCuration
+cardiac muscle of right atrium	organismPart, cellType	skos:closeMatch	UBERON:0003379	semapv:ManualMappingCuration
+cardiac muscle tissue	organismPart, cellType	skos:closeMatch	UBERON:0001133	semapv:ManualMappingCuration
+cardiac muscle tissue of left auricle	organismPart, cellType	skos:closeMatch	UBERON:0009780	semapv:ManualMappingCuration
+cardiac muscle tissue of right auricle	organismPart, cellType	skos:closeMatch	UBERON:0009779	semapv:ManualMappingCuration
+cardiac septum	organismPart, cellType	skos:closeMatch	UBERON:0002099	semapv:ManualMappingCuration
+carotid artery	organismPart, cellType	skos:closeMatch	UBERON:0005396	semapv:ManualMappingCuration
+cartilage	organismPart, cellType	skos:closeMatch	BTO:0000206	semapv:ManualMappingCuration
+cartilage	organismPart, cellType	skos:closeMatch	UBERON:0007844	semapv:ManualMappingCuration
+cartilage tissue	organismPart, cellType	skos:closeMatch	UBERON:0002418	semapv:ManualMappingCuration
+castrated male	sex	skos:closeMatch	PATO:0002367	semapv:ManualMappingCuration
+cauda epididymis	organismPart, cellType	skos:closeMatch	UBERON:0004360	semapv:ManualMappingCuration
+cauda epididymus	organismPart, cellType	skos:closeMatch	UBERON:0004360	semapv:ManualMappingCuration
+caudal region	organismPart, cellType	skos:closeMatch	UBERON:0006071	semapv:ManualMappingCuration
+caudal vena cava	organismPart, cellType	skos:closeMatch	UBERON:0001072	semapv:ManualMappingCuration
+cecum	organismPart, cellType	skos:closeMatch	BTO:0000166	semapv:ManualMappingCuration
+cecum	organismPart, cellType	skos:closeMatch	UBERON:0001153	semapv:ManualMappingCuration
+cecum mucosa	organismPart, cellType	skos:closeMatch	UBERON:0000314	semapv:ManualMappingCuration
+cecum mucosa	organismPart, cellType	skos:closeMatch	UBERON:0001211	semapv:ManualMappingCuration
+cell	organismPart, cellType, developmentalStage	skos:closeMatch	GO:0005623	semapv:ManualMappingCuration
+cell culture	cultureType	skos:closeMatch	BTO:0000214	semapv:ManualMappingCuration
+cell culture	material	skos:closeMatch	OBI:0001876	semapv:ManualMappingCuration
+cell line	developmentalStage	skos:closeMatch	EFO:0000322	semapv:ManualMappingCuration
+cell line	material	skos:closeMatch	CLO:0000031	semapv:ManualMappingCuration
+cell specimen	material	skos:closeMatch	OBI:0001468	semapv:ManualMappingCuration
+cells isolated from milk	cellType	skos:closeMatch	CL:0000548	semapv:ManualMappingCuration
+cerebellar hemisphere	organismPart, cellType	skos:closeMatch	UBERON:0002245	semapv:ManualMappingCuration
+cerebellar vermis	organismPart, cellType	skos:closeMatch	UBERON:0004720	semapv:ManualMappingCuration
+cerebellum	organismPart, cellType	skos:closeMatch	BTO:0000232	semapv:ManualMappingCuration
+cerebellum	organismPart, cellType	skos:closeMatch	UBERON:0002037	semapv:ManualMappingCuration
+cerebral cortex	organismPart, cellType	skos:closeMatch	UBERON:0000956	semapv:ManualMappingCuration
+cerebrospinal fluid	organismPart, cellType	skos:closeMatch	UBERON:0001359	semapv:ManualMappingCuration
+cerebrum	organismPart, cellType	skos:closeMatch	UBERON:0001893	semapv:ManualMappingCuration
+cervical mucosa	organismPart, cellType	skos:closeMatch	UBERON:0012248	semapv:ManualMappingCuration
+cervical part of esophagus	organismPart, cellType	skos:closeMatch	UBERON:0035450	semapv:ManualMappingCuration
+cervical spinal cord	organismPart, cellType	skos:closeMatch	UBERON:0002726	semapv:ManualMappingCuration
+chicken breed	breed	skos:closeMatch	lbo:0000002	semapv:ManualMappingCuration
+chorda tendinea	organismPart, cellType	skos:closeMatch	UBERON:0005994	semapv:ManualMappingCuration
+chorda tendinea of left ventricle	organismPart, cellType	skos:closeMatch	UBERON:0014851	semapv:ManualMappingCuration
+chorda tendinea of right ventricle	organismPart, cellType	skos:closeMatch	UBERON:0014852	semapv:ManualMappingCuration
+chorioallantoic membrane	organismPart, cellType	skos:closeMatch	UBERON:0005335	semapv:ManualMappingCuration
+choroid plexus	organismPart, cellType	skos:closeMatch	UBERON:0001886	semapv:ManualMappingCuration
+cleavage stage	developmentalStage	skos:closeMatch	UBERON:0000107	semapv:ManualMappingCuration
+cleavage stage (32 cells)	developmentalStage	skos:closeMatch	UBERON:0000107	semapv:ManualMappingCuration
+cleavage stage (64 cells)	developmentalStage	skos:closeMatch	UBERON:0000107	semapv:ManualMappingCuration
+cochlea	organismPart, cellType	skos:closeMatch	UBERON:0001844	semapv:ManualMappingCuration
+colon	organismPart, cellType	skos:closeMatch	BTO:0000269	semapv:ManualMappingCuration
+colon	organismPart, cellType	skos:closeMatch	UBERON:0000314	semapv:ManualMappingCuration
+colon	organismPart, cellType	skos:closeMatch	UBERON:0001155	semapv:ManualMappingCuration
+colon (smooth muscle)	organismPart, cellType	skos:closeMatch	UBERON:0001155	semapv:ManualMappingCuration
+colon (smooth muscle)	organismPart, cellType	skos:closeMatch	UBERON:0012489	semapv:ManualMappingCuration
+colonic mucosa	organismPart, cellType	skos:closeMatch	UBERON:0000317	semapv:ManualMappingCuration
+colonic mucosa	organismPart, cellType	skos:closeMatch	UBERON:0001153	semapv:ManualMappingCuration
+common iliac lymph node	organismPart, cellType	skos:closeMatch	UBERON:0015878	semapv:ManualMappingCuration
+connecting stalk	organismPart, cellType	skos:closeMatch	UBERON:0007806	semapv:ManualMappingCuration
+connective tissue	organismPart, cellType	skos:closeMatch	UBERON:0002384	semapv:ManualMappingCuration
+cornea	organismPart, cellType	skos:closeMatch	UBERON:0000964	semapv:ManualMappingCuration
+corpus callosum	organismPart, cellType	skos:closeMatch	UBERON:0002336	semapv:ManualMappingCuration
+corpus epididymus	organismPart, cellType	skos:closeMatch	UBERON:0004359	semapv:ManualMappingCuration
+corpus luteum	organismPart, cellType	skos:closeMatch	BTO:0000292	semapv:ManualMappingCuration
+corpus luteum	organismPart, cellType	skos:closeMatch	UBERON:0002512	semapv:ManualMappingCuration
+cortex	organismPart, cellType	skos:closeMatch	UBERON:0000956	semapv:ManualMappingCuration
+cortex	organismPart, cellType	skos:closeMatch	UBERON:0001851	semapv:ManualMappingCuration
+cortex of kidney	organismPart, cellType	skos:closeMatch	UBERON:0001225	semapv:ManualMappingCuration
+cotyledon	organismPart, cellType	skos:closeMatch	PO:0020030	semapv:ManualMappingCuration
+crico-arytenoid muscle	organismPart, cellType	skos:closeMatch	UBERON:0010932	semapv:ManualMappingCuration
+dendritic cell	cellType	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+descending colon	organismPart, cellType	skos:closeMatch	UBERON:0001158	semapv:ManualMappingCuration
+diaphragm	organismPart, cellType	skos:closeMatch	UBERON:0001103	semapv:ManualMappingCuration
+diaphysis of metacarpal bone	organismPart, cellType	skos:closeMatch	UBERON:0013752	semapv:ManualMappingCuration
+diffuse placenta	organismPart, cellType	skos:closeMatch	UBERON:0036151	semapv:ManualMappingCuration
+distal small intestine	organismPart, cellType	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+dorsal plus ventral thalamus	organismPart, cellType	skos:closeMatch	UBERON:0001897	semapv:ManualMappingCuration
+dorsal root ganglion	organismPart, cellType	skos:closeMatch	UBERON:0000044	semapv:ManualMappingCuration
+dorsal skin	organismPart, cellType	skos:closeMatch	EFO:0001907	semapv:ManualMappingCuration
+duodenal mucosa	organismPart, cellType	skos:closeMatch	UBERON:0000320	semapv:ManualMappingCuration
+duodenal mucosa	organismPart, cellType	skos:closeMatch	UBERON:0007358	semapv:ManualMappingCuration
+duodenum	organismPart, cellType	skos:closeMatch	BTO:0000365	semapv:ManualMappingCuration
+duodenum	organismPart, cellType	skos:closeMatch	UBERON:0002114	semapv:ManualMappingCuration
+duodenum	organismPart, cellType	skos:closeMatch	UBERON:0010154	semapv:ManualMappingCuration
+duodenum (smooth muscle)	organismPart, cellType	skos:closeMatch	UBERON:0002114	semapv:ManualMappingCuration
+duodenum (smooth muscle)	organismPart, cellType	skos:closeMatch	UBERON:0012488	semapv:ManualMappingCuration
+dura mater	organismPart, cellType	skos:closeMatch	UBERON:0002363	semapv:ManualMappingCuration
+ear	organismPart, cellType	skos:closeMatch	UBERON:0001690	semapv:ManualMappingCuration
+early blastula	developmentalStage	skos:closeMatch	UBERON:0000108	semapv:ManualMappingCuration
+early blastula stage	developmentalStage	skos:closeMatch	UBERON:0000108	semapv:ManualMappingCuration
+egg cell	organismPart, cellType	skos:closeMatch	BTO:0003801	semapv:ManualMappingCuration
+eighth thoracic spinal cord segment	organismPart, cellType	skos:closeMatch	UBERON:0006456	semapv:ManualMappingCuration
+embryo	organismPart, cellType, developmentalStage	skos:closeMatch	UBERON:0000922	semapv:ManualMappingCuration
+embryo stage	developmentalStage	skos:closeMatch	UBERON:0000068	semapv:ManualMappingCuration
+embryonic brain	organismPart, cellType	skos:closeMatch	UBERON:6001060	semapv:ManualMappingCuration
+embryonic cell	organismPart, cellType	skos:closeMatch	CL:0002321	semapv:ManualMappingCuration
+embryonic day 10.5	developmentalStage	skos:closeMatch	EFO:0007643	semapv:ManualMappingCuration
+embryonic day 12	developmentalStage	skos:closeMatch	EFO:0007640	semapv:ManualMappingCuration
+embryonic day 19	developmentalStage	skos:closeMatch	EFO:0002569	semapv:ManualMappingCuration
+embryonic fibroblast	cellType	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+embryonic fibroblast	cellType	skos:closeMatch	CL:2000042	semapv:ManualMappingCuration
+embryonic post-anal tail	organismPart, cellType	skos:closeMatch	UBERON:0007144	semapv:ManualMappingCuration
+embryonic stem cell	cellType	skos:closeMatch	CL:0002322	semapv:ManualMappingCuration
+endometrium	organismPart, cellType	skos:closeMatch	UBERON:0001295	semapv:ManualMappingCuration
+endometruim	organismPart, cellType	skos:closeMatch	UBERON:0001295	semapv:ManualMappingCuration
+enrichment culture	cultureType	skos:closeMatch	BTO:0003810	semapv:ManualMappingCuration
+epididymis	organismPart, cellType	skos:closeMatch	BTO:0000408	semapv:ManualMappingCuration
+epididymis	organismPart, cellType	skos:closeMatch	UBERON:0001301	semapv:ManualMappingCuration
+epiglottis	organismPart, cellType	skos:closeMatch	UBERON:0000388	semapv:ManualMappingCuration
+epithelium	organismPart, cellType	skos:closeMatch	UBERON:0001997	semapv:ManualMappingCuration
+epithelium of mammary gland	organismPart, cellType	skos:closeMatch	UBERON:0003244	semapv:ManualMappingCuration
+epitheloid cell of small intestine	cellType	skos:closeMatch	CL:0002254	semapv:ManualMappingCuration
+erythrocyte	organismPart, cellType	skos:closeMatch	CL:0000232	semapv:ManualMappingCuration
+esophagus	organismPart, cellType	skos:closeMatch	UBERON:0001043	semapv:ManualMappingCuration
+eye	organismPart, cellType	skos:closeMatch	UBERON:0000970	semapv:ManualMappingCuration
+fallopian tube	organismPart, cellType	skos:closeMatch	UBERON:0003889	semapv:ManualMappingCuration
+fast muscle tissue	organismPart, cellType	skos:closeMatch	UBERON:0006908	semapv:ManualMappingCuration
+feces	organismPart, cellType	skos:closeMatch	NCIT:C13234	semapv:ManualMappingCuration
+feces	organismPart, cellType	skos:closeMatch	UBERON:0001988	semapv:ManualMappingCuration
+female	sex	skos:closeMatch	PATO:0000383	semapv:ManualMappingCuration
+female genotypic sex	sex	skos:closeMatch	PATO:0020002	semapv:ManualMappingCuration
+female gonad	organismPart, cellType	skos:closeMatch	UBERON:0000992	semapv:ManualMappingCuration
+femoral muscle	organismPart, cellType	skos:closeMatch	BTO:0002542	semapv:ManualMappingCuration
+fetal	developmentalStage	skos:closeMatch	UBERON:0000323	semapv:ManualMappingCuration
+fetus	developmentalStage	skos:closeMatch	UBERON:0000323	semapv:ManualMappingCuration
+fetus	developmentalStage	skos:closeMatch	UBERON:0007220	semapv:ManualMappingCuration
+fibroblast	organismPart, cellType	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+fibroblasts	organismPart, cellType	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+first lumbar spinal cord segment	organismPart, cellType	skos:closeMatch	UBERON:0006448	semapv:ManualMappingCuration
+flexor tendon	organismPart, cellType	skos:closeMatch	BTO:0005806	semapv:ManualMappingCuration
+food	organismPart, cellType	skos:closeMatch	NCIT:C62695	semapv:ManualMappingCuration
+forebrain	organismPart, cellType	skos:closeMatch	UBERON:0001890	semapv:ManualMappingCuration
+forelimb bud	organismPart, cellType	skos:closeMatch	UBERON:0005417	semapv:ManualMappingCuration
+fornix of vagina	organismPart, cellType	skos:closeMatch	UBERON:0000051	semapv:ManualMappingCuration
+frontal cortex	organismPart, cellType	skos:closeMatch	UBERON:0001870	semapv:ManualMappingCuration
+frontal lobe	organismPart, cellType	skos:closeMatch	BTO:0000484	semapv:ManualMappingCuration
+frontal lobe	organismPart, cellType	skos:closeMatch	UBERON:0016525	semapv:ManualMappingCuration
+gall bladder	organismPart, cellType	skos:closeMatch	UBERON:0002110	semapv:ManualMappingCuration
+gallus gallus	organism	skos:closeMatch	NCBITaxon:9031	semapv:ManualMappingCuration
+gamma-delta T cell	cellType	skos:closeMatch	CL:0000798	semapv:ManualMappingCuration
+gastrocnemius	organismPart, cellType	skos:closeMatch	UBERON:0001388	semapv:ManualMappingCuration
+gastrula	developmentalStage	skos:closeMatch	UBERON:0000109	semapv:ManualMappingCuration
+gastrula stage	developmentalStage	skos:closeMatch	UBERON:0000109	semapv:ManualMappingCuration
+genu of corpus callosum	organismPart, cellType	skos:closeMatch	UBERON:0015599	semapv:ManualMappingCuration
+gill filament	organismPart, cellType	skos:closeMatch	UBERON:0009120	semapv:ManualMappingCuration
+gingiva	organismPart, cellType	skos:closeMatch	UBERON:0001828	semapv:ManualMappingCuration
+gizzard	organismPart, cellType	skos:closeMatch	BTO:0000520	semapv:ManualMappingCuration
+gizzard	organismPart, cellType	skos:closeMatch	UBERON:0005052	semapv:ManualMappingCuration
+gluteal muscle	organismPart, cellType	skos:closeMatch	UBERON:0002000	semapv:ManualMappingCuration
+gluteus medius	organismPart, cellType	skos:closeMatch	UBERON:0001371	semapv:ManualMappingCuration
+gonad	organismPart, cellType	skos:closeMatch	UBERON:0000991	semapv:ManualMappingCuration
+gonad primordium	organismPart, cellType	skos:closeMatch	UBERON:0005564	semapv:ManualMappingCuration
+granulocyte	cellType	skos:closeMatch	CL:0000094	semapv:ManualMappingCuration
+granulosa	organismPart, cellType	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+gravid uterus	organismPart, cellType	skos:closeMatch	UBERON:0009098	semapv:ManualMappingCuration
+gut	organismpart, celltype	skos:closeMatch	UBERON:0001007	semapv:ManualMappingCuration
+haemal node	organismPart, cellType	skos:closeMatch	UBERON:0013119	semapv:ManualMappingCuration
+hair follicle	organismPart, cellType	skos:closeMatch	UBERON:0002073	semapv:ManualMappingCuration
+hard palate	organismPart, cellType	skos:closeMatch	UBERON:0003216	semapv:ManualMappingCuration
+head	organismPart, cellType	skos:closeMatch	UBERON:0000033	semapv:ManualMappingCuration
+head kidney	organismPart, cellType	skos:closeMatch	UBERON:0007132	semapv:ManualMappingCuration
+heart	organismPart, cellType	skos:closeMatch	UBERON:0000948	semapv:ManualMappingCuration
+heart left atrium	organismPart, cellType	skos:closeMatch	UBERON:0002079	semapv:ManualMappingCuration
+heart left ventricle	organismPart, cellType	skos:closeMatch	UBERON:0002084	semapv:ManualMappingCuration
+heart right atrium	organismPart, cellType	skos:closeMatch	UBERON:0002078	semapv:ManualMappingCuration
+heart right ventricle	organismPart, cellType	skos:closeMatch	UBERON:0002080	semapv:ManualMappingCuration
+helminthiasis, animal	healthStatusAtCollection, healthStatus	skos:closeMatch	MONDO:0025082	semapv:ManualMappingCuration
+hepatocyte	cellType	skos:closeMatch	CL:0000182	semapv:ManualMappingCuration
+hermaphrodite	sex	skos:closeMatch	PATO:0001340	semapv:ManualMappingCuration
+hindbrain	organismPart, cellType	skos:closeMatch	UBERON:0002028	semapv:ManualMappingCuration
+hindlimb bud	organismPart, cellType	skos:closeMatch	UBERON:0005418	semapv:ManualMappingCuration
+hindlimb muscle	organismPart, cellType	skos:closeMatch	UBERON:0003663	semapv:ManualMappingCuration
+hippocampal formation	organismPart, cellType	skos:closeMatch	UBERON:0002421	semapv:ManualMappingCuration
+hippocampus	organismPart, cellType	skos:closeMatch	UBERON:0002421	semapv:ManualMappingCuration
+hoof	organismPart, cellType	skos:closeMatch	UBERON:0008963	semapv:ManualMappingCuration
+hoof lamina	organismPart, cellType	skos:closeMatch	UBERON:0008999	semapv:ManualMappingCuration
+hypophysis	organismPart, cellType	skos:closeMatch	BTO:0001073	semapv:ManualMappingCuration
+hypophysis	organismPart, cellType	skos:closeMatch	UBERON:0000007	semapv:ManualMappingCuration
+hypothalamus	organismPart, cellType	skos:closeMatch	BTO:0000614	semapv:ManualMappingCuration
+hypothalamus	organismPart, cellType	skos:closeMatch	UBERON:0001898	semapv:ManualMappingCuration
+ileum	organismPart, cellType	skos:closeMatch	BTO:0000620	semapv:ManualMappingCuration
+ileum	organismPart, cellType	skos:closeMatch	UBERON:0000399	semapv:ManualMappingCuration
+ileum	organismPart, cellType	skos:closeMatch	UBERON:0002116	semapv:ManualMappingCuration
+ileum (smooth muscle)	organismPart, cellType	skos:closeMatch	UBERON:0002116	semapv:ManualMappingCuration
+ileum (smooth muscle)	organismPart, cellType	skos:closeMatch	UBERON:0014390	semapv:ManualMappingCuration
+immature gonad	organismPart, cellType	skos:closeMatch	UBERON:2005272	semapv:ManualMappingCuration
+induced Pluripotent Stem Cells (iPSCs)	cellType	skos:closeMatch	EFO:0004905	semapv:ManualMappingCuration
+induced pluripotent stem cells	cellType	skos:closeMatch	EFO:0004905	semapv:ManualMappingCuration
+infant	developmentalStage	skos:closeMatch	EFO:0001355	semapv:ManualMappingCuration
+inflammatory macrophage	cellType	skos:closeMatch	CL:0000863	semapv:ManualMappingCuration
+infraspinatus muscle	organismPart, cellType	skos:closeMatch	UBERON:0001477	semapv:ManualMappingCuration
+inner cell mass	organismPart, cellType	skos:closeMatch	UBERON:0000087	semapv:ManualMappingCuration
+inner ear	organismPart, cellType	skos:closeMatch	UBERON:0001846	semapv:ManualMappingCuration
+inner lining mucosa of abomasum	organismPart, cellType	skos:closeMatch	UBERON:0007362	semapv:ManualMappingCuration
+inner lining mucosa of abomasum	organismPart, cellType	skos:closeMatch	UBERON:0010154	semapv:ManualMappingCuration
+intact female	sex	skos:closeMatch	PATO:0002365	semapv:ManualMappingCuration
+intact male	sex	skos:closeMatch	PATO:0002366	semapv:ManualMappingCuration
+intercostal muscle	organismPart, cellType	skos:closeMatch	UBERON:0001111	semapv:ManualMappingCuration
+interventricular septum	organismPart, cellType	skos:closeMatch	UBERON:0002094	semapv:ManualMappingCuration
+intervertebral disc	organismPart, cellType	skos:closeMatch	UBERON:0001066	semapv:ManualMappingCuration
+intestinal epithelial cell	cellType	skos:closeMatch	CL:0002563	semapv:ManualMappingCuration
+intestine	organismPart, cellType	skos:closeMatch	UBERON:0000160	semapv:ManualMappingCuration
+iris	organismPart, cellType	skos:closeMatch	UBERON:0001769	semapv:ManualMappingCuration
+isthmus of fallopian tube	organismPart, cellType	skos:closeMatch	UBERON:0016632	semapv:ManualMappingCuration
+isthmus of fallopian tube (contralateral)	organismPart, cellType	skos:closeMatch	UBERON:0016632	semapv:ManualMappingCuration
+isthmus of fallopian tube (ipsilateral)	organismPart, cellType	skos:closeMatch	UBERON:0016632	semapv:ManualMappingCuration
+jejunal mucosa	organismPart, cellType	skos:closeMatch	UBERON:0000399	semapv:ManualMappingCuration
+jejunum	organismPart, cellType	skos:closeMatch	BTO:0000657	semapv:ManualMappingCuration
+jejunum	organismPart, cellType	skos:closeMatch	UBERON:0000320	semapv:ManualMappingCuration
+jejunum	organismPart, cellType	skos:closeMatch	UBERON:0002115	semapv:ManualMappingCuration
+jejunum (smooth muscle)	organismPart, cellType	skos:closeMatch	UBERON:0002115	semapv:ManualMappingCuration
+jejunum (smooth muscle)	organismPart, cellType	skos:closeMatch	UBERON:0012377	semapv:ManualMappingCuration
+juvenile	developmentalStage	skos:closeMatch	UBERON:0000112	semapv:ManualMappingCuration
+juvenile	developmentalStage	skos:closeMatch	UBERON:0034919	semapv:ManualMappingCuration
+juvenile days 45-89	developmentalStage	skos:closeMatch	EFO:0001302	semapv:ManualMappingCuration
+juvenile stage	developmentalStage	skos:closeMatch	UBERON:0000112	semapv:ManualMappingCuration
+juvenile stage	developmentalStage	skos:closeMatch	UBERON:0034919	semapv:ManualMappingCuration
+keratinocyte	cellType	skos:closeMatch	CL:0000312	semapv:ManualMappingCuration
+kidney	organismPart, cellType	skos:closeMatch	BTO:0000671	semapv:ManualMappingCuration
+kidney	organismPart, cellType	skos:closeMatch	UBERON:0002113	semapv:ManualMappingCuration
+lacrimal gland	organismPart, cellType	skos:closeMatch	UBERON:0001817	semapv:ManualMappingCuration
+lactating mammary gland epithelium	organismPart, cellType	skos:closeMatch	UBERON:0003244	semapv:ManualMappingCuration
+lamb	developmentalStage	skos:closeMatch	UBERON:0000112	semapv:ManualMappingCuration
+large intestine	organismPart, cellType	skos:closeMatch	UBERON:0000059	semapv:ManualMappingCuration
+laryngeal cartilage	organismPart, cellType	skos:closeMatch	UBERON:0001739	semapv:ManualMappingCuration
+late embryo	developmentalStage	skos:closeMatch	UBERON:0000323	semapv:ManualMappingCuration
+late embryo	developmentalStage	skos:closeMatch	UBERON:0007220	semapv:ManualMappingCuration
+late embryonic stage	developmentalStage	skos:closeMatch	UBERON:0007220	semapv:ManualMappingCuration
+latissimus dorsi muscle	organismPart, cellType	skos:closeMatch	UBERON:0001112	semapv:ManualMappingCuration
+layer of hippocampus	organismPart, cellType	skos:closeMatch	UBERON:0002305	semapv:ManualMappingCuration
+left atrium auricular region	organismPart, cellType	skos:closeMatch	UBERON:0006630	semapv:ManualMappingCuration
+left cardiac atrium	organismPart, cellType	skos:closeMatch	UBERON:0002079	semapv:ManualMappingCuration
+left eye	organismPart, cellType	skos:closeMatch	UBERON:0004548	semapv:ManualMappingCuration
+left lobe of thyroid gland	organismPart, cellType	skos:closeMatch	UBERON:0001120	semapv:ManualMappingCuration
+left lung	organismPart, cellType	skos:closeMatch	UBERON:0002168	semapv:ManualMappingCuration
+left lung lobe	organismPart, cellType	skos:closeMatch	UBERON:0008951	semapv:ManualMappingCuration
+left main bronchus	organismPart, cellType	skos:closeMatch	UBERON:0002178	semapv:ManualMappingCuration
+left ovary	organismPart, cellType	skos:closeMatch	UBERON:0002119	semapv:ManualMappingCuration
+left uterine tube	organismPart, cellType	skos:closeMatch	UBERON:0001303	semapv:ManualMappingCuration
+leg	organismPart, cellType	skos:closeMatch	UBERON:0000978	semapv:ManualMappingCuration
+leg muscle	organismPart, cellType	skos:closeMatch	UBERON:0001383	semapv:ManualMappingCuration
+lens of a camera-type eye	organismPart, cellType	skos:closeMatch	UBERON:0000965	semapv:ManualMappingCuration
+leukemia	organismPart, cellType	skos:closeMatch	EFO:0000565	semapv:ManualMappingCuration
+leukocyte	organismPart, cellType	skos:closeMatch	CL:0000738	semapv:ManualMappingCuration
+liver	organismPart, cellType	skos:closeMatch	UBERON:0002107	semapv:ManualMappingCuration
+liver left lateral lobe	organismPart, cellType	skos:closeMatch	UBERON:0006727	semapv:ManualMappingCuration
+liver parenchyma	organismPart, cellType	skos:closeMatch	UBERON:0001280	semapv:ManualMappingCuration
+lobe of liver	organismPart, cellType	skos:closeMatch	UBERON:0001113	semapv:ManualMappingCuration
+longissimus dorsi	organismPart, cellType	skos:closeMatch	UBERON:0001401	semapv:ManualMappingCuration
+longissimus dorsi muscle	organismPart, cellType	skos:closeMatch	UBERON:0001112	semapv:ManualMappingCuration
+longissimus lumborum	organismPart, cellType	skos:closeMatch	BTO:0001925	semapv:ManualMappingCuration
+longissimus muscle	organismPart, cellType	skos:closeMatch	UBERON:0000392	semapv:ManualMappingCuration
+longissimus thoracic muscle	organismPart, cellType	skos:closeMatch	UBERON:0001401	semapv:ManualMappingCuration
+longissimus thoracis muscle	organismPart, cellType	skos:closeMatch	UBERON:0001401	semapv:ManualMappingCuration
+lower back skin	organismPart, cellType	skos:closeMatch	UBERON:0009014	semapv:ManualMappingCuration
+lower lobe of lung	organismPart, cellType	skos:closeMatch	UBERON:0008949	semapv:ManualMappingCuration
+lumbar spinal cord	organismPart, cellType	skos:closeMatch	UBERON:0002792	semapv:ManualMappingCuration
+luminal epithelial cell of the lactiferous duct	cellType	skos:closeMatch	CL:0002662	semapv:ManualMappingCuration
+lung	organismPart, cellType	skos:closeMatch	UBERON:0002048	semapv:ManualMappingCuration
+lung parenchyma	organismPart, cellType	skos:closeMatch	UBERON:0008946	semapv:ManualMappingCuration
+lymph node	organismPart, cellType	skos:closeMatch	UBERON:0000029	semapv:ManualMappingCuration
+lymphatic vessel	organismPart, cellType	skos:closeMatch	UBERON:0001473	semapv:ManualMappingCuration
+lymphocyte	cellType	skos:closeMatch	CL:0000542	semapv:ManualMappingCuration
+lymphocyte of B lineage	cellType	skos:closeMatch	CL:0000945	semapv:ManualMappingCuration
+macrophage	organismPart, cellType	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+major salivary gland	organismPart, cellType	skos:closeMatch	UBERON:0001829	semapv:ManualMappingCuration
+male	sex	skos:closeMatch	PATO:0000384	semapv:ManualMappingCuration
+male genotypic sex	sex	skos:closeMatch	PATO:0020001	semapv:ManualMappingCuration
+mammalian oviduct	organismPart, cellType	skos:closeMatch	UBERON:0003889	semapv:ManualMappingCuration
+mammary	organismPart, cellType	skos:closeMatch	UBERON:0001911	semapv:ManualMappingCuration
+mammary epithelial cells	organismPart, cellType	skos:closeMatch	CL:0002327	semapv:ManualMappingCuration
+mammary gland	organismPart, cellType	skos:closeMatch	BTO:0000817	semapv:ManualMappingCuration
+mammary gland	organismPart, cellType	skos:closeMatch	UBERON:0001911	semapv:ManualMappingCuration
+mammary gland epithelial cell	cellType	skos:closeMatch	CL:0002327	semapv:ManualMappingCuration
+mammillary body	organismPart, cellType	skos:closeMatch	UBERON:0002206	semapv:ManualMappingCuration
+mandibular lymph node	organismPart, cellType	skos:closeMatch	UBERON:0015872	semapv:ManualMappingCuration
+mature NK T cell	cellType	skos:closeMatch	CL:0000814	semapv:ManualMappingCuration
+mature neutrophil	cellType	skos:closeMatch	CL:0000096	semapv:ManualMappingCuration
+mediastinal lymph node	organismPart, cellType	skos:closeMatch	UBERON:0002524	semapv:ManualMappingCuration
+medulla oblongata	organismPart, cellType	skos:closeMatch	UBERON:0001896	semapv:ManualMappingCuration
+memory B cell	cellType	skos:closeMatch	CL:0000787	semapv:ManualMappingCuration
+meniscus	organismPart, cellType	skos:closeMatch	UBERON:0000387	semapv:ManualMappingCuration
+mesenteric fat pad	organismPart, cellType	skos:closeMatch	UBERON:0015143	semapv:ManualMappingCuration
+mesenteric lymph node	organismPart, cellType	skos:closeMatch	UBERON:0002509	semapv:ManualMappingCuration
+mesonephros	organismPart, cellType	skos:closeMatch	UBERON:0000080	semapv:ManualMappingCuration
+metanephros	organismPart, cellType	skos:closeMatch	UBERON:0000081	semapv:ManualMappingCuration
+microglia	organismPart, cellType	skos:closeMatch	CL:0000129	semapv:ManualMappingCuration
+midbrain	organismPart, cellType	skos:closeMatch	UBERON:0001891	semapv:ManualMappingCuration
+milk	organismPart, cellType	skos:closeMatch	BTO:0000868	semapv:ManualMappingCuration
+milk	organismPart, cellType	skos:closeMatch	UBERON:0001913	semapv:ManualMappingCuration
+milk gland	organismPart, cellType	skos:closeMatch	BTO:0005704	semapv:ManualMappingCuration
+mitral valve	organismPart, cellType	skos:closeMatch	UBERON:0002135	semapv:ManualMappingCuration
+mixed	sex, breed	skos:closeMatch	EFO:0001271	semapv:ManualMappingCuration
+mixed sample	organism	skos:closeMatch	NCBITaxon:1427524	semapv:ManualMappingCuration
+mixed sex	sex	skos:closeMatch	EFO:0001271	semapv:ManualMappingCuration
+monocyte	cellType	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+monocytes	cellType	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+muscle	organismPart, cellType	skos:closeMatch	UBERON:0002385	semapv:ManualMappingCuration
+muscle cell	cellType	skos:closeMatch	CL:0000187	semapv:ManualMappingCuration
+muscle organ	organismPart, cellType	skos:closeMatch	UBERON:0001630	semapv:ManualMappingCuration
+muscle tissue	organismPart, cellType	skos:closeMatch	UBERON:0002385	semapv:ManualMappingCuration
+myeloid leukocyte	cellType	skos:closeMatch	CL:0000766	semapv:ManualMappingCuration
+myocardium	organismPart, cellType	skos:closeMatch	UBERON:0002349	semapv:ManualMappingCuration
+myometrium	organismPart, cellType	skos:closeMatch	UBERON:0001296	semapv:ManualMappingCuration
+nail matrix	organismPart, cellType	skos:closeMatch	UBERON:0002283	semapv:ManualMappingCuration
+naive B cell	cellType	skos:closeMatch	CL:0000788	semapv:ManualMappingCuration
+nasal mucus	organismPart, cellType	skos:closeMatch	UBERON:0002306	semapv:ManualMappingCuration
+natural killer cell	cellType	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+neocortex	organismPart, cellType	skos:closeMatch	UBERON:0001950	semapv:ManualMappingCuration
+neonatal	developmentalStage	skos:closeMatch	EFO:0001372	semapv:ManualMappingCuration
+neonate	developmentalStage	skos:closeMatch	EFO:0001372	semapv:ManualMappingCuration
+neonate	developmentalStage	skos:closeMatch	UBERON:0007221	semapv:ManualMappingCuration
+neonate stage	developmentalStage	skos:closeMatch	UBERON:0007221	semapv:ManualMappingCuration
+neuron projection bundle connecting eye with brain	organismPart, cellType	skos:closeMatch	UBERON:0004904	semapv:ManualMappingCuration
+newborn	developmentalStage	skos:closeMatch	EFO:0001372	semapv:ManualMappingCuration
+non-lactating non-pregnant mammary gland epithelium	organismPart, cellType	skos:closeMatch	UBERON:0003244	semapv:ManualMappingCuration
+normal	healthStatusAtCollection, healthStatus	skos:closeMatch	PATO:0000461	semapv:ManualMappingCuration
+normal diet	breed	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration
+occipital cortex	organismPart, cellType	skos:closeMatch	UBERON:0016540	semapv:ManualMappingCuration
+occipital lobe	organismPart, cellType	skos:closeMatch	UBERON:0002021	semapv:ManualMappingCuration
+olfactory bulb	organismPart, cellType	skos:closeMatch	UBERON:0002264	semapv:ManualMappingCuration
+olfactory epithelium	organismPart, cellType	skos:closeMatch	UBERON:0001997	semapv:ManualMappingCuration
+olfactory lobe	organismPart, cellType	skos:closeMatch	BTO:0001362	semapv:ManualMappingCuration
+olfactory lobe	organismPart, cellType	skos:closeMatch	UBERON:0005366	semapv:ManualMappingCuration
+omasum	organismPart, cellType	skos:closeMatch	UBERON:0007361	semapv:ManualMappingCuration
+omasum	organismPart, cellType	skos:closeMatch	UBERON:0007362	semapv:ManualMappingCuration
+omental fat pad	organismPart, cellType	skos:closeMatch	UBERON:0010414	semapv:ManualMappingCuration
+omentum	organismPart, cellType	skos:closeMatch	UBERON:0003688	semapv:ManualMappingCuration
+oocyte	organismPart, cellType, developmentalStage	skos:closeMatch	CL:0000023	semapv:ManualMappingCuration
+optic chiasm	organismPart, cellType	skos:closeMatch	UBERON:0000959	semapv:ManualMappingCuration
+optic chiasma	organismPart, cellType	skos:closeMatch	UBERON:0000959	semapv:ManualMappingCuration
+organism	material	skos:closeMatch	OBI:0100026	semapv:ManualMappingCuration
+organoid	material	skos:closeMatch	NCIT:C172259	semapv:ManualMappingCuration
+ovarian cortex	organismPart, cellType	skos:closeMatch	UBERON:0013191	semapv:ManualMappingCuration
+ovarian follicle	organismPart, cellType	skos:closeMatch	UBERON:0001305	semapv:ManualMappingCuration
+ovarian follicles	organismPart, cellType	skos:closeMatch	UBERON:0001305	semapv:ManualMappingCuration
+ovary	organismPart, cellType	skos:closeMatch	UBERON:0000992	semapv:ManualMappingCuration
+oviduct	organismPart, cellType	skos:closeMatch	BTO:0000980	semapv:ManualMappingCuration
+oviduct	organismPart, cellType	skos:closeMatch	UBERON:0000993	semapv:ManualMappingCuration
+oviductal ampulla	organismPart, cellType	skos:closeMatch	BTO:0004285	semapv:ManualMappingCuration
+palatine tonsil	organismPart, cellType	skos:closeMatch	UBERON:0002373	semapv:ManualMappingCuration
+pancreas	organismPart, cellType	skos:closeMatch	BTO:0000988	semapv:ManualMappingCuration
+pancreas	organismPart, cellType	skos:closeMatch	UBERON:0001264	semapv:ManualMappingCuration
+pancreatic islets	organismPart, cellType	skos:closeMatch	UBERON:0000006	semapv:ManualMappingCuration
+papillary muscle of heart	organismPart, cellType	skos:closeMatch	UBERON:0002494	semapv:ManualMappingCuration
+papillary muscle of left ventricle	organismPart, cellType	skos:closeMatch	UBERON:0004524	semapv:ManualMappingCuration
+papillary muscle of right ventricle	organismPart, cellType	skos:closeMatch	UBERON:0004523	semapv:ManualMappingCuration
+parathyroid gland	organismPart, cellType	skos:closeMatch	UBERON:0001132	semapv:ManualMappingCuration
+parietal cortex	organismPart, cellType	skos:closeMatch	UBERON:0016530	semapv:ManualMappingCuration
+pectoral muscle	organismPart, cellType	skos:closeMatch	BTO:0000023	semapv:ManualMappingCuration
+pectoral muscle	organismPart, cellType	skos:closeMatch	UBERON:0001495	semapv:ManualMappingCuration
+penis	organismPart, cellType	skos:closeMatch	UBERON:0000989	semapv:ManualMappingCuration
+perinatal stage	developmentalStage	skos:closeMatch	UBERON:0012101	semapv:ManualMappingCuration
+peripheral blood	organismPart, cellType	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+peripheral blood cells	organismPart, cellType	skos:closeMatch	BTO:0003494	semapv:ManualMappingCuration
+peripheral blood leukocyte	cellType	skos:closeMatch	CL:0000738	semapv:ManualMappingCuration
+peripheral blood monocyte	cellType	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+peripheral blood mononuclear cell	cellType	skos:closeMatch	CL:2000001	semapv:ManualMappingCuration
+peripheral blood mononuclear cell	organismPart, cellType	skos:closeMatch	BTO:0001025	semapv:ManualMappingCuration
+perirenal fat	organismPart, cellType	skos:closeMatch	UBERON:0005406	semapv:ManualMappingCuration
+peyer's patches	organismPart, cellType	skos:closeMatch	UBERON:0000331	semapv:ManualMappingCuration
+peyer's patches	organismPart, cellType	skos:closeMatch	UBERON:0001211	semapv:ManualMappingCuration
+pharyngeal arch	organismPart, cellType	skos:closeMatch	UBERON:0002539	semapv:ManualMappingCuration
+pharyngeal arch artery	organismPart, cellType	skos:closeMatch	UBERON:0004363	semapv:ManualMappingCuration
+pharyngula stage	developmentalStage	skos:closeMatch	UBERON:0004707	semapv:ManualMappingCuration
+phenotypic sex	sex	skos:closeMatch	PATO:0001894	semapv:ManualMappingCuration
+pig breed	breed	skos:closeMatch	lbo:0000003	semapv:ManualMappingCuration
+pigment epithelium of eye	organismPart, cellType	skos:closeMatch	UBERON:0007625	semapv:ManualMappingCuration
+pineal body	organismPart, cellType	skos:closeMatch	UBERON:0001905	semapv:ManualMappingCuration
+pineal gland	organismPart, cellType	skos:closeMatch	UBERON:0001905	semapv:ManualMappingCuration
+pituitary	organismPart, cellType	skos:closeMatch	UBERON:0000007	semapv:ManualMappingCuration
+pituitary gland	organismPart, cellType	skos:closeMatch	UBERON:0000007	semapv:ManualMappingCuration
+placenta	organismPart, cellType	skos:closeMatch	UBERON:0001987	semapv:ManualMappingCuration
+placental caruncle	organismPart, cellType	skos:closeMatch	UBERON:0017259	semapv:ManualMappingCuration
+placental cotyledon	organismPart, cellType	skos:closeMatch	UBERON:0010008	semapv:ManualMappingCuration
+placentome of cotyledonary placenta	organismPart, cellType	skos:closeMatch	UBERON:0017258	semapv:ManualMappingCuration
+plasma	organismPart, cellType	skos:closeMatch	UBERON:0001969	semapv:ManualMappingCuration
+pons	organismPart, cellType	skos:closeMatch	UBERON:0000988	semapv:ManualMappingCuration
+pool of specimens	material	skos:closeMatch	OBI:0302716	semapv:ManualMappingCuration
+popliteal lymph node	organismPart, cellType	skos:closeMatch	UBERON:0001543	semapv:ManualMappingCuration
+post-juvenile adult stage	developmentalStage	skos:closeMatch	UBERON:0000113	semapv:ManualMappingCuration
+posterior vena cava	organismPart, cellType	skos:closeMatch	UBERON:0001072	semapv:ManualMappingCuration
+postnatal	developmentalStage	skos:closeMatch	EFO:0002948	semapv:ManualMappingCuration
+prefrontal cortex	organismPart, cellType	skos:closeMatch	UBERON:0000451	semapv:ManualMappingCuration
+prescapular lymph node	organismPart, cellType	skos:closeMatch	UBERON:0016382	semapv:ManualMappingCuration
+primary culture	cultureType	skos:closeMatch	BTO:0001127	semapv:ManualMappingCuration
+primary cultured cell	cellType	skos:closeMatch	CL:0000001	semapv:ManualMappingCuration
+primary dermal fibroblasts	cellType	skos:closeMatch	CL:0002551	semapv:ManualMappingCuration
+prime adult stage	developmentalStage	skos:closeMatch	UBERON:0018241	semapv:ManualMappingCuration
+primordial germ cell	organismPart, cellType	skos:closeMatch	CL:0000670	semapv:ManualMappingCuration
+prostate	organismPart, cellType	skos:closeMatch	UBERON:0002367	semapv:ManualMappingCuration
+prostate gland	organismPart, cellType	skos:closeMatch	UBERON:0002367	semapv:ManualMappingCuration
+proventriculus	organismPart, cellType	skos:closeMatch	UBERON:0007357	semapv:ManualMappingCuration
+psoas major muscle	organismPart, cellType	skos:closeMatch	UBERON:0001298	semapv:ManualMappingCuration
+puberty	developmentalStage	skos:closeMatch	EFO:0001382	semapv:ManualMappingCuration
+pulmonary artery	organismPart, cellType	skos:closeMatch	UBERON:0002012	semapv:ManualMappingCuration
+pulmonary valve	organismPart, cellType	skos:closeMatch	UBERON:0002146	semapv:ManualMappingCuration
+pulmonary vein	organismPart, cellType	skos:closeMatch	UBERON:0002016	semapv:ManualMappingCuration
+pylorus	organismPart, cellType	skos:closeMatch	UBERON:0001166	semapv:ManualMappingCuration
+rectum	organismPart, cellType	skos:closeMatch	UBERON:0001052	semapv:ManualMappingCuration
+red bone marrow	organismPart, cellType	skos:closeMatch	UBERON:0000361	semapv:ManualMappingCuration
+renal cortex	organismPart, cellType	skos:closeMatch	BTO:0001166	semapv:ManualMappingCuration
+renal medulla	organismPart, cellType	skos:closeMatch	BTO:0001167	semapv:ManualMappingCuration
+renal medulla	organismPart, cellType	skos:closeMatch	UBERON:0000362	semapv:ManualMappingCuration
+renal medulla	organismPart, cellType	skos:closeMatch	UBERON:0004200	semapv:ManualMappingCuration
+replicate 2	breed	skos:closeMatch	EFO:0000180	semapv:ManualMappingCuration
+reticulum	organismPart, cellType	skos:closeMatch	UBERON:0007361	semapv:ManualMappingCuration
+retina	organismPart, cellType	skos:closeMatch	UBERON:0000966	semapv:ManualMappingCuration
+right atrium auricular region	organismPart, cellType	skos:closeMatch	UBERON:0006631	semapv:ManualMappingCuration
+right cardiac atrium	organismPart, cellType	skos:closeMatch	UBERON:0002078	semapv:ManualMappingCuration
+right eye	organismPart, cellType	skos:closeMatch	UBERON:0004549	semapv:ManualMappingCuration
+right lobe of thyroid gland	organismPart, cellType	skos:closeMatch	UBERON:0001119	semapv:ManualMappingCuration
+right lung lobe	organismPart, cellType	skos:closeMatch	UBERON:0006518	semapv:ManualMappingCuration
+right main bronchus	organismPart, cellType	skos:closeMatch	UBERON:0002177	semapv:ManualMappingCuration
+right ovary	organismPart, cellType	skos:closeMatch	UBERON:0002118	semapv:ManualMappingCuration
+right uterine tube	organismPart, cellType	skos:closeMatch	UBERON:0001302	semapv:ManualMappingCuration
+rumen	organismPart, cellType	skos:closeMatch	UBERON:0000057	semapv:ManualMappingCuration
+rumen	organismPart, cellType	skos:closeMatch	UBERON:0007365	semapv:ManualMappingCuration
+ruminant reticulum	organismPart, cellType	skos:closeMatch	UBERON:0001255	semapv:ManualMappingCuration
+ruminant reticulum	organismPart, cellType	skos:closeMatch	UBERON:0007361	semapv:ManualMappingCuration
+ruminant stomach	organismPart, cellType	skos:closeMatch	UBERON:0007366	semapv:ManualMappingCuration
+saliva-secreting gland	organismPart, cellType	skos:closeMatch	UBERON:0001044	semapv:ManualMappingCuration
+salivary gland	organismPart, cellType	skos:closeMatch	UBERON:0001044	semapv:ManualMappingCuration
+salivary gland	organismPart, cellType	skos:closeMatch	UBERON:0001829	semapv:ManualMappingCuration
+sartorius	organismPart, cellType	skos:closeMatch	BTO:0001215	semapv:ManualMappingCuration
+sciatic nerve	organismPart, cellType	skos:closeMatch	UBERON:0001322	semapv:ManualMappingCuration
+sclera	organismPart, cellType	skos:closeMatch	UBERON:0001773	semapv:ManualMappingCuration
+semen	organismPart, cellType	skos:closeMatch	CL:0000019	semapv:ManualMappingCuration
+semimembranosus	organismPart, cellType	skos:closeMatch	UBERON:0001381	semapv:ManualMappingCuration
+semimembranosus muscle	organismPart, cellType	skos:closeMatch	UBERON:0001381	semapv:ManualMappingCuration
+seminal plasma	organismPart, cellType	skos:closeMatch	BTO:0001232	semapv:ManualMappingCuration
+seminal vesicle	organismPart, cellType	skos:closeMatch	BTO:0001234	semapv:ManualMappingCuration
+seminal vesicle	organismPart, cellType	skos:closeMatch	UBERON:0000998	semapv:ManualMappingCuration
+semitendinosus	organismPart, cellType	skos:closeMatch	UBERON:0001375	semapv:ManualMappingCuration
+serum	organismPart, cellType	skos:closeMatch	BTO:0000133	semapv:ManualMappingCuration
+sesamoid bone	organismPart, cellType	skos:closeMatch	UBERON:0001479	semapv:ManualMappingCuration
+sexually immature stage	developmentalStage	skos:closeMatch	UBERON:0000112	semapv:ManualMappingCuration
+sheep crossbreed	breed	skos:closeMatch	lbo:0001041	semapv:ManualMappingCuration
+sinoatrial node	organismPart, cellType	skos:closeMatch	UBERON:0002351	semapv:ManualMappingCuration
+skeletal muscle	organismPart, cellType	skos:closeMatch	UBERON:0001134	semapv:ManualMappingCuration
+skeletal muscle tissue	organismPart, cellType	skos:closeMatch	UBERON:0001134	semapv:ManualMappingCuration
+skeletal muscle tissue of biceps brachii	organismPart, cellType	skos:closeMatch	UBERON:0004502	semapv:ManualMappingCuration
+skeletal muscle tissue of biceps brachii'	organismPart, cellType	skos:closeMatch	UBERON:0004502	semapv:ManualMappingCuration
+skeletal muscle tissue of internal intercostal muscle	organismPart, cellType	skos:closeMatch	UBERON:0004513	semapv:ManualMappingCuration
+skeletal muscle tissue of pectoralis major	organismPart, cellType	skos:closeMatch	UBERON:0004510	semapv:ManualMappingCuration
+skin	organismPart, cellType	skos:closeMatch	UBERON:0000014	semapv:ManualMappingCuration
+skin fibroblast	cellType	skos:closeMatch	CL:0002620	semapv:ManualMappingCuration
+skin of abdomen	organismPart, cellType	skos:closeMatch	UBERON:0001416	semapv:ManualMappingCuration
+skin of back	organismPart, cellType	skos:closeMatch	UBERON:0001068	semapv:ManualMappingCuration
+skin of body	organismPart, cellType	skos:closeMatch	UBERON:0002097	semapv:ManualMappingCuration
+skin of front of neck	organismPart, cellType	skos:closeMatch	UBERON:0010854	semapv:ManualMappingCuration
+skin of lip	organismPart, cellType	skos:closeMatch	UBERON:0001458	semapv:ManualMappingCuration
+skin of neck	organismPart, cellType	skos:closeMatch	UBERON:0001417	semapv:ManualMappingCuration
+small intestine	organismPart, cellType	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+snout	organismPart, cellType	skos:closeMatch	UBERON:0006333	semapv:ManualMappingCuration
+soft palate	organismPart, cellType	skos:closeMatch	UBERON:0001733	semapv:ManualMappingCuration
+somatic cell	cellType	skos:closeMatch	CL:0002371	semapv:ManualMappingCuration
+specimen from organism	material	skos:closeMatch	OBI:0001479	semapv:ManualMappingCuration
+sperm	organismPart, cellType	skos:closeMatch	CL:0000019	semapv:ManualMappingCuration
+sperm cell	cellType	skos:closeMatch	EFO:0001005	semapv:ManualMappingCuration
+spermatozoon	organismPart, cellType	skos:closeMatch	BTO:0001277	semapv:ManualMappingCuration
+spinal cord	organismPart, cellType	skos:closeMatch	UBERON:0002240	semapv:ManualMappingCuration
+spiral colon	organismPart, cellType	skos:closeMatch	UBERON:0010239	semapv:ManualMappingCuration
+spleen	organismPart, cellType	skos:closeMatch	BTO:0001281	semapv:ManualMappingCuration
+spleen	organismPart, cellType	skos:closeMatch	UBERON:0002106	semapv:ManualMappingCuration
+splenium of the corpus callosum	organismPart, cellType	skos:closeMatch	UBERON:0015708	semapv:ManualMappingCuration
+splenocyte	cellType	skos:closeMatch	CL:2000074	semapv:ManualMappingCuration
+stem cell	cellType	skos:closeMatch	CL:0000034	semapv:ManualMappingCuration
+stomach	organismPart, cellType	skos:closeMatch	UBERON:0000945	semapv:ManualMappingCuration
+stomach primordium	organismPart, cellType	skos:closeMatch	UBERON:0012172	semapv:ManualMappingCuration
+striated muscle cell	cellType	skos:closeMatch	CL:0000737	semapv:ManualMappingCuration
+subcutaneous abdominal adipose tissue	organismPart, cellType	skos:closeMatch	UBERON:0014455	semapv:ManualMappingCuration
+subcutaneous adipose	organismPart, cellType	skos:closeMatch	UBERON:0002190	semapv:ManualMappingCuration
+subcutaneous adipose tissue	organismPart, cellType	skos:closeMatch	BTO:0004042	semapv:ManualMappingCuration
+subcutaneous adipose tissue	organismPart, cellType	skos:closeMatch	UBERON:0002190	semapv:ManualMappingCuration
+subcutaneous fat	organismPart, cellType	skos:closeMatch	UBERON:0002190	semapv:ManualMappingCuration
+submandibular gland	organismPart, cellType	skos:closeMatch	UBERON:0001736	semapv:ManualMappingCuration
+submandibular lymph node	organismPart, cellType	skos:closeMatch	UBERON:0002520	semapv:ManualMappingCuration
+supraspinatus	organismPart, cellType	skos:closeMatch	UBERON:0002383	semapv:ManualMappingCuration
+sus scrofa	breed	skos:closeMatch	NCBITaxon:9823	semapv:ManualMappingCuration
+suspensory ligament	organismPart, cellType	skos:closeMatch	UBERON:0008841	semapv:ManualMappingCuration
+synovial fluid	organismPart, cellType	skos:closeMatch	UBERON:0001090	semapv:ManualMappingCuration
+synovial membrane	organismPart, cellType	skos:closeMatch	FMA:66762	semapv:ManualMappingCuration
+synovial membrane of synovial joint	organismPart, cellType	skos:closeMatch	UBERON:0002018	semapv:ManualMappingCuration
+synovial tissues	organismPart, cellType	skos:closeMatch	UBERON:0007616	semapv:ManualMappingCuration
+synovium	organismPart, cellType	skos:closeMatch	UBERON:0007616	semapv:ManualMappingCuration
+tail	organismPart, cellType	skos:closeMatch	UBERON:0002415	semapv:ManualMappingCuration
+telencephalon	organismPart, cellType	skos:closeMatch	UBERON:0001893	semapv:ManualMappingCuration
+temporal cortex	organismPart, cellType	skos:closeMatch	UBERON:0016538	semapv:ManualMappingCuration
+tendon	organismPart, cellType	skos:closeMatch	UBERON:0000043	semapv:ManualMappingCuration
+terminal part of digestive tract	organismPart, cellType	skos:closeMatch	UBERON:0006866	semapv:ManualMappingCuration
+testes	organismPart, cellType	skos:closeMatch	UBERON:0000473	semapv:ManualMappingCuration
+testis	organismPart, cellType	skos:closeMatch	BTO:0001363	semapv:ManualMappingCuration
+testis	organismPart, cellType	skos:closeMatch	UBERON:0000473	semapv:ManualMappingCuration
+thalamus	organismPart, cellType	skos:closeMatch	UBERON:0001897	semapv:ManualMappingCuration
+theca folliculi	organismPart, cellType	skos:closeMatch	BTO:0002853	semapv:ManualMappingCuration
+thoracic aorta	organismPart, cellType	skos:closeMatch	UBERON:0001515	semapv:ManualMappingCuration
+thoracic part of esophagus	organismPart, cellType	skos:closeMatch	UBERON:0035216	semapv:ManualMappingCuration
+thoracic spinal cord	organismPart, cellType	skos:closeMatch	UBERON:0003038	semapv:ManualMappingCuration
+thymus	organismPart, cellType	skos:closeMatch	BTO:0001374	semapv:ManualMappingCuration
+thymus	organismPart, cellType	skos:closeMatch	UBERON:0002370	semapv:ManualMappingCuration
+thyroid	organismPart, cellType	skos:closeMatch	UBERON:0002046	semapv:ManualMappingCuration
+thyroid gland	organismPart, cellType	skos:closeMatch	BTO:0001379	semapv:ManualMappingCuration
+thyroid gland	organismPart, cellType	skos:closeMatch	UBERON:0001609	semapv:ManualMappingCuration
+thyroid gland	organismPart, cellType	skos:closeMatch	UBERON:0002046	semapv:ManualMappingCuration
+tissue	organismPart, cellType	skos:closeMatch	UBERON:0000479	semapv:ManualMappingCuration
+tongue	organismPart, cellType	skos:closeMatch	UBERON:0001723	semapv:ManualMappingCuration
+tongue muscle	organismPart, cellType	skos:closeMatch	UBERON:0000378	semapv:ManualMappingCuration
+tonsil	organismPart, cellType	skos:closeMatch	UBERON:0002372	semapv:ManualMappingCuration
+trabecula carnea of right ventricle	organismPart, cellType	skos:closeMatch	UBERON:0006570	semapv:ManualMappingCuration
+trabecular meshwork	organismPart, cellType	skos:closeMatch	EFO:0003077	semapv:ManualMappingCuration
+trachea	organismPart, cellType	skos:closeMatch	UBERON:0003126	semapv:ManualMappingCuration
+tracheal epithelium	organismPart, cellType	skos:closeMatch	BTO:0001389	semapv:ManualMappingCuration
+tricuspid valve	organismPart, cellType	skos:closeMatch	UBERON:0002134	semapv:ManualMappingCuration
+trigeminal ganglion	organismPart, cellType	skos:closeMatch	UBERON:0001675	semapv:ManualMappingCuration
+trigeminal nerve root	organismPart, cellType	skos:closeMatch	UBERON:0004673	semapv:ManualMappingCuration
+trunk	organismPart, cellType	skos:closeMatch	UBERON:0002100	semapv:ManualMappingCuration
+umbilical cord	organismPart, cellType	skos:closeMatch	UBERON:0002331	semapv:ManualMappingCuration
+upper leg skin	organismPart, cellType	skos:closeMatch	UBERON:0004262	semapv:ManualMappingCuration
+ureter	organismPart, cellType	skos:closeMatch	UBERON:0000056	semapv:ManualMappingCuration
+urethra	organismPart, cellType	skos:closeMatch	UBERON:0000057	semapv:ManualMappingCuration
+urinary bladder	organismPart, cellType	skos:closeMatch	UBERON:0001255	semapv:ManualMappingCuration
+urinary bladder	organismPart, cellType	skos:closeMatch	UBERON:0018707	semapv:ManualMappingCuration
+urine	organismPart, cellType	skos:closeMatch	UBERON:0001088	semapv:ManualMappingCuration
+uterine cervix	organismPart, cellType	skos:closeMatch	UBERON:0000002	semapv:ManualMappingCuration
+uterine endometrium - caruncular (contralateral to Corpus Luteum)	organismPart, cellType	skos:closeMatch	UBERON:0035465	semapv:ManualMappingCuration
+uterine endometrium - caruncular (ipsilateral to Corpus Luteum)	organismPart, cellType	skos:closeMatch	UBERON:0035465	semapv:ManualMappingCuration
+uterine endometrium - intercaruncular (contralateral to Corpus Luteum)	organismPart, cellType	skos:closeMatch	UBERON:0035465	semapv:ManualMappingCuration
+uterine endometrium - intercaruncular (ipsilateral to Corpus Luteum)	organismPart, cellType	skos:closeMatch	UBERON:0035465	semapv:ManualMappingCuration
+uterine horn	organismPart, cellType	skos:closeMatch	UBERON:0002247	semapv:ManualMappingCuration
+uterine tube infundibulum (contralateral to Corpus Luteum)	organismPart, cellType	skos:closeMatch	UBERON:0003984	semapv:ManualMappingCuration
+uterine tube infundibulum (ipsilateral to Corpus Luteum)	organismPart, cellType	skos:closeMatch	UBERON:0003984	semapv:ManualMappingCuration
+uterine tube magnum	organismPart, cellType	skos:closeMatch	UBERON:0013516	semapv:ManualMappingCuration
+uterus	organismPart, cellType	skos:closeMatch	BTO:0001424	semapv:ManualMappingCuration
+uterus	organismPart, cellType	skos:closeMatch	UBERON:0000995	semapv:ManualMappingCuration
+vagina	organismPart, cellType	skos:closeMatch	UBERON:0000996	semapv:ManualMappingCuration
+vas deferens	organismPart, cellType	skos:closeMatch	BTO:0001427	semapv:ManualMappingCuration
+vas deferens	organismPart, cellType	skos:closeMatch	UBERON:0001000	semapv:ManualMappingCuration
+venous blood	organismPart, cellType	skos:closeMatch	UBERON:0013756	semapv:ManualMappingCuration
+ventral lateral sacrocaudal muscle	organismPart, cellType	skos:closeMatch	UBERON:0011472	semapv:ManualMappingCuration
+vesicular gland	organismPart, cellType	skos:closeMatch	UBERON:0007194	semapv:ManualMappingCuration
+visceral adipose tissue	organismPart, cellType	skos:closeMatch	EFO:0004765	semapv:ManualMappingCuration
+visceral fat	organismPart, cellType	skos:closeMatch	UBERON:0035818	semapv:ManualMappingCuration
+visual cortex	organismPart, cellType	skos:closeMatch	UBERON:0000411	semapv:ManualMappingCuration
+whole blood	organismPart, cellType	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+whole brain	organismPart, cellType	skos:closeMatch	UBERON:0000955	semapv:ManualMappingCuration
+wild type	breed	skos:closeMatch	EFO:0005168	semapv:ManualMappingCuration
+xiphoid process	organismPart, cellType	skos:closeMatch	UBERON:0002207	semapv:ManualMappingCuration
+yellow bone marrow	organismPart, cellType	skos:closeMatch	UBERON:0000332	semapv:ManualMappingCuration
+yolk sac	organismPart, cellType	skos:closeMatch	UBERON:0001040	semapv:ManualMappingCuration
+young	developmentalStage	skos:closeMatch	UBERON:0000112	semapv:ManualMappingCuration
+zone of skin	organismPart, cellType	skos:closeMatch	UBERON:0000014	semapv:ManualMappingCuration
+zygote stage	developmentalStage	skos:closeMatch	UBERON:0000106	semapv:ManualMappingCuration

@@ -1,0 +1,569 @@
+#curie_map:
+#  BTO: http://purl.obolibrary.org/obo/BTO_
+#  CEPH: http://purl.obolibrary.org/obo/CEPH_
+#  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+#  CHMO: http://purl.obolibrary.org/obo/CHMO_
+#  CL: http://purl.obolibrary.org/obo/CL_
+#  CLO: http://purl.obolibrary.org/obo/CLO_
+#  EFO: http://www.ebi.ac.uk/efo/EFO_
+#  ENVO: http://purl.obolibrary.org/obo/ENVO_
+#  EO: http://purl.obolibrary.org/obo/EO_
+#  FOODON: http://purl.obolibrary.org/obo/FOODON_
+#  GO: http://purl.obolibrary.org/obo/GO_
+#  MI: http://purl.obolibrary.org/obo/MI_
+#  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+#  NCIT: http://purl.obolibrary.org/obo/NCIT_
+#  OBI: http://purl.obolibrary.org/obo/OBI_
+#  OMIT: http://purl.obolibrary.org/obo/OMIT_
+#  PO: http://purl.obolibrary.org/obo/PO_
+#  UBERON: http://purl.obolibrary.org/obo/UBERON_
+#  VTO: http://purl.obolibrary.org/obo/VTO_
+#  bao: http://www.bioassayontology.org/bao#BAO_
+#  edam.topic: http://edamontology.org/topic_
+#mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/metabolights.sssom.tsv
+#mapping_set_description: Curated metabolomics mappings from MetaboLights
+#subject_type: rdfs literal
+#subject_source: https://www.ebi.ac.uk/metabolights
+subject_label	subject_category	predicate_id	object_id	mapping_justification	author_label	mapping_date
+2'-deoxyadenosine	organismPart	skos:closeMatch	CHEBI:17256	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+A-549 cell	organismPart	skos:closeMatch	BTO:0000018	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+A2780 cell	organismPart	skos:closeMatch	EFO:0006362	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+A549	organismPart	skos:closeMatch	EFO:0001086	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+ARPE-19 cell	organismPart	skos:closeMatch	EFO:0006271	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Achillea millefolium	organism	skos:closeMatch	NCIT:C74311	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Acorus calamus	organism	skos:closeMatch	NCIT:C72221	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Acromyrmex octospinosus	organism	skos:closeMatch	NCBITaxon:64783	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Acropora	organism	skos:closeMatch	NCBITaxon:6127	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Acropora aspera	organism	skos:closeMatch	NCBITaxon:140238	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Aedes albopictus	organism	skos:closeMatch	NCBITaxon:7160	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Aegopodium podagraria	organism	skos:closeMatch	NCBITaxon:40902	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Aerva lanata	organism	skos:closeMatch	NCBITaxon:292353	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Agave americana	organism	skos:closeMatch	NCIT:C72228	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Ailuropoda melanoleuca	organism	skos:closeMatch	NCBITaxon:9646	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Alopecurus pratensis	organism	skos:closeMatch	NCBITaxon:15304	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Althaea officinalis	organism	skos:closeMatch	NCBITaxon:145745	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Anethum graveolens	organism	skos:closeMatch	NCBITaxon:40922	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Angelica archangelica	organism	skos:closeMatch	NCBITaxon:40949	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Anopheles gambiae	organism	skos:closeMatch	NCBITaxon:7165	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Anthoxanthum odoratum	organism	skos:closeMatch	NCBITaxon:29661	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Aphis gossypii	organism	skos:closeMatch	NCBITaxon:80765	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Apis cerana	organism	skos:closeMatch	NCBITaxon:7461	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Aquatica lateralis	organism	skos:closeMatch	NCBITaxon:7052	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Aqueous Humor	organismPart	skos:closeMatch	NCIT:C13190	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Arabidopsis thaliana	organism	skos:closeMatch	NCBITaxon:3702	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Arachis hypogaea	organism	skos:closeMatch	NCBITaxon:3818	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Aralia elata	organism	skos:closeMatch	NCBITaxon:82095	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Arctium lappa	organism	skos:closeMatch	NCBITaxon:4217	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Aronia melanocarpa	organism	skos:closeMatch	NCBITaxon:661339	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Arrhenatherum elatius	organism	skos:closeMatch	NCBITaxon:52139	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Artemisia absinthium	organism	skos:closeMatch	NCBITaxon:72332	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Artificial sputum medium	organism	skos:closeMatch	NCIT:C85504	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Asarum europaeum	organism	skos:closeMatch	NCBITaxon:49456	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Aspergillus fumigatus	organism	skos:closeMatch	NCBITaxon:746128	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Astragalus mongholicus	organism	skos:closeMatch	NCBITaxon:119829	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Astragalus propinquus	organism	skos:closeMatch	NCBITaxon:158324	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Avenula pubescens	organism	skos:closeMatch	NCBITaxon:87471	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+BTO:blood plasma	organismPart	skos:closeMatch	UBERON:0001969	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+BY4741	organismPart	skos:closeMatch	EFO:0000098	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Bacillus drentensis	organism	skos:closeMatch	NCBITaxon:220684	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Bacillus methanolicus	organism	skos:closeMatch	NCBITaxon:1471	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Bacillus subtilis	organismPart	skos:closeMatch	NCBITaxon:1423	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Bacteria	factor	skos:closeMatch	NCBITaxon:2	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Bergenia crassifolia	organism	skos:closeMatch	NCBITaxon:29762	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Betula pendula	organism	skos:closeMatch	NCBITaxon:3505	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Bidens tripartita	organism	skos:closeMatch	NCBITaxon:51276	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Bos taurus	organism	skos:closeMatch	NCBITaxon:9913	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Brachythecium rutabulum	organism	skos:closeMatch	NCBITaxon:53005	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Brassica juncea	organism	skos:closeMatch	NCBITaxon:3707	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Brassica napus	organism	skos:closeMatch	NCBITaxon:3708	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Brassica oleracea	organism	skos:closeMatch	NCBITaxon:3712	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Bronchoalveolar Lavage Fluid	organismPart	skos:closeMatch	NCIT:C13195	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Buffer	organismPart	skos:closeMatch	EFO:0005434	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Bupleurum aureum	organism	skos:closeMatch	NCBITaxon:428561	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Burkholderia thailandensis	organism	skos:closeMatch	NCBITaxon:57975	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+C-10 cell	organismPart	skos:closeMatch	BTO:0004532	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+C2C12 cell	organismPart	skos:closeMatch	EFO:0001098	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+C57BL/6	organismPart	skos:closeMatch	EFO:0004472	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+CACO-2 cell	organismPart	skos:closeMatch	EFO:0001099	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+CELL MEDIA	organismPart	skos:closeMatch	EFO:0000579	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+CHO-K1 cell	organismPart	skos:closeMatch	BTO:0000457	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Caenorhabditis elegans	organism	skos:closeMatch	NCBITaxon:6239	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Calanus	organism	skos:closeMatch	NCBITaxon:6836	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Calendula officinalis	organism	skos:closeMatch	NCBITaxon:41496	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Calliergonella cuspidata	organism	skos:closeMatch	NCBITaxon:52999	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Camellia sinensis	organism	skos:closeMatch	NCBITaxon:2711	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Campylobacter jejuni	organism	skos:closeMatch	NCBITaxon:197	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Candida albicans	organism	skos:closeMatch	NCBITaxon:5476	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Candida glabrata	organism	skos:closeMatch	NCBITaxon:5478	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Candida inconspicua	organism	skos:closeMatch	NCIT:C127697	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Candida parapsilosis	organism	skos:closeMatch	NCBITaxon:5480	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Candida tropicalis	organism	skos:closeMatch	NCBITaxon:5482	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Carica papaya	organism	skos:closeMatch	NCBITaxon:3649	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Cell	factor	skos:closeMatch	GO:0005623	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Cells	factor	skos:closeMatch	OMIT:0003806	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Centaurea jacea	organism	skos:closeMatch	NCBITaxon:351340	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Centella asiatica	organism	skos:closeMatch	NCBITaxon:48106	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Chemical	factor	skos:closeMatch	CHEBI:24431	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Chlamydomonas reinhardtii	organism	skos:closeMatch	NCBITaxon:3055	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Chlorella	organism	skos:closeMatch	OMIT:0004031	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Chloroflexus	organism	skos:closeMatch	NCBITaxon:1107	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Chromobacterium violaceum	organism	skos:closeMatch	NCBITaxon:536	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Cichorium intybus	organism	skos:closeMatch	NCBITaxon:13427	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Clavispora lusitaniae	organism	skos:closeMatch	NCBITaxon:36911	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Colorectal adenocarcinoma	factor	skos:closeMatch	EFO:0000365	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Convallaria keiskei	organism	skos:closeMatch	NCBITaxon:182176	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Coral reef sea water	organism	skos:closeMatch	ENVO:00000150	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Coriandrum sativum	organism	skos:closeMatch	NCBITaxon:4047	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Corynebacterium glutamicum	organism	skos:closeMatch	NCBITaxon:1718	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Cricetulus griseus	organism	skos:closeMatch	NCBITaxon:10029	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Crocus sativus	organism	skos:closeMatch	NCBITaxon:82528	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Ctenopharyngodon idella	organism	skos:closeMatch	NCBITaxon:7959	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Cucumaria georgiana	organism	skos:closeMatch	NCBITaxon:864626	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Culture Media	factor	skos:closeMatch	OMIT:0004762	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Cunila	organism	skos:closeMatch	NCBITaxon:392618	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Dactylis glomerata	organism	skos:closeMatch	NCBITaxon:4509	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Danio rerio	organism	skos:closeMatch	NCBITaxon:7955	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Daphnia magna	organism	skos:closeMatch	NCBITaxon:35525	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Daphnia pulex	organism	skos:closeMatch	NCBITaxon:6669	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Daucus carota	organism	skos:closeMatch	NCBITaxon:4039	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Dicentrarchus labrax	organism	skos:closeMatch	NCBITaxon:13489	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Dictyostelium discoideum	organism	skos:closeMatch	NCBITaxon:44689	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Dioscorea caucasica	organism	skos:closeMatch	NCBITaxon:49457	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Drosophila	organismPart	skos:closeMatch	NCBITaxon:7215	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Drosophila melanogaster	organismPart	skos:closeMatch	NCBITaxon:7227	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Drosophila melanogaster x Drosophila simulans	organism	skos:closeMatch	NCBITaxon:1128429	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Drosophila simulans	organism	skos:closeMatch	NCBITaxon:7240	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Echinacea purpurea	organism	skos:closeMatch	NCBITaxon:53751	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Eisenia fetida	organism	skos:closeMatch	NCBITaxon:6396	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Eleutherococcus senticosus	organism	skos:closeMatch	NCBITaxon:82096	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Eleutherococcus sessiliflorus	organism	skos:closeMatch	NCBITaxon:105886	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Equisetum arvense	organism	skos:closeMatch	NCBITaxon:3258	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Equus caballus	organism	skos:closeMatch	NCBITaxon:9796	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Escherichia coli	organism	skos:closeMatch	NCBITaxon:562	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Espeletia	organism	skos:closeMatch	NCBITaxon:185152	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Euglena gracilis	organism	skos:closeMatch	NCBITaxon:3039	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Exudate	organismPart	skos:closeMatch	UBERON:0007780	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Festuca rubra	organism	skos:closeMatch	NCBITaxon:52153	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Fissidens taxifolius	organism	skos:closeMatch	NCBITaxon:52983	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Foeniculum vulgare	organism	skos:closeMatch	NCBITaxon:48038	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Food	factor	skos:closeMatch	NCIT:C62695	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Fragaria vesca	organism	skos:closeMatch	NCBITaxon:57918	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Frangula alnus	organism	skos:closeMatch	NCBITaxon:106677	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Fraxinus excelsior	organism	skos:closeMatch	NCBITaxon:38873	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Fruit	factor	skos:closeMatch	PO:0009001	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+GC-MS	Technology	skos:closeMatch	CHMO:0000497	semapv:ManualMappingCuration	Jiakang Chang	2019-01-07
+Galium mollugo	organism	skos:closeMatch	NCBITaxon:254777	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Galium verum	organism	skos:closeMatch	NCBITaxon:462873	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Gallus gallus	organism	skos:closeMatch	NCBITaxon:9031	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Garcinia mangostana	organism	skos:closeMatch	NCBITaxon:58228	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Gas chromatography mass spectrometry	Technology	skos:closeMatch	CHMO:0000497	semapv:ManualMappingCuration	Jiakang Chang	2019-01-07
+Geranium pratense	organism	skos:closeMatch	NCBITaxon:487788	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Ginkgo biloba	organism	skos:closeMatch	NCBITaxon:3311	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Glycine max	organism	skos:closeMatch	NCBITaxon:3847	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Glycyrrhiza glabra	organism	skos:closeMatch	NCBITaxon:49827	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Gomphrena	organism	skos:closeMatch	NCBITaxon:169521	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Gossypium hirsutum	organism	skos:closeMatch	NCBITaxon:3635	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Grain	organismPart	skos:closeMatch	EFO:0006814	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Grimmia pulvinata	organism	skos:closeMatch	NCBITaxon:115594	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+HCC-1937 cell	organismPart	skos:closeMatch	EFO:0001174	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+HCC-1954 cell	organismPart	skos:closeMatch	EFO:0001175	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+HCT-116 cell	organismPart	skos:closeMatch	EFO:0002824	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+HEK-293 cell	organismPart	skos:closeMatch	BTO:0000007	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+HL-60 cell	organismPart	skos:closeMatch	EFO:0002793	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+HUVEC cell	organismPart	skos:closeMatch	EFO:0002451	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+HaCaT cell	organismPart	skos:closeMatch	EFO:0002056	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Haliclona fulva	organism	skos:closeMatch	NCBITaxon:608202	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Haliclona mucosa	organism	skos:closeMatch	NCBITaxon:608209	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+HeLa-SHMT2-shSHMT2 cell	organismPart	skos:closeMatch	CLO:0003684	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Hedysarum neglectum	organism	skos:closeMatch	NCBITaxon:1641291	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Helianthus tuberosus	organism	skos:closeMatch	NCBITaxon:4233	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Helichrysum arenarium	organism	skos:closeMatch	NCBITaxon:261776	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Heligmosomoides polygyrus	organism	skos:closeMatch	NCBITaxon:6339	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Hep-G2 cell	organismPart	skos:closeMatch	EFO:0001187	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Heracleum sibiricum	organism	skos:closeMatch	NCBITaxon:414037	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Holcus lanatus	organism	skos:closeMatch	NCBITaxon:29679	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Homo sapiens	organismPart	skos:closeMatch	NCBITaxon:9606	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Hordeum vulgare	organism	skos:closeMatch	NCBITaxon:4513	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Human	factor	skos:closeMatch	NCBITaxon:9606	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Humulus lupulus	organism	skos:closeMatch	NCBITaxon:3486	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Hypericum perforatum	organism	skos:closeMatch	NCBITaxon:65561	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Hypnum cupressiforme	organism	skos:closeMatch	NCBITaxon:53011	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Hypnum cupressiforme s. l.	organism	skos:closeMatch	NCBITaxon:53011	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Ilex paraguariensis	organism	skos:closeMatch	NCBITaxon:185542	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga acreana	organism	skos:closeMatch	NCBITaxon:485823	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga alata	organism	skos:closeMatch	NCBITaxon:668906	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga alba	organism	skos:closeMatch	NCBITaxon:668907	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga auristellae	organism	skos:closeMatch	NCBITaxon:486050	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga brachystachys	organism	skos:closeMatch	NCBITaxon:597306	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga chartacea	organism	skos:closeMatch	NCBITaxon:668909	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga coruscans	organism	skos:closeMatch	NCBITaxon:670674	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga laurina	organism	skos:closeMatch	NCBITaxon:487684	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga leiocalycina	organism	skos:closeMatch	NCBITaxon:486065	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga marginata	organism	skos:closeMatch	NCBITaxon:468147	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga pezizifera	organism	skos:closeMatch	NCBITaxon:486075	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inga umbellifera	organism	skos:closeMatch	NCBITaxon:486089	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Inula helenium	organism	skos:closeMatch	NCBITaxon:55635	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Ircinia campana	organism	skos:closeMatch	NCBITaxon:458501	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+JURKAT cell	organismPart	skos:closeMatch	EFO:0002796	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Jacobaea	organism	skos:closeMatch	NCBITaxon:405757	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Juniperus communis	organism	skos:closeMatch	NCBITaxon:58039	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Kalanchoe fedtschenkoi	organism	skos:closeMatch	NCBITaxon:63787	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Klebsiella pneumoniae	organism	skos:closeMatch	NCBITaxon:573	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Knautia arvensis	organism	skos:closeMatch	NCBITaxon:105271	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+LC-MS	Technology	skos:closeMatch	CHMO:0000524	semapv:ManualMappingCuration	Jiakang Chang	2019-01-07
+Lactobacillus rhamnosus	factor	skos:closeMatch	NCBITaxon:47715	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Lactuca sativa	organism	skos:closeMatch	NCBITaxon:4236	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Landoltia punctata	organism	skos:closeMatch	NCBITaxon:50518	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Laternula elliptica	organism	skos:closeMatch	NCBITaxon:228457	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Leishmania infantum	organismPart	skos:closeMatch	NCBITaxon:5671	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Leishmania mexicana	organismPart	skos:closeMatch	NCBITaxon:5665	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Leishmania mexicana species complex	organism	skos:closeMatch	NCBITaxon:38582	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Lemna gibba	organism	skos:closeMatch	NCBITaxon:4470	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Lemna paucicostata	organism	skos:closeMatch	NCBITaxon:89585	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Leonurus quinquelobatus	organism	skos:closeMatch	NCBITaxon:1081559	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Leucanthemum vulgare	organism	skos:closeMatch	NCBITaxon:99072	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Levisticum officinale	organism	skos:closeMatch	NCBITaxon:48042	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Linum usitatissimum	organism	skos:closeMatch	NCBITaxon:4006	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Liothyrella uva	organism	skos:closeMatch	NCBITaxon:33482	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Liquid chromatography mass spectrometry	Technology	skos:closeMatch	CHMO:0000524	semapv:ManualMappingCuration	Jiakang Chang	2019-01-07
+Litoria verreauxii	organism	skos:closeMatch	NCBITaxon:681275	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Lobophora monticola	organism	skos:closeMatch	NCBITaxon:1638593	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Lobophora obscura	organism	skos:closeMatch	NCBITaxon:1852700	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Lobophora rosacea	organism	skos:closeMatch	NCBITaxon:1638598	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Lolium perenne	organism	skos:closeMatch	NCBITaxon:4522	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Lotus burttii	organism	skos:closeMatch	NCBITaxon:645164	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Lotus corniculatus	organism	skos:closeMatch	NCBITaxon:47247	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Lotus creticus	organism	skos:closeMatch	NCBITaxon:181267	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Lotus filicaulis	organism	skos:closeMatch	NCBITaxon:264956	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Lotus japonicus	organism	skos:closeMatch	NCBITaxon:34305	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Lotus tenuis	organism	skos:closeMatch	NCBITaxon:347996	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Lotus uliginosus	organism	skos:closeMatch	NCBITaxon:181288	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Lysiphlebia japonica	organism	skos:closeMatch	NCBITaxon:104022	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+MCF-10A cell	organismPart	skos:closeMatch	EFO:0001200	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+MCF-7 cell	organismPart	skos:closeMatch	EFO:0001203	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+MDA-MB-231 cell	organismPart	skos:closeMatch	EFO:0001209	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Macaca mulatta	organism	skos:closeMatch	NCBITaxon:9544	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Macleaya cordata	organismPart	skos:closeMatch	NCBITaxon:56857	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Macrobrachium nipponense	organism	skos:closeMatch	NCBITaxon:159736	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Malus domestica	organism	skos:closeMatch	NCBITaxon:3750	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Manihot esculenta	organism	skos:closeMatch	NCBITaxon:3983	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Marchantia polymorpha	organism	skos:closeMatch	NCBITaxon:3197	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Marchantia polymorpha s. l.	organism	skos:closeMatch	NCBITaxon:3197	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Marseniopsis mollis	organism	skos:closeMatch	NCBITaxon:696346	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Matricaria chamomilla	organism	skos:closeMatch	NCBITaxon:98504	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Medicago sativa	organism	skos:closeMatch	NCBITaxon:3879	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Medium	factor	skos:closeMatch	NCIT:C48164	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Melilotus officinalis	organism	skos:closeMatch	NCBITaxon:47083	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Mentha x piperita	organism	skos:closeMatch	NCBITaxon:34256	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Meyerozyma guilliermondii	organism	skos:closeMatch	NCBITaxon:4929	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Mice	factor	skos:closeMatch	NCBITaxon:10088	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Microbiota	organism	skos:closeMatch	NCBITaxon:408170	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Micrococcus luteus	organism	skos:closeMatch	NCBITaxon:1270	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Micromonas pusilla	organism	skos:closeMatch	NCBITaxon:38833	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Mix	factor	skos:closeMatch	NCIT:C64925	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Momordica charantia	organism	skos:closeMatch	NCBITaxon:3673	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Montipora	organism	skos:closeMatch	NCBITaxon:46703	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Montipora aequituberculata	organism	skos:closeMatch	NCBITaxon:105609	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Mouse	factor	skos:closeMatch	NCBITaxon:10088	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Mouse Kidney	factor	skos:closeMatch	NCIT:C22730	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Mus	factor	skos:closeMatch	NCBITaxon:10088	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Mus musculus	organism	skos:closeMatch	NCBITaxon:10090	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Mustela putorius	organism	skos:closeMatch	NCBITaxon:9668	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Mycobacterium bovis	organism	skos:closeMatch	NCBITaxon:1765	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Mycobacterium tuberculosis	organism	skos:closeMatch	NCBITaxon:1773	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Mycoplasma bovis	organism	skos:closeMatch	NCBITaxon:28903	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Mycoplasma gallisepticum	organism	skos:closeMatch	NCBITaxon:2096	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+NCBITAXON:Bos taurus	organism	skos:closeMatch	NCBITaxon:9913	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+NCBITAXON:Macaca mulatta	organism	skos:closeMatch	NCBITaxon:9544	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+NCBITAXON:Sus scrofa	organism	skos:closeMatch	NCBITaxon:9823	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+NIH-3T3 cell	organismPart	skos:closeMatch	BTO:0000944	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+NMR spectroscopy	Technology	skos:closeMatch	OBI:0000623	semapv:ManualMappingCuration	Jiakang Chang	2019-01-22
+Nepenthes ampullaria	organism	skos:closeMatch	NCBITaxon:150949	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Nepenthes rafflesiana	organism	skos:closeMatch	NCBITaxon:150990	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Nepenthes x hookeriana	organism	skos:closeMatch	NCBITaxon:1610511	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Nicotiana attenuata	organism	skos:closeMatch	NCBITaxon:49451	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Nicotiana tabacum	organism	skos:closeMatch	NCBITaxon:4097	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Olea europaea	organism	skos:closeMatch	NCBITaxon:4146	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Olive Oil	organismPart	skos:closeMatch	NCIT:C1175	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Oplopanax elatus	organism	skos:closeMatch	NCBITaxon:228659	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Origanum vulgare	organism	skos:closeMatch	NCBITaxon:39352	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Oryctolagus cuniculus	organism	skos:closeMatch	NCBITaxon:9986	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Oryza sativa	organism	skos:closeMatch	NCBITaxon:4530	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Ovis aries	organism	skos:closeMatch	NCBITaxon:9940	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+PBS	organismPart	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+PBS buffer	organism	skos:closeMatch	CHMO:0001751	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Panax ginseng	organism	skos:closeMatch	NCBITaxon:4054	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Papio anubis	organism	skos:closeMatch	NCBITaxon:9555	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Paraceradocus miersii	organism	skos:closeMatch	NCBITaxon:1811419	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Parachlorella	organism	skos:closeMatch	NCBITaxon:247501	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Petroselinum crispum	organism	skos:closeMatch	NCBITaxon:4043	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Phaeodactylum tricornutum 1	organism	skos:closeMatch	NCBITaxon:2850	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Phaeodactylum tricornutum 11	organism	skos:closeMatch	NCBITaxon:2850	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Phaeodactylum tricornutum 2	organism	skos:closeMatch	NCBITaxon:2850	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Phleum pratense	organism	skos:closeMatch	NCBITaxon:15957	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Phoenix dactylifera	organism	skos:closeMatch	NCBITaxon:42345	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Photinus pyralis	organism	skos:closeMatch	NCBITaxon:7054	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Phyllanthus niruri	organism	skos:closeMatch	NCBITaxon:296034	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pichia kudriavzevii	organism	skos:closeMatch	NCBITaxon:4909	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pimpinella anisum	organism	skos:closeMatch	NCBITaxon:271192	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pimpinella saxifraga	organism	skos:closeMatch	NCBITaxon:40959	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pinus sylvestris	organism	skos:closeMatch	NCBITaxon:3349	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Plagiomnium undulatum	organism	skos:closeMatch	NCBITaxon:95766	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Plantago lanceolata	organism	skos:closeMatch	NCBITaxon:39414	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Plantago major	organism	skos:closeMatch	NCBITaxon:29818	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Plasmodium coatneyi	organism	skos:closeMatch	NCBITaxon:208452	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Plasmodium cynomolgi	organism	skos:closeMatch	NCBITaxon:5827	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Plasmodium falciparum	organism	skos:closeMatch	NCBITaxon:5833	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Plasmodium knowlesi	organism	skos:closeMatch	NCBITaxon:5850	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Plasmodium vivax	organism	skos:closeMatch	NCBITaxon:5855	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Platycodon grandiflorus	organism	skos:closeMatch	NCBITaxon:94286	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Poa pratensis	organism	skos:closeMatch	NCBITaxon:4545	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pocillopora acuta	organism	skos:closeMatch	NCBITaxon:1491507	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pocillopora damicornis	organism	skos:closeMatch	NCBITaxon:46731	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pocillopora meandrina	organism	skos:closeMatch	NCBITaxon:46732	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Polemonium caeruleum	organism	skos:closeMatch	NCBITaxon:174663	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Polytrichum strictum	organism	skos:closeMatch	NCBITaxon:129214	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Populus balsamifera	organism	skos:closeMatch	NCBITaxon:73824	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Populus deltoides	organism	skos:closeMatch	NCBITaxon:3696	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Populus tremula	organism	skos:closeMatch	NCBITaxon:113636	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Populus tremula x Populus alba	organism	skos:closeMatch	NCBITaxon:80863	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Populus tremula x Populus tremuloides	organism	skos:closeMatch	NCBITaxon:47664	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Populus tremuloides	organism	skos:closeMatch	NCBITaxon:3693	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Porites	organism	skos:closeMatch	NCBITaxon:46719	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Porites compressa	organism	skos:closeMatch	NCBITaxon:46720	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Porites lobata	organism	skos:closeMatch	NCBITaxon:104759	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Porites rus	organism	skos:closeMatch	NCBITaxon:262591	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Potentilla erecta	organism	skos:closeMatch	NCBITaxon:57940	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pristionchus pacificus	organism	skos:closeMatch	NCBITaxon:54126	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Prochlorococcus	organism	skos:closeMatch	NCBITaxon:1218	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Prunus padus	organism	skos:closeMatch	NCBITaxon:97307	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pseudo-nitzschia arenysensis CM63	organism	skos:closeMatch	NCBITaxon:697910	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pseudo-nitzschia multistriata PmF3.7	organism	skos:closeMatch	NCBITaxon:697910	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pseudomonas	organism	skos:closeMatch	NCBITaxon:286	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Pseudomonas aeruginosa	organism	skos:closeMatch	NCBITaxon:287	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Pseudomonas fluorescens	organism	skos:closeMatch	NCBITaxon:294	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Pseudomonas putida	organism	skos:closeMatch	NCBITaxon:303	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Pseudomonas syringae	organism	skos:closeMatch	NCBITaxon:317	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Pseudostellaria heterophylla	organism	skos:closeMatch	NCBITaxon:418402	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+RAW-264.7 cell	organismPart	skos:closeMatch	BTO:0003292	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Ranunculus acris	organism	skos:closeMatch	NCBITaxon:3447	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Rattus	organism	skos:closeMatch	NCBITaxon:10114	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Rattus andamanensis	organism	skos:closeMatch	NCBITaxon:69077	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Rattus norvegicus	organism	skos:closeMatch	NCBITaxon:10116	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Rattus rattus	organism	skos:closeMatch	NCBITaxon:10117	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Recombinant Protein	organismPart	skos:closeMatch	NCIT:C17081	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Reference	organismPart	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Reference compound	organismPart	skos:closeMatch	bao:0002092	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Rhamnus cathartica	organism	skos:closeMatch	NCBITaxon:3610	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Rhodiola rosea	organism	skos:closeMatch	NCBITaxon:203015	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Rhopalosiphum padi	organism	skos:closeMatch	NCBITaxon:40932	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Rhytidiadelphus squarrosus	organism	skos:closeMatch	NCBITaxon:53008	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Rosa majalis	organism	skos:closeMatch	NCBITaxon:57935	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Roseiflexus	organism	skos:closeMatch	NCBITaxon:120961	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Rubus idaeus	organism	skos:closeMatch	NCBITaxon:32247	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Ruegeria pomeroyi	organism	skos:closeMatch	NCBITaxon:89184	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+SH-SY5Y cell	organismPart	skos:closeMatch	EFO:0002717	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+SK-N-AS cell	organismPart	skos:closeMatch	EFO:0002859	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Saccharomyces cerevisiae	organism	skos:closeMatch	NCBITaxon:4932	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Sake	organismPart	skos:closeMatch	NCIT:C66825	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Salmonella enterica	organism	skos:closeMatch	NCBITaxon:28901	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Salvia officinalis	organism	skos:closeMatch	NCBITaxon:38868	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Sambucus nigra	organism	skos:closeMatch	NCBITaxon:4202	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Schizosaccharomyces pombe	organism	skos:closeMatch	NCBITaxon:4896	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Seminavis robusta 85A	organism	skos:closeMatch	NCBITaxon:568900	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Seminavis robusta 85A Sex	organism	skos:closeMatch	NCBITaxon:568900	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Seminavis robusta 85A noSex	organism	skos:closeMatch	NCBITaxon:568900	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Seminavis robusta 85B	organism	skos:closeMatch	NCBITaxon:568900	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Seminavis robusta 85B Sex	organism	skos:closeMatch	NCBITaxon:568900	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Seminavis robusta 85B noSex	organism	skos:closeMatch	NCBITaxon:568900	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Senna alexandrina	organism	skos:closeMatch	NCBITaxon:72402	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Seriatopora hystrix	organism	skos:closeMatch	NCBITaxon:51070	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Serum	factor	skos:closeMatch	BTO:0000133	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Silybum marianum	organism	skos:closeMatch	NCBITaxon:92921	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Simulation experiment	organism	skos:closeMatch	edam.topic:3524	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Sinorhizobium meliloti	organism	skos:closeMatch	NCBITaxon:382	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Skeletonema marinoi	organism	skos:closeMatch	NCBITaxon:267567	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Solanum habrochaites	organism	skos:closeMatch	NCBITaxon:62890	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Solanum lycopersicum	organism	skos:closeMatch	NCBITaxon:4081	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Solanum lycopersicum x Solanum pennellii	organism	skos:closeMatch	NCBITaxon:872925	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Sorghum bicolor	organism	skos:closeMatch	NCBITaxon:4558	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Spheciospongia vesparium	organism	skos:closeMatch	NCBITaxon:295237	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Spleen	organismPart	skos:closeMatch	UBERON:0002106	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Stalk	organismPart	skos:closeMatch	NCIT:C62353	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Standard	organismPart	skos:closeMatch	NCIT:C44275	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Staphylococcus aureus	organism	skos:closeMatch	NCBITaxon:1280	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Streptomyces coelicolor	organismPart	skos:closeMatch	NCBITaxon:1902	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Streptomyces viridochromogenes	organism	skos:closeMatch	NCBITaxon:1938	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Sulfolobus acidocaldarius	organism	skos:closeMatch	NCBITaxon:2285	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Suricata suricatta	organism	skos:closeMatch	VTO:0010852	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Sus scrofa	organism	skos:closeMatch	NCBITaxon:9823	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Sus scrofa domesticus	organism	skos:closeMatch	NCBITaxon:9823	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Symbiodinium sp. ex Acropora aspera	organism	skos:closeMatch	NCBITaxon:280471	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Synechococcus elongatus	organism	skos:closeMatch	NCBITaxon:32046	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Synechococcus sp.	organism	skos:closeMatch	NCBITaxon:1131	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Synechocystis sp. PCC 6803	organism	skos:closeMatch	NCBITaxon:1148	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Synthetic	organism	skos:closeMatch	MI:0794	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+THP-1 cell	organism	skos:closeMatch	EFO:0001253	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Tanacetum vulgare	organism	skos:closeMatch	NCIT:C72449	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Taraxacum officinale	organism	skos:closeMatch	NCBITaxon:50225	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Thalassiosira pseudonana	organism	skos:closeMatch	NCBITaxon:35128	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Thymus serpyllum	organism	skos:closeMatch	NCBITaxon:204219	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Tilia cordata	organism	skos:closeMatch	NCBITaxon:172266	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Tissue	factor	skos:closeMatch	UBERON:0000479	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Triticum aestivum	organism	skos:closeMatch	NCBITaxon:4565	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Trypanosoma brucei	organism	skos:closeMatch	NCBITaxon:5691	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Tussilago farfara	organism	skos:closeMatch	NCBITaxon:118778	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+U2-OS cell	organismPart	skos:closeMatch	EFO:0002869	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Urine	factor	skos:closeMatch	UBERON:0001088	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Urtica dioica	organism	skos:closeMatch	NCBITaxon:3501	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Vaccinium myrtillus	organism	skos:closeMatch	NCBITaxon:180763	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Valeriana officinalis	organism	skos:closeMatch	NCBITaxon:19953	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Viburnum opulus	organism	skos:closeMatch	NCBITaxon:85293	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Viola tricolor	organism	skos:closeMatch	NCBITaxon:214053	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Vitis	organism	skos:closeMatch	NCBITaxon:3603	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Vitis vinifera	organism	skos:closeMatch	NCBITaxon:29760	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Whole body	organismPart	skos:closeMatch	BTO:0001489	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Wine	organismPart	skos:closeMatch	NCIT:C66822	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Wolffia	organism	skos:closeMatch	NCBITaxon:161109	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Xenopus laevis	organism	skos:closeMatch	NCBITaxon:8355	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+Yoldia eightsi	organism	skos:closeMatch	NCBITaxon:1608987	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+Zea mays	organism	skos:closeMatch	NCBITaxon:4577	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+adipose tissue	factor	skos:closeMatch	UBERON:0001013	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+aerial part	organismPart	skos:closeMatch	EFO:0001901	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+age	age	skos:closeMatch	NCIT:C25150	semapv:ManualMappingCuration	Jiakang Chang	2019-11-14
+anther	organismPart	skos:closeMatch	PO:0009066	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+bark	factor	skos:closeMatch	PO:0004518	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+berry	organismPart	skos:closeMatch	PO:0009001	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+blood	factor	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+blood plasma	factor	skos:closeMatch	UBERON:0001969	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+blood serum	organismPart	skos:closeMatch	BTO:0000133	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+bloodstream form	organismPart	skos:closeMatch	BTO:0000134	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+bone marrow-derived macrophage	organismPart	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+brain	factor	skos:closeMatch	UBERON:0000955	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+breast cancer cell	organismPart	skos:closeMatch	EFO:0002885	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+brown adipose tissue	organismPart	skos:closeMatch	UBERON:0001348	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+bud	organismPart	skos:closeMatch	PO:0000055	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+callus	organismPart	skos:closeMatch	PO:0005052	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+cardiomyocyte cell line	organismPart	skos:closeMatch	BTO:0003324	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+caryopsis	organismPart	skos:closeMatch	EFO:0006814	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+cell culture	factor	skos:closeMatch	BTO:0000214	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+cell media	organismPart	skos:closeMatch	EFO:0000579	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+cell suspension culture	organismPart	skos:closeMatch	BTO:0000221	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+cerebral cortex	organismPart	skos:closeMatch	UBERON:0000956	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+cerebrospinal fluid	organismPart	skos:closeMatch	UBERON:0001359	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+coculture	factor	skos:closeMatch	BTO:0003143	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+colorectal adenocarcinoma cell	organismPart	skos:closeMatch	EFO:0000365	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+culture medium	organismPart	skos:closeMatch	BTO:0000316	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+culture supernatant	organismPart	skos:closeMatch	BTO:0002217	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+digestive gland	organismPart	skos:closeMatch	UBERON:0001007	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+early whole plant fruit ripening stage	organismPart	skos:closeMatch	PO:0007001	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+egg	organismPart	skos:closeMatch	BTO:0000369	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+embryo	organismPart	skos:closeMatch	UBERON:0000922	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+epididymis	organismPart	skos:closeMatch	UBERON:0001301	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+epithelial cell	organismPart	skos:closeMatch	CL:0000066	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+erythrocyte	organismPart	skos:closeMatch	CL:0000232	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+esophagus	organismPart	skos:closeMatch	UBERON:0001043	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+ethanol	factor	skos:closeMatch	CHEBI:16236	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+exocarp	organismPart	skos:closeMatch	NCIT:C79633	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+feces	organismPart	skos:closeMatch	NCIT:C13234	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+fetal serum	organismPart	skos:closeMatch	BTO:0000448	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+flower	factor	skos:closeMatch	PO:0009046	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+flower bud	organismPart	skos:closeMatch	PO:0000056	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+flower stalk	organismPart	skos:closeMatch	BTO:0002244	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+foot	organismPart	skos:closeMatch	UBERON:0002387	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+gastrocnemius	organismPart	skos:closeMatch	UBERON:0001388	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+glucose	factor	skos:closeMatch	CHEBI:17234	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+glycogen	organismPart	skos:closeMatch	CHEBI:28087	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+gnelater luminosus	organism	skos:closeMatch	NCBITaxon:2038154	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+head	organismPart	skos:closeMatch	UBERON:0000033	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+heart	factor	skos:closeMatch	UBERON:0000948	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+heart ventricle	organismPart	skos:closeMatch	UBERON:0002082	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+hemolymph	organismPart	skos:closeMatch	BTO:0000572	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+hepatocyte	organismPart	skos:closeMatch	CL:0000182	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+hepatoma cell	organismPart	skos:closeMatch	BTO:0000608	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+hydroponic plant culture media	organismPart	skos:closeMatch	EO:0007067	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+hypocotyl	organismPart	skos:closeMatch	PO:0020100	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+intestine	organismPart	skos:closeMatch	UBERON:0000160	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+intracellular	factor	skos:closeMatch	GO:0005622	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+intracellular part	organismPart	skos:closeMatch	GO:0044424	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+juvenile leaf	organismPart	skos:closeMatch	PO:0006339	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+kidney	factor	skos:closeMatch	UBERON:0002113	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+leaf	organismPart	skos:closeMatch	PO:0025034	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+leaf and stem	organismPart	skos:closeMatch	PO:0025034	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+leaf lamina	organismPart	skos:closeMatch	PO:0020039	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+leaf midvein	organismPart	skos:closeMatch	PO:0020139	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+left ventricle	organismPart	skos:closeMatch	UBERON:0002084	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+liver	factor	skos:closeMatch	UBERON:0002107	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+liver cancer cell	organismPart	skos:closeMatch	BTO:0000594	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+lung	organismPart	skos:closeMatch	UBERON:0002048	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+lung fibroblast cell line	organismPart	skos:closeMatch	EFO:0005742	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+macrophage	organismPart	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+mass spectrometry	Technology	skos:closeMatch	OBI:0000470	semapv:ManualMappingCuration	Jiakang Chang	2019-01-22
+matrix	factor	skos:closeMatch	EFO:0008466	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+media	factor	skos:closeMatch	EFO:0000579	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+mesocarp	organismPart	skos:closeMatch	BTO:0000856	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+metabolite	factor	skos:closeMatch	EFO:0004727	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+microbial mat	organismPart	skos:closeMatch	ENVO:01000008	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+midgut	organismPart	skos:closeMatch	UBERON:0001045	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+milk	factor	skos:closeMatch	BTO:0000868	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+minced meat	organismPart	skos:closeMatch	FOODON:03315526	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+mixture	organismPart	skos:closeMatch	NCIT:C45305	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+monocyte	factor	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+muscle	organismPart	skos:closeMatch	UBERON:0002385	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+mycelium	organismPart	skos:closeMatch	BTO:0001436	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+neutrophil	factor	skos:closeMatch	CL:0000775	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+not applicable	organismPart	skos:closeMatch	NCIT:C48660	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+odor	organismPart	skos:closeMatch	EFO:0008386	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+ovarian serous adenocarcinoma cell line	organismPart	skos:closeMatch	EFO:0002917	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+pericarp	organismPart	skos:closeMatch	PO:0009084	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+peritoneal macrophage	organismPart	skos:closeMatch	CL:0000581	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+phosphate buffered saline	organismPart	skos:closeMatch	bao:0000012	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+plasma	factor	skos:closeMatch	UBERON:0001969	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+pluripotent stem cell-derived cardiomyocyte	organismPart	skos:closeMatch	EFO:0004905	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+pre-B-lymphocyte	organismPart	skos:closeMatch	BTO:0001133	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+primary root	organismPart	skos:closeMatch	PO:0020127	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+pure substance	organismPart	skos:closeMatch	CHEBI:60003	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+renal epithelial cell	organismPart	skos:closeMatch	BTO:0005545	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+renal proximal tubule	organismPart	skos:closeMatch	BTO:0001498	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+renal tubule	organismPart	skos:closeMatch	UBERON:0001231	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+right ventricle	organismPart	skos:closeMatch	UBERON:0002080	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+root	organismPart	skos:closeMatch	EFO:0000989	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+rosette	organismPart	skos:closeMatch	PO:0025615	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+rosette leaf	organismPart	skos:closeMatch	PO:0000014	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+saliva	organismPart	skos:closeMatch	BTO:0001202	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+sea water	organism	skos:closeMatch	CHEBI:15377	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+seed	factor	skos:closeMatch	EFO:0000991	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+seedling	organismPart	skos:closeMatch	PO:0007131	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+semen	organismPart	skos:closeMatch	CL:0000019	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+seminal plasma	organismPart	skos:closeMatch	BTO:0001232	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+shoot system	organismPart	skos:closeMatch	PO:0009006	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+skeletal muscle	organismPart	skos:closeMatch	UBERON:0001134	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+skeletal muscle organ	organismPart	skos:closeMatch	UBERON:0014892	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+skin fibroblast cell line	organismPart	skos:closeMatch	EFO:0002009	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+soil biocrust	organism	skos:closeMatch	ENVO:01000910	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+solvent	organismPart	skos:closeMatch	NCIT:C45790	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+soybean	organism	skos:closeMatch	NCIT:C72010	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+spermatophore/nuptial gift	organismPart	skos:closeMatch	CEPH:0000237	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+spike	factor	skos:closeMatch	BTO:0001278	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+stationary phase culture	organismPart	skos:closeMatch	BTO:0001899	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+steam	organism	skos:closeMatch	OMIT:0014104	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+stem	factor	skos:closeMatch	PO:0009047	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+stem internode	organismPart	skos:closeMatch	PO:0020142	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+stigma	organismPart	skos:closeMatch	PO:0009073	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+study reference pool	organism	skos:closeMatch	NCIT:C93452	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+subcutaneous adipose tissue	organismPart	skos:closeMatch	UBERON:0002190	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+synovia	organismPart	skos:closeMatch	BTO:0001339	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+testis	organismPart	skos:closeMatch	UBERON:0000473	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+thorax	organismPart	skos:closeMatch	UBERON:0000915	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+twig	organismPart	skos:closeMatch	NCIT:C79682	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+unclassified Cyanobacteria	organism	skos:closeMatch	NCBITaxon:34079	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+urinary metabolite measurement	organismPart	skos:closeMatch	EFO:0005116	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+vegetative shoot system	organismPart	skos:closeMatch	PO:0009006	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+water	factor	skos:closeMatch	CHEBI:15377	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+wax ester	organismPart	skos:closeMatch	CHEBI:10036	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+white adipose tissue	organismPart	skos:closeMatch	UBERON:0001347	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+whole	factor	skos:closeMatch	NCIT:C25326	semapv:ManualMappingCuration	Jiakang Chang	2018-09-28
+whole cell	organismPart	skos:closeMatch	GO:0005623	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+whole organism	organismPart	skos:closeMatch	UBERON:0000468	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+whole plant	factor	skos:closeMatch	UBERON:0000468	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01
+xylem	factor	skos:closeMatch	PO:0005352	semapv:ManualMappingCuration	Zoe May Pendlington	2018-10-01

@@ -1,0 +1,1526 @@
+#curie_map:
+#  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+#  CL: http://purl.obolibrary.org/obo/CL_
+#  EFO: http://www.ebi.ac.uk/efo/EFO_
+#  FMA: http://purl.obolibrary.org/obo/FMA_
+#  GO: http://purl.obolibrary.org/obo/GO_
+#  HANCESTRO: http://purl.obolibrary.org/obo/HANCESTRO_
+#  HsapDv: http://purl.obolibrary.org/obo/HsapDv_
+#  MONDO: http://purl.obolibrary.org/obo/MONDO_
+#  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+#  OBI: http://purl.obolibrary.org/obo/OBI_
+#  PATO: http://purl.obolibrary.org/obo/PATO_
+#  UBERON: http://purl.obolibrary.org/obo/UBERON_
+#  UO: http://purl.obolibrary.org/obo/UO_
+#  edam.data: http://edamontology.org/data_
+#  obo: http://purl.obolibrary.org/obo/
+#mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/hca.sssom.tsv
+#mapping_set_description: Human Cell Atlas curated mappings
+#subject_type: rdfs literal
+#subject_source: https://www.ebi.ac.uk/about/collaborations/human-cell-atlas
+subject_label	subject_category	predicate_id	object_id	mapping_justification
+"""Blood pre-cDC,blood pre-conventional dendritic cells (cDCs)"""	selected_cell_types	skos:closeMatch	CL:0002010	semapv:ManualMappingCuration
+"""CB pre-cDC,cord blood pre-conventional dendritic cells (cDCs)"""	selected_cell_types	skos:closeMatch	CL:0002010	semapv:ManualMappingCuration
+"""CD141+ cDC,primary human conventional dendritic cells (cDCs)"""	selected_cell_types	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+"""CD1c+ cDC,primary human conventional dendritic cells (cDCs)"""	selected_cell_types	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+"""CD34-positive, CD38-negative hematopoietic stem cell"""	cell_type	skos:closeMatch	CL:0001024	semapv:ManualMappingCuration
+"""CD34-positive, CD38-negative hematopoietic stem cell"""	selected_cell_types	skos:closeMatch	CL:0001024	semapv:ManualMappingCuration
+"""Cataract on left eye, right eye has normal ocular history"""	diseases	skos:closeMatch	MONDO:0005129	semapv:ManualMappingCuration
+"""European, White, British"""	ethnicity	skos:closeMatch	HANCESTRO:0462	semapv:ManualMappingCuration
+"""White - other, Ad Mixed American"""	ethnicity	skos:closeMatch	HANCESTRO:0005	semapv:ManualMappingCuration
+1-month-old human stage	development_stage	skos:closeMatch	HsapDv:0000174	semapv:ManualMappingCuration
+10X  5' v2 sequencing	library_construction_method	skos:closeMatch	EFO:0009899	semapv:ManualMappingCuration
+10X 3' v1 sequencing	library_construction_method	skos:closeMatch	EFO:0009901	semapv:ManualMappingCuration
+10X 3' v2 sequencing	library_construction_method	skos:closeMatch	EFO:0009899	semapv:ManualMappingCuration
+10X 3' v2 sequencing	library_construction_method	skos:closeMatch	EFO:0009900	semapv:ManualMappingCuration
+10X 3' v3 sequencing	library_construction_method	skos:closeMatch	EFO:0009922	semapv:ManualMappingCuration
+10X 5' v2 sequencing	library_construction_method	skos:closeMatch	EFO:0009900	semapv:ManualMappingCuration
+10X Ig enrichment	library_construction_method	skos:closeMatch	EFO:0010715	semapv:ManualMappingCuration
+10X TCR enrichment	library_construction_method	skos:closeMatch	EFO:0010714	semapv:ManualMappingCuration
+10X v1 sequencing	library_construction_method	skos:closeMatch	EFO:0009897	semapv:ManualMappingCuration
+10X v2 3' sequencing	library_construction_method	skos:closeMatch	EFO:0009310	semapv:ManualMappingCuration
+10X v2 3' sequencing	library_construction_method	skos:closeMatch	EFO:0009899	semapv:ManualMappingCuration
+10X v2 sequencing	library_construction_method	skos:closeMatch	EFO:0009310	semapv:ManualMappingCuration
+10X v2 three prime	library_construction_method	skos:closeMatch	EFO:0009899	semapv:ManualMappingCuration
+10X v3 sequencing	library_construction_method	skos:closeMatch	EFO:0009898	semapv:ManualMappingCuration
+10pcw	development_stage	skos:closeMatch	HsapDv:0000047	semapv:ManualMappingCuration
+10th post-conception week	development_stage	skos:closeMatch	HsapDv:0000047	semapv:ManualMappingCuration
+10th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000047	semapv:ManualMappingCuration
+10x 3' V2	library_construction_method	skos:closeMatch	EFO:0009899	semapv:ManualMappingCuration
+10x 3' V3 sequencing	library_construction_method	skos:closeMatch	EFO:0009922	semapv:ManualMappingCuration
+10x 3' v2	library_construction_method	skos:closeMatch	EFO:0009899	semapv:ManualMappingCuration
+10x 3' v2 sequencing	library_construction_method	skos:closeMatch	EFO:0009899	semapv:ManualMappingCuration
+10x 3' v3 sequencing	library_construction_method	skos:closeMatch	EFO:0009922	semapv:ManualMappingCuration
+10x 5p V2	library_construction_method	skos:closeMatch	EFO:0009900	semapv:ManualMappingCuration
+10x Chromium (v2)	library_construction_method	skos:closeMatch	EFO:0009310	semapv:ManualMappingCuration
+10x Chromium (v3)	library_construction_method	skos:closeMatch	EFO:0009898	semapv:ManualMappingCuration
+10x sequencing	library_construction_method	skos:closeMatch	EFO:0008995	semapv:ManualMappingCuration
+10x v2	method	skos:closeMatch	EFO:0009310	semapv:ManualMappingCuration
+10x v2 3 prime	library_construction_method	skos:closeMatch	EFO:0009899	semapv:ManualMappingCuration
+10x v2 sequencing	library_construction_method	skos:closeMatch	EFO:0009310	semapv:ManualMappingCuration
+10x v2 sequencing	library_construction_method	skos:closeMatch	EFO:0009899	semapv:ManualMappingCuration
+10x v3 3 prime	library_construction_method	skos:closeMatch	EFO:0009922	semapv:ManualMappingCuration
+10x_v2	library_construction_method	skos:closeMatch	EFO:0009310	semapv:ManualMappingCuration
+10x_v2	method	skos:closeMatch	EFO:0009310	semapv:ManualMappingCuration
+11pcw	development_stage	skos:closeMatch	HsapDv:0000048	semapv:ManualMappingCuration
+11th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000048	semapv:ManualMappingCuration
+129S6	strain	skos:closeMatch	EFO:0000598	semapv:ManualMappingCuration
+12pcw	development_stage	skos:closeMatch	HsapDv:0000049	semapv:ManualMappingCuration
+12th post-conception week	development_stage	skos:closeMatch	HsapDv:0000049	semapv:ManualMappingCuration
+12th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000049	semapv:ManualMappingCuration
+13pcw	development_stage	skos:closeMatch	HsapDv:0000050	semapv:ManualMappingCuration
+13th post-conception week	development_stage	skos:closeMatch	HsapDv:0000050	semapv:ManualMappingCuration
+13th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000050	semapv:ManualMappingCuration
+14th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000051	semapv:ManualMappingCuration
+15pcw	development_stage	skos:closeMatch	HsapDv:0000052	semapv:ManualMappingCuration
+16pcw	development_stage	skos:closeMatch	HsapDv:0000053	semapv:ManualMappingCuration
+16th post-conception week	development_stage	skos:closeMatch	HsapDv:0000053	semapv:ManualMappingCuration
+16th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000053	semapv:ManualMappingCuration
+17pcw	development_stage	skos:closeMatch	HsapDv:0000054	semapv:ManualMappingCuration
+17th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000054	semapv:ManualMappingCuration
+18th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000055	semapv:ManualMappingCuration
+19th post-conception week	development_stage	skos:closeMatch	HsapDv:0000056	semapv:ManualMappingCuration
+20th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000057	semapv:ManualMappingCuration
+22nd week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000059	semapv:ManualMappingCuration
+23rd post-conception week	development_stage	skos:closeMatch	HsapDv:0000060	semapv:ManualMappingCuration
+25th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000062	semapv:ManualMappingCuration
+26th post-conception week	development_stage	skos:closeMatch	HsapDv:0000063	semapv:ManualMappingCuration
+27th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000064	semapv:ManualMappingCuration
+3' end single cell RNA sequencing	method	skos:closeMatch	EFO:0008440	semapv:ManualMappingCuration
+3' single cell RNA sequencing	method	skos:closeMatch	EFO:0008440	semapv:ManualMappingCuration
+5-year-old human stage	development_stage	skos:closeMatch	HsapDv:0000099	semapv:ManualMappingCuration
+6-year-old human stage	development_stage	skos:closeMatch	HsapDv:0000100	semapv:ManualMappingCuration
+6.5 week-old human embryo	development_stage	skos:closeMatch	HsapDv:0000025	semapv:ManualMappingCuration
+9pcw	development_stage	skos:closeMatch	HsapDv:0000046	semapv:ManualMappingCuration
+9th post-conception week	development_stage	skos:closeMatch	HsapDv:0000046	semapv:ManualMappingCuration
+9th week post-fertilization human stage	development_stage	skos:closeMatch	HsapDv:0000046	semapv:ManualMappingCuration
+AKI (5 months prior)	diseases	skos:closeMatch	MONDO:0006637	semapv:ManualMappingCuration
+ATAC-seq	method	skos:closeMatch	EFO:0007045	semapv:ManualMappingCuration
+AVN/His region crux of heart	organ_parts	skos:closeMatch	UBERON:0002352	semapv:ManualMappingCuration
+Acoustic neuroma	diseases	skos:closeMatch	MONDO:0001569	semapv:ManualMappingCuration
+Adult	development_stage	skos:closeMatch	EFO:0001272	semapv:ManualMappingCuration
+Adult	development_stage	skos:closeMatch	HsapDv:0000087	semapv:ManualMappingCuration
+Afp - GFP mouse	strain	skos:closeMatch	EFO:0010081	semapv:ManualMappingCuration
+African American	ethnicity	skos:closeMatch	HANCESTRO:0568	semapv:ManualMappingCuration
+African American/Afro-Caribbean	ethnicity	skos:closeMatch	HANCESTRO:0016	semapv:ManualMappingCuration
+African American/Black	ethnicity	skos:closeMatch	HANCESTRO:0568	semapv:ManualMappingCuration
+African-american	ethnicity	skos:closeMatch	HANCESTRO:0568	semapv:ManualMappingCuration
+Alveolar Type1	cell_type	skos:closeMatch	CL:0000322	semapv:ManualMappingCuration
+Alveolar Type2	cell_type	skos:closeMatch	CL:0000322	semapv:ManualMappingCuration
+Alzheimer disease	diseases	skos:closeMatch	MONDO:0004975	semapv:ManualMappingCuration
+Alzheimers disease	diseases	skos:closeMatch	MONDO:0004975	semapv:ManualMappingCuration
+ArrayExpress Data curator	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+Ascending thoracic aortic aneurysm	diseases	skos:closeMatch	MONDO:0005396	semapv:ManualMappingCuration
+Ascending vasa recta endothelium	cell_type	skos:closeMatch	CL:1001131	semapv:ManualMappingCuration
+Asian	ethnicity	skos:closeMatch	HANCESTRO:0008	semapv:ManualMappingCuration
+Astrocyte	selected_cell_types	skos:closeMatch	CL:0000127	semapv:ManualMappingCuration
+B CD27neg	cell_type	skos:closeMatch	CL:0000816	semapv:ManualMappingCuration
+B CD27pos	cell_type	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+B Cell	selected_cell_types	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+B Hypermutation	cell_type	skos:closeMatch	CL:0000236�	semapv:ManualMappingCuration
+B T doublet	cell_type	skos:closeMatch	CL:0000542�	semapv:ManualMappingCuration
+B cell	cell_type	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+B cell	selected_cell_types	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+B cell T cell doublet	cell_type	skos:closeMatch	CL:0000542	semapv:ManualMappingCuration
+B cells	cell_type	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+B follicular	cell_type	skos:closeMatch	CL:0000843	semapv:ManualMappingCuration
+B mantle	cell_type	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+B/T doublet	cell_type	skos:closeMatch	CL:0000542�	semapv:ManualMappingCuration
+BB/PF region luminal side of left ventricle	organ_parts	skos:closeMatch	UBERON:0002084	semapv:ManualMappingCuration
+BB/PF region luminal side of right ventricle	organ_parts	skos:closeMatch	UBERON:0002080	semapv:ManualMappingCuration
+Black	ethnicity	skos:closeMatch	HANCESTRO:0016	semapv:ManualMappingCuration
+Black or African-American	ethnicity	skos:closeMatch	HANCESTRO:0568	semapv:ManualMappingCuration
+Blood	organ	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+Blood collection	method	skos:closeMatch	EFO:0009121	semapv:ManualMappingCuration
+Blood vessel	cell_type	skos:closeMatch	CL:0000071	semapv:ManualMappingCuration
+Brain	model_organ	skos:closeMatch	UBERON:0000955	semapv:ManualMappingCuration
+Brain	organ	skos:closeMatch	UBERON:0000955	semapv:ManualMappingCuration
+Bronchopneumonia	diseases	skos:closeMatch	MONDO:0005682	semapv:ManualMappingCuration
+Bulk RNA	library_construction_method	skos:closeMatch	EFO:0004187	semapv:ManualMappingCuration
+Bulk RNA	method	skos:closeMatch	EFO:0009653	semapv:ManualMappingCuration
+C57 x CAST	strain	skos:closeMatch	EFO:0010946	semapv:ManualMappingCuration
+C57BL/6	strain	skos:closeMatch	EFO:0004472	semapv:ManualMappingCuration
+C57BL/6	strain	skos:closeMatch	EFO:0005181	semapv:ManualMappingCuration
+C57BL/6J	strain	skos:closeMatch	EFO:0000606	semapv:ManualMappingCuration
+C57BL/6J (mother) x CAST/EiJ (father)	strain	skos:closeMatch	EFO:0010946	semapv:ManualMappingCuration
+C57BL/6JCrl	strain	skos:closeMatch	EFO:0005181	semapv:ManualMappingCuration
+C57BL/6NCrl	strain	skos:closeMatch	EFO:0011030	semapv:ManualMappingCuration
+CAST x C57	strain	skos:closeMatch	EFO:0010945	semapv:ManualMappingCuration
+CAST/EiJ (mother) x C57BL/6J (father)	strain	skos:closeMatch	EFO:0010945	semapv:ManualMappingCuration
+CAST/EiJ x C57BL/6J or C57BL/6J x CAST/EiJ	strain	skos:closeMatch	EFO:0010946	semapv:ManualMappingCuration
+CAST/EiJ_x_C57BL/6J	strain	skos:closeMatch	EFO:0010945	semapv:ManualMappingCuration
+CD1	strain	skos:closeMatch	EFO:0005180	semapv:ManualMappingCuration
+CD137-positive	selected_cell_types	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+CD14+ Monocytes 1	cell_type	skos:closeMatch	CL:0001054	semapv:ManualMappingCuration
+CD14+ Monocytes 2	cell_type	skos:closeMatch	CL:0001054	semapv:ManualMappingCuration
+CD14+ monocyte type 1	cell_type	skos:closeMatch	CL:0001054	semapv:ManualMappingCuration
+CD14+ monocyte type 2	cell_type	skos:closeMatch	CL:0001054	semapv:ManualMappingCuration
+CD16+ Monocytes	cell_type	skos:closeMatch	CL:0002397	semapv:ManualMappingCuration
+CD16+ monocyte	cell_type	skos:closeMatch	CL:0002397	semapv:ManualMappingCuration
+CD16+ natural killer cell	cell_type	skos:closeMatch	CL:0000939	semapv:ManualMappingCuration
+CD16- natural killer cell	cell_type	skos:closeMatch	CL:0000938	semapv:ManualMappingCuration
+CD16-negative natural killer cell (NK CD16-)	cell_type	skos:closeMatch	CL:0000938	semapv:ManualMappingCuration
+CD16-positive natural killer cell (NK CD16+)	cell_type	skos:closeMatch	CL:0000939	semapv:ManualMappingCuration
+CD160+ natural killer cell	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+CD1c+ primary human conventional dendritic cells	selected_cell_types	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+CD27+ B cell	cell_type	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+CD27- B cell	cell_type	skos:closeMatch	CL:0000816	semapv:ManualMappingCuration
+CD3+ T cells (negative selection)	selected_cell_types	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+CD34 progenitor	cell_type	skos:closeMatch	CL:0000037	semapv:ManualMappingCuration
+CD34+ progenitor	cell_type	skos:closeMatch	CL:0000037	semapv:ManualMappingCuration
+CD4 T cell	cell_type	skos:closeMatch	CL:0000624	semapv:ManualMappingCuration
+CD4+ Naive T cells	cell_type	skos:closeMatch	CL:0000895	semapv:ManualMappingCuration
+CD4+ T cell	cell_type	skos:closeMatch	CL:0000624	semapv:ManualMappingCuration
+CD4+ T cell	selected_cell_types	skos:closeMatch	CL:0000624	semapv:ManualMappingCuration
+CD4+ T cells	cell_type	skos:closeMatch	CL:0000624	semapv:ManualMappingCuration
+CD4+ T cells	selected_cell_types	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+CD4+ naive T cell	cell_type	skos:closeMatch	CL:0000895	semapv:ManualMappingCuration
+CD45 panning	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+CD45+	selected_cell_types	skos:closeMatch	CL:0000738	semapv:ManualMappingCuration
+CD45-negative	selected_cell_types	skos:closeMatch	CL:0002371	semapv:ManualMappingCuration
+CD45-negative (MACS)	selected_cell_types	skos:closeMatch	CL:0002371	semapv:ManualMappingCuration
+CD45-positive	selected_cell_types	skos:closeMatch	CL:0000988	semapv:ManualMappingCuration
+CD8 T cell	cell_type	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+CD8+ Naive T cells	cell_type	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+CD8+ T cell	cell_type	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+CD8+ T cell	selected_cell_types	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+CD8+ cytotoxic T cell	cell_type	skos:closeMatch	CL:0000794	semapv:ManualMappingCuration
+CITE-seq	library_construction_method	skos:closeMatch	EFO:0009294	semapv:ManualMappingCuration
+CNT/PC - proximal UB	cell_type	skos:closeMatch	CL:0005009	semapv:ManualMappingCuration
+CNT/PC - proximal UB	organ_part	skos:closeMatch	UBERON:0000084	semapv:ManualMappingCuration
+CNT/PC - proximal UB	organ_part	skos:closeMatch	UBERON:0005310	semapv:ManualMappingCuration
+COVID-19	diseases	skos:closeMatch	MONDO:0100096	semapv:ManualMappingCuration
+CS14	development_stage	skos:closeMatch	HsapDv:0000021	semapv:ManualMappingCuration
+CS23	development_stage	skos:closeMatch	HsapDv:0000030	semapv:ManualMappingCuration
+Caecum	organ_parts	skos:closeMatch	UBERON:0001153	semapv:ManualMappingCuration
+Cap mesenchyme	organ_part	skos:closeMatch	UBERON:0005107	semapv:ManualMappingCuration
+Carcinoma of the tongue	diseases	skos:closeMatch	MONDO:0000500	semapv:ManualMappingCuration
+Cardiac arrest	diseases	skos:closeMatch	MONDO:0000745	semapv:ManualMappingCuration
+Cardiac failure	diseases	skos:closeMatch	MONDO:0005252	semapv:ManualMappingCuration
+Cardiovascular disease	diseases	skos:closeMatch	MONDO:0004995	semapv:ManualMappingCuration
+Carnegie stage 22	development_stage	skos:closeMatch	HsapDv:0000029	semapv:ManualMappingCuration
+Carnegie stage 23	development_stage	skos:closeMatch	HsapDv:0000030	semapv:ManualMappingCuration
+Caucasian	ethnicity	skos:closeMatch	HANCESTRO:0005	semapv:ManualMappingCuration
+Caucasion	ethnicity	skos:closeMatch	HANCESTRO:0005	semapv:ManualMappingCuration
+Central venous LSECs	cell_type	skos:closeMatch	CL:1000398	semapv:ManualMappingCuration
+Chinese	ethnicity	skos:closeMatch	HANCESTRO:0021	semapv:ManualMappingCuration
+Cholangiocytes	cell_type	skos:closeMatch	CL:1000488	semapv:ManualMappingCuration
+Chromium 3' Single Cell v2	library_construction_method	skos:closeMatch	EFO:0009899	semapv:ManualMappingCuration
+Ciliated	cell_type	skos:closeMatch	CL:1000271	semapv:ManualMappingCuration
+Clear renal cell carcinoma	diseases	skos:closeMatch	MONDO:0005005	semapv:ManualMappingCuration
+Collection of tissue	method	skos:closeMatch	EFO:0009744	semapv:ManualMappingCuration
+Common lymphoid progenitors	cell_type	skos:closeMatch	CL:0000051	semapv:ManualMappingCuration
+Connecting tubule	cell_type	skos:closeMatch	CL:1000768	semapv:ManualMappingCuration
+Cortex	organ_parts	skos:closeMatch	UBERON:0000956	semapv:ManualMappingCuration
+Cortex	organ_parts	skos:closeMatch	UBERON:0001225	semapv:ManualMappingCuration
+Cortex	organ_parts	skos:closeMatch	UBERON:0001851	semapv:ManualMappingCuration
+Cortical IPs	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+Cortical IPs	organ_part	skos:closeMatch	UBERON:0014940	semapv:ManualMappingCuration
+Cortical NPCs	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+Cortical NPCs	organ_part	skos:closeMatch	UBERON:0000956	semapv:ManualMappingCuration
+Cortical excitatory neurons	cell_type	skos:closeMatch	CL:0002609	semapv:ManualMappingCuration
+Cortical excitatory neurons	cell_type	skos:closeMatch	CL:0008030	semapv:ManualMappingCuration
+Crohn Disease	diseases	skos:closeMatch	MONDO:0005011	semapv:ManualMappingCuration
+Crohn disease	diseases	skos:closeMatch	MONDO:0005011	semapv:ManualMappingCuration
+Cytototix T cells 2	cell_type	skos:closeMatch	CL:0000910	semapv:ManualMappingCuration
+Cytotoxic T cells 1	cell_type	skos:closeMatch	CL:0000910	semapv:ManualMappingCuration
+DC 1	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+DC 2	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+DC activated	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+DC plasmacytoid	cell_type	skos:closeMatch	CL:0000784	semapv:ManualMappingCuration
+DC/Monocyte Dividing	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+DC/Monocyte Dividing	cell_type	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+DCs	selected_cell_types	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+DENV antigen specific TEM	selected_cell_types	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+DENV antigen specific TEMRA	selected_cell_types	skos:closeMatch	CL:0001062	semapv:ManualMappingCuration
+DNA library construction	library_construction_method	skos:closeMatch	EFO:0010172	semapv:ManualMappingCuration
+DNA sequence	content_description	skos:closeMatch	edam.data:3494	semapv:ManualMappingCuration
+DNA sequence (raw)	content_description	skos:closeMatch	edam.data:3494	semapv:ManualMappingCuration
+DRESS	diseases	skos:closeMatch	MONDO:0044876	semapv:ManualMappingCuration
+DSS-induced Colitis	diseases	skos:closeMatch	MONDO:0005292	semapv:ManualMappingCuration
+Data curator	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+Dendritic Cells	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+Dendritic cell progenitors	cell_type	skos:closeMatch	CL:0001029	semapv:ManualMappingCuration
+Dendritic cells	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+Descending vasa recta endothelium	cell_type	skos:closeMatch	CL:1001285	semapv:ManualMappingCuration
+Diencephalon excitatory neurons	cell_type	skos:closeMatch	CL:0008030	semapv:ManualMappingCuration
+Diencephalon excitatory neurons	organ_part	skos:closeMatch	UBERON:0006222	semapv:ManualMappingCuration
+Diencephalon inhibitory neurons (CR cells)	cell_type	skos:closeMatch	CL:0008029	semapv:ManualMappingCuration
+Diencephalon inhibitory neurons (CR cells)	organ_part	skos:closeMatch	UBERON:0006222	semapv:ManualMappingCuration
+Dissection	method	skos:closeMatch	EFO:0003856	semapv:ManualMappingCuration
+Distal S shaped body	organ_part	skos:closeMatch	UBERON:0004199	semapv:ManualMappingCuration
+Distal renal vesicle	cell_type	skos:closeMatch	CL:0002522	semapv:ManualMappingCuration
+Distinct proximal tubule 1	cell_type	skos:closeMatch	CL:0002306	semapv:ManualMappingCuration
+Distinct proximal tubule 2	cell_type	skos:closeMatch	CL:0002306	semapv:ManualMappingCuration
+DroNc-seq	library_construction_method	skos:closeMatch	EFO:0008720	semapv:ManualMappingCuration
+Drop-Seq	library_construction_method	skos:closeMatch	EFO:0008722	semapv:ManualMappingCuration
+Drop-seq	library_construction_method	skos:closeMatch	EFO:0008722	semapv:ManualMappingCuration
+EPCAM-positive	selected_cell_types	skos:closeMatch	CL:0002293	semapv:ManualMappingCuration
+ESRD	diseases	skos:closeMatch	MONDO:0004375	semapv:ManualMappingCuration
+EasySep cell separation	method	skos:closeMatch	EFO:0010175	semapv:ManualMappingCuration
+Edwards syndrome	diseases	skos:closeMatch	MONDO:0010336	semapv:ManualMappingCuration
+Endothelial 1	cell_type	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+Endothelial 2	cell_type	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+Endothelium	cell_type	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+Enzymatic and mechanical dissociation	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+Enzymatic dissociation	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+Epi basal	cell_type	skos:closeMatch	CL:1000447�	semapv:ManualMappingCuration
+Epi dividing	cell_type	skos:closeMatch	UBERON:0001976	semapv:ManualMappingCuration
+Epi stratified	cell_type	skos:closeMatch	UBERON:0001976	semapv:ManualMappingCuration
+Epi suprabasal	cell_type	skos:closeMatch	UBERON:0001976	semapv:ManualMappingCuration
+Epi upper	cell_type	skos:closeMatch	UBERON:0001976	semapv:ManualMappingCuration
+Epithelial progenitor cell	cell_type	skos:closeMatch	CL:0000034	semapv:ManualMappingCuration
+Erythroid	cell_type	skos:closeMatch	CL:0000232	semapv:ManualMappingCuration
+Erythroid cells	cell_type	skos:closeMatch	CL:0000232	semapv:ManualMappingCuration
+Erythroid cells 1	cell_type	skos:closeMatch	CL:0000232	semapv:ManualMappingCuration
+Erythroid cells 2	cell_type	skos:closeMatch	CL:0000232	semapv:ManualMappingCuration
+Erythroid progenitors	cell_type	skos:closeMatch	CL:0000038	semapv:ManualMappingCuration
+European	ethnicity	skos:closeMatch	HANCESTRO:0005	semapv:ManualMappingCuration
+Experimental Scientist	project_role	skos:closeMatch	EFO:0009741	semapv:ManualMappingCuration
+Experimental scientist	project_role	skos:closeMatch	EFO:0009741	semapv:ManualMappingCuration
+FACS	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+FACS sorting	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+FACs	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+FACs sort	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+FCGR3A+ natural killer cell	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+Fetal Kidney	organ	skos:closeMatch	UBERON:0002113	semapv:ManualMappingCuration
+Fibroblast	cell_type	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+Fibroblast 1	cell_type	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+Fibroblast 2	cell_type	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+Ficoll	method	skos:closeMatch	EFO:0009110	semapv:ManualMappingCuration
+Ficoll density gradient	method	skos:closeMatch	EFO:0009112	semapv:ManualMappingCuration
+Ficoll-Hypaque gradient	method	skos:closeMatch	EFO:0009110	semapv:ManualMappingCuration
+Ficoll-Hypaque method	method	skos:closeMatch	EFO:0009110	semapv:ManualMappingCuration
+Ficoll-Paque density gradient centrifugation	method	skos:closeMatch	EFO:0009110	semapv:ManualMappingCuration
+Fluidigm C1	library_construction_method	skos:closeMatch	EFO:0010058	semapv:ManualMappingCuration
+Fluidigm C1-based library preparation	library_construction_method	skos:closeMatch	EFO:0010058	semapv:ManualMappingCuration
+Fluorescence Activated Cell Sorting	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+GE NPCs	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+GE NPCs	organ_part	skos:closeMatch	UBERON:0004023	semapv:ManualMappingCuration
+GE neural progenitor cell	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+GE neural progenitor cell	organ_part	skos:closeMatch	UBERON:0004023	semapv:ManualMappingCuration
+GERD	diseases	skos:closeMatch	MONDO:0007186	semapv:ManualMappingCuration
+Gamma/pancreatic polypeptide	selected_cell_types	skos:closeMatch	CL:0002275	semapv:ManualMappingCuration
+Germ layer	organ_parts	skos:closeMatch	UBERON:0000923	semapv:ManualMappingCuration
+Germline	organ	skos:closeMatch	UBERON:0000991	semapv:ManualMappingCuration
+Glands duct	cell_type	skos:closeMatch	CL:0000319	semapv:ManualMappingCuration
+Glands duct	cell_type	skos:closeMatch	UBERON:0011148	semapv:ManualMappingCuration
+Glands mucous	cell_type	skos:closeMatch	UBERON:0008989	semapv:ManualMappingCuration
+Glia	selected_cell_types	skos:closeMatch	CL:0000125	semapv:ManualMappingCuration
+Glial	cell_type	skos:closeMatch	CL:0000125	semapv:ManualMappingCuration
+Glioblastoma	diseases	skos:closeMatch	MONDO:0018177	semapv:ManualMappingCuration
+Glomerular endothelium	cell_type	skos:closeMatch	CL:0002188	semapv:ManualMappingCuration
+Glycolysis	cell_type	skos:closeMatch	GO:0061621	semapv:ManualMappingCuration
+H9 derived myogenic cell	cell_type	skos:closeMatch	CL:0008020	semapv:ManualMappingCuration
+HCA Data wrangler	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+HCA data wrangler	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+HEF	cell_type	skos:closeMatch	CL:2000042	semapv:ManualMappingCuration
+HEF+iDC3	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+HEF+iDC3	cell_type	skos:closeMatch	CL:2000042	semapv:ManualMappingCuration
+HIV	diseases	skos:closeMatch	MONDO:0005109	semapv:ManualMappingCuration
+HSCs	cell_type	skos:closeMatch	CL:1001610	semapv:ManualMappingCuration
+Heart	organ	skos:closeMatch	UBERON:0000948	semapv:ManualMappingCuration
+Hematopoietic multipotent progenitors	cell_type	skos:closeMatch	CL:0000837	semapv:ManualMappingCuration
+Hematopoietic stem cells	cell_type	skos:closeMatch	CL:0000037	semapv:ManualMappingCuration
+Hepatic Stellate Cells	cell_type	skos:closeMatch	CL:0000632	semapv:ManualMappingCuration
+Hepatocytes	cell_type	skos:closeMatch	CL:0000182	semapv:ManualMappingCuration
+Hereditary Haemochromatosis	diseases	skos:closeMatch	MONDO:0006507	semapv:ManualMappingCuration
+HiSeq 2500	instrument_manufacturer_model	skos:closeMatch	EFO:0008565	semapv:ManualMappingCuration
+HiSeq 4000	instrument_manufacturer_model	skos:closeMatch	EFO:0008563	semapv:ManualMappingCuration
+HiSeq X Ten	instrument_manufacturer_model	skos:closeMatch	EFO:0008567	semapv:ManualMappingCuration
+HiSeq3000	instrument_manufacturer_model	skos:closeMatch	EFO:0008564	semapv:ManualMappingCuration
+High-throughput single-cell labeling with indexing droplets	library_construction_method	skos:closeMatch	EFO:0008780	semapv:ManualMappingCuration
+Hispanic	ethnicity	skos:closeMatch	HANCESTRO:0014	semapv:ManualMappingCuration
+Hispanic or Latin American	ethnicity	skos:closeMatch	HANCESTRO:0014	semapv:ManualMappingCuration
+Hispanic/Latino	ethnicity	skos:closeMatch	HANCESTRO:0014	semapv:ManualMappingCuration
+Histopaque gradient centrifugation	method	skos:closeMatch	EFO:0009112	semapv:ManualMappingCuration
+Hofbauer cell	cell_type	skos:closeMatch	CL:3000001	semapv:ManualMappingCuration
+Hofbauer cell (HB)	cell_type	skos:closeMatch	CL:3000001	semapv:ManualMappingCuration
+Homo Sapiens	genus_species	skos:closeMatch	NCBITaxon:9606	semapv:ManualMappingCuration
+Homo sapeins	genus_species	skos:closeMatch	NCBITaxon:9606	semapv:ManualMappingCuration
+Homo sapiens	genus_species	skos:closeMatch	NCBITaxon:9606	semapv:ManualMappingCuration
+Human Cell Atlas Data Wrangler	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+Human Cell Atlas Wrangler	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+Human Cell Atlas Wrangler Intern	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+Human Cell Atlas wrangler	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+Human Cell Atlas wrangler intern	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+Human Embryonic fibroblast	selected_cell_types	skos:closeMatch	CL:2000042	semapv:ManualMappingCuration
+Human adult stage	development_stage	skos:closeMatch	HsapDv:0000087	semapv:ManualMappingCuration
+Human cell Atlas Wrangler	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+Human cell atlas wrangler	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+Human cell atlas wrangler intern	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+Hypertension	diseases	skos:closeMatch	MONDO:0001134	semapv:ManualMappingCuration
+IBS	diseases	skos:closeMatch	MONDO:0005052	semapv:ManualMappingCuration
+ICR	strain	skos:closeMatch	EFO:0009917	semapv:ManualMappingCuration
+IL7R high TEMRA	selected_cell_types	skos:closeMatch	CL:0001062	semapv:ManualMappingCuration
+IL7R low TEMRA	selected_cell_types	skos:closeMatch	CL:0001062	semapv:ManualMappingCuration
+ILC	cell_type	skos:closeMatch	CL:0001065	semapv:ManualMappingCuration
+ILCs	selected_cell_types	skos:closeMatch	CL:0001065	semapv:ManualMappingCuration
+Illumina Hi-seq 4000	instrument_manufacturer_model	skos:closeMatch	EFO:0008563	semapv:ManualMappingCuration
+Illumina HiSeq 1500	instrument_manufacturer_model	skos:closeMatch	EFO:0011027	semapv:ManualMappingCuration
+Illumina HiSeq 2000	instrument_manufacturer_model	skos:closeMatch	EFO:0004203	semapv:ManualMappingCuration
+Illumina HiSeq 2500	instrument_manufacturer_model	skos:closeMatch	EFO:0008565	semapv:ManualMappingCuration
+Illumina HiSeq 3000	instrument_manufacturer_model	skos:closeMatch	EFO:0008564	semapv:ManualMappingCuration
+Illumina HiSeq 4000	instrument_manufacturer_model	skos:closeMatch	EFO:0008563	semapv:ManualMappingCuration
+Illumina HiSeq X	instrument_manufacturer_model	skos:closeMatch	EFO:0008567	semapv:ManualMappingCuration
+Illumina HiSeq X Ten	instrument_manufacturer_model	skos:closeMatch	EFO:0008567	semapv:ManualMappingCuration
+Illumina HiSeqX	instrument_manufacturer_model	skos:closeMatch	EFO:0008567	semapv:ManualMappingCuration
+Illumina Hiseq 2500	instrument_manufacturer_model	skos:closeMatch	EFO:0008565	semapv:ManualMappingCuration
+Illumina Hiseq X 10	instrument_manufacturer_model	skos:closeMatch	EFO:0008567	semapv:ManualMappingCuration
+Illumina MiSeq	instrument_manufacturer_model	skos:closeMatch	EFO:0004205	semapv:ManualMappingCuration
+Illumina NextSeq 500	instrument_manufacturer_model	skos:closeMatch	EFO:0009173	semapv:ManualMappingCuration
+Illumina NextSeq500	instrument_manufacturer_model	skos:closeMatch	EFO:0009173	semapv:ManualMappingCuration
+Illumina NovaSeq	instrument_manufacturer_model	skos:closeMatch	EFO:0008637	semapv:ManualMappingCuration
+Illumina NovaSeq 600	instrument_manufacturer_model	skos:closeMatch	EFO:0008637	semapv:ManualMappingCuration
+Illumina NovaSeq 6000	instrument_manufacturer_model	skos:closeMatch	EFO:0008637	semapv:ManualMappingCuration
+Illumina Novaseq 6000	instrument_manufacturer_model	skos:closeMatch	EFO:0008637	semapv:ManualMappingCuration
+Illumina Novaseq 6000 with a Flow Cell Type S2	instrument_manufacturer_model	skos:closeMatch	EFO:0008637	semapv:ManualMappingCuration
+Illumina nextseq500	instrument_manufacturer_model	skos:closeMatch	EFO:0009173	semapv:ManualMappingCuration
+Immune cell	selected_cell_types	skos:closeMatch	CL:0000763	semapv:ManualMappingCuration
+In vitro transcription	library_preamplification_method	skos:closeMatch	EFO:0009013	semapv:ManualMappingCuration
+Indistinct intercalated cell	cell_type	skos:closeMatch	CL:0005010	semapv:ManualMappingCuration
+Inflammatory Macrophages	cell_type	skos:closeMatch	CL:0000863	semapv:ManualMappingCuration
+Innate like lymphocyte	cell_type	skos:closeMatch	CL:0001065	semapv:ManualMappingCuration
+Interstitial pulmonary fibrosis	diseases	skos:closeMatch	MONDO:0008345	semapv:ManualMappingCuration
+Intestinal obstruction	diseases	skos:closeMatch	MONDO:0004565	semapv:ManualMappingCuration
+IpMGE.54.OLIG1	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+IpMGE.54.OLIG1	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+Ischaemic stroke	diseases	skos:closeMatch	MONDO:0005098	semapv:ManualMappingCuration
+Kidney	organ	skos:closeMatch	UBERON:0002113	semapv:ManualMappingCuration
+Korean	ethnicity	skos:closeMatch	HANCESTRO:0022	semapv:ManualMappingCuration
+L8pcw	development_stage	skos:closeMatch	HsapDv:0000015	semapv:ManualMappingCuration
+LGE inhibitory neuron	cell_type	skos:closeMatch	CL:0008029	semapv:ManualMappingCuration
+LGE inhibitory neuron	organ_part	skos:closeMatch	UBERON:0004025	semapv:ManualMappingCuration
+LGE inhibitory neurons	cell_type	skos:closeMatch	CL:0008029	semapv:ManualMappingCuration
+LGE inhibitory neurons	organ_part	skos:closeMatch	UBERON:0004025	semapv:ManualMappingCuration
+LGE neuron	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+LGE neuron	organ_part	skos:closeMatch	UBERON:0004025	semapv:ManualMappingCuration
+Left lateral temporal cortex	organ_parts	skos:closeMatch	UBERON:0016538	semapv:ManualMappingCuration
+Leukocytes	selected_cell_types	skos:closeMatch	CL:0000738	semapv:ManualMappingCuration
+Lin–CD34+CD38− cell	selected_cell_types	skos:closeMatch	CL:0001024	semapv:ManualMappingCuration
+Live cell and cell subset  enrichment	method	skos:closeMatch	EFO:0009112	semapv:ManualMappingCuration
+Live cell and cell subset enrichment	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+Liver	organ	skos:closeMatch	UBERON:0002107	semapv:ManualMappingCuration
+Liver carcinoma	diseases	skos:closeMatch	MONDO:0007256	semapv:ManualMappingCuration
+Loop of Henle	cell_type	skos:closeMatch	CL:1000909	semapv:ManualMappingCuration
+Lung	organ	skos:closeMatch	UBERON:0002048	semapv:ManualMappingCuration
+Lymph vessel	cell_type	skos:closeMatch	UBERON:0001473	semapv:ManualMappingCuration
+MACS	method	skos:closeMatch	EFO:0009109	semapv:ManualMappingCuration
+MAIT-like CD8+ T cell	cell_type	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+MARCOneg macrophage	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+MARCOpos macrophage	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+MARS-seq	library_construction_method	skos:closeMatch	EFO:0008796	semapv:ManualMappingCuration
+MGE neuron	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+MGE neuron	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+MGE progenitor	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+MGE progenitor	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+MGE/CGE inhibitory neurons	cell_type	skos:closeMatch	CL:0008029	semapv:ManualMappingCuration
+MGE/CGE inhibitory neurons	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+MGE/CGE inhibitory neurons	organ_part	skos:closeMatch	UBERON:0004026	semapv:ManualMappingCuration
+MNP-a/classical monocyte derived	cell_type	skos:closeMatch	CL:0000113	semapv:ManualMappingCuration
+MNP-a/classical monocyte derived	cell_type	skos:closeMatch	CL:0000860	semapv:ManualMappingCuration
+MNP-b/non-classical monocyte derived	cell_type	skos:closeMatch	CL:0000113	semapv:ManualMappingCuration
+MNP-b/non-classical monocyte derived	cell_type	skos:closeMatch	CL:0000875	semapv:ManualMappingCuration
+MNP-c/dendritic cell	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+MNP-d/Tissue macrophage	cell_type	skos:closeMatch	CL:0000113	semapv:ManualMappingCuration
+MNP-d/Tissue macrophage	cell_type	skos:closeMatch	CL:0000864	semapv:ManualMappingCuration
+MS	diseases	skos:closeMatch	MONDO:0005301	semapv:ManualMappingCuration
+MSCs	cell_type	skos:closeMatch	CL:0002540	semapv:ManualMappingCuration
+Macrophage	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+Macrophage 1	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+Macrophage 2	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+Macrophage Dividing	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+Macrophage MARCOneg	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+Macrophage MARCOpos	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+Mast cell	cell_type	skos:closeMatch	CL:0000097	semapv:ManualMappingCuration
+Mast cells	cell_type	skos:closeMatch	CL:0000097	semapv:ManualMappingCuration
+Mature B cells	cell_type	skos:closeMatch	CL:0000785	semapv:ManualMappingCuration
+Mature kidney	organ	skos:closeMatch	UBERON:0002113	semapv:ManualMappingCuration
+Medial S shaped body	cell_type	skos:closeMatch	UBERON:0004199	semapv:ManualMappingCuration
+Medulla	organ_parts	skos:closeMatch	UBERON:0000362	semapv:ManualMappingCuration
+Megakaryocyte	cell_type	skos:closeMatch	CL:0000556	semapv:ManualMappingCuration
+Megakaryocyte progenitors	cell_type	skos:closeMatch	CL:0000556	semapv:ManualMappingCuration
+Megakaryocytes	cell_type	skos:closeMatch	CL:0000556	semapv:ManualMappingCuration
+Memory B cells	cell_type	skos:closeMatch	CL:0000787	semapv:ManualMappingCuration
+Memory T cell	selected_cell_types	skos:closeMatch	CL:0000813	semapv:ManualMappingCuration
+Mesen/rhombencephalon excitatory neurons	cell_type	skos:closeMatch	CL:0008030	semapv:ManualMappingCuration
+Mesen/rhombencephalon excitatory neurons	organ_part	skos:closeMatch	UBERON:0007277	semapv:ManualMappingCuration
+Mesen/rhombencephalon excitatory neurons	organ_part	skos:closeMatch	UBERON:0009616	semapv:ManualMappingCuration
+Mesen/rhombencephalon inhibitory neurons	cell_type	skos:closeMatch	CL:0008029	semapv:ManualMappingCuration
+Mesen/rhombencephalon inhibitory neurons	organ_part	skos:closeMatch	UBERON:0007277	semapv:ManualMappingCuration
+Mesen/rhombencephalon inhibitory neurons	organ_part	skos:closeMatch	UBERON:0009616	semapv:ManualMappingCuration
+Mesenteric lymph node	organ_parts	skos:closeMatch	UBERON:0002509	semapv:ManualMappingCuration
+Mild cognitive impairment	diseases	skos:closeMatch	MONDO:0013680	semapv:ManualMappingCuration
+Miltenyi MACS	method	skos:closeMatch	EFO:0009109	semapv:ManualMappingCuration
+Modified Smart-seq2	library_construction_method	skos:closeMatch	EFO:0010184	semapv:ManualMappingCuration
+Mono/macro	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+Mono/macro	cell_type	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+Monocyte	cell_type	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+Monocyte progenitors	cell_type	skos:closeMatch	CL:0000557	semapv:ManualMappingCuration
+Mononuclear Phagocyte	selected_cell_types	skos:closeMatch	CL:0000234	semapv:ManualMappingCuration
+Muller cell	cell_type	skos:closeMatch	CL:0011107	semapv:ManualMappingCuration
+Multiple Myeloma	diseases	skos:closeMatch	MONDO:0009693	semapv:ManualMappingCuration
+Mus Musculus	genus_species	skos:closeMatch	NCBITaxon:10090	semapv:ManualMappingCuration
+Mus musculus	genus_species	skos:closeMatch	NCBITaxon:10090	semapv:ManualMappingCuration
+Muscle cells	cell_type	skos:closeMatch	CL:0000187	semapv:ManualMappingCuration
+Myeloid progenitors	cell_type	skos:closeMatch	CL:0000049	semapv:ManualMappingCuration
+Myofibroblast	cell_type	skos:closeMatch	CL:1000691	semapv:ManualMappingCuration
+Myofibroblast 1	cell_type	skos:closeMatch	CL:1000691	semapv:ManualMappingCuration
+Myofibroblast 2	cell_type	skos:closeMatch	CL:1000691	semapv:ManualMappingCuration
+Myofibroblasts	cell_type	skos:closeMatch	CL:0000186	semapv:ManualMappingCuration
+NASH	diseases	skos:closeMatch	MONDO:0013209	semapv:ManualMappingCuration
+NK	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK CD160pos	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK Dividing	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK FCGR3Apos	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK cell	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK cell	selected_cell_types	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK cells	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK cells 1	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK cells 2	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK dividing	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK-like cells	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK/T CD8 Cytotoxic	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+NK/T CD8 Cytotoxic	cell_type	skos:closeMatch	CL:0000794	semapv:ManualMappingCuration
+NKT cell	cell_type	skos:closeMatch	CL:0000814	semapv:ManualMappingCuration
+Naive B cells	cell_type	skos:closeMatch	CL:0000788	semapv:ManualMappingCuration
+Naive T cells 1	cell_type	skos:closeMatch	CL:0000898	semapv:ManualMappingCuration
+Naive T cells 2	cell_type	skos:closeMatch	CL:0000898	semapv:ManualMappingCuration
+Naive T cells 3	cell_type	skos:closeMatch	CL:0000898	semapv:ManualMappingCuration
+Naive T helper cells 1	cell_type	skos:closeMatch	CL:0000545	semapv:ManualMappingCuration
+Naive T helper cells 2	cell_type	skos:closeMatch	CL:0000546	semapv:ManualMappingCuration
+Native American	ethnicity	skos:closeMatch	HANCESTRO:0013	semapv:ManualMappingCuration
+NeuN-positive-nuclei in peripheral retina	selected_cell_types	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+Neural retina	organ_parts	skos:closeMatch	UBERON:0003902	semapv:ManualMappingCuration
+Neuron	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+Neuron	selected_cell_types	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+Neutrophil	cell_type	skos:closeMatch	CL:0000775	semapv:ManualMappingCuration
+NextSeq 500	instrument_manufacturer_model	skos:closeMatch	EFO:0009173	semapv:ManualMappingCuration
+Non-Hispanic White	ethnicity	skos:closeMatch	HANCESTRO:0005	semapv:ManualMappingCuration
+Non-inflammatory Macrophages	cell_type	skos:closeMatch	CL:0000091	semapv:ManualMappingCuration
+Non-telencephalon NPCs	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+Normal	diseases	skos:closeMatch	PATO:0000461	semapv:ManualMappingCuration
+Normal control	diseases	skos:closeMatch	PATO:0000461	semapv:ManualMappingCuration
+Novaseq	instrument_manufacturer_model	skos:closeMatch	EFO:0008637	semapv:ManualMappingCuration
+ONT LSK	library_construction_method	skos:closeMatch	EFO:0004187	semapv:ManualMappingCuration
+ONT PromethION	instrument_manufacturer_model	skos:closeMatch	EFO:0008634	semapv:ManualMappingCuration
+OPC	selected_cell_types	skos:closeMatch	CL:0002453	semapv:ManualMappingCuration
+OSA	diseases	skos:closeMatch	MONDO:0007147	semapv:ManualMappingCuration
+Oligodendrocyte	selected_cell_types	skos:closeMatch	CL:0000128	semapv:ManualMappingCuration
+Oligodendrocyte	selected_cell_types	skos:closeMatch	CL:0002453	semapv:ManualMappingCuration
+Ovarian cancer	diseases	skos:closeMatch	MONDO:0008170	semapv:ManualMappingCuration
+Ovary	organ	skos:closeMatch	UBERON:0000992	semapv:ManualMappingCuration
+PAF	diseases	skos:closeMatch	MONDO:0018608	semapv:ManualMappingCuration
+PB	selected_cell_types	skos:closeMatch	CL:2000001	semapv:ManualMappingCuration
+PBMC	selected_cell_types	skos:closeMatch	CL:2000001	semapv:ManualMappingCuration
+PCR	cdna_library_amplification_method	skos:closeMatch	OBI:0000415	semapv:ManualMappingCuration
+PCR	library_preamplification_method	skos:closeMatch	OBI:0000415	semapv:ManualMappingCuration
+PCR Reverse transcription after nuclei are encapsulated in droplets	library_preamplification_method	skos:closeMatch	OBI:0000552	semapv:ManualMappingCuration
+PDGFRa-GFP+ lung myofibroblast cells	selected_cell_types	skos:closeMatch	CL:0000186	semapv:ManualMappingCuration
+PP	selected_cell_types	skos:closeMatch	CL:0002275	semapv:ManualMappingCuration
+Papain-based enzymatic dissociation	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+Papillary urothelial carcinoma of the renal pelvis	diseases	skos:closeMatch	MONDO:0003716	semapv:ManualMappingCuration
+Pelvic epithelium	cell_type	skos:closeMatch	CL:0000066	semapv:ManualMappingCuration
+Pelvic epithelium	organ_part	skos:closeMatch	UBERON:0001224	semapv:ManualMappingCuration
+Pelvic epithelium - distal UB	cell_type	skos:closeMatch	CL:0000066	semapv:ManualMappingCuration
+Pelvic epithelium - distal UB	organ_part	skos:closeMatch	UBERON:0000084	semapv:ManualMappingCuration
+Pelvis	organ_parts	skos:closeMatch	UBERON:0001224	semapv:ManualMappingCuration
+Pericyte 1	cell_type	skos:closeMatch	CL:0000669	semapv:ManualMappingCuration
+Pericyte 2	cell_type	skos:closeMatch	CL:0000669	semapv:ManualMappingCuration
+Pericytes	cell_type	skos:closeMatch	CL:0000669	semapv:ManualMappingCuration
+Periportal LSECs	cell_type	skos:closeMatch	CL:1000398	semapv:ManualMappingCuration
+Peritubular capillary endothelium 1	cell_type	skos:closeMatch	CL:1001033	semapv:ManualMappingCuration
+Peritubular capillary endothelium 2	cell_type	skos:closeMatch	CL:1001033	semapv:ManualMappingCuration
+Plasma Cells	cell_type	skos:closeMatch	CL:0000786	semapv:ManualMappingCuration
+Plasma IgG	cell_type	skos:closeMatch	CL:0000985	semapv:ManualMappingCuration
+Plasma IgM	cell_type	skos:closeMatch	CL:0000986	semapv:ManualMappingCuration
+Plasma cells	cell_type	skos:closeMatch	CL:0000786	semapv:ManualMappingCuration
+Plasma cells	selected_cell_types	skos:closeMatch	CL:0000786	semapv:ManualMappingCuration
+Plasmablast	cell_type	skos:closeMatch	CL:0000980	semapv:ManualMappingCuration
+Plasmacytoid dendritic cell	cell_type	skos:closeMatch	CL:0000784	semapv:ManualMappingCuration
+Platelet	cell_type	skos:closeMatch	CL:0000233	semapv:ManualMappingCuration
+Podocyte	cell_type	skos:closeMatch	CL:0000653	semapv:ManualMappingCuration
+Portal LSECs	cell_type	skos:closeMatch	CL:1000398	semapv:ManualMappingCuration
+Pre B cells	cell_type	skos:closeMatch	CL:0000817	semapv:ManualMappingCuration
+Primary dermal fibroblasts	selected_cell_types	skos:closeMatch	CL:0002551	semapv:ManualMappingCuration
+Primordial Germ Cells	selected_cell_types	skos:closeMatch	CL:0000586	semapv:ManualMappingCuration
+Principal Investigator	project_role	skos:closeMatch	EFO:0009736	semapv:ManualMappingCuration
+Principal cell	cell_type	skos:closeMatch	CL:0005009	semapv:ManualMappingCuration
+Pro B cells	cell_type	skos:closeMatch	CL:0000826	semapv:ManualMappingCuration
+Proliferating B cell	cell_type	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+Proliferating NK cell	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+Proliferating Proximal Tubule	cell_type	skos:closeMatch	CL:0002306	semapv:ManualMappingCuration
+Proliferating cDC2	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+Proliferating cap mesenchyme	cell_type	skos:closeMatch	UBERON:0010536	semapv:ManualMappingCuration
+Proliferating distal renal vesicle	cell_type	skos:closeMatch	UBERON:0004209	semapv:ManualMappingCuration
+Proliferating fibroblast	cell_type	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+Proliferating macrophage	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+Proliferating monocyte	cell_type	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+Proliferating myofibroblast	cell_type	skos:closeMatch	CL:1000691	semapv:ManualMappingCuration
+Proliferating stroma progenitor	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+Proximal S shaped body	cell_type	skos:closeMatch	UBERON:0004199	semapv:ManualMappingCuration
+Proximal UB	cell_type	skos:closeMatch	UBERON:0000084	semapv:ManualMappingCuration
+Proximal renal vesicle	cell_type	skos:closeMatch	CL:0002522	semapv:ManualMappingCuration
+Proximal tubule	cell_type	skos:closeMatch	CL:0002306	semapv:ManualMappingCuration
+RNA sequencing	library_construction_method	skos:closeMatch	EFO:0004187	semapv:ManualMappingCuration
+Renal mass	diseases	skos:closeMatch	MONDO:0002367	semapv:ManualMappingCuration
+Reprogrammed dendritic cell	selected_cell_types	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+Retina	organ	skos:closeMatch	UBERON:0000966	semapv:ManualMappingCuration
+Rheumatoid arthritis	diseases	skos:closeMatch	MONDO:0008383	semapv:ManualMappingCuration
+SAN region superior vena cava/right atrial junction	organ_parts	skos:closeMatch	UBERON:0002351	semapv:ManualMappingCuration
+SDS-PAGE	method	skos:closeMatch	EFO:0010936	semapv:ManualMappingCuration
+SMARTer	library_construction_method	skos:closeMatch	EFO:0010184	semapv:ManualMappingCuration
+SVT	diseases	skos:closeMatch	MONDO:0005477	semapv:ManualMappingCuration
+Sigmoid colon	organ_parts	skos:closeMatch	UBERON:0001159	semapv:ManualMappingCuration
+Single Cell 3' Reagent Kit v2	library_construction_method	skos:closeMatch	EFO:0009899	semapv:ManualMappingCuration
+Skin	organ	skos:closeMatch	UBERON:0000014	semapv:ManualMappingCuration
+Skin epidermis	organ_parts	skos:closeMatch	UBERON:0001003	semapv:ManualMappingCuration
+Smart-Seq	library_construction_method	skos:closeMatch	EFO:0008930	semapv:ManualMappingCuration
+Smart-Seq2	library_construction_method	skos:closeMatch	EFO:0008931	semapv:ManualMappingCuration
+Smart-like	library_construction_method	skos:closeMatch	EFO:0010184	semapv:ManualMappingCuration
+Smart-like sequencing	library_construction_method	skos:closeMatch	EFO:0010184	semapv:ManualMappingCuration
+Smart-seq2	library_construction_method	skos:closeMatch	EFO:0008931	semapv:ManualMappingCuration
+Smooth Muscle	cell_type	skos:closeMatch	CL:1000280	semapv:ManualMappingCuration
+Stroma	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+Stroma progenitor	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+Stromal 1	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+Stromal 2a	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+Stromal 2b	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+Stromal 3	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+Stromal 4	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+Substania nigra	organ_parts	skos:closeMatch	UBERON:0002038	semapv:ManualMappingCuration
+Substantia nigra	organ_parts	skos:closeMatch	UBERON:0002038	semapv:ManualMappingCuration
+Surgical resection	method	skos:closeMatch	EFO:0009744	semapv:ManualMappingCuration
+T CD4	cell_type	skos:closeMatch	CL:0000624	semapv:ManualMappingCuration
+T CD4 conv	cell_type	skos:closeMatch	CL:0000624	semapv:ManualMappingCuration
+T CD4 fh	cell_type	skos:closeMatch	CL:0002038	semapv:ManualMappingCuration
+T CD4 naive	cell_type	skos:closeMatch	CL:0000895	semapv:ManualMappingCuration
+T CD4 reg	cell_type	skos:closeMatch	CL:0000792	semapv:ManualMappingCuration
+T CD8	cell_type	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+T CD8 CTL	cell_type	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+T CD8 CytT	cell_type	skos:closeMatch	CL:0000794	semapv:ManualMappingCuration
+T CD8 MAIT	cell_type	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+T CD8 activated	cell_type	skos:closeMatch	CL:0000906	semapv:ManualMappingCuration
+T CD8 gd	cell_type	skos:closeMatch	CL:0000802	semapv:ManualMappingCuration
+T cell	cell_type	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+T cell	selected_cell_types	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+T cell act CD4	cell_type	skos:closeMatch	CL:0001043	semapv:ManualMappingCuration
+T cell act CD8	cell_type	skos:closeMatch	CL:0001049	semapv:ManualMappingCuration
+T cell act unassigned	cell_type	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+T cell dividing	cell_type	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+T cell rest CD4	cell_type	skos:closeMatch	CL:0000624	semapv:ManualMappingCuration
+T cell rest CD8	cell_type	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+T cell rest unassigned	cell_type	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+T cells Dividing	cell_type	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+T helper cells	cell_type	skos:closeMatch	CL:0000912	semapv:ManualMappingCuration
+T helper cells including Tregs population	cell_type	skos:closeMatch	CL:0000815	semapv:ManualMappingCuration
+T helper cells including Tregs population	cell_type	skos:closeMatch	CL:0000912	semapv:ManualMappingCuration
+T regulatory	cell_type	skos:closeMatch	CL:0000815	semapv:ManualMappingCuration
+T-helper cell	cell_type	skos:closeMatch	CL:0000912	semapv:ManualMappingCuration
+T-helper cell including regulatory T cell	cell_type	skos:closeMatch	CL:0000815	semapv:ManualMappingCuration
+T-helper cell including regulatory T cell	cell_type	skos:closeMatch	CL:0000912	semapv:ManualMappingCuration
+T/B cell doubles	cell_type	skos:closeMatch	CL:0000542�	semapv:ManualMappingCuration
+TCM	selected_cell_types	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+TEM	selected_cell_types	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+TEMRA	selected_cell_types	skos:closeMatch	CL:0001062	semapv:ManualMappingCuration
+Theiler Stage 24	development_stage	skos:closeMatch	EFO:0002586	semapv:ManualMappingCuration
+Theiler Stage 26	development_stage	skos:closeMatch	EFO:0002587	semapv:ManualMappingCuration
+Theiler stage 17	development_stage	skos:closeMatch	EFO:0002583	semapv:ManualMappingCuration
+Theiler stage 21	development_stage	skos:closeMatch	EFO:0002584	semapv:ManualMappingCuration
+Theiler stage 23	development_stage	skos:closeMatch	EFO:0004411	semapv:ManualMappingCuration
+Theiler stage 26	development_stage	skos:closeMatch	EFO:0002587	semapv:ManualMappingCuration
+Thick ascending limb of Loop of Henle	cell_type	skos:closeMatch	CL:1001106	semapv:ManualMappingCuration
+Transitional urothelium	cell_type	skos:closeMatch	CL:0000731	semapv:ManualMappingCuration
+Transverse colon	organ_parts	skos:closeMatch	UBERON:0001157	semapv:ManualMappingCuration
+Type A intercalated cell	cell_type	skos:closeMatch	CL:0005011	semapv:ManualMappingCuration
+Type B intercalated cell	cell_type	skos:closeMatch	CL:0002201	semapv:ManualMappingCuration
+Ulcerative Colitis	diseases	skos:closeMatch	MONDO:0005101	semapv:ManualMappingCuration
+Ureter	organ_parts	skos:closeMatch	UBERON:0000056	semapv:ManualMappingCuration
+Vascular	selected_cell_types	skos:closeMatch	CL:0005022	semapv:ManualMappingCuration
+WGS	library_construction_method	skos:closeMatch	EFO:0010172	semapv:ManualMappingCuration
+Warthin tumor	diseases	skos:closeMatch	MONDO:0006493	semapv:ManualMappingCuration
+White	ethnicity	skos:closeMatch	HANCESTRO:0005	semapv:ManualMappingCuration
+White: Not specified/Unknown	ethnicity	skos:closeMatch	HANCESTRO:0005	semapv:ManualMappingCuration
+Whole genome sequencing	method	skos:closeMatch	EFO:0003744	semapv:ManualMappingCuration
+YORUBA	ethnicity	skos:closeMatch	HANCESTRO:0575	semapv:ManualMappingCuration
+Yolk sac	organ	skos:closeMatch	UBERON:0001040	semapv:ManualMappingCuration
+ab T cells	cell_type	skos:closeMatch	CL:0000789	semapv:ManualMappingCuration
+abdomen	organ	skos:closeMatch	UBERON:0000916	semapv:ManualMappingCuration
+acinar cell	cell_type	skos:closeMatch	CL:0000622	semapv:ManualMappingCuration
+activated CD4+ T cell	cell_type	skos:closeMatch	CL:0001043	semapv:ManualMappingCuration
+activated CD8+ T cell	cell_type	skos:closeMatch	CL:0000906	semapv:ManualMappingCuration
+activated CD8+ T cell	cell_type	skos:closeMatch	CL:0001049	semapv:ManualMappingCuration
+activated dendritic cell	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+adipose tissue	organ	skos:closeMatch	UBERON:0001013	semapv:ManualMappingCuration
+adolescent	development_stage	skos:closeMatch	HsapDv:0000086	semapv:ManualMappingCuration
+adolescent stage	development_stage	skos:closeMatch	HsapDv:0000086	semapv:ManualMappingCuration
+adrenal mass	diseases	skos:closeMatch	MONDO:0003924	semapv:ManualMappingCuration
+adult	development_stage	skos:closeMatch	EFO:0001272	semapv:ManualMappingCuration
+adult	development_stage	skos:closeMatch	HsapDv:0000087	semapv:ManualMappingCuration
+african	ethnicity	skos:closeMatch	HANCESTRO:0010	semapv:ManualMappingCuration
+airway basal stem cells	selected_cell_types	skos:closeMatch	CL:0002638	semapv:ManualMappingCuration
+alcohol abuse	diseases	skos:closeMatch	MONDO:0002046	semapv:ManualMappingCuration
+alcohol-related liver disease	diseases	skos:closeMatch	MONDO:0021104	semapv:ManualMappingCuration
+alpha	selected_cell_types	skos:closeMatch	CL:0000171	semapv:ManualMappingCuration
+alpha-beta T cell	cell_type	skos:closeMatch	CL:0000789	semapv:ManualMappingCuration
+alveolar epithelial cell type 1	cell_type	skos:closeMatch	CL:0000322	semapv:ManualMappingCuration
+alveolar epithelial cell type 2	cell_type	skos:closeMatch	CL:0000322	semapv:ManualMappingCuration
+amacrine cell	cell_type	skos:closeMatch	CL:0000561	semapv:ManualMappingCuration
+anti-NMDA receptor encephalitis	diseases	skos:closeMatch	MONDO:0021081	semapv:ManualMappingCuration
+antibody enrichment with FACS sorting	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+antibody staining; fluorescence-activated cell sorting	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+anxiety	diseases	skos:closeMatch	MONDO:0005618	semapv:ManualMappingCuration
+aortic tissue	organ_parts	skos:closeMatch	UBERON:0001496	semapv:ManualMappingCuration
+apex	organ_parts	skos:closeMatch	UBERON:0002098	semapv:ManualMappingCuration
+apheresis	method	skos:closeMatch	EFO:0009121	semapv:ManualMappingCuration
+arthritis	diseases	skos:closeMatch	MONDO:0005578	semapv:ManualMappingCuration
+ascending vasa recta endothelium	cell_type	skos:closeMatch	CL:1001131	semapv:ManualMappingCuration
+ascites	organ_parts	skos:closeMatch	UBERON:0001268	semapv:ManualMappingCuration
+aspiration	method	skos:closeMatch	EFO:0010727	semapv:ManualMappingCuration
+astrocytes	selected_cell_types	skos:closeMatch	CL:0000127	semapv:ManualMappingCuration
+asymptomatic dengue	diseases	skos:closeMatch	MONDO:0000259	semapv:ManualMappingCuration
+atherosclerosis	diseases	skos:closeMatch	MONDO:0005311	semapv:ManualMappingCuration
+atrioventricular bundle	organ_parts	skos:closeMatch	UBERON:0002353	semapv:ManualMappingCuration
+atrioventricular node	organ_parts	skos:closeMatch	UBERON:0002352	semapv:ManualMappingCuration
+autoimmune encephalitis	diseases	skos:closeMatch	MONDO:0020640	semapv:ManualMappingCuration
+axillary	organ_parts	skos:closeMatch	UBERON:0001097	semapv:ManualMappingCuration
+axillary fat pad	organ_parts	skos:closeMatch	UBERON:0015477	semapv:ManualMappingCuration
+barcoded plate-based single-cell RNA-seq	library_construction_method	skos:closeMatch	EFO:0010964	semapv:ManualMappingCuration
+basal cell	selected_cell_types	skos:closeMatch	CL:0000646	semapv:ManualMappingCuration
+basal epithelial cell	cell_type	skos:closeMatch	CL:1000447�	semapv:ManualMappingCuration
+benign prostatic hyperplasia	diseases	skos:closeMatch	MONDO:0010811	semapv:ManualMappingCuration
+beta	selected_cell_types	skos:closeMatch	CL:0000169	semapv:ManualMappingCuration
+biomaterial provider	project_role	skos:closeMatch	EFO:0001729	semapv:ManualMappingCuration
+biopsy	method	skos:closeMatch	EFO:0009120	semapv:ManualMappingCuration
+bladder	organ	skos:closeMatch	UBERON:0018707	semapv:ManualMappingCuration
+blastocyst	organ	skos:closeMatch	UBERON:0000358	semapv:ManualMappingCuration
+blastocyst	organ_parts	skos:closeMatch	UBERON:0000358	semapv:ManualMappingCuration
+blood	model_organ	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+blood	organ	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+blood	organ_parts	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+blood draw	method	skos:closeMatch	EFO:0009121	semapv:ManualMappingCuration
+blood vessel	organ	skos:closeMatch	UBERON:0001981	semapv:ManualMappingCuration
+blood vessel cell	cell_type	skos:closeMatch	CL:0000071	semapv:ManualMappingCuration
+bone	organ	skos:closeMatch	UBERON:0001474	semapv:ManualMappingCuration
+bone	organ	skos:closeMatch	UBERON:0002481	semapv:ManualMappingCuration
+bone marrow	model_organ	skos:closeMatch	UBERON:0002371	semapv:ManualMappingCuration
+bone marrow	organ	skos:closeMatch	UBERON:0002371	semapv:ManualMappingCuration
+bone marrow	organ_parts	skos:closeMatch	UBERON:0002371	semapv:ManualMappingCuration
+bone marrow	tissue	skos:closeMatch	UBERON:0002371	semapv:ManualMappingCuration
+bone marrow aspirate	method	skos:closeMatch	EFO:0009292	semapv:ManualMappingCuration
+bone marrow aspiration	method	skos:closeMatch	EFO:0009292	semapv:ManualMappingCuration
+bone marrow hematopoietic cell	selected_cell_types	skos:closeMatch	CL:1001610	semapv:ManualMappingCuration
+bone marrow hematopoietic stem and progenitor cells	selected_cell_types	skos:closeMatch	CL:1001610	semapv:ManualMappingCuration
+brain	model_organ	skos:closeMatch	UBERON:0000955	semapv:ManualMappingCuration
+brain	organ	skos:closeMatch	UBERON:0000955	semapv:ManualMappingCuration
+brain cortex	organ_parts	skos:closeMatch	UBERON:0000956	semapv:ManualMappingCuration
+breast cancer	diseases	skos:closeMatch	MONDO:0007254	semapv:ManualMappingCuration
+buccal mucosa	organ_parts	skos:closeMatch	UBERON:0006956	semapv:ManualMappingCuration
+bulk RNA sequencing	method	skos:closeMatch	EFO:0009653	semapv:ManualMappingCuration
+c57bl/6	strain	skos:closeMatch	EFO:0004472	semapv:ManualMappingCuration
+cDC1	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+cDC1+iDC9	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+cDC1+iDC9	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+cDC2	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+cDCs	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+cadaver dissection	method	skos:closeMatch	EFO:0009807	semapv:ManualMappingCuration
+cap mesenchyme cell	organ_part	skos:closeMatch	UBERON:0005107	semapv:ManualMappingCuration
+carcinoma of floor of mouth	diseases	skos:closeMatch	MONDO:0021343	semapv:ManualMappingCuration
+carcinoma of supraglottis	diseases	skos:closeMatch	MONDO:0004357	semapv:ManualMappingCuration
+cardiac rhythm disease	diseases	skos:closeMatch	MONDO:0007263	semapv:ManualMappingCuration
+cardiac tamponade	diseases	skos:closeMatch	MONDO:0001297	semapv:ManualMappingCuration
+cardiomyocyte	cell_type	skos:closeMatch	CL:0000746	semapv:ManualMappingCuration
+cardiomyopathy	diseases	skos:closeMatch	MONDO:0004994	semapv:ManualMappingCuration
+cardiovascular disease	diseases	skos:closeMatch	MONDO:0004995	semapv:ManualMappingCuration
+caucasian	ethnicity	skos:closeMatch	HANCESTRO:0005	semapv:ManualMappingCuration
+caudate lobe	organ_parts	skos:closeMatch	UBERON:0001117	semapv:ManualMappingCuration
+cd45pos immune cell	selected_cell_types	skos:closeMatch	CL:0000738	semapv:ManualMappingCuration
+cd4pos alpha-beta T cell	selected_cell_types	skos:closeMatch	CL:0000789	semapv:ManualMappingCuration
+cell picking	method	skos:closeMatch	EFO:0010181	semapv:ManualMappingCuration
+cell size selection	method	skos:closeMatch	EFO:0009337	semapv:ManualMappingCuration
+centimeter	height_unit	skos:closeMatch	UO:0000015	semapv:ManualMappingCuration
+central venous liver sinusoidal endothelial cell	cell_type	skos:closeMatch	CL:1000398	semapv:ManualMappingCuration
+cerebral amyloid angiopathy	diseases	skos:closeMatch	MONDO:0005620	semapv:ManualMappingCuration
+cerebral cortex	organ	skos:closeMatch	UBERON:0000956	semapv:ManualMappingCuration
+cerebral cortex subventricular zone	organ	skos:closeMatch	UBERON:0036654	semapv:ManualMappingCuration
+cerebrospinal fluid	organ_parts	skos:closeMatch	UBERON:0001359	semapv:ManualMappingCuration
+child	development_stage	skos:closeMatch	HsapDv:0000096	semapv:ManualMappingCuration
+child stage	development_stage	skos:closeMatch	HsapDv:0000081	semapv:ManualMappingCuration
+cholangiocyte	cell_type	skos:closeMatch	CL:1000488	semapv:ManualMappingCuration
+chorionic villus	organ_parts	skos:closeMatch	UBERON:0007106	semapv:ManualMappingCuration
+chronic hypersensitivity pneumonitis	diseases	skos:closeMatch	MONDO:0017853	semapv:ManualMappingCuration
+chronic kidney disease	diseases	skos:closeMatch	MONDO:0005300	semapv:ManualMappingCuration
+chronic myeloid leukemia	disease	skos:closeMatch	MONDO:0020312	semapv:ManualMappingCuration
+chronic myeloid leukemia	diseases	skos:closeMatch	MONDO:0020312	semapv:ManualMappingCuration
+chronic obstructive pulmonary disease	diseases	skos:closeMatch	MONDO:0005002	semapv:ManualMappingCuration
+ciliated cell	cell_type	skos:closeMatch	CL:1000271	semapv:ManualMappingCuration
+ciliated cell	selected_cell_types	skos:closeMatch	CL:0000064	semapv:ManualMappingCuration
+classic dendtritic cell	selected_cell_types	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+clinician	project_role	skos:closeMatch	EFO:0009740	semapv:ManualMappingCuration
+club cell	selected_cell_types	skos:closeMatch	CL:0000158	semapv:ManualMappingCuration
+cm	height_unit	skos:closeMatch	UO:0000015	semapv:ManualMappingCuration
+co-investigator	project_role	skos:closeMatch	EFO:0009735	semapv:ManualMappingCuration
+collecting specimen from organ postmortem	method	skos:closeMatch	EFO:0009627	semapv:ManualMappingCuration
+collecting specimen from organism	method	skos:closeMatch	OBI:0600005	semapv:ManualMappingCuration
+colon	organ	skos:closeMatch	UBERON:0001155	semapv:ManualMappingCuration
+colon	organ_parts	skos:closeMatch	UBERON:0001155	semapv:ManualMappingCuration
+common lymphoid progenitor	cell_type	skos:closeMatch	CL:0000051	semapv:ManualMappingCuration
+computational scientist	project_role	skos:closeMatch	EFO:0009742	semapv:ManualMappingCuration
+connecting nephron tubules/principal cells - proximal ureteric bud	cell_type	skos:closeMatch	CL:0005009	semapv:ManualMappingCuration
+connecting nephron tubules/principal cells - proximal ureteric bud	organ_part	skos:closeMatch	UBERON:0000084	semapv:ManualMappingCuration
+connecting nephron tubules/principal cells - proximal ureteric bud	organ_part	skos:closeMatch	UBERON:0005310	semapv:ManualMappingCuration
+conventional dendritic cell	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+conventional dendritic cell (DC1)	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+conventional dendritic cell type 1	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+conventional dendritic cell type 1/induced day 9 dendritic cell	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+conventional dendritic cell type 1/induced day 9 dendritic cell	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+conventional dendritic cell type 2	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+cornea	organ_parts	skos:closeMatch	UBERON:0000964	semapv:ManualMappingCuration
+cortex	organ_parts	skos:closeMatch	UBERON:0001851	semapv:ManualMappingCuration
+cortex	organ_parts	skos:closeMatch	UBERON:0016529	semapv:ManualMappingCuration
+cortex of kidney	organ_parts	skos:closeMatch	UBERON:0001225	semapv:ManualMappingCuration
+cortical excitatory neuron	cell_type	skos:closeMatch	CL:0002609	semapv:ManualMappingCuration
+cortical excitatory neuron	cell_type	skos:closeMatch	CL:0008030	semapv:ManualMappingCuration
+cortical intermediate progenitor	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+cortical intermediate progenitor	organ_part	skos:closeMatch	UBERON:0014940	semapv:ManualMappingCuration
+cortical interneuron	cell_type	skos:closeMatch	CL:0008031	semapv:ManualMappingCuration
+cortical neural progenitor cell	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+cortical neural progenitor cell	organ_part	skos:closeMatch	UBERON:0000956	semapv:ManualMappingCuration
+cytotoxic CD8+ T cell	cell_type	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+cytotoxic T cell type 1	cell_type	skos:closeMatch	CL:0000910	semapv:ManualMappingCuration
+cytotoxic T cell type 2	cell_type	skos:closeMatch	CL:0000910	semapv:ManualMappingCuration
+data curator	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+data wrangler	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+data wrangler intern	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+data wrangling intern	project_role	skos:closeMatch	EFO:0009737	semapv:ManualMappingCuration
+data wrangling intern	project_role	skos:closeMatch	EFO:0009738	semapv:ManualMappingCuration
+day	age_unit	skos:closeMatch	UO:0000033	semapv:ManualMappingCuration
+day	gestational_age_unit	skos:closeMatch	UO:0000033	semapv:ManualMappingCuration
+day	organism_age_unit	skos:closeMatch	UO:0000033	semapv:ManualMappingCuration
+day	storage_time_unit	skos:closeMatch	UO:0000033	semapv:ManualMappingCuration
+day	unit	skos:closeMatch	UO:0000033	semapv:ManualMappingCuration
+dead cell removal	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+decidua	organ	skos:closeMatch	UBERON:0002450	semapv:ManualMappingCuration
+decidua	organ_parts	skos:closeMatch	UBERON:0002450	semapv:ManualMappingCuration
+decidual macrophage	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+decidual macrophage (dM1)	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+decidual macrophage (dM2)	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+decidual macrophage (dM3)	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+decidual macrophage type 1	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+decidual macrophage type 2	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+decidual natural killer cell (dNK1)	cell_type	skos:closeMatch	CL:0002343	semapv:ManualMappingCuration
+decidual natural killer cell (dNK2)	cell_type	skos:closeMatch	CL:0002343	semapv:ManualMappingCuration
+decidual natural killer cell (dNK3)	cell_type	skos:closeMatch	CL:0002343	semapv:ManualMappingCuration
+decidual natural killer cell type 1	cell_type	skos:closeMatch	CL:0002343	semapv:ManualMappingCuration
+decidual natural killer cell type 2	cell_type	skos:closeMatch	CL:0002343	semapv:ManualMappingCuration
+decidual natural killer cell type 3	cell_type	skos:closeMatch	CL:0002343	semapv:ManualMappingCuration
+decidual perivascular cell (dP1)	cell_type	skos:closeMatch	CL:0008033	semapv:ManualMappingCuration
+decidual perivascular cell (dP2)	cell_type	skos:closeMatch	CL:0008033	semapv:ManualMappingCuration
+decidual perivascular cell type 1	cell_type	skos:closeMatch	CL:0008033	semapv:ManualMappingCuration
+decidual perivascular cell type 2	cell_type	skos:closeMatch	CL:0008033	semapv:ManualMappingCuration
+decidual stromal cell (dS1)	cell_type	skos:closeMatch	CL:2000002	semapv:ManualMappingCuration
+decidual stromal cell (dS2)	cell_type	skos:closeMatch	CL:2000002	semapv:ManualMappingCuration
+decidual stromal cell (dS3)	cell_type	skos:closeMatch	CL:2000002	semapv:ManualMappingCuration
+decidual stromal cell type 1	cell_type	skos:closeMatch	CL:2000002	semapv:ManualMappingCuration
+decidual stromal cell type 2	cell_type	skos:closeMatch	CL:2000002	semapv:ManualMappingCuration
+decidual stromal cell type 3	cell_type	skos:closeMatch	CL:2000002	semapv:ManualMappingCuration
+definitive endoderm	organ_parts	skos:closeMatch	UBERON:0005439	semapv:ManualMappingCuration
+delta	selected_cell_types	skos:closeMatch	CL:0000173	semapv:ManualMappingCuration
+dendritic cell	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+dendritic cell	selected_cell_types	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+dendritic cell type 1	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+dendritic cell type 2	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+dendritic cell/dividing monocyte	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+dendritic cell/dividing monocyte	cell_type	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+dendritic cells	selected_cell_types	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+dendtritic progenitor	cell_type	skos:closeMatch	CL:0001029	semapv:ManualMappingCuration
+density centrifugation	method	skos:closeMatch	EFO:0009112	semapv:ManualMappingCuration
+density gradient centrifugation	method	skos:closeMatch	EFO:0009110	semapv:ManualMappingCuration
+density gradient centrifugation	method	skos:closeMatch	EFO:0009112	semapv:ManualMappingCuration
+density gradient centrifugation	method	skos:closeMatch	EFO:0009129	semapv:ManualMappingCuration
+density gradient separation	method	skos:closeMatch	EFO:0009112	semapv:ManualMappingCuration
+depression	diseases	skos:closeMatch	MONDO:0002050	semapv:ManualMappingCuration
+depressive disorder	diseases	skos:closeMatch	MONDO:0002050	semapv:ManualMappingCuration
+dermis	organ_parts	skos:closeMatch	UBERON:0002067	semapv:ManualMappingCuration
+diabetes mellitus (disease)	diseases	skos:closeMatch	MONDO:0005015	semapv:ManualMappingCuration
+diaphragm	organ	skos:closeMatch	UBERON:0001103	semapv:ManualMappingCuration
+diaphragm	organ_parts	skos:closeMatch	UBERON:0001103	semapv:ManualMappingCuration
+diencephalon excitatory neuron	cell_type	skos:closeMatch	CL:0008030	semapv:ManualMappingCuration
+diencephalon excitatory neuron	organ_part	skos:closeMatch	UBERON:0006222	semapv:ManualMappingCuration
+diencephalon inhibitory neuron	cell_type	skos:closeMatch	CL:0008029	semapv:ManualMappingCuration
+diencephalon inhibitory neuron	organ_part	skos:closeMatch	UBERON:0006222	semapv:ManualMappingCuration
+digestive system	organ	skos:closeMatch	UBERON:0001007	semapv:ManualMappingCuration
+dilated cardiomyopathy	diseases	skos:closeMatch	MONDO:0005021	semapv:ManualMappingCuration
+dissection	method	skos:closeMatch	EFO:0003856	semapv:ManualMappingCuration
+distal S shaped body cell	organ_part	skos:closeMatch	UBERON:0004199	semapv:ManualMappingCuration
+distal renal vesicle cell	cell_type	skos:closeMatch	CL:0002522	semapv:ManualMappingCuration
+diverticulitis	diseases	skos:closeMatch	MONDO:0004235	semapv:ManualMappingCuration
+dividing T cell	cell_type	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+dividing epithelial cell	cell_type	skos:closeMatch	UBERON:0001976	semapv:ManualMappingCuration
+dividing macrophage	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+dividing natural killer cell	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+duodenum	organ_parts	skos:closeMatch	UBERON:0002114	semapv:ManualMappingCuration
+dyslipidemia	diseases	skos:closeMatch	MONDO:0015905	semapv:ManualMappingCuration
+early adult stage	development_stage	skos:closeMatch	EFO:0001272	semapv:ManualMappingCuration
+early stage glaucoma	diseases	skos:closeMatch	MONDO:0005041	semapv:ManualMappingCuration
+embryo	development_stage	skos:closeMatch	HsapDv:0000015	semapv:ManualMappingCuration
+embryo	model_organ	skos:closeMatch	UBERON:0000922	semapv:ManualMappingCuration
+embryo	organ	skos:closeMatch	UBERON:0000922	semapv:ManualMappingCuration
+embryo at Carnegie stage 14	development_stage	skos:closeMatch	HsapDv:0000021	semapv:ManualMappingCuration
+embryo at Carnegie stage 18	development_stage	skos:closeMatch	HsapDv:0000025	semapv:ManualMappingCuration
+embryo at Carnegie stage 22	development_stage	skos:closeMatch	HsapDv:0000029	semapv:ManualMappingCuration
+embryo at Carnegie stage 23	development_stage	skos:closeMatch	HsapDv:0000030	semapv:ManualMappingCuration
+embryo stage	development_stage	skos:closeMatch	EFO:0007725	semapv:ManualMappingCuration
+embryonic cell	selected_cell_types	skos:closeMatch	CL:0002321	semapv:ManualMappingCuration
+embryonic human stage	development_stage	skos:closeMatch	HsapDv:0000002	semapv:ManualMappingCuration
+embryonic stem cell	cell_type	skos:closeMatch	CL:0002322	semapv:ManualMappingCuration
+endoderm	organ	skos:closeMatch	UBERON:0000925	semapv:ManualMappingCuration
+endodermal cell	selected_cell_types	skos:closeMatch	CL:0000223	semapv:ManualMappingCuration
+endothelial	selected_cell_types	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+endothelial cell	cell_type	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+endothelial cell of peritubular capillary type 1	cell_type	skos:closeMatch	CL:1001033	semapv:ManualMappingCuration
+endothelial cell of peritubular capillary type 2	cell_type	skos:closeMatch	CL:1001033	semapv:ManualMappingCuration
+endothelial cell type 2	cell_type	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+endothelial cells	selected_cell_types	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+enzymatic	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+enzymatic (collagenase V)	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+enzymatic (trypsin/collagenase V)	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+enzymatic digestion	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+enzymatic digestion; mechanical dissociation; size selection	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+enzymatic dissociation	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+enzymatic dissociation (Collagenase VIII)	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+enzymatic dissociation using DNAse1 and Liberase	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+enzyme-free chemical dissociation	method	skos:closeMatch	EFO:0011026	semapv:ManualMappingCuration
+epididymis	organ_parts	skos:closeMatch	UBERON:0001301	semapv:ManualMappingCuration
+epilepsy	diseases	skos:closeMatch	MONDO:0005027	semapv:ManualMappingCuration
+epithelial cell	selected_cell_types	skos:closeMatch	CL:0000066	semapv:ManualMappingCuration
+epithelial cell of esophagus	selected_cell_types	skos:closeMatch	CL:0002252	semapv:ManualMappingCuration
+epithelial cell of proximal tubule	cell_type	skos:closeMatch	CL:0002306	semapv:ManualMappingCuration
+epithelial cell of proximal tubule type 1	cell_type	skos:closeMatch	CL:0002306	semapv:ManualMappingCuration
+epithelial cell of proximal tubule type 2	cell_type	skos:closeMatch	CL:0002306	semapv:ManualMappingCuration
+epithelial cells	selected_cell_types	skos:closeMatch	CL:0000066	semapv:ManualMappingCuration
+epithelial progenitor	cell_type	skos:closeMatch	CL:0000034	semapv:ManualMappingCuration
+epithelium of trachea	organ_parts	skos:closeMatch	UBERON:0001901	semapv:ManualMappingCuration
+erythroid cell	cell_type	skos:closeMatch	CL:0000232	semapv:ManualMappingCuration
+erythroid cell type 1	cell_type	skos:closeMatch	CL:0000232	semapv:ManualMappingCuration
+erythroid cell type 2	cell_type	skos:closeMatch	CL:0000232	semapv:ManualMappingCuration
+erythroid progenitor	cell_type	skos:closeMatch	CL:0000038	semapv:ManualMappingCuration
+ex vivo single Tcell	selected_cell_types	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+exocrine cell	selected_cell_types	skos:closeMatch	CL:0000152	semapv:ManualMappingCuration
+experiment performer	project_role	skos:closeMatch	EFO:0000647	semapv:ManualMappingCuration
+experimental scientist	project_role	skos:closeMatch	EFO:0009741	semapv:ManualMappingCuration
+expiremental scientist	project_role	skos:closeMatch	EFO:0009741	semapv:ManualMappingCuration
+eye	organ	skos:closeMatch	UBERON:0000970	semapv:ManualMappingCuration
+fat	organ	skos:closeMatch	UBERON:0001013	semapv:ManualMappingCuration
+fetal endothelial cell	cell_type	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+fetal endothelial cell (Endo f)	cell_type	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+fetal fibroblast (fFB1)	cell_type	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+fetal fibroblast (fFB2)	cell_type	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+fetal fibroblast type 1	cell_type	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+fetal fibroblast type 2	cell_type	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+fetal stage	development_stage	skos:closeMatch	HsapDv:0000037	semapv:ManualMappingCuration
+fibroblast	cell_type	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+fibroblast	organ_parts	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+fibroblast	selected_cell_types	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+fibroblast type 1	cell_type	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+fibroblast type 2	cell_type	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+fibroblasts	selected_cell_types	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+fibrosis	diseases	skos:closeMatch	MONDO:0002771	semapv:ManualMappingCuration
+fluidigm C1 prep	library_construction_method	skos:closeMatch	EFO:0010058	semapv:ManualMappingCuration
+fluorescence activated cell sorting	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+fluorescence-activated cell sorting	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+fluorescence-activated cell sorting.	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+fluorescence-activated nuclei sorting	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+fluoresence-activated cell sorting	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+follicular B cell	cell_type	skos:closeMatch	CL:0000843	semapv:ManualMappingCuration
+follicular helper CD4+ T cell	cell_type	skos:closeMatch	CL:0002038	semapv:ManualMappingCuration
+fovea centralis	organ_parts	skos:closeMatch	UBERON:0001786	semapv:ManualMappingCuration
+full length	method	skos:closeMatch	EFO:0008441	semapv:ManualMappingCuration
+full length single cell RNA sequencing	method	skos:closeMatch	EFO:0008441	semapv:ManualMappingCuration
+gamma-delta CD8+ T cell	cell_type	skos:closeMatch	CL:0000802	semapv:ManualMappingCuration
+gamma-delta T cell	cell_type	skos:closeMatch	CL:0000798	semapv:ManualMappingCuration
+gastrocnemius	organ_parts	skos:closeMatch	UBERON:0001388	semapv:ManualMappingCuration
+gd T cells	cell_type	skos:closeMatch	CL:0000798	semapv:ManualMappingCuration
+genomic DNA	input_nucleic_acid_molecule	skos:closeMatch	EFO:0008479	semapv:ManualMappingCuration
+gingiva of lower jaw	organ_parts	skos:closeMatch	UBERON:0011602	semapv:ManualMappingCuration
+glandular epithelial cell (Epi1)	cell_type	skos:closeMatch	CL:0000150	semapv:ManualMappingCuration
+glandular epithelial cell (Epi2)	cell_type	skos:closeMatch	CL:0000150	semapv:ManualMappingCuration
+glandular epithelial cell type 1	cell_type	skos:closeMatch	CL:0000150	semapv:ManualMappingCuration
+glandular epithelial cell type 2	cell_type	skos:closeMatch	CL:0000150	semapv:ManualMappingCuration
+glial cell	cell_type	skos:closeMatch	CL:0000125	semapv:ManualMappingCuration
+glial cell	selected_cell_types	skos:closeMatch	CL:0000125	semapv:ManualMappingCuration
+glomerular endothelial cell	cell_type	skos:closeMatch	CL:0002188	semapv:ManualMappingCuration
+glomerular visceral epithelial cell	cell_type	skos:closeMatch	CL:0000653	semapv:ManualMappingCuration
+glycolysis state	cell_type	skos:closeMatch	GO:0061621	semapv:ManualMappingCuration
+granulocyte	cell_type	skos:closeMatch	CL:0000094	semapv:ManualMappingCuration
+granulocyte monocyte progenitor cell	selected_cell_types	skos:closeMatch	CL:0000557	semapv:ManualMappingCuration
+granulosa cell	selected_cell_types	skos:closeMatch	CL:0000501	semapv:ManualMappingCuration
+granulosa cell antral follicle	organ_parts	skos:closeMatch	UBERON:0000039	semapv:ManualMappingCuration
+granulosa cell primary follicle	organ_parts	skos:closeMatch	UBERON:0000035	semapv:ManualMappingCuration
+granulosa cell primordial follicle	organ_parts	skos:closeMatch	UBERON:0003981	semapv:ManualMappingCuration
+granulosa cell secondary follicle	organ_parts	skos:closeMatch	UBERON:0000036	semapv:ManualMappingCuration
+gut tube	organ	skos:closeMatch	UBERON:0007026	semapv:ManualMappingCuration
+head and neck	organ_parts	skos:closeMatch	UBERON:0038849	semapv:ManualMappingCuration
+heart	model_organ	skos:closeMatch	UBERON:0000948	semapv:ManualMappingCuration
+heart	organ	skos:closeMatch	UBERON:0000948	semapv:ManualMappingCuration
+heart left ventricle	organ_parts	skos:closeMatch	UBERON:0002084	semapv:ManualMappingCuration
+heart right ventricle	organ_parts	skos:closeMatch	UBERON:0002080	semapv:ManualMappingCuration
+hematopoetic stem and progenitor cells	selected_cell_types	skos:closeMatch	CL:0000837	semapv:ManualMappingCuration
+hematopoietic malignant cells	cell_type	skos:closeMatch	CL:0000988	semapv:ManualMappingCuration
+hematopoietic multipotent progenitor	cell_type	skos:closeMatch	CL:0000837	semapv:ManualMappingCuration
+hematopoietic stem cell	cell_type	skos:closeMatch	CL:0000037	semapv:ManualMappingCuration
+hematopoietic stem cell	cell_type	skos:closeMatch	CL:1001610	semapv:ManualMappingCuration
+hematopoietic system	model_organ	skos:closeMatch	UBERON:0002390	semapv:ManualMappingCuration
+hematopoietic system	organ	skos:closeMatch	UBERON:0002390	semapv:ManualMappingCuration
+hematopoietic tissue	organ	skos:closeMatch	UBERON:0002390	semapv:ManualMappingCuration
+hemochromatosis	diseases	skos:closeMatch	MONDO:0006507	semapv:ManualMappingCuration
+hemolytic uremic syndrome	diseases	skos:closeMatch	MONDO:0001549	semapv:ManualMappingCuration
+hepatic stellate cell	cell_type	skos:closeMatch	CL:0000632	semapv:ManualMappingCuration
+hepatocyte	cell_type	skos:closeMatch	CL:0000182	semapv:ManualMappingCuration
+hepatocyte	selected_cell_types	skos:closeMatch	CL:0000182	semapv:ManualMappingCuration
+hiatal hernia	diseases	skos:closeMatch	MONDO:0007721	semapv:ManualMappingCuration
+hilum	organ_parts	skos:closeMatch	UBERON:0002524	semapv:ManualMappingCuration
+hindlimb	organ	skos:closeMatch	UBERON:0002103	semapv:ManualMappingCuration
+hindlimb muscle	organ_parts	skos:closeMatch	UBERON:0003663	semapv:ManualMappingCuration
+hippocampus	organ_parts	skos:closeMatch	UBERON:0002421	semapv:ManualMappingCuration
+history of asthma	diseases	skos:closeMatch	obo:MONDO:0004979	semapv:ManualMappingCuration
+homogenization	method	skos:closeMatch	EFO:0009129	semapv:ManualMappingCuration
+horacic aortic aneurysm	diseases	skos:closeMatch	MONDO:0005396	semapv:ManualMappingCuration
+hour	storage_time_unit	skos:closeMatch	UO:0000032	semapv:ManualMappingCuration
+hour	unit	skos:closeMatch	UO:0000032	semapv:ManualMappingCuration
+human adult	development_stage	skos:closeMatch	HsapDv:0000087	semapv:ManualMappingCuration
+human adult stage	development_stage	skos:closeMatch	EFO:0001272	semapv:ManualMappingCuration
+human adult stage	development_stage	skos:closeMatch	HsapDv:0000087	semapv:ManualMappingCuration
+human child stage	development_stage	skos:closeMatch	HsapDv:0000085	semapv:ManualMappingCuration
+human embryonic fibroblast	cell_type	skos:closeMatch	CL:2000042	semapv:ManualMappingCuration
+human embryonic fibroblast/induced day type 3 dendritic cell	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+human embryonic fibroblast/induced day type 3 dendritic cell	cell_type	skos:closeMatch	CL:2000042	semapv:ManualMappingCuration
+human embryonic stage	development_stage	skos:closeMatch	HsapDv:0000002	semapv:ManualMappingCuration
+human embryonic stem cell	selected_cell_types	skos:closeMatch	CL:0002322	semapv:ManualMappingCuration
+human fetal liver cell	selected_cell_types	skos:closeMatch	CL:0002353	semapv:ManualMappingCuration
+human fetal stage	development_stage	skos:closeMatch	HsapDv:0000037	semapv:ManualMappingCuration
+human papilloma virus infection	diseases	skos:closeMatch	MONDO:0005161	semapv:ManualMappingCuration
+human preimplantation blastomere	selected_cell_types	skos:closeMatch	CL:0000353	semapv:ManualMappingCuration
+human preimplantation blastomere (2-cell)	selected_cell_types	skos:closeMatch	CL:0000353	semapv:ManualMappingCuration
+human preimplantation blastomere (Oocyte)	selected_cell_types	skos:closeMatch	CL:0000353	semapv:ManualMappingCuration
+human preimplantation blastomere (zygote)	selected_cell_types	skos:closeMatch	CL:0000353	semapv:ManualMappingCuration
+human preimplantation embryos	organ	skos:closeMatch	UBERON:0000922	semapv:ManualMappingCuration
+hx VRE infection	diseases	skos:closeMatch	MONDO:0005121	semapv:ManualMappingCuration
+hydrolysis	method	skos:closeMatch	EFO:0011026	semapv:ManualMappingCuration
+hyperlipidemia	diseases	skos:closeMatch	MONDO:0021187	semapv:ManualMappingCuration
+hypermutation B cell	cell_type	skos:closeMatch	CL:0000236�	semapv:ManualMappingCuration
+hypertension	diseases	skos:closeMatch	MONDO:0005015	semapv:ManualMappingCuration
+hypertension	diseases	skos:closeMatch	MONDO:0005044	semapv:ManualMappingCuration
+hypertensive disorder	diseases	skos:closeMatch	MONDO:0005044	semapv:ManualMappingCuration
+iDC9	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+idiopathic interstitial lung disease	diseases	skos:closeMatch	MONDO:0015925	semapv:ManualMappingCuration
+ileum	model_organ_part	skos:closeMatch	UBERON:0002116	semapv:ManualMappingCuration
+ileum	organ_parts	skos:closeMatch	UBERON:0002116	semapv:ManualMappingCuration
+immune organ	organ	skos:closeMatch	UBERON:0005057	semapv:ManualMappingCuration
+immune system	model_organ	skos:closeMatch	UBERON:0002405	semapv:ManualMappingCuration
+immune system	organ	skos:closeMatch	UBERON:0002405	semapv:ManualMappingCuration
+immunosurgery	method	skos:closeMatch	EFO:0009808	semapv:ManualMappingCuration
+in vitro transcription	cdna_library_amplification_method	skos:closeMatch	EFO:0009013	semapv:ManualMappingCuration
+in vitro transcription	library_preamplification_method	skos:closeMatch	EFO:0009013	semapv:ManualMappingCuration
+in vivo single Tcell	selected_cell_types	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+inDrop	library_construction_method	skos:closeMatch	EFO:0008780	semapv:ManualMappingCuration
+induced day 9 dendritic cell	cell_type	skos:closeMatch	CL:0000451	semapv:ManualMappingCuration
+induced pluripotent stem cell	cell_type	skos:closeMatch	CL:0002248	semapv:ManualMappingCuration
+infant	development_stage	skos:closeMatch	EFO:0001355	semapv:ManualMappingCuration
+infant	development_stage	skos:closeMatch	HsapDv:0000176	semapv:ManualMappingCuration
+infant	development_stage	skos:closeMatch	HsapDv:0000183	semapv:ManualMappingCuration
+inflammatory macrophage	cell_type	skos:closeMatch	CL:0000863	semapv:ManualMappingCuration
+influenza	diseases	skos:closeMatch	MONDO:0005812	semapv:ManualMappingCuration
+inguinal fat pad	organ_parts	skos:closeMatch	UBERON:0010410	semapv:ManualMappingCuration
+inhibitory interneurons	selected_cell_types	skos:closeMatch	CL:0000498	semapv:ManualMappingCuration
+innate lymphocyte-like cell	cell_type	skos:closeMatch	CL:0001065	semapv:ManualMappingCuration
+innate lymphoid cell	cell_type	skos:closeMatch	CL:0001065	semapv:ManualMappingCuration
+innate lymphoid cell (ILC3)	cell_type	skos:closeMatch	CL:0001065	semapv:ManualMappingCuration
+innate lymphoid cells	cell_type	skos:closeMatch	CL:0001065	semapv:ManualMappingCuration
+inner cell mass	organ_parts	skos:closeMatch	UBERON:0000087	semapv:ManualMappingCuration
+inner cell mass cell	selected_cell_types	skos:closeMatch	CL:2000020	semapv:ManualMappingCuration
+intercalated cell	cell_type	skos:closeMatch	CL:0005010	semapv:ManualMappingCuration
+intercalated cell type A	cell_type	skos:closeMatch	CL:0005011	semapv:ManualMappingCuration
+intercalated cell type B	cell_type	skos:closeMatch	CL:0002201	semapv:ManualMappingCuration
+intermediate MGE progenitors	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+intermediate MGE progenitors	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+intermediate progenitor	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+interneuron	cell_type	skos:closeMatch	CL:0000099	semapv:ManualMappingCuration
+interventricular septum	organ_parts	skos:closeMatch	UBERON:0002094	semapv:ManualMappingCuration
+ionocyte	selected_cell_types	skos:closeMatch	CL:0005006	semapv:ManualMappingCuration
+ip.100.DLL1	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+ip.125.DLL1	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+ipMGE.24.DLL1	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+ipMGE.24.DLL1	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+ipMGE.54.ST18	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+ipMGE.54.ST18	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+islet of Langerhans	organ_parts	skos:closeMatch	UBERON:0000006	semapv:ManualMappingCuration
+isolated hip osteoarthritis	diseases	skos:closeMatch	MONDO:0006629	semapv:ManualMappingCuration
+jejenum	organ_parts	skos:closeMatch	UBERON:0002115	semapv:ManualMappingCuration
+juvenile	development_stage	skos:closeMatch	UBERON:0034919	semapv:ManualMappingCuration
+juvenile stage	development_stage	skos:closeMatch	UBERON:0034919	semapv:ManualMappingCuration
+keratinocytes	selected_cell_types	skos:closeMatch	CL:0000312	semapv:ManualMappingCuration
+kg	weight_unit	skos:closeMatch	UO:0000009	semapv:ManualMappingCuration
+kidney	model_organ	skos:closeMatch	UBERON:0002113	semapv:ManualMappingCuration
+kidney	organ	skos:closeMatch	UBERON:0002113	semapv:ManualMappingCuration
+kidney	organ_parts	skos:closeMatch	UBERON:0002113	semapv:ManualMappingCuration
+kidney cell	selected_cell_types	skos:closeMatch	CL:1000497	semapv:ManualMappingCuration
+kidney connecting tubule epithelial cell	cell_type	skos:closeMatch	CL:1000768	semapv:ManualMappingCuration
+kidney loop of Henle epithelial cell	cell_type	skos:closeMatch	CL:1000909	semapv:ManualMappingCuration
+kidney loop of Henle thick ascending limb epithelial cell	cell_type	skos:closeMatch	CL:1001106	semapv:ManualMappingCuration
+kilogram	weight_unit	skos:closeMatch	UO:0000009	semapv:ManualMappingCuration
+lamina propria of mucosa of colon	organ_parts	skos:closeMatch	UBERON:0007177	semapv:ManualMappingCuration
+large intestine	organ	skos:closeMatch	UBERON:0000059	semapv:ManualMappingCuration
+laryngeal carcinoma	diseases	skos:closeMatch	MONDO:0002358	semapv:ManualMappingCuration
+larynx	organ_parts	skos:closeMatch	UBERON:0001737	semapv:ManualMappingCuration
+left atrium	organ_parts	skos:closeMatch	UBERON:0002079	semapv:ManualMappingCuration
+left branch of atrioventricular bundle	organ_parts	skos:closeMatch	UBERON:0005986	semapv:ManualMappingCuration
+left eye	organ	skos:closeMatch	UBERON:0000970	semapv:ManualMappingCuration
+left lateral basal segment	organ_parts	skos:closeMatch	FMA:7379	semapv:ManualMappingCuration
+left lateral temporal cortex	organ_parts	skos:closeMatch	UBERON:0016538	semapv:ManualMappingCuration
+left ventricle	organ_parts	skos:closeMatch	UBERON:0002084	semapv:ManualMappingCuration
+leukapheresis	method	skos:closeMatch	EFO:0009126	semapv:ManualMappingCuration
+leukocyte	selected_cell_types	skos:closeMatch	CL:0000738	semapv:ManualMappingCuration
+liver	organ	skos:closeMatch	UBERON:0002107	semapv:ManualMappingCuration
+liver	organ	skos:closeMatch	UBERON:0003894	semapv:ManualMappingCuration
+liver cirrhosis	diseases	skos:closeMatch	MONDO:0005155	semapv:ManualMappingCuration
+liver parenchyma	organ_parts	skos:closeMatch	UBERON:0001280	semapv:ManualMappingCuration
+liver resection	method	skos:closeMatch	EFO:0009744	semapv:ManualMappingCuration
+liver surgery biopsy	method	skos:closeMatch	EFO:0009120	semapv:ManualMappingCuration
+locus ceruleus	organ_parts	skos:closeMatch	UBERON:0002148	semapv:ManualMappingCuration
+lower gum cancer	diseases	skos:closeMatch	MONDO:0004713	semapv:ManualMappingCuration
+lower left lobe	organ_parts	skos:closeMatch	UBERON:0008953	semapv:ManualMappingCuration
+lower right lobe	organ_parts	skos:closeMatch	UBERON:0002171	semapv:ManualMappingCuration
+lung	organ	skos:closeMatch	UBERON:0002048	semapv:ManualMappingCuration
+lung carcinoma	diseases	skos:closeMatch	MONDO:0005138	semapv:ManualMappingCuration
+lung endomucin	organ	skos:closeMatch	UBERON:0002048	semapv:ManualMappingCuration
+lung epcam	organ	skos:closeMatch	UBERON:0002048	semapv:ManualMappingCuration
+lung epithelium	organ_parts	skos:closeMatch	UBERON:0000115	semapv:ManualMappingCuration
+lung lymph node	organ	skos:closeMatch	UBERON:0002524	semapv:ManualMappingCuration
+lupus	diseases	skos:closeMatch	MONDO:0004670	semapv:ManualMappingCuration
+lyme disease	diseases	skos:closeMatch	MONDO:0019632	semapv:ManualMappingCuration
+lymph node	organ	skos:closeMatch	UBERON:0000029	semapv:ManualMappingCuration
+lymph vessel cell	cell_type	skos:closeMatch	UBERON:0001473	semapv:ManualMappingCuration
+lymphatic endothelial cell	cell_type	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+lymphatic endothelial cell (Endo l)	cell_type	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+lymphatic endothelial cells	selected_cell_types	skos:closeMatch	CL:0002138	semapv:ManualMappingCuration
+lymphocyte	selected_cell_types	skos:closeMatch	CL:0000542	semapv:ManualMappingCuration
+lymphocyte of B lineage	cell_type	skos:closeMatch	CL:0000945	semapv:ManualMappingCuration
+lymphoid-primed multi-potential progenitor	selected_cell_types	skos:closeMatch	CL:0000936	semapv:ManualMappingCuration
+mRNA	input_nucleic_acid_molecule	skos:closeMatch	CHEBI:33699	semapv:ManualMappingCuration
+macrophage type 1	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+macrophage type 2	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+magentic affinity sorting	method	skos:closeMatch	EFO:0009109	semapv:ManualMappingCuration
+magnetic affinity bead enrichment	method	skos:closeMatch	EFO:0009109	semapv:ManualMappingCuration
+magnetic affinity cell sorting	method	skos:closeMatch	EFO:0009109	semapv:ManualMappingCuration
+magnetic affinity cell sorting	method	skos:closeMatch	EFO:0010175	semapv:ManualMappingCuration
+magnetic negative selection	method	skos:closeMatch	EFO:0009109	semapv:ManualMappingCuration
+magnetic selection	method	skos:closeMatch	EFO:0009109	semapv:ManualMappingCuration
+magnetic-activated cell sorting	method	skos:closeMatch	EFO:0009109	semapv:ManualMappingCuration
+mammary gland	organ	skos:closeMatch	UBERON:0001911	semapv:ManualMappingCuration
+mandible	organ_parts	skos:closeMatch	UBERON:0001684	semapv:ManualMappingCuration
+mandibular cancer	diseases	skos:closeMatch	MONDO:0005837	semapv:ManualMappingCuration
+mantle B cell	cell_type	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+mast cell	cell_type	skos:closeMatch	CL:0000097	semapv:ManualMappingCuration
+maternal endothelial cell	cell_type	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+maternal endothelial cell (Endo m)	cell_type	skos:closeMatch	CL:0000115	semapv:ManualMappingCuration
+mature B cell	cell_type	skos:closeMatch	CL:0000785	semapv:ManualMappingCuration
+mature stage	development_stage	skos:closeMatch	HsapDv:0000204	semapv:ManualMappingCuration
+measles	diseases	skos:closeMatch	MONDO:0004619	semapv:ManualMappingCuration
+mechanical	method	skos:closeMatch	EFO:0009129	semapv:ManualMappingCuration
+mechanical dissociation	method	skos:closeMatch	EFO:0009128	semapv:ManualMappingCuration
+mechanical dissociation	method	skos:closeMatch	EFO:0009129	semapv:ManualMappingCuration
+mechanical protocol	method	skos:closeMatch	EFO:0009129	semapv:ManualMappingCuration
+medial S shaped body cell	cell_type	skos:closeMatch	UBERON:0004199	semapv:ManualMappingCuration
+megakaryocyte	cell_type	skos:closeMatch	CL:0000556	semapv:ManualMappingCuration
+megakaryocyte progenitor	cell_type	skos:closeMatch	CL:0000556	semapv:ManualMappingCuration
+memory B cell	cell_type	skos:closeMatch	CL:0000787	semapv:ManualMappingCuration
+mesen/rhombencephalon excitatory neuron	cell_type	skos:closeMatch	CL:0008030	semapv:ManualMappingCuration
+mesen/rhombencephalon excitatory neuron	organ_part	skos:closeMatch	UBERON:0007277	semapv:ManualMappingCuration
+mesen/rhombencephalon excitatory neuron	organ_part	skos:closeMatch	UBERON:0009616	semapv:ManualMappingCuration
+mesen/rhombencephalon inhibitory neuron	cell_type	skos:closeMatch	CL:0008029	semapv:ManualMappingCuration
+mesen/rhombencephalon inhibitory neuron	organ_part	skos:closeMatch	UBERON:0007277	semapv:ManualMappingCuration
+mesen/rhombencephalon inhibitory neuron	organ_part	skos:closeMatch	UBERON:0009616	semapv:ManualMappingCuration
+mesenchymal cell	cell_type	skos:closeMatch	CL:0008019	semapv:ManualMappingCuration
+mesenchymal stem cell	cell_type	skos:closeMatch	CL:0002540	semapv:ManualMappingCuration
+meter	height_unit	skos:closeMatch	UO:0000008	semapv:ManualMappingCuration
+micro-dissection	method	skos:closeMatch	EFO:0009744	semapv:ManualMappingCuration
+microdissection	method	skos:closeMatch	EFO:0003856	semapv:ManualMappingCuration
+microfluidic droplet platform	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+microfluidic droplet platform|| fluorescence-activated cell sorting	method	skos:closeMatch	EFO:0009108	semapv:ManualMappingCuration
+microglia	selected_cell_types	skos:closeMatch	CL:0000129	semapv:ManualMappingCuration
+microglial cell	cell_type	skos:closeMatch	CL:0000129	semapv:ManualMappingCuration
+micrometer	cell_size_unit	skos:closeMatch	UO:0000017	semapv:ManualMappingCuration
+micropuncture fluid collection	method	skos:closeMatch	EFO:0009744	semapv:ManualMappingCuration
+middle temporal gyrus	organ_parts	skos:closeMatch	UBERON:0002771	semapv:ManualMappingCuration
+millimeter	cell_size_unit	skos:closeMatch	UO:0000016	semapv:ManualMappingCuration
+minute	storage_time_unit	skos:closeMatch	UO:0000031	semapv:ManualMappingCuration
+mixed race; south american	ethnicity	skos:closeMatch	HANCESTRO:0014	semapv:ManualMappingCuration
+monocyte	cell_type	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+monocyte	selected_cell_types	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+monocyte progenitor	cell_type	skos:closeMatch	CL:0000557	semapv:ManualMappingCuration
+monocyte/macrophage	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+monocyte/macrophage	cell_type	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+monocytes	selected_cell_types	skos:closeMatch	CL:0000576	semapv:ManualMappingCuration
+mononuclear cell	selected_cell_types	skos:closeMatch	CL:0000842	semapv:ManualMappingCuration
+mononuclear muscle cell	selected_cell_types	skos:closeMatch	CL:0000187	semapv:ManualMappingCuration
+mononuclear phagocyte type A/classical monocyte derived	cell_type	skos:closeMatch	CL:0000113	semapv:ManualMappingCuration
+mononuclear phagocyte type A/classical monocyte derived	cell_type	skos:closeMatch	CL:0000860	semapv:ManualMappingCuration
+mononuclear phagocyte type B/non-classical monocyte derived	cell_type	skos:closeMatch	CL:0000113	semapv:ManualMappingCuration
+mononuclear phagocyte type B/non-classical monocyte derived	cell_type	skos:closeMatch	CL:0000875	semapv:ManualMappingCuration
+mononuclear phagocyte type C/dendritic cell	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+mononuclear phagocyte type D/tissue macrophage	cell_type	skos:closeMatch	CL:0000113	semapv:ManualMappingCuration
+mononuclear phagocyte type D/tissue macrophage	cell_type	skos:closeMatch	CL:0000864	semapv:ManualMappingCuration
+month	organism_age_unit	skos:closeMatch	UO:0000035	semapv:ManualMappingCuration
+month	storage_time_unit	skos:closeMatch	UO:0000035	semapv:ManualMappingCuration
+motor-premotor	organ_parts	skos:closeMatch	UBERON:0016634	semapv:ManualMappingCuration
+mouse adolescent to adult stage	development_stage	skos:closeMatch	EFO:0001272	semapv:ManualMappingCuration
+mouse adult stage	development_stage	skos:closeMatch	EFO:0001272	semapv:ManualMappingCuration
+mouse embryo stage	development_stage	skos:closeMatch	EFO:0005857	semapv:ManualMappingCuration
+mouse postnatal	development_stage	skos:closeMatch	EFO:0004390	semapv:ManualMappingCuration
+mouth	organ	skos:closeMatch	UBERON:0000165	semapv:ManualMappingCuration
+mouth floor	organ_parts	skos:closeMatch	UBERON:0003679	semapv:ManualMappingCuration
+mucosa including epithelium	organ_parts	skos:closeMatch	UBERON:0002469	semapv:ManualMappingCuration
+mucosa including epithelium; end of oesophagus closest to stomach	organ_parts	skos:closeMatch	UBERON:0002469	semapv:ManualMappingCuration
+multi-lymphoid progenitor	selected_cell_types	skos:closeMatch	CL:0000051	semapv:ManualMappingCuration
+multiple myeloma	diseases	skos:closeMatch	MONDO:0009693	semapv:ManualMappingCuration
+multiple sclerosis	diseases	skos:closeMatch	MONDO:0005301	semapv:ManualMappingCuration
+mumps	diseases	skos:closeMatch	MONDO:0000989	semapv:ManualMappingCuration
+muscle	organ	skos:closeMatch	UBERON:0001630	semapv:ManualMappingCuration
+muscle cell	cell_type	skos:closeMatch	CL:0000187	semapv:ManualMappingCuration
+myeloid cell	selected_cell_types	skos:closeMatch	CL:0000763	semapv:ManualMappingCuration
+myeloid progenitor	cell_type	skos:closeMatch	CL:0000049	semapv:ManualMappingCuration
+myofibroblast	cell_type	skos:closeMatch	CL:0000186	semapv:ManualMappingCuration
+myofibroblast cell type 1	cell_type	skos:closeMatch	CL:1000691	semapv:ManualMappingCuration
+myofibroblast type 2	cell_type	skos:closeMatch	CL:1000691	semapv:ManualMappingCuration
+myofibroblasts	selected_cell_types	skos:closeMatch	CL:0000186	semapv:ManualMappingCuration
+myogenic cell	selected_cell_types	skos:closeMatch	CL:0008020	semapv:ManualMappingCuration
+nCTX.100.CORT	cell_type	skos:closeMatch	CL:0008031	semapv:ManualMappingCuration
+nCTX.100.DLX5	cell_type	skos:closeMatch	CL:0008031	semapv:ManualMappingCuration
+nCTX.100.SST	cell_type	skos:closeMatch	CL:0008031	semapv:ManualMappingCuration
+nCTX.100.SST.CRABP1	cell_type	skos:closeMatch	CL:0008031	semapv:ManualMappingCuration
+nCTX.125.CORT	cell_type	skos:closeMatch	CL:0008031	semapv:ManualMappingCuration
+nCTX.125.SST	cell_type	skos:closeMatch	CL:0008031	semapv:ManualMappingCuration
+nCTX.54.CORT	cell_type	skos:closeMatch	CL:0008031	semapv:ManualMappingCuration
+nCTX.54.CORT.NEFL	cell_type	skos:closeMatch	CL:0008031	semapv:ManualMappingCuration
+nCTX.54.GRIA2	cell_type	skos:closeMatch	CL:0008031	semapv:ManualMappingCuration
+nCTX.54.SST	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+nCTX.54.SST	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+nLGE.24.CFC1	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+nLGE.24.CFC2	organ_part	skos:closeMatch	UBERON:0004025	semapv:ManualMappingCuration
+nLGE.24.SP8	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+nLGE.24.SP9	organ_part	skos:closeMatch	UBERON:0004025	semapv:ManualMappingCuration
+nMGE.100.CFC1	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+nMGE.100.CFC2	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+nMGE.125.NEFL	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+nMGE.125.NEFL	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+nMGE.24.LHX8	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+nMGE.24.LHX8.GRIA2	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+nMGE.24.LHX8.GRIA3	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+nMGE.24.LHX9	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+nMGE.54.CFC1	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+nMGE.54.CFC2	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+nMGE.54.GAD1	cell_type	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+nMGE.54.GAD2	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+naive B cell	cell_type	skos:closeMatch	CL:0000788	semapv:ManualMappingCuration
+naive CD8+ T cell	cell_type	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+naive T cell type 1	cell_type	skos:closeMatch	CL:0000898	semapv:ManualMappingCuration
+naive T cell type 2	cell_type	skos:closeMatch	CL:0000898	semapv:ManualMappingCuration
+naive T cell type 3	cell_type	skos:closeMatch	CL:0000898	semapv:ManualMappingCuration
+naive T-helper cell type 1	cell_type	skos:closeMatch	CL:0000545	semapv:ManualMappingCuration
+naive T-helper cell type 2	cell_type	skos:closeMatch	CL:0000546	semapv:ManualMappingCuration
+natural killer T cell	cell_type	skos:closeMatch	CL:0000814	semapv:ManualMappingCuration
+natural killer cell	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+natural killer cell	selected_cell_types	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+natural killer cell type 1	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+natural killer cell type 2	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+natural killer cell/CD8+ cytotoxic T cell	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+natural killer cell/CD8+ cytotoxic T cell	cell_type	skos:closeMatch	CL:0000794	semapv:ManualMappingCuration
+na•ve CD4+ T cell	cell_type	skos:closeMatch	CL:0000895	semapv:ManualMappingCuration
+neocortex	organ_parts	skos:closeMatch	UBERON:0001950	semapv:ManualMappingCuration
+nephrectomy	method	skos:closeMatch	EFO:0009120	semapv:ManualMappingCuration
+neural cell	selected_cell_types	skos:closeMatch	CL:0002319	semapv:ManualMappingCuration
+neuroendocrine cell	selected_cell_types	skos:closeMatch	CL:0000165	semapv:ManualMappingCuration
+neuron	selected_cell_types	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+neuronal cell	selected_cell_types	skos:closeMatch	CL:0002319	semapv:ManualMappingCuration
+neurons	selected_cell_types	skos:closeMatch	CL:0000540	semapv:ManualMappingCuration
+non-alcoholic fatty liver disease	diseases	skos:closeMatch	MONDO:0013209	semapv:ManualMappingCuration
+non-inflammatory macrophage	cell_type	skos:closeMatch	CL:0000091	semapv:ManualMappingCuration
+non-telencephalon neural progenitor cell	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+nonspecific interstitial pneumonia	diseases	skos:closeMatch	MONDO:0019622	semapv:ManualMappingCuration
+normal	disease	skos:closeMatch	PATO:0000461	semapv:ManualMappingCuration
+normal	diseases	skos:closeMatch	PATO:0000461	semapv:ManualMappingCuration
+normal ocular history	diseases	skos:closeMatch	PATO:0000461	semapv:ManualMappingCuration
+oMGE.100.PDGFRA	cell_type	skos:closeMatch	CL:0002453	semapv:ManualMappingCuration
+oMGE.125.PDGFRA	cell_type	skos:closeMatch	CL:0002453	semapv:ManualMappingCuration
+obstructive sleep apnea syndrome	diseases	skos:closeMatch	MONDO:0007147	semapv:ManualMappingCuration
+oesophagus	organ	skos:closeMatch	UBERON:0001043	semapv:ManualMappingCuration
+oligodendrocyte precursor	cell_type	skos:closeMatch	CL:0002453	semapv:ManualMappingCuration
+oligodendrocytes	selected_cell_types	skos:closeMatch	CL:0000128	semapv:ManualMappingCuration
+oncocytic adenoma	diseases	skos:closeMatch	MONDO:0003424	semapv:ManualMappingCuration
+oocyte	selected_cell_types	skos:closeMatch	CL:0000023	semapv:ManualMappingCuration
+oocyte antral follicle	organ_parts	skos:closeMatch	UBERON:0000039	semapv:ManualMappingCuration
+oocyte preovulatory follicle	organ_parts	skos:closeMatch	UBERON:0003982	semapv:ManualMappingCuration
+oocyte primary follicle	organ_parts	skos:closeMatch	UBERON:0000035	semapv:ManualMappingCuration
+oocyte primordial follicle	organ_parts	skos:closeMatch	UBERON:0003981	semapv:ManualMappingCuration
+oocyte secondary follicle	organ_parts	skos:closeMatch	UBERON:0000036	semapv:ManualMappingCuration
+oral cavity	organ_parts	skos:closeMatch	UBERON:0000167	semapv:ManualMappingCuration
+oral cavity carcinoma	diseases	skos:closeMatch	MONDO:0044925	semapv:ManualMappingCuration
+organ extraction	method	skos:closeMatch	EFO:0009124	semapv:ManualMappingCuration
+ovariectomy	method	skos:closeMatch	EFO:0010173	semapv:ManualMappingCuration
+p.100.ATF3	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+p.100.CTGF	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+p.125.ATF3	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pDC	cell_type	skos:closeMatch	CL:0000784	semapv:ManualMappingCuration
+pDCs	cell_type	skos:closeMatch	CL:0000784	semapv:ManualMappingCuration
+pMGE.100.AQP4	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pMGE.100.AQP4	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+pMGE.100.FRZB	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pMGE.100.FRZB	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+pMGE.125.AQP4	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pMGE.125.AQP4	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+pMGE.125.CYP1B1	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pMGE.125.CYP1B1	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+pMGE.125.FRZB	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pMGE.125.FRZB	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+pMGE.24.NKX2-1	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pMGE.24.NKX2-1	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+pMGE.54.CRABP2	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pMGE.54.CRABP2	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+pMGE.54.SPARCL1	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pMGE.54.SPARCL1	organ_part	skos:closeMatch	UBERON:0004024	semapv:ManualMappingCuration
+pTEL.100.CRH	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pTEL.100.CRH	organ_part	skos:closeMatch	UBERON:0014371	semapv:ManualMappingCuration
+pTEL.100.OLIG1	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pTEL.100.OLIG1	organ_part	skos:closeMatch	UBERON:0014371	semapv:ManualMappingCuration
+pTEL.24.ANXA1	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pTEL.24.ANXA1	organ_part	skos:closeMatch	UBERON:0014371	semapv:ManualMappingCuration
+pTEL.24.PAX6	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pTEL.24.PAX6	organ_part	skos:closeMatch	UBERON:0014371	semapv:ManualMappingCuration
+pTEL.54.PAX6	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+pTEL.54.PAX6	organ_part	skos:closeMatch	UBERON:0014371	semapv:ManualMappingCuration
+pan-cytokeratin staining	method	skos:closeMatch	EFO:0010935	semapv:ManualMappingCuration
+pancreas	organ	skos:closeMatch	UBERON:0001264	semapv:ManualMappingCuration
+pancreatic A cell	cell_type	skos:closeMatch	CL:0000171	semapv:ManualMappingCuration
+pancreatic A cell	selected_cell_types	skos:closeMatch	CL:0000171	semapv:ManualMappingCuration
+pancreatic D cell	cell_type	skos:closeMatch	CL:0000173	semapv:ManualMappingCuration
+pancreatic D cell	selected_cell_types	skos:closeMatch	CL:0000173	semapv:ManualMappingCuration
+pancreatic PP cell	selected_cell_types	skos:closeMatch	CL:0002275	semapv:ManualMappingCuration
+pancreatic acinar cell	selected_cell_types	skos:closeMatch	CL:0002064	semapv:ManualMappingCuration
+pancreatic ductal cell	cell_type	skos:closeMatch	CL:0002079	semapv:ManualMappingCuration
+pancreatic ductal cell	selected_cell_types	skos:closeMatch	CL:0002079	semapv:ManualMappingCuration
+pancreatic islets	organ_parts	skos:closeMatch	UBERON:0000006	semapv:ManualMappingCuration
+pancreatic stellate cell	selected_cell_types	skos:closeMatch	CL:0002410	semapv:ManualMappingCuration
+parenchyma	organ_parts	skos:closeMatch	UBERON:0008946	semapv:ManualMappingCuration
+parietal endoderm	organ_parts	skos:closeMatch	UBERON:0008800	semapv:ManualMappingCuration
+pathologist	project_role	skos:closeMatch	EFO:0009738	semapv:ManualMappingCuration
+pelvic epithelial cell	cell_type	skos:closeMatch	CL:0000066	semapv:ManualMappingCuration
+pelvic epithelial cell	organ_part	skos:closeMatch	UBERON:0001224	semapv:ManualMappingCuration
+pelvic epithelium cell - distal ureteric bud	cell_type	skos:closeMatch	CL:0000066	semapv:ManualMappingCuration
+pelvic epithelium cell - distal ureteric bud	organ_part	skos:closeMatch	UBERON:0000084	semapv:ManualMappingCuration
+percutaneous kidney biopsy	method	skos:closeMatch	EFO:0009293	semapv:ManualMappingCuration
+pericarditis (disease)	diseases	skos:closeMatch	MONDO:0005904	semapv:ManualMappingCuration
+pericyte	cell_type	skos:closeMatch	CL:0000669	semapv:ManualMappingCuration
+pericyte type 1	cell_type	skos:closeMatch	CL:0000669	semapv:ManualMappingCuration
+pericyte type 2	cell_type	skos:closeMatch	CL:0000669	semapv:ManualMappingCuration
+peripheral	organ_parts	skos:closeMatch	UBERON:0013756	semapv:ManualMappingCuration
+peripheral blood	organ	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration
+peripheral blood hematopoietic stem and progenitor cells	selected_cell_types	skos:closeMatch	CL:0000037	semapv:ManualMappingCuration
+peripheral blood hematopoietic stem cell	selected_cell_types	skos:closeMatch	CL:0002246	semapv:ManualMappingCuration
+peripheral blood mononuclear cell	organ_parts	skos:closeMatch	CL:2000001	semapv:ManualMappingCuration
+peripheral blood mononuclear cell	selected_cell_types	skos:closeMatch	CL:2000001	semapv:ManualMappingCuration
+peripheral blood mononuclear cells	selected_cell_types	skos:closeMatch	CL:2000001	semapv:ManualMappingCuration
+peripheral region of retina	organ_parts	skos:closeMatch	UBERON:0013682	semapv:ManualMappingCuration
+periportal liver sinusoidal endothelial cell	cell_type	skos:closeMatch	CL:1000398	semapv:ManualMappingCuration
+photoreceptor cell	selected_cell_types	skos:closeMatch	CL:0000210	semapv:ManualMappingCuration
+placenta	organ	skos:closeMatch	UBERON:0001987	semapv:ManualMappingCuration
+placental extravillous trophoblast cell	cell_type	skos:closeMatch	CL:0008036	semapv:ManualMappingCuration
+placental extravillous trophoblast cell (EVT)	cell_type	skos:closeMatch	CL:0008036	semapv:ManualMappingCuration
+plasma IgG expressing cell	cell_type	skos:closeMatch	CL:0000985	semapv:ManualMappingCuration
+plasma IgM expressing cell	cell_type	skos:closeMatch	CL:0000986	semapv:ManualMappingCuration
+plasma cell	cell_type	skos:closeMatch	CL:0000786	semapv:ManualMappingCuration
+plasma cell	selected_cell_types	skos:closeMatch	CL:0000786	semapv:ManualMappingCuration
+plasmablast	selected_cell_types	skos:closeMatch	CL:0000980	semapv:ManualMappingCuration
+plasmacytoid dendritic cell	cell_type	skos:closeMatch	CL:0000784	semapv:ManualMappingCuration
+plasmacytoid dendritic cell (DC2)	cell_type	skos:closeMatch	CL:0000784	semapv:ManualMappingCuration
+pleural effusion	diseases	skos:closeMatch	obo:HP:0002202	semapv:ManualMappingCuration
+pluripotent stem cell	cell_type	skos:closeMatch	CL:0002248	semapv:ManualMappingCuration
+polyA RNA	input_nucleic_acid_molecule	skos:closeMatch	OBI:0000869	semapv:ManualMappingCuration
+polyA RNA extract	input_nucleic_acid_molecule	skos:closeMatch	OBI:0000869	semapv:ManualMappingCuration
+portal liver sinusoidal endothelial cell	cell_type	skos:closeMatch	CL:1000398	semapv:ManualMappingCuration
+possible posterior reversible encephalopathy syndrome	diseases	skos:closeMatch	MONDO:0017291	semapv:ManualMappingCuration
+postdoc fellow	project_role	skos:closeMatch	EFO:0009741	semapv:ManualMappingCuration
+posterior part of tongue	organ_parts	skos:closeMatch	UBERON:0010033	semapv:ManualMappingCuration
+pre-conventional dendritic cell	selected_cell_types	skos:closeMatch	CL:0002010	semapv:ManualMappingCuration
+preDC	selected_cell_types	skos:closeMatch	CL:0002010	semapv:ManualMappingCuration
+precursor B cell	cell_type	skos:closeMatch	CL:0000817	semapv:ManualMappingCuration
+precursor dendtritic cell	selected_cell_types	skos:closeMatch	CL:0002010	semapv:ManualMappingCuration
+prefrontal	organ_parts	skos:closeMatch	UBERON:0000451	semapv:ManualMappingCuration
+prefrontal cortex	organ_parts	skos:closeMatch	UBERON:0000451	semapv:ManualMappingCuration
+primary biliary cholangitis	diseases	skos:closeMatch	MONDO:0005388	semapv:ManualMappingCuration
+principal investiator	project_role	skos:closeMatch	EFO:0009736	semapv:ManualMappingCuration
+principal investigator	project_role	skos:closeMatch	EFO:0009735	semapv:ManualMappingCuration
+principal investigator	project_role	skos:closeMatch	EFO:0009736	semapv:ManualMappingCuration
+pro-B cell	cell_type	skos:closeMatch	CL:0000826	semapv:ManualMappingCuration
+progenitor	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+progenitor cell	selected_cell_types	skos:closeMatch	CL:0000837	semapv:ManualMappingCuration
+proliferating cap mesenchyme cell	cell_type	skos:closeMatch	UBERON:0010536	semapv:ManualMappingCuration
+proliferating conventional dendritic cell type 2	cell_type	skos:closeMatch	CL:0000990	semapv:ManualMappingCuration
+proliferating decidual natural killer cell	cell_type	skos:closeMatch	CL:0002343	semapv:ManualMappingCuration
+proliferating decidual natural killer cell (dNK p)	cell_type	skos:closeMatch	CL:0002343	semapv:ManualMappingCuration
+proliferating distal renal vesicle cell	cell_type	skos:closeMatch	UBERON:0004209	semapv:ManualMappingCuration
+proliferating natural killer cell	cell_type	skos:closeMatch	CL:0000623	semapv:ManualMappingCuration
+prolifirating B cell	cell_type	skos:closeMatch	CL:0000236	semapv:ManualMappingCuration
+prolifirating epithelial cell of proximal tubule	cell_type	skos:closeMatch	CL:0002306	semapv:ManualMappingCuration
+prolifirating macrophage	cell_type	skos:closeMatch	CL:0000235	semapv:ManualMappingCuration
+prolifirating stroma progenitor	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+prostate cancer	diseases	skos:closeMatch	MONDO:0008315	semapv:ManualMappingCuration
+proximal S shaped body cell	cell_type	skos:closeMatch	UBERON:0004199	semapv:ManualMappingCuration
+proximal renal vesicle cell	cell_type	skos:closeMatch	CL:0002522	semapv:ManualMappingCuration
+proximal ureteric bud cell	cell_type	skos:closeMatch	UBERON:0000084	semapv:ManualMappingCuration
+pulmonary fibrosis	diseases	skos:closeMatch	MONDO:0002771	semapv:ManualMappingCuration
+quadriceps	organ_parts	skos:closeMatch	UBERON:0001377	semapv:ManualMappingCuration
+regulatory CD4+ T cell	cell_type	skos:closeMatch	CL:0000792	semapv:ManualMappingCuration
+regulatory T cell	cell_type	skos:closeMatch	CL:0000815	semapv:ManualMappingCuration
+relapsing-remitting multiple sclerosis	diseases	skos:closeMatch	MONDO:0005314	semapv:ManualMappingCuration
+renal cortex	organ_parts	skos:closeMatch	UBERON:0001225	semapv:ManualMappingCuration
+resting CD4+ T cell	cell_type	skos:closeMatch	CL:0000624	semapv:ManualMappingCuration
+resting CD8+ T cell	cell_type	skos:closeMatch	CL:0000625	semapv:ManualMappingCuration
+retina	organ_parts	skos:closeMatch	UBERON:0000966	semapv:ManualMappingCuration
+retinal bipolar neuron A	cell_type	skos:closeMatch	CL:0000748	semapv:ManualMappingCuration
+retinal bipolar neuron B	cell_type	skos:closeMatch	CL:0000748	semapv:ManualMappingCuration
+retinal bipolar neuron C	cell_type	skos:closeMatch	CL:0000748	semapv:ManualMappingCuration
+retinal bipolar neuron D	cell_type	skos:closeMatch	CL:0000748	semapv:ManualMappingCuration
+retinal bipolar neuron type A	cell_type	skos:closeMatch	CL:0000748	semapv:ManualMappingCuration
+retinal bipolar neuron type B	cell_type	skos:closeMatch	CL:0000748	semapv:ManualMappingCuration
+retinal bipolar neuron type C	cell_type	skos:closeMatch	CL:0000748	semapv:ManualMappingCuration
+retinal bipolar neuron type D	cell_type	skos:closeMatch	CL:0000748	semapv:ManualMappingCuration
+retinal cone cell	cell_type	skos:closeMatch	CL:0000573	semapv:ManualMappingCuration
+retinal ganglion cell	cell_type	skos:closeMatch	CL:0000740	semapv:ManualMappingCuration
+retinal rod cell A	cell_type	skos:closeMatch	CL:0000604	semapv:ManualMappingCuration
+retinal rod cell B	cell_type	skos:closeMatch	CL:0000604	semapv:ManualMappingCuration
+retinal rod cell C	cell_type	skos:closeMatch	CL:0000604	semapv:ManualMappingCuration
+retinal rod cell type A	cell_type	skos:closeMatch	CL:0000604	semapv:ManualMappingCuration
+retinal rod cell type B	cell_type	skos:closeMatch	CL:0000604	semapv:ManualMappingCuration
+retinal rod cell type C	cell_type	skos:closeMatch	CL:0000604	semapv:ManualMappingCuration
+reverse transcription PCR	library_preamplification_method	skos:closeMatch	OBI:0000552	semapv:ManualMappingCuration
+right atrium	organ_parts	skos:closeMatch	UBERON:0002078	semapv:ManualMappingCuration
+right branch of atrioventricular bundle	organ_parts	skos:closeMatch	UBERON:0005987	semapv:ManualMappingCuration
+right eye	organ	skos:closeMatch	UBERON:0000970	semapv:ManualMappingCuration
+right renal mass	diseases	skos:closeMatch	MONDO:0002367	semapv:ManualMappingCuration
+right ventricle	organ_parts	skos:closeMatch	UBERON:0002080	semapv:ManualMappingCuration
+sample dissociation	method	skos:closeMatch	EFO:0009091	semapv:ManualMappingCuration
+sarcoidosis	diseases	skos:closeMatch	MONDO:0019338	semapv:ManualMappingCuration
+secondary progressive multiple sclerosis	diseases	skos:closeMatch	MONDO:0000450	semapv:ManualMappingCuration
+section	method	skos:closeMatch	EFO:0009744	semapv:ManualMappingCuration
+sepsis	diseases	skos:closeMatch	MONDO:0005229	semapv:ManualMappingCuration
+single cell RNA sequencing	method	skos:closeMatch	EFO:0008440	semapv:ManualMappingCuration
+single cell RNA sequencing file	content_description	skos:closeMatch	edam.data:3495	semapv:ManualMappingCuration
+single fibroblast	selected_cell_types	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+sinoatrial node	organ_parts	skos:closeMatch	UBERON:0002351	semapv:ManualMappingCuration
+size selection	method	skos:closeMatch	EFO:0009337	semapv:ManualMappingCuration
+skeletal muscle	organ	skos:closeMatch	UBERON:0014892	semapv:ManualMappingCuration
+skin	organ	skos:closeMatch	UBERON:0000014	semapv:ManualMappingCuration
+skin	organ	skos:closeMatch	UBERON:0002097	semapv:ManualMappingCuration
+skin epidermis	organ_parts	skos:closeMatch	UBERON:0001003	semapv:ManualMappingCuration
+skin of body	organ	skos:closeMatch	UBERON:0002097	semapv:ManualMappingCuration
+skin of body	organ_parts	skos:closeMatch	UBERON:0002097	semapv:ManualMappingCuration
+sleep apnea syndrome	diseases	skos:closeMatch	MONDO:0005296	semapv:ManualMappingCuration
+small intestine	model_organ	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+small intestine	organ	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration
+smart-seq2	library_construction_method	skos:closeMatch	EFO:0008931	semapv:ManualMappingCuration
+smooth muscle cell	cell_type	skos:closeMatch	CL:1000280	semapv:ManualMappingCuration
+spermatogonial stem cell	selected_cell_types	skos:closeMatch	CL:0000089	semapv:ManualMappingCuration
+spleen	organ	skos:closeMatch	UBERON:0002106	semapv:ManualMappingCuration
+spleen hematopoietic stem and progenitor cells	selected_cell_types	skos:closeMatch	CL:0000837	semapv:ManualMappingCuration
+spleen immune cells	selected_cell_types	skos:closeMatch	CL:2000074	semapv:ManualMappingCuration
+splitted fibroblast	selected_cell_types	skos:closeMatch	CL:0000057	semapv:ManualMappingCuration
+squamous cell carcinoma of buccal mucosa	diseases	skos:closeMatch	MONDO:0021431	semapv:ManualMappingCuration
+stem cell	model_organ	skos:closeMatch	CL:0000034	semapv:ManualMappingCuration
+stratified epithelial cell	cell_type	skos:closeMatch	UBERON:0001976	semapv:ManualMappingCuration
+striatum	organ	skos:closeMatch	UBERON:0002435	semapv:ManualMappingCuration
+stromal cel type 2b	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+stromal cell	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+stromal cell	selected_cell_types	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+stromal cell type 2a	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+stromal cell type 3	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+stromal cell type 4	cell_type	skos:closeMatch	CL:0000499	semapv:ManualMappingCuration
+sub ventricular zone	organ_parts	skos:closeMatch	UBERON:0004060	semapv:ManualMappingCuration
+subclinical neuro-inflammation	diseases	skos:closeMatch	MONDO:0015144	semapv:ManualMappingCuration
+subcutaneous abdominal adipose tissue	organ_parts	skos:closeMatch	UBERON:0014455	semapv:ManualMappingCuration
+subcutaneous fat cell	selected_cell_types	skos:closeMatch	CL:0002521	semapv:ManualMappingCuration
+subcutaneous melanoma	diseases	skos:closeMatch	MONDO:0005105	semapv:ManualMappingCuration
+submucosal gland duct cell	cell_type	skos:closeMatch	UBERON:0008989	semapv:ManualMappingCuration
+submucosal gland mucous cell	cell_type	skos:closeMatch	CL:0000319	semapv:ManualMappingCuration
+submucosal gland mucous cell	cell_type	skos:closeMatch	UBERON:0011148	semapv:ManualMappingCuration
+substantia nigra	organ_parts	skos:closeMatch	UBERON:0002038	semapv:ManualMappingCuration
+superior frontal gyrus	organ_parts	skos:closeMatch	UBERON:0006094	semapv:ManualMappingCuration
+superior parietal lobe	organ_parts	skos:closeMatch	UBERON:0006094	semapv:ManualMappingCuration
+suprabasal epithelial cell	cell_type	skos:closeMatch	UBERON:0001976	semapv:ManualMappingCuration
+supraglottic part of larynx	organ_parts	skos:closeMatch	UBERON:0036263	semapv:ManualMappingCuration
+surgical resection	method	skos:closeMatch	EFO:0009744	semapv:ManualMappingCuration
+syncytiotrophoblast cell	cell_type	skos:closeMatch	CL:0000525	semapv:ManualMappingCuration
+syncytiotrophoblast cell (SCT)	cell_type	skos:closeMatch	CL:0000525	semapv:ManualMappingCuration
+tag based single cell RNA sequencing	method	skos:closeMatch	EFO:0008440	semapv:ManualMappingCuration
+tag based single cell RNA sequencing	method	skos:closeMatch	EFO:0008440	semapv:ManualMappingCuration
+tag based single nucleus RNA sequencing	method	skos:closeMatch	EFO:0009811	semapv:ManualMappingCuration
+tag-based single cell RNA sequencing	method	skos:closeMatch	EFO:0008440	semapv:ManualMappingCuration
+tail	organ	skos:closeMatch	UBERON:0002415	semapv:ManualMappingCuration
+tail	organ_parts	skos:closeMatch	UBERON:0002415	semapv:ManualMappingCuration
+telencephalic progenitors	cell_type	skos:closeMatch	CL:0011020	semapv:ManualMappingCuration
+telencephalic progenitors	organ_part	skos:closeMatch	UBERON:0014371	semapv:ManualMappingCuration
+temporo-parietal	organ_parts	skos:closeMatch	UBERON:0000956	semapv:ManualMappingCuration
+terminal ileum	organ_parts	skos:closeMatch	UBERON:0002116	semapv:ManualMappingCuration
+testicular cancer	diseases	skos:closeMatch	MONDO:0005447	semapv:ManualMappingCuration
+testis	organ	skos:closeMatch	UBERON:0000473	semapv:ManualMappingCuration
+thoracic aortic aneurysm	diseases	skos:closeMatch	MONDO:0005396	semapv:ManualMappingCuration
+thymus	organ	skos:closeMatch	UBERON:0002370	semapv:ManualMappingCuration
+tongue	organ	skos:closeMatch	UBERON:0001723	semapv:ManualMappingCuration
+tongue	organ_parts	skos:closeMatch	UBERON:0001723	semapv:ManualMappingCuration
+tongue cancer	diseases	skos:closeMatch	MONDO:0004631	semapv:ManualMappingCuration
+tonsil	organ	skos:closeMatch	UBERON:0002372	semapv:ManualMappingCuration
+tonsil	organ_parts	skos:closeMatch	UBERON:0002372	semapv:ManualMappingCuration
+tonsil Innate lymphoid cells	selected_cell_types	skos:closeMatch	CL:0001065	semapv:ManualMappingCuration
+tonsil carcinoma	diseases	skos:closeMatch	MONDO:0021337	semapv:ManualMappingCuration
+tonsillectomy	method	skos:closeMatch	EFO:0010174	semapv:ManualMappingCuration
+total RNA	input_nucleic_acid_molecule	skos:closeMatch	EFO:0004964	semapv:ManualMappingCuration
+trachea	organ	skos:closeMatch	UBERON:0003126	semapv:ManualMappingCuration
+transitional urothelial cell	cell_type	skos:closeMatch	CL:0000731	semapv:ManualMappingCuration
+traumatic subarachnoid haemorrhage	diseases	skos:closeMatch	MONDO:0019543	semapv:ManualMappingCuration
+tuft cell	selected_cell_types	skos:closeMatch	CL:0002204	semapv:ManualMappingCuration
+type 2 diabetes	diseases	skos:closeMatch	MONDO:0005148	semapv:ManualMappingCuration
+type 2 diabetes mellitus	diseases	skos:closeMatch	MONDO:0005148	semapv:ManualMappingCuration
+type B pancreatic cell	cell_type	skos:closeMatch	CL:0000169	semapv:ManualMappingCuration
+type B pancreatic cell	selected_cell_types	skos:closeMatch	CL:0000169	semapv:ManualMappingCuration
+type I muscle fiber	selected_cell_types	skos:closeMatch	CL:0002211	semapv:ManualMappingCuration
+type II diabetes mellitus	diseases	skos:closeMatch	MONDO:0005148	semapv:ManualMappingCuration
+type IIa muscle fiber	selected_cell_types	skos:closeMatch	CL:0002214	semapv:ManualMappingCuration
+ulcerative colitis	diseases	skos:closeMatch	MONDO:0005101	semapv:ManualMappingCuration
+ulcerative colitis	diseases	skos:closeMatch	PATO:0000461	semapv:ManualMappingCuration
+umbilical cord	organ	skos:closeMatch	UBERON:0002331	semapv:ManualMappingCuration
+umbilical cord blood	organ_parts	skos:closeMatch	UBERON:0012168	semapv:ManualMappingCuration
+umbilical cord blood cell	selected_cell_types	skos:closeMatch	CL:2000095	semapv:ManualMappingCuration
+unassigned activated T call	cell_type	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+unassigned resting T cell	cell_type	skos:closeMatch	CL:0000084	semapv:ManualMappingCuration
+unknown	development_stage	skos:closeMatch	HsapDv:0000087	semapv:ManualMappingCuration
+upper epithelial cell	cell_type	skos:closeMatch	UBERON:0001976	semapv:ManualMappingCuration
+vastus lateralis	organ_parts	skos:closeMatch	UBERON:0001379	semapv:ManualMappingCuration
+venous blood	organ_parts	skos:closeMatch	UBERON:0013756	semapv:ManualMappingCuration
+villous cytotrophoblast (VCT)	cell_type	skos:closeMatch	CL:2000060	semapv:ManualMappingCuration
+villous cytotrophoblast cell	cell_type	skos:closeMatch	CL:2000060	semapv:ManualMappingCuration
+visceral endoderm	organ_parts	skos:closeMatch	UBERON:0004877	semapv:ManualMappingCuration
+week	age_unit	skos:closeMatch	UO:0000034	semapv:ManualMappingCuration
+week	gestational_age_unit	skos:closeMatch	UO:0000034	semapv:ManualMappingCuration
+week	organism_age_unit	skos:closeMatch	UO:0000034	semapv:ManualMappingCuration
+week	storage_time_unit	skos:closeMatch	UO:0000034	semapv:ManualMappingCuration
+weeks	gestational_age_unit	skos:closeMatch	UO:0000034	semapv:ManualMappingCuration
+white	ethnicity	skos:closeMatch	HANCESTRO:0005	semapv:ManualMappingCuration
+white adipose tissue	organ_parts	skos:closeMatch	UBERON:0001347	semapv:ManualMappingCuration
+whole embryo	organ	skos:closeMatch	UBERON:0000922	semapv:ManualMappingCuration
+whole embryos	organ	skos:closeMatch	UBERON:0000922	semapv:ManualMappingCuration
+year	gestational_age_unit	skos:closeMatch	UO:0000036	semapv:ManualMappingCuration
+year	organism_age_unit	skos:closeMatch	UO:0000036	semapv:ManualMappingCuration
+year	unit	skos:closeMatch	UO:0000036	semapv:ManualMappingCuration
+years	organism_age_unit	skos:closeMatch	UO:0000036	semapv:ManualMappingCuration
+yeay	organism_age_unit	skos:closeMatch	UO:0000036	semapv:ManualMappingCuration
+yolk sac endoderm	organ_parts	skos:closeMatch	UBERON:0003257	semapv:ManualMappingCuration

@@ -1,0 +1,48 @@
+mapping_registry_id: https://w3id.org/sssom/commons/ebi-text-mappings
+mapping_registry_title: EBI Text Mappings
+mapping_registry_description: Curated text-to-ontology mappings from EBI datasources
+homepage: https://github.com/mapping-commons/ebi-text-mappings
+issue_tracker: https://github.com/mapping-commons/ebi-text-mappings/issues
+mapping_set_references:
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/sysmicro.sssom.tsv
+  local_name: mappings/sysmicro.sssom.tsv
+  mapping_set_group: sysmicro
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/atlas.sssom.tsv
+  local_name: mappings/atlas.sssom.tsv
+  mapping_set_group: atlas
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/ebisc.sssom.tsv
+  local_name: mappings/ebisc.sssom.tsv
+  mapping_set_group: ebisc
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/cttv.sssom.tsv
+  local_name: mappings/cttv.sssom.tsv
+  mapping_set_group: cttv
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/uniprot.sssom.tsv
+  local_name: mappings/uniprot.sssom.tsv
+  mapping_set_group: uniprot
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/eva-clinvar.sssom.tsv
+  local_name: mappings/eva-clinvar.sssom.tsv
+  mapping_set_group: eva-clinvar
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/cbi.sssom.tsv
+  local_name: mappings/cbi.sssom.tsv
+  mapping_set_group: cbi
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/clinvar-xrefs.sssom.tsv
+  local_name: mappings/clinvar-xrefs.sssom.tsv
+  mapping_set_group: clinvar-xrefs
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/metabolights.sssom.tsv
+  local_name: mappings/metabolights.sssom.tsv
+  mapping_set_group: metabolights
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/ukbiobank.sssom.tsv
+  local_name: mappings/ukbiobank.sssom.tsv
+  mapping_set_group: ukbiobank
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/ebi-biosamples.sssom.tsv
+  local_name: mappings/ebi-biosamples.sssom.tsv
+  mapping_set_group: ebi-biosamples
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/faang.sssom.tsv
+  local_name: mappings/faang.sssom.tsv
+  mapping_set_group: faang
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/hca.sssom.tsv
+  local_name: mappings/hca.sssom.tsv
+  mapping_set_group: hca
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/gwas.sssom.tsv
+  local_name: mappings/gwas.sssom.tsv
+  mapping_set_group: gwas

@@ -1,0 +1,29 @@
+#curie_map:
+#  CLO: http://purl.obolibrary.org/obo/CLO_
+#  MONDO: http://purl.obolibrary.org/obo/MONDO_
+#  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+#  NCIT: http://purl.obolibrary.org/obo/NCIT_
+#  UBERON: http://purl.obolibrary.org/obo/UBERON_
+#mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/ebi-biosamples.sssom.tsv
+#mapping_set_description: Curated BioSamples text-to-ontology mappings
+#subject_type: rdfs literal
+#subject_source: https://www.ebi.ac.uk/biosamples/
+subject_label	subject_category	predicate_id	object_id	mapping_justification	author_label	mapping_date
+Bronchoalveolar lavage fluid	isolation source	skos:closeMatch	NCIT:C13195	semapv:ManualMappingCuration	Fuqi Xu	2020-05-14
+COVID-19	host disease	skos:closeMatch	MONDO:0100096	semapv:ManualMappingCuration	Fuqi Xu	2020-05-14
+COVID19	host disease	skos:closeMatch	MONDO:0100096	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+Coronavirus infected disease-19 (COVID-19)	disease state	skos:closeMatch	MONDO:0100096	semapv:ManualMappingCuration	Fuqi Xu	2020-05-14
+Homo Sapien	Organism	skos:closeMatch	NCBITaxon:9606	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+SARS-CoV-2	strain	skos:closeMatch	NCBITaxon:2697049	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+Sputum	isolate	skos:closeMatch	NCIT:C13278	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+Sputum	sample type	skos:closeMatch	NCIT:C13278	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+Vero cells	cell line	skos:closeMatch	CLO:0009524	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+Wuhan seafood market pneumonia virus	organism	skos:closeMatch	NCBITaxon:2697049	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+bronchoalveolar lavage fluid(BALF)	isolation source	skos:closeMatch	NCIT:C13195	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+lung	tissue	skos:closeMatch	UBERON:0002048	semapv:ManualMappingCuration	Fuqi Xu	2020-05-14
+nCoV pneumonia	host disease	skos:closeMatch	MONDO:0100096	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+nasal swab	isolation source	skos:closeMatch	NCIT:C155833	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+nasopharyngeal swab	isolation source	skos:closeMatch	NCIT:C155831	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+novel coronavirus pneumonia	host disease	skos:closeMatch	MONDO:0100096	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+severe acute respiratory syndrome	host disease	skos:closeMatch	MONDO:0005091	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14
+swab	isolation source	skos:closeMatch	NCIT:C17627	semapv:ManualMappingCuration	Fuqi Xu	2020-04-14

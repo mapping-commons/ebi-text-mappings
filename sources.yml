@@ -1,0 +1,93 @@
+# sources.yml — datasource definitions for EBI text-to-ontology mappings
+# Used by scripts/build_sssom.py to download and convert
+# zooma-format data into SSSOM/TSV files.
+#
+# Each source maps to one (or more, if split) .sssom.tsv file in mappings/.
+# All sources use the standard zooma columns (PROPERTY_VALUE, SEMANTIC_TAG,
+# PROPERTY_TYPE) unless column_map is specified.
+
+sources:
+  sysmicro:
+    import_url: "https://www.ebi.ac.uk/cmpo/zooma-cmpo.csv"
+    subject_source: "https://www.ebi.ac.uk/fg/sym"
+    description: "Curated cellular microscopy phenotype mappings from SysMicro"
+    date_format: "%Y-%m-%d %H:%M:%S"
+
+  atlas:
+    import_url: "https://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/curation/zoomage_report.CURATED.tsv"
+    subject_source: "https://www.ebi.ac.uk/gxa"
+    description: "Curated text-to-ontology mappings from Expression Atlas"
+    date_format: "%d/%m/%y %H:%M"
+
+  ebisc:
+    import_url: "https://ftp.ebi.ac.uk/pub/databases/spot/zooma/data/annotations/ebisc/latest/ebisc.tsv"
+    subject_source: "https://cells.ebisc.org/"
+    description: "Curated text-to-ontology mappings from EBiSC"
+    date_format: "%Y-%m-%d %H:%M:%S"
+
+  cttv:
+    import_url: "https://raw.githubusercontent.com/opentargets/platform_semantic/master/resources/zooma/cttv_indications.csv"
+    subject_source: "https://www.targetvalidation.org"
+    description: "Curated disease indication mappings from Open Targets"
+    date_format: "%Y-%m-%d %H:%M:%S"
+
+  uniprot:
+    import_url: "https://ftp.ebi.ac.uk/pub/databases/spot/zooma/data/annotations/uniprot/latest/uniprot_disease.csv"
+    subject_source: "https://www.ebi.ac.uk/uniprot"
+    description: "Curated disease mappings from UniProt"
+    date_format: "%Y-%m-%d %H:%M:%S"
+
+  eva-clinvar:
+    import_url: "https://ftp.ebi.ac.uk/pub/databases/eva/ClinVar/latest/eva_clinvar.txt"
+    subject_source: "https://www.ebi.ac.uk/eva"
+    description: "EVA ClinVar disease mappings"
+    date_format: "%d/%m/%y %H:%M"
+
+  cbi:
+    import_url: "https://ftp.ebi.ac.uk/pub/databases/spot/zooma/data/annotations/cbi/latest/biosample_plant.csv"
+    subject_source: "https://www.ebi.ac.uk/biosamples"
+    description: "Curated plant biosample mappings"
+    date_format: "%Y-%m-%d %H:%M:%S"
+
+  clinvar-xrefs:
+    import_url: "https://ftp.ebi.ac.uk/pub/databases/eva/ClinVar/latest/clinvar_xrefs.txt"
+    subject_source: "https://www.ncbi.nlm.nih.gov/clinvar"
+    description: "ClinVar cross-reference mappings"
+    date_format: "%d/%m/%y %H:%M"
+
+  metabolights:
+    import_url: "https://ftp.ebi.ac.uk/pub/databases/metabolights/eb-eye/metabolights_zooma.tsv"
+    subject_source: "https://www.ebi.ac.uk/metabolights"
+    description: "Curated metabolomics mappings from MetaboLights"
+    date_format: "%d/%m/%Y %H:%M"
+
+  ukbiobank:
+    import_url: "https://raw.githubusercontent.com/EBISPOT/EFO-UKB-mappings/master/ukbiobank_zooma.txt"
+    subject_source: "https://github.com/EBISPOT/EFO-UKB-mappings"
+    description: "UK Biobank phenotype mappings to EFO"
+    date_format: "%d/%m/%Y %H:%M"
+
+  ebi-biosamples:
+    import_url: "https://ftp.ebi.ac.uk/pub/databases/biosamples/zooma/biosamples_zooma_curations.csv"
+    subject_source: "https://www.ebi.ac.uk/biosamples/"
+    description: "Curated BioSamples text-to-ontology mappings"
+    date_format: "%Y-%m-%d %H:%M:%S"
+
+  faang:
+    import_url: "https://api.faang.org/files/faang_zooma_mappings.tsv"
+    subject_source: "https://www.ebi.ac.uk/vg/faang"
+    description: "FAANG project curated mappings"
+
+  hca:
+    import_url: "https://raw.githubusercontent.com/ebi-ait/hca-ebi-wrangler-central/master/src/outputs/current_zooma_import.txt"
+    subject_source: "https://www.ebi.ac.uk/about/collaborations/human-cell-atlas"
+    description: "Human Cell Atlas curated mappings"
+
+  gwas:
+    import_url: "https://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-efo-trait-mappings.tsv"
+    subject_source: "http://www.ebi.ac.uk/gwas"
+    description: "GWAS Catalog trait-to-EFO mappings"
+    column_map:
+      "Disease trait": "PROPERTY_VALUE"
+      "EFO URI": "SEMANTIC_TAG"
+    object_label_column: "EFO term"
