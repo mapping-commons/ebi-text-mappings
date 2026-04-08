@@ -7,9 +7,6 @@ mapping_set_references:
 - mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/sysmicro.sssom.tsv
   local_name: mappings/sysmicro.sssom.tsv
   mapping_set_group: sysmicro
-- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/atlas.sssom.tsv
-  local_name: mappings/atlas.sssom.tsv
-  mapping_set_group: atlas
 - mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/ebisc.sssom.tsv
   local_name: mappings/ebisc.sssom.tsv
   mapping_set_group: ebisc
