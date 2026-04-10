@@ -1,0 +1,340 @@
+#curie_map:
+#  BSPO: http://purl.obolibrary.org/obo/BSPO_
+#  BTO: http://purl.obolibrary.org/obo/BTO_
+#  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+#  CHMO: http://purl.obolibrary.org/obo/CHMO_
+#  CL: http://purl.obolibrary.org/obo/CL_
+#  EFO: http://www.ebi.ac.uk/efo/EFO_
+#  ENVO: http://purl.obolibrary.org/obo/ENVO_
+#  EO: http://purl.obolibrary.org/obo/EO_
+#  ERO: http://purl.obolibrary.org/obo/ERO_
+#  ExO: http://purl.obolibrary.org/obo/ExO_
+#  FBbt: http://purl.obolibrary.org/obo/FBbt_
+#  GO: http://purl.obolibrary.org/obo/GO_
+#  MS: http://purl.obolibrary.org/obo/MS_
+#  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+#  OBI: http://purl.obolibrary.org/obo/OBI_
+#  OMIT: http://purl.obolibrary.org/obo/OMIT_
+#  PATO: http://purl.obolibrary.org/obo/PATO_
+#  PO: http://purl.obolibrary.org/obo/PO_
+#  SO: http://purl.obolibrary.org/obo/SO_
+#  UO: http://purl.obolibrary.org/obo/UO_
+#  edam.topic: http://edamontology.org/topic_
+#mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/cbi.sssom.tsv
+#mapping_set_description: Curated plant biosample mappings
+#subject_type: rdfs literal
+#subject_source: https://www.ebi.ac.uk/biosamples
+subject_label	subject_category	predicate_id	object_id	mapping_justification	author_label	mapping_date
+"""seedling, two leaves visible, three leaves visible"""	CBI-plant	skos:closeMatch	PO:0007098	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+"""shoot apex, inflorescence (after bolting)"""	CBI-plant	skos:closeMatch	EFO:0001029	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+(Arabidopsis thaliana x Arabidopsis arenosa) x Arabidopsis suecica	CBI-plant	skos:closeMatch	NCBITaxon:1328956	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+(Vitis vinifera x Vitis berlandieri) x Vitis berlandieri	CBI-plant	skos:closeMatch	NCBITaxon:1417298	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+(col-0)	CBI-plant	skos:closeMatch	EFO:0005148	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+1 Boyes key	CBI-plant	skos:closeMatch	PO:0007113	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+1 main shoot growth	CBI-plant	skos:closeMatch	PO:0007112	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+1.01 Boyes key	CBI-plant	skos:closeMatch	PO:0007113	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+1.04 Boyes key	CBI-plant	skos:closeMatch	PO:0007115	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+5.10 Boyes key	CBI-plant	skos:closeMatch	PO:0007006	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Aerial tissue	CBI-plant	skos:closeMatch	EFO:0001901	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Arabidopsis thaliana	CBI-plant	skos:closeMatch	NCBITaxon:3702	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Arabidopsis thaliana x Arabidopsis arenosa	CBI-plant	skos:closeMatch	NCBITaxon:378006	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+B73	CBI-plant	skos:closeMatch	EFO:0007022	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+B73 inbred line	CBI-plant	skos:closeMatch	EFO:0007022	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Boyes key 1.0	CBI-plant	skos:closeMatch	PO:0007113	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Boyes key 1.04	CBI-plant	skos:closeMatch	PO:0007115	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Boyes key 3.70	CBI-plant	skos:closeMatch	PO:0007076	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Boyes key 3.9	CBI-plant	skos:closeMatch	PO:0007078	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Boyes key 3.90	CBI-plant	skos:closeMatch	PO:0007078	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Brassica rapa	CBI-plant	skos:closeMatch	NCBITaxon:3711	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Brassica rapa subsp. chinensis	CBI-plant	skos:closeMatch	NCBITaxon:93385	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Brassica rapa subsp. pekinensis	CBI-plant	skos:closeMatch	NCBITaxon:51351	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Bulk Soil	CBI-plant	skos:closeMatch	ENVO:00005802	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Bur-0	CBI-plant	skos:closeMatch	EFO:0005170	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+C24	CBI-plant	skos:closeMatch	EFO:0006987	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+C24 ecotype	CBI-plant	skos:closeMatch	EFO:0006987	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+COL	CBI-plant	skos:closeMatch	EFO:0005147	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+CONTROL	CBI-plant	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Chinese Spring	CBI-plant	skos:closeMatch	EFO:0007588	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Chinese spring	CBI-plant	skos:closeMatch	EFO:0007588	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Col	CBI-plant	skos:closeMatch	EFO:0005147	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Col-0	CBI-plant	skos:closeMatch	EFO:0005148	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Col-1	CBI-plant	skos:closeMatch	EFO:0005149	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Col-4	CBI-plant	skos:closeMatch	EFO:0005152	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Col-5	CBI-plant	skos:closeMatch	EFO:0005153	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Col0	CBI-plant	skos:closeMatch	EFO:0005148	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Colletotrichum graminicola	CBI-plant	skos:closeMatch	NCBITaxon:31870	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Colombia	CBI-plant	skos:closeMatch	EFO:0005147	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Colony picking	CBI-plant	skos:closeMatch	ERO:0001348	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Columbia	CBI-plant	skos:closeMatch	EFO:0005147	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Columbia (Col-0)	CBI-plant	skos:closeMatch	EFO:0005148	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Columbia 0	CBI-plant	skos:closeMatch	EFO:0005148	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Columbia ecotype	CBI-plant	skos:closeMatch	EFO:0005147	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Columbia-0	CBI-plant	skos:closeMatch	EFO:0005148	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Columbia-4	CBI-plant	skos:closeMatch	EFO:0005152	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Columbia-5	CBI-plant	skos:closeMatch	EFO:0005153	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Control	CBI-plant	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Crown root	CBI-plant	skos:closeMatch	PO:0000043	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Cutting	CBI-plant	skos:closeMatch	ENVO:00000474	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+DROUGHT	CBI-plant	skos:closeMatch	EO:0007404	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+FACS	CBI-plant	skos:closeMatch	CHMO:0001085	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+FL.04 end of flowering stage	CBI-plant	skos:closeMatch	PO:0007024	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Flag leaf	CBI-plant	skos:closeMatch	EFO:0005100	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Fruit	CBI-plant	skos:closeMatch	EFO:0001028	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Fusarium graminearum	CBI-plant	skos:closeMatch	NCBITaxon:5518	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Fusarium graminearum inoculation	CBI-plant	skos:closeMatch	NCBITaxon:5518	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Gossypium hirsutum	CBI-plant	skos:closeMatch	NCBITaxon:3635	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Greenhouse Soil	CBI-plant	skos:closeMatch	ENVO:00005780	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+H2O	CBI-plant	skos:closeMatch	CHEBI:15377	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+H3K27me3	CBI-plant	skos:closeMatch	CHEBI:85045	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+H3K4me3	CBI-plant	skos:closeMatch	CHEBI:85043	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Hermaphrodite	CBI-plant	skos:closeMatch	PATO:0001340	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Hitomebore	CBI-plant	skos:closeMatch	NCBITaxon:39947	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Hordeum vulgare	CBI-plant	skos:closeMatch	NCBITaxon:4513	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Hordeum vulgare subsp. Vulgare	CBI-plant	skos:closeMatch	NCBITaxon:112509	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Hordeum vulgare subsp. spontaneum	CBI-plant	skos:closeMatch	NCBITaxon:77009	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Hordeum vulgare subsp. vulgare	CBI-plant	skos:closeMatch	NCBITaxon:112509	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Inbred line B73	CBI-plant	skos:closeMatch	EFO:0007022	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Inflorescence	CBI-plant	skos:closeMatch	EFO:0001029	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+LP.03 three leaves visible	CBI-plant	skos:closeMatch	PO:0007106	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+LP.03 three leaves visible stage	CBI-plant	skos:closeMatch	PO:0007106	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Landsberg	CBI-plant	skos:closeMatch	EFO:0005154	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Landsberg erecta	CBI-plant	skos:closeMatch	EFO:0005154	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Leaf	CBI-plant	skos:closeMatch	EFO:0000993	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Leaf Blade	CBI-plant	skos:closeMatch	PO:0020039	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Leaf blade	CBI-plant	skos:closeMatch	PO:0020039	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Leaf tissue	CBI-plant	skos:closeMatch	EFO:0000993	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Leaves	CBI-plant	skos:closeMatch	EFO:0000993	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Ler	CBI-plant	skos:closeMatch	EFO:0005154	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Ler-0	CBI-plant	skos:closeMatch	EFO:0005154	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+MOCK	CBI-plant	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Magnaporthe oryzae	CBI-plant	skos:closeMatch	NCBITaxon:318829	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Melampsora larici-populina	CBI-plant	skos:closeMatch	NCBITaxon:203908	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Mock	CBI-plant	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Nipponbare	CBI-plant	skos:closeMatch	EFO:0007587	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Oryza sativa	CBI-plant	skos:closeMatch	NCBITaxon:4530	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Oryza sativa (indica cultivar-group)	CBI-plant	skos:closeMatch	NCBITaxon:39946	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Oryza sativa (japonica cultivar-group)	CBI-plant	skos:closeMatch	NCBITaxon:39947	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Oryza sativa Indica Group	CBI-plant	skos:closeMatch	NCBITaxon:39946	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Oryza sativa Japonica	CBI-plant	skos:closeMatch	NCBITaxon:39947	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Oryza sativa Japonica Group	CBI-plant	skos:closeMatch	NCBITaxon:39947	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Pandan Wangi	CBI-plant	skos:closeMatch	NCBITaxon:260201	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Phagemid	CBI-plant	skos:closeMatch	ERO:0001135	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Phagemid	CBI-plant	skos:closeMatch	SO:0000157	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Physcomitrella patens	CBI-plant	skos:closeMatch	NCBITaxon:3218	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Pia	CBI-plant	skos:closeMatch	MS:1002387	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Plant sample from Arabidopsis thaliana	CBI-plant	skos:closeMatch	NCBITaxon:3702	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Plantation	CBI-plant	skos:closeMatch	ENVO:00000117	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Plasmid	CBI-plant	skos:closeMatch	SO:0000155	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Plasmopara viticola	CBI-plant	skos:closeMatch	NCBITaxon:143451	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Poplar	CBI-plant	skos:closeMatch	NCBITaxon:3689	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Populus deltoides	CBI-plant	skos:closeMatch	NCBITaxon:3696	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Populus trichocarpa	CBI-plant	skos:closeMatch	NCBITaxon:3694	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Populus trichocarpa x Populus deltoides	CBI-plant	skos:closeMatch	NCBITaxon:3695	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Rhizosphere	CBI-plant	skos:closeMatch	ENVO:00005801	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Rhizosphere	CBI-plant	skos:closeMatch	OMIT:0027202	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Root	CBI-plant	skos:closeMatch	EFO:0000989	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Roots	CBI-plant	skos:closeMatch	EFO:0000989	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Rosette	CBI-plant	skos:closeMatch	EFO:0005107	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+SA2	CBI-plant	skos:closeMatch	FBbt:00004619	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+SA3	CBI-plant	skos:closeMatch	FBbt:00004638	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+SEEDLING	CBI-plant	skos:closeMatch	PO:0007131	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+SHOOT	CBI-plant	skos:closeMatch	EFO:0000992	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+SOURCE	CBI-plant	skos:closeMatch	ExO:0000016	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Seed	CBI-plant	skos:closeMatch	EFO:0000991	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Seedling	CBI-plant	skos:closeMatch	PO:0007131	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Seedlings	CBI-plant	skos:closeMatch	PO:0007131	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Seeds	CBI-plant	skos:closeMatch	EFO:0000991	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Shoot	CBI-plant	skos:closeMatch	EFO:0000992	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Shoot apex	CBI-plant	skos:closeMatch	EFO:0001947	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Shoots	CBI-plant	skos:closeMatch	EFO:0000992	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Short day	CBI-plant	skos:closeMatch	EO:0007200	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Siliques	CBI-plant	skos:closeMatch	EFO:0001028	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Sorghum bicolor	CBI-plant	skos:closeMatch	NCBITaxon:4558	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Stele	CBI-plant	skos:closeMatch	EFO:0005099	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+T87	CBI-plant	skos:closeMatch	EFO:0006305	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Total RNA	CBI-plant	skos:closeMatch	CHEBI:33697	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Triticum aestivum	CBI-plant	skos:closeMatch	NCBITaxon:4565	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+TuMV	CBI-plant	skos:closeMatch	NCBITaxon:12230	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Ustilago maydis	CBI-plant	skos:closeMatch	NCBITaxon:5270	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Vineyard	CBI-plant	skos:closeMatch	ENVO:00000116	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Vitis vinifera	CBI-plant	skos:closeMatch	NCBITaxon:29760	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Wassilewskija	CBI-plant	skos:closeMatch	EFO:0005156	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Whole seedling	CBI-plant	skos:closeMatch	EFO:0002906	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Whole seedlings	CBI-plant	skos:closeMatch	EFO:0002906	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Wild type	CBI-plant	skos:closeMatch	EFO:0005168	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Ws-0	CBI-plant	skos:closeMatch	EFO:0005156	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Ws-2	CBI-plant	skos:closeMatch	EFO:0005158	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+X!Tandem	CBI-plant	skos:closeMatch	MS:1001476	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+Xanthomonas oryzae pv. oryzae	CBI-plant	skos:closeMatch	NCBITaxon:64187	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Zea Mays	CBI-plant	skos:closeMatch	NCBITaxon:4577	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Zea mays	CBI-plant	skos:closeMatch	NCBITaxon:4577	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Zea mays subsp. mays	CBI-plant	skos:closeMatch	NCBITaxon:381124	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+Zea mays subsp. parviglumis	CBI-plant	skos:closeMatch	NCBITaxon:76912	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+adult	CBI-plant	skos:closeMatch	EFO:0001272	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+aerial part	CBI-plant	skos:closeMatch	EFO:0001901	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+aerial parts	CBI-plant	skos:closeMatch	EFO:0001901	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+aerial tissue	CBI-plant	skos:closeMatch	EFO:0001901	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+agricultural field	CBI-plant	skos:closeMatch	ENVO:00000114	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+anther	CBI-plant	skos:closeMatch	EFO:0005101	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+anthesis	CBI-plant	skos:closeMatch	PO:0007016	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+apical region	CBI-plant	skos:closeMatch	BSPO:0000073	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+apical shoot meristem	CBI-plant	skos:closeMatch	EFO:0001017	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+bark	CBI-plant	skos:closeMatch	EFO:0001041	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+berries	CBI-plant	skos:closeMatch	EFO:0001028	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+berry	CBI-plant	skos:closeMatch	EFO:0001028	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+boyes 1.02	CBI-plant	skos:closeMatch	PO:0007098	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+boyes 1.03	CBI-plant	skos:closeMatch	PO:0007106	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+boyes: 1.02	CBI-plant	skos:closeMatch	PO:0007098	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+boyes: 1.04	CBI-plant	skos:closeMatch	PO:0007115	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+boyes: 3.70	CBI-plant	skos:closeMatch	PO:0007076	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+c24	CBI-plant	skos:closeMatch	EFO:0006987	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+callus	CBI-plant	skos:closeMatch	EFO:0005683	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+carpel	CBI-plant	skos:closeMatch	EFO:0001051	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+caryopsis	CBI-plant	skos:closeMatch	EFO:0006814	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+caryopsys	CBI-plant	skos:closeMatch	EFO:0006814	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+cell culture	CBI-plant	skos:closeMatch	BTO:0000214	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+chloroplast stroma	CBI-plant	skos:closeMatch	GO:0009570	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+col	CBI-plant	skos:closeMatch	EFO:0005147	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+col-0	CBI-plant	skos:closeMatch	EFO:0005148	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+coleoptile	CBI-plant	skos:closeMatch	PO:0020033	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+columbia	CBI-plant	skos:closeMatch	EFO:0005147	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+complete rosette	CBI-plant	skos:closeMatch	PO:0007078	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+control	CBI-plant	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+cotyledon	CBI-plant	skos:closeMatch	EFO:0001022	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+cotyledons	CBI-plant	skos:closeMatch	EFO:0001022	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+cv. Nipponbare	CBI-plant	skos:closeMatch	EFO:0007587	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+cv. nipponbare	CBI-plant	skos:closeMatch	EFO:0007587	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+dark	CBI-plant	skos:closeMatch	EO:0007270	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+days	CBI-plant	skos:closeMatch	UO:0000033	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+developing xylem	CBI-plant	skos:closeMatch	EFO:0001042	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+diploid	CBI-plant	skos:closeMatch	CL:0000415	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+drought	CBI-plant	skos:closeMatch	EO:0007404	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+drought-stressed	CBI-plant	skos:closeMatch	EO:0007404	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+endosperm	CBI-plant	skos:closeMatch	EFO:0001020	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+eukaryote	CBI-plant	skos:closeMatch	edam.topic:2818	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+female	CBI-plant	skos:closeMatch	PATO:0000383	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+female inflorescence	CBI-plant	skos:closeMatch	EFO:0001035	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+field soil	CBI-plant	skos:closeMatch	ENVO:00005755	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+field study	CBI-plant	skos:closeMatch	EO:0007256	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+flag leaf	CBI-plant	skos:closeMatch	EFO:0005100	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+flower	CBI-plant	skos:closeMatch	EFO:0001024	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+flower bud	CBI-plant	skos:closeMatch	EFO:0001924	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+flowering	CBI-plant	skos:closeMatch	PO:0007016	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+flowers	CBI-plant	skos:closeMatch	EFO:0001024	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+formation of axillary shoot	CBI-plant	skos:closeMatch	PO:0007073	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+fresh sample	CBI-plant	skos:closeMatch	OBI:0000971	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+fresh specimen	CBI-plant	skos:closeMatch	OBI:0000971	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+fresh_sample	CBI-plant	skos:closeMatch	OBI:0000971	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+frozen sample	CBI-plant	skos:closeMatch	OBI:0000922	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+frozen specimen	CBI-plant	skos:closeMatch	OBI:0000922	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+frozen_sample	CBI-plant	skos:closeMatch	OBI:0000922	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+fruit	CBI-plant	skos:closeMatch	EFO:0001028	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+gene knock out	CBI-plant	skos:closeMatch	EFO:0000506	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+gene_knock_in	CBI-plant	skos:closeMatch	EFO:0004963	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+gene_knock_out	CBI-plant	skos:closeMatch	EFO:0000506	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+germination	CBI-plant	skos:closeMatch	PO:0007057	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+green house study	CBI-plant	skos:closeMatch	EO:0007248	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+growth chamber study	CBI-plant	skos:closeMatch	EO:0007269	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+hermaphrodite	CBI-plant	skos:closeMatch	PATO:0001340	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+hypocotyl	CBI-plant	skos:closeMatch	EFO:0001931	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+hypocotyl and cotyledon	CBI-plant	skos:closeMatch	EFO:0001022	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+hypocotyl and cotyledon	CBI-plant	skos:closeMatch	EFO:0001931	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+hypocotyl emergence stage	CBI-plant	skos:closeMatch	PO:0007043	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+immature inflorescence	CBI-plant	skos:closeMatch	EFO:0001029	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+inbred line B73	CBI-plant	skos:closeMatch	EFO:0007022	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+induced_mutation	CBI-plant	skos:closeMatch	EFO:0005315	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+infected	CBI-plant	skos:closeMatch	EFO:0000544	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+inflorescence	CBI-plant	skos:closeMatch	EFO:0001029	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+inflorescence stalk	CBI-plant	skos:closeMatch	EFO:0001029	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+inflorescences	CBI-plant	skos:closeMatch	EFO:0001029	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+input DNA	CBI-plant	skos:closeMatch	EFO:0005031	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+landsberg erecta	CBI-plant	skos:closeMatch	EFO:0005154	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+leaf	CBI-plant	skos:closeMatch	EFO:0000993	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+leaf lamina abaxial epidermis	CBI-plant	skos:closeMatch	PO:0000049	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+leaf metagenome	CBI-plant	skos:closeMatch	NCBITaxon:1297858	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+leaf tissue	CBI-plant	skos:closeMatch	EFO:0000993	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+leaves	CBI-plant	skos:closeMatch	EFO:0000993	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+ler	CBI-plant	skos:closeMatch	EFO:0005154	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+long days	CBI-plant	skos:closeMatch	EO:0007199	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+mRNA	CBI-plant	skos:closeMatch	CHEBI:33699	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+male	CBI-plant	skos:closeMatch	PATO:0000384	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+mature leaf	CBI-plant	skos:closeMatch	EFO:0000993	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+mays	CBI-plant	skos:closeMatch	NCBITaxon:4577	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+mid rosette growth	CBI-plant	skos:closeMatch	PO:0007068	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+mixed_sex	CBI-plant	skos:closeMatch	EFO:0001271	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+mock	CBI-plant	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+mock inoculation	CBI-plant	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+ms-ms search	CBI-plant	skos:closeMatch	MS:1001083	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+nipponbare	CBI-plant	skos:closeMatch	EFO:0007587	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+normal	CBI-plant	skos:closeMatch	PATO:0000461	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+panicle	CBI-plant	skos:closeMatch	EFO:0001029	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+petiole	CBI-plant	skos:closeMatch	PO:0020038	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+phyllosphere metagenome	CBI-plant	skos:closeMatch	NCBITaxon:662107	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+pia	CBI-plant	skos:closeMatch	MS:1002387	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+pistil	CBI-plant	skos:closeMatch	EFO:0001051	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+plant cell	CBI-plant	skos:closeMatch	CL:0000610	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+plant metagenome	CBI-plant	skos:closeMatch	NCBITaxon:1297885	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+plant roots	CBI-plant	skos:closeMatch	OMIT:0018707	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+plasmid	CBI-plant	skos:closeMatch	SO:0000155	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+pollen	CBI-plant	skos:closeMatch	CL:0000252	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+primary root	CBI-plant	skos:closeMatch	EFO:0001011	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+primary root elongation zone	CBI-plant	skos:closeMatch	PO:0025257	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+protonema	CBI-plant	skos:closeMatch	PO:0030003	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+protoplast	CBI-plant	skos:closeMatch	CL:0000371	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+reference	CBI-plant	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+rhizosphere	CBI-plant	skos:closeMatch	ENVO:00005801	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+rhizosphere metagenome	CBI-plant	skos:closeMatch	NCBITaxon:939928	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+rice	CBI-plant	skos:closeMatch	NCBITaxon:4530	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+rice field	CBI-plant	skos:closeMatch	ENVO:00000296	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+root	CBI-plant	skos:closeMatch	EFO:0000989	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+root associated fungus metagenome	CBI-plant	skos:closeMatch	NCBITaxon:1518171	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+root meristem	CBI-plant	skos:closeMatch	PO:0006085	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+root metagenome	CBI-plant	skos:closeMatch	NCBITaxon:1118232	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
+root structure	CBI-plant	skos:closeMatch	EFO:0000989	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+root tip	CBI-plant	skos:closeMatch	PO:0000025	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+roots	CBI-plant	skos:closeMatch	EFO:0000989	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+rosette	CBI-plant	skos:closeMatch	EFO:0005107	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+rosette leaf	CBI-plant	skos:closeMatch	EFO:0001984	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+rosette leaves	CBI-plant	skos:closeMatch	EFO:0001984	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+rosette stage	CBI-plant	skos:closeMatch	PO:0007113	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+rosettes	CBI-plant	skos:closeMatch	EFO:0005107	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+seed	CBI-plant	skos:closeMatch	EFO:0000991	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+seedling	CBI-plant	skos:closeMatch	PO:0007131	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+seedling development stage	CBI-plant	skos:closeMatch	PO:0007131	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+seedling shoot	CBI-plant	skos:closeMatch	EFO:0000992	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+seedling shoots	CBI-plant	skos:closeMatch	EFO:0000992	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+seedlings	CBI-plant	skos:closeMatch	PO:0007131	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+seminal root	CBI-plant	skos:closeMatch	PO:0000046	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+shoot	CBI-plant	skos:closeMatch	EFO:0000992	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+shoot apex	CBI-plant	skos:closeMatch	EFO:0001947	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+shoot apical meristem	CBI-plant	skos:closeMatch	EFO:0001017	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+shoots	CBI-plant	skos:closeMatch	EFO:0000992	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+short day	CBI-plant	skos:closeMatch	EO:0007200	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+silique	CBI-plant	skos:closeMatch	EFO:0001028	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+soil metagenome	CBI-plant	skos:closeMatch	NCBITaxon:410658	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+stage 1.03	CBI-plant	skos:closeMatch	PO:0007106	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+stamen	CBI-plant	skos:closeMatch	EFO:0001050	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+stem	CBI-plant	skos:closeMatch	EFO:0001040	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+sterile	CBI-plant	skos:closeMatch	EFO:0000545	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+synthetic construct	CBI-plant	skos:closeMatch	NCBITaxon:32630	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+total RNA	CBI-plant	skos:closeMatch	CHEBI:33697	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+transfection	CBI-plant	skos:closeMatch	EFO:0000726	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+transgenic	CBI-plant	skos:closeMatch	EFO:0004020	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+true dark	CBI-plant	skos:closeMatch	EO:0007270	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+untreated	CBI-plant	skos:closeMatch	EFO:0001461	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+wassilewskija	CBI-plant	skos:closeMatch	EFO:0005156	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+water	CBI-plant	skos:closeMatch	CHEBI:15377	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+weeks	CBI-plant	skos:closeMatch	UO:0000034	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+whole organism	CBI-plant	skos:closeMatch	EFO:0002906	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+whole plant	CBI-plant	skos:closeMatch	EFO:0002906	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+whole plants	CBI-plant	skos:closeMatch	EFO:0002906	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+whole root	CBI-plant	skos:closeMatch	EFO:0000989	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+whole roots	CBI-plant	skos:closeMatch	EFO:0000989	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+whole rosette	CBI-plant	skos:closeMatch	EFO:0005107	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+whole seedling	CBI-plant	skos:closeMatch	EFO:0002906	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+whole seedling;	CBI-plant	skos:closeMatch	EFO:0002906	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+whole seedlings	CBI-plant	skos:closeMatch	EFO:0002906	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+wild type	CBI-plant	skos:closeMatch	EFO:0005168	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+wild type genotype	CBI-plant	skos:closeMatch	EFO:0005168	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+wild-type	CBI-plant	skos:closeMatch	EFO:0005168	semapv:ManualMappingCuration	Paola Roncaglia	2016-06-21
+wild_type	CBI-plant	skos:closeMatch	SO:0000817	semapv:ManualMappingCuration	Sirarat Sarntivijai	2016-06-21
