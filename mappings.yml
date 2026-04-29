@@ -22,6 +22,9 @@ mapping_set_references:
 - mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/eva-clinvar.sssom.tsv
   local_name: mappings/eva-clinvar.sssom.tsv
   mapping_set_group: eva-clinvar
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/cbi.sssom.tsv
+  local_name: mappings/cbi.sssom.tsv
+  mapping_set_group: cbi
 - mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/clinvar-xrefs.sssom.tsv
   local_name: mappings/clinvar-xrefs.sssom.tsv
   mapping_set_group: clinvar-xrefs
