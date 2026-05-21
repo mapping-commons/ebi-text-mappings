@@ -4,9 +4,6 @@ mapping_registry_description: Curated text-to-ontology mappings from EBI datasou
 homepage: https://github.com/mapping-commons/ebi-text-mappings
 issue_tracker: https://github.com/mapping-commons/ebi-text-mappings/issues
 mapping_set_references:
-- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/sysmicro.sssom.tsv
-  local_name: mappings/sysmicro.sssom.tsv
-  mapping_set_group: sysmicro
 - mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/atlas.sssom.tsv
   local_name: mappings/atlas.sssom.tsv
   mapping_set_group: atlas
