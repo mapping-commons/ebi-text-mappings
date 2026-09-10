@@ -3,12 +3,17 @@
 # zooma-format data into SSSOM/TSV files.
 #
 # Each source maps to one (or more, if split) .sssom.tsv file in mappings/.
+# A source has either an import_url (downloaded on each build) or a local_file
+# (a static copy checked into the repo, relative to the repo root).
 # All sources use the standard zooma columns (PROPERTY_VALUE, SEMANTIC_TAG,
 # PROPERTY_TYPE) unless column_map is specified.
 
 sources:
   sysmicro:
-    import_url: "https://www.ebi.ac.uk/cmpo/zooma-cmpo.csv"
+    # The CMPO site (https://www.ebi.ac.uk/cmpo/) was taken offline in 2026 and
+    # the original import_url "https://www.ebi.ac.uk/cmpo/zooma-cmpo.csv" now
+    # 404s, so a static copy of the last published file is vendored in-repo.
+    local_file: "static/zooma-cmpo.csv"
     subject_source: "https://www.ebi.ac.uk/fg/sym"
     description: "Curated cellular microscopy phenotype mappings from SysMicro"
     date_format: "%Y-%m-%d %H:%M:%S"

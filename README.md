@@ -15,7 +15,7 @@ Mappings are drawn from the following EBI data sources (configured in
 
 | SSSOM file | Source |
 |---|---|
-| `sysmicro.sssom.tsv` | [SysMicro / CMPO](https://www.ebi.ac.uk/fg/sym) |
+| `sysmicro.sssom.tsv` | [SysMicro / CMPO](https://www.ebi.ac.uk/fg/sym) (static copy in `static/`, the CMPO site is offline) |
 | `atlas.sssom.tsv` | [Expression Atlas](https://www.ebi.ac.uk/gxa) |
 | `ebisc.sssom.tsv` | [EBiSC](https://cells.ebisc.org/) |
 | `cttv.sssom.tsv` | [Open Targets](https://www.targetvalidation.org) |
@@ -53,3 +53,7 @@ Output is written to `mappings/`.
 A GitHub Actions workflow runs daily at 03:00 UTC, downloads fresh source data,
 rebuilds SSSOM files, and commits any changes.  See
 [.github/workflows/update-mappings.yml](.github/workflows/update-mappings.yml).
+
+If a source fails to download or parse, its previously committed SSSOM file is
+kept as-is, the other sources are still updated and committed, and the run is
+marked as failed so the problem is visible.

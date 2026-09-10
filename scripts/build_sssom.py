@@ -15,6 +15,7 @@ from datetime import datetime
 import hashlib
 import html
 import io
+import shutil
 import sys
 import tempfile
 from pathlib import Path
@@ -47,6 +48,30 @@ SOURCES_FILE = ROOT_DIR / "sources.yml"
 def load_sources():
     with open(SOURCES_FILE) as fh:
         return yaml.safe_load(fh)
+
+
+def source_filename(source_config):
+    """Basename of the raw data file for a source (from local_file or import_url)."""
+    if "local_file" in source_config:
+        return Path(source_config["local_file"]).name
+    url = source_config["import_url"]
+    return url.rsplit("/", 1)[-1].split("?")[0]
+
+
+def source_outputs(name, source_config):
+    """Paths written for a source: the split directory or the single file."""
+    if source_config.get("split"):
+        return [MAPPINGS_DIR / name]
+    return [MAPPINGS_DIR / f"{name}.sssom.tsv"]
+
+
+def remove_outputs(name, source_config):
+    """Delete a source's existing output(s) so stale buckets do not linger."""
+    for path in source_outputs(name, source_config):
+        if path.is_dir():
+            shutil.rmtree(path)
+        elif path.exists():
+            path.unlink()
 
 
 def download_file(url, dest_dir):
@@ -482,8 +507,11 @@ def process_source(name, source_config, data_path):
     print(f"  {df.height} mappings")
 
     if df.height == 0:
-        print(f"  Warning: no mappings for {name}", file=sys.stderr)
-        return
+        raise RuntimeError(f"no mappings produced for {name}")
+
+    # Only now — with a successful parse and conversion in hand — replace the
+    # previously committed output.  A failure above leaves the old file intact.
+    remove_outputs(name, source_config)
 
     should_split = source_config.get("split", False)
     split_count = source_config.get("split_count", 16)
@@ -522,24 +550,43 @@ def main():
 
     MAPPINGS_DIR.mkdir(parents=True, exist_ok=True)
 
-    if args.local_data:
+    failed: list[str] = []
+
+    with tempfile.TemporaryDirectory() as tmpdir:
         for name, src in sources.items():
-            filename = src["import_url"].rsplit("/", 1)[-1].split("?")[0]
-            data_path = args.local_data / filename
-            if not data_path.exists():
-                print(f"Skipping {name}: {data_path} not found")
-                continue
-            process_source(name, src, data_path)
-    else:
-        with tempfile.TemporaryDirectory() as tmpdir:
-            for name, src in sources.items():
-                try:
+            try:
+                if "local_file" in src:
+                    data_path = ROOT_DIR / src["local_file"]
+                elif args.local_data:
+                    data_path = args.local_data / source_filename(src)
+                    if not data_path.exists():
+                        print(f"Skipping {name}: {data_path} not found")
+                        continue
+                else:
                     data_path = download_file(src["import_url"], tmpdir)
-                    process_source(name, src, data_path)
-                except Exception as exc:
-                    print(f"  ERROR processing {name}: {exc}", file=sys.stderr)
+                process_source(name, src, data_path)
+            except Exception as exc:
+                failed.append(name)
+                kept = [p for p in source_outputs(name, src) if p.exists()]
+                print(f"  ERROR processing {name}: {exc}", file=sys.stderr)
+                if kept:
+                    print(
+                        f"  Keeping existing output for {name}: "
+                        + ", ".join(p.relative_to(ROOT_DIR).as_posix() for p in kept),
+                        file=sys.stderr,
+                    )
+                else:
+                    print(f"  No existing output for {name} to keep", file=sys.stderr)
 
     write_registry_manifest(sources)
+
+    if failed:
+        print(
+            f"FAILED sources ({len(failed)}): {', '.join(failed)} — "
+            "previous outputs retained where present",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
 
 def write_registry_manifest(sources):

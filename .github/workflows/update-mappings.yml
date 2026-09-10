@@ -21,10 +21,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # Outputs are NOT wiped beforehand: if a source fails to download the
+      # script keeps its previously committed file and exits non-zero.
       - name: Build SSSOM mappings
-        run: |
-          rm -rf mappings/*.sssom.tsv mappings/*/
-          python scripts/build_sssom.py
+        id: build
+        continue-on-error: true
+        run: python scripts/build_sssom.py
 
       - name: Commit and push if changed
         run: |
@@ -34,3 +36,9 @@ jobs:
           git diff --cached --quiet || git commit -m "Update mappings $(date -u +%Y-%m-%d)"
           git pull --rebase
           git push
+
+      - name: Fail the run if any source failed
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo "::error::One or more sources failed to build; see the build step log"
+          exit 1

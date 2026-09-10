@@ -1,0 +1,133 @@
+STUDY,BIOENTITY,PROPERTY_TYPE,PROPERTY_VALUE,SEMANTIC_TAG,ANNOTATOR,ANNOTATION_DATE
+M1_SyM,M1_SyM_1,phenotype,Binuclear,http://www.ebi.ac.uk/cmpo/CMPO_0000213,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_1,phenotype,cell death,http://www.ebi.ac.uk/cmpo/CMPO_0000030,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,cell death,http://www.ebi.ac.uk/cmpo/CMPO_0000030,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,cell migration,http://www.ebi.ac.uk/cmpo/CMPO_0000033,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_1,phenotype,Dynamic changes,http://www.ebi.ac.uk/cmpo/CMPO_0000345,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_1,phenotype,Grape,http://www.ebi.ac.uk/cmpo/CMPO_0000156,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_1,phenotype,increased proliferation,http://www.ebi.ac.uk/cmpo/CMPO_0000241,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_1,phenotype,Large,http://www.ebi.ac.uk/cmpo/CMPO_0000140,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,large nucleus,http://www.ebi.ac.uk/cmpo/CMPO_0000140,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,metaphase alignment problems/including no metaphase,http://www.ebi.ac.uk/cmpo/CMPO_0000348,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,metaphase alignment problems/including no metaphase,http://www.ebi.ac.uk/cmpo/CMPO_0000212,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,metaphase delay/arrest,http://www.ebi.ac.uk/cmpo/CMPO_0000307,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,metaphase delay/arrest,http://www.ebi.ac.uk/cmpo/CMPO_0000305,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_1,phenotype,Mitotic delay/arrest,http://www.ebi.ac.uk/cmpo/CMPO_0000202,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_1,phenotype,Mitotic delay/arrest,http://www.ebi.ac.uk/cmpo/CMPO_0000338,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,nuclei stay close together,http://www.ebi.ac.uk/cmpo/CMPO_0000213,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_1,phenotype,Polylobed,http://www.ebi.ac.uk/cmpo/CMPO_0000157,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,reduced mitotic index,http://www.ebi.ac.uk/cmpo/CMPO_0000058,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,segregation problems/chromatin bridges/lagging chromosomes/multiple DNA masses,http://www.ebi.ac.uk/cmpo/CMPO_0000326,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,small nucleus,http://www.ebi.ac.uk/cmpo/CMPO_0000141,Gabriella Rustici,2013-11-22 12:00:00
+M1_SyM,M1_SyM_2,phenotype,strange nuclear shape,http://www.ebi.ac.uk/cmpo/CMPO_0000157,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Actin fiber cells,http://www.ebi.ac.uk/cmpo/CMPO_0000105,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Big cells,http://www.ebi.ac.uk/cmpo/CMPO_0000128,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,BL phenotype,http://www.ebi.ac.uk/cmpo/CMPO_0000128,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,BL phenotype,http://www.ebi.ac.uk/cmpo/CMPO_0000154,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Bright nuclei,http://www.ebi.ac.uk/cmpo/CMPO_0000154,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Cells with protrusions,http://www.ebi.ac.uk/cmpo/CMPO_0000071,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Elongated cells,http://www.ebi.ac.uk/cmpo/CMPO_0000077,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Elongated cells with protrusions,http://www.ebi.ac.uk/cmpo/CMPO_0000077,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Elongated cells with protrusions,http://www.ebi.ac.uk/cmpo/CMPO_0000071,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,High actin ratio cells,http://www.ebi.ac.uk/cmpo/CMPO_0000105,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Lamellipodia + high actin ratio cells,http://www.ebi.ac.uk/cmpo/CMPO_0000105,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Lamellipodia + high actin ratio cells,http://www.ebi.ac.uk/cmpo/CMPO_0000083,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Lamellipodia cells,http://www.ebi.ac.uk/cmpo/CMPO_0000083,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Large cells,http://www.ebi.ac.uk/cmpo/CMPO_0000340,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Large nuclei,http://www.ebi.ac.uk/cmpo/CMPO_0000140,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Low eccentricity cells,http://www.ebi.ac.uk/cmpo/CMPO_0000118,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Metaphase cells,http://www.ebi.ac.uk/cmpo/CMPO_0000305,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Proliferating cells,http://www.ebi.ac.uk/cmpo/CMPO_0000241,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,SM phenotype,http://www.ebi.ac.uk/cmpo/CMPO_0000305,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,SM phenotype,http://www.ebi.ac.uk/cmpo/CMPO_0000118,Gabriella Rustici,2013-11-22 12:00:00
+C1_SyM,C1_SyM_1,phenotype,Small cells,http://www.ebi.ac.uk/cmpo/CMPO_0000129,Gabriella Rustici,2013-11-22 12:00:00
+P1_SyM,P1_SyM_1,phenotype,Prolonged mitotic exit,http://www.ebi.ac.uk/cmpo/CMPO_0000205,Gabriella Rustici,2013-11-22 12:00:00
+P1_SyM,P1_SyM_1,phenotype,Normal mitotic exit,http://www.ebi.ac.uk/cmpo/CMPO_0000314,Gabriella Rustici,2013-11-22 12:00:00
+E1_SyM,E1_SyM_1,phenotype,mild inhibition of secretion,http://www.ebi.ac.uk/cmpo/CMPO_0000318,Gabriella Rustici,2013-11-22 12:00:00
+E1_SyM,E1_SyM_1,phenotype,strong inhibition of secretion,http://www.ebi.ac.uk/cmpo/CMPO_0000319,Gabriella Rustici,2013-11-22 12:00:00
+E1_SyM,E1_SyM_2,phenotype,enhanced secretion,http://www.ebi.ac.uk/cmpo/CMPO_0000246,Gabriella Rustici,2013-11-22 12:00:00
+C2_SyM,C2_SyM_2,phenotype,Reduction in IR-induced 53BP1 foci in U2OS cells,http://www.ebi.ac.uk/cmpo/CMPO_0000180,Gabriella Rustici,2013-11-22 12:00:00
+C2_SyM,C2_SyM_2,phenotype,Reduction in IR-induced 53BP1 foci in U2OS cells,http://www.ebi.ac.uk/cmpo/CMPO_0000181,Gabriella Rustici,2013-11-22 12:00:00
+C2_SyM,C2_SyM_1,phenotype,Reduction in IR-induced 53BP1 foci in HeLa cells,http://www.ebi.ac.uk/cmpo/CMPO_0000180,Gabriella Rustici,2013-11-22 12:00:00
+C2_SyM,C2_SyM_1,phenotype,Reduction in IR-induced 53BP1 foci in HeLa cells,http://www.ebi.ac.uk/cmpo/CMPO_0000181,Gabriella Rustici,2013-11-22 12:00:00
+G1_SyM,G1_SyM_1,phenotype,Accumulation of GFP-RNF168 on nuclear bodies,http://www.ebi.ac.uk/cmpo/CMPO_0000126,Gabriella Rustici,2013-11-22 12:00:00
+G1_SyM,G1_SyM_1,phenotype,Accumulation of GFP-RNF168 on nuclear bodies,http://www.ebi.ac.uk/cmpo/CMPO_0000335,Gabriella Rustici,2013-11-22 12:00:00
+B1_SyM,B1_SyM_1,phenotype,Intracellular retention of SH4(HASPB)-GFP,http://www.ebi.ac.uk/cmpo/CMPO_0000346,Gabriella Rustici,2013-11-22 12:00:00
+B1_SyM,B1_SyM_1,phenotype,Intracellular retention of SH4(YES)-mCherry,http://www.ebi.ac.uk/cmpo/CMPO_0000346,Gabriella Rustici,2013-11-22 12:00:00
+N1_SyM,N1_SyM_1,phenotype,no NF-kB  oscillation,http://www.ebi.ac.uk/cmpo/CMPO_0000332,Gabriella Rustici,2013-11-22 12:00:00
+N1_SyM,N1_SyM_1,phenotype,decreased NF-kB oscillation,http://www.ebi.ac.uk/cmpo/CMPO_0000330,Gabriella Rustici,2013-11-22 12:00:00
+N1_SyM,N1_SyM_1,phenotype,increased NF-kB oscillation,http://www.ebi.ac.uk/cmpo/CMPO_0000331,Gabriella Rustici,2013-11-22 12:00:00
+N1_SyM,N1_SyM_1,phenotype,different NF-kB  oscillation pattern,http://www.ebi.ac.uk/cmpo/CMPO_0000333,Gabriella Rustici,2013-11-22 12:00:00
+P2_SyM,P2_SyM_1,phenotype,Impaired cell migration with increased protrusive activity,http://www.ebi.ac.uk/cmpo/CMPO_0000309,Gabriella Rustici,2013-11-22 12:00:00
+P2_SyM,P2_SyM_1,phenotype,Impaired cell migration with increased protrusive activity,http://www.ebi.ac.uk/cmpo/CMPO_0000349,Gabriella Rustici,2013-11-22 12:00:00
+P2_SyM,P2_SyM_1,phenotype,Impaired cell migration,http://www.ebi.ac.uk/cmpo/CMPO_0000309,Gabriella Rustici,2013-11-22 12:00:00
+P2_SyM,P2_SyM_1,phenotype,Increased directional cell migration,http://www.ebi.ac.uk/cmpo/CMPO_0000350,Gabriella Rustici,2013-11-22 12:00:00
+P2_SyM,P2_SyM_1,phenotype,Increased cell migration and increased cell area,http://www.ebi.ac.uk/cmpo/CMPO_0000232,Gabriella Rustici,2013-11-22 12:00:00
+P2_SyM,P2_SyM_1,phenotype,Increased cell migration and increased cell area,http://www.ebi.ac.uk/cmpo/CMPO_0000237,Gabriella Rustici,2013-11-22 12:00:00
+P2_SyM,P2_SyM_1,phenotype,Increased cell migration and increased cell area,http://www.ebi.ac.uk/cmpo/CMPO_0000128,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Apoptotic DNA,http://www.ebi.ac.uk/cmpo/CMPO_0000262,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Asymmetric lamellae,http://www.ebi.ac.uk/cmpo/CMPO_0000266,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Cell shape bipolar or elongated,http://www.ebi.ac.uk/cmpo/CMPO_0000077,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Cell shape geometric,http://www.ebi.ac.uk/cmpo/CMPO_0000261,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Cell shape processes or spiky or stretchy ,http://www.ebi.ac.uk/cmpo/CMPO_0000267,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Cell shape processes or spiky or stretchy ,http://www.ebi.ac.uk/cmpo/CMPO_0000267,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Cell shape round or non-adherent,http://www.ebi.ac.uk/cmpo/CMPO_0000118,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Cell shape round or non-adherent,http://www.ebi.ac.uk/cmpo/CMPO_0000118,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Cell shape variable,http://www.ebi.ac.uk/cmpo/CMPO_0000270,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Cell shape variable,http://www.ebi.ac.uk/cmpo/CMPO_0000270,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Decreased cell number,http://www.ebi.ac.uk/cmpo/CMPO_0000052,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Decreased cell number,http://www.ebi.ac.uk/cmpo/CMPO_0000052,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Decreased cell size,http://www.ebi.ac.uk/cmpo/CMPO_0000129,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Decreased cell size,http://www.ebi.ac.uk/cmpo/CMPO_0000129,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Decreased DNA area,http://www.ebi.ac.uk/cmpo/CMPO_0000141,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Decreased level of actin,http://www.ebi.ac.uk/cmpo/CMPO_0000106,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Decreased level of actin,http://www.ebi.ac.uk/cmpo/CMPO_0000106,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Decreased level of microtubules,http://www.ebi.ac.uk/cmpo/CMPO_0000068,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Decreased number of filopodia,http://www.ebi.ac.uk/cmpo/CMPO_0000067,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Decreased peripheral actin,http://www.ebi.ac.uk/cmpo/CMPO_0000273,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Decreased width of lamellae,http://www.ebi.ac.uk/cmpo/CMPO_0000277,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Disorganised peripheral actin,http://www.ebi.ac.uk/cmpo/CMPO_0000274,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Disorganised peripheral actin,http://www.ebi.ac.uk/cmpo/CMPO_0000274,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased actin over nucleus,http://www.ebi.ac.uk/cmpo/CMPO_0000294,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased cell number,http://www.ebi.ac.uk/cmpo/CMPO_0000051,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased cell size,http://www.ebi.ac.uk/cmpo/CMPO_0000128,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Increased cell size,http://www.ebi.ac.uk/cmpo/CMPO_0000128,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased cytoplasmic actin,http://www.ebi.ac.uk/cmpo/CMPO_0000296,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Increased cytoplasmic actin,http://www.ebi.ac.uk/cmpo/CMPO_0000296,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased DNA area,http://www.ebi.ac.uk/cmpo/CMPO_0000140,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Increased DNA area,http://www.ebi.ac.uk/cmpo/CMPO_0000140,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased level of actin,http://www.ebi.ac.uk/cmpo/CMPO_0000105,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Increased level of actin,http://www.ebi.ac.uk/cmpo/CMPO_0000105,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased level of microtubules,http://www.ebi.ac.uk/cmpo/CMPO_0000097,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Increased level of microtubules,http://www.ebi.ac.uk/cmpo/CMPO_0000097,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased mitotic index,http://www.ebi.ac.uk/cmpo/CMPO_0000056,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Increased nuclear actin,http://www.ebi.ac.uk/cmpo/CMPO_0000294,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased number of actin puncta or dots,http://www.ebi.ac.uk/cmpo/CMPO_0000291,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Increased number of actin puncta or dots,http://www.ebi.ac.uk/cmpo/CMPO_0000291,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased number of actin stress fibers,http://www.ebi.ac.uk/cmpo/CMPO_0000289,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Increased number of actin stress fibers,http://www.ebi.ac.uk/cmpo/CMPO_0000289,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased number of cortical actin stress fibers,http://www.ebi.ac.uk/cmpo/CMPO_0000297,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased number of filopodia,http://www.ebi.ac.uk/cmpo/CMPO_0000076,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased number of multinucleate cells,http://www.ebi.ac.uk/cmpo/CMPO_0000300,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Increased number of multinucleate cells,http://www.ebi.ac.uk/cmpo/CMPO_0000300,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased number of transverse actin stress fibers,http://www.ebi.ac.uk/cmpo/CMPO_0000298,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased number of zigzag actin stress fibers,http://www.ebi.ac.uk/cmpo/CMPO_0000299,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased peripheral actin,http://www.ebi.ac.uk/cmpo/CMPO_0000272,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Increased peripheral actin,http://www.ebi.ac.uk/cmpo/CMPO_0000272,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Increased width of lamellae,http://www.ebi.ac.uk/cmpo/CMPO_0000276,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Loss of cell monolayer,http://www.ebi.ac.uk/cmpo/CMPO_0000293,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Loss of cell monolayer,http://www.ebi.ac.uk/cmpo/CMPO_0000293,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Microtubule clumps,http://www.ebi.ac.uk/cmpo/CMPO_0000286,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Microtubule clumps,http://www.ebi.ac.uk/cmpo/CMPO_0000286,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Microtubule nuclear bracket,http://www.ebi.ac.uk/cmpo/CMPO_0000287,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Microtubule nuclear ring,http://www.ebi.ac.uk/cmpo/CMPO_0000288,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Microtubule processes,http://www.ebi.ac.uk/cmpo/CMPO_0000351,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Microtubule processes,http://www.ebi.ac.uk/cmpo/CMPO_0000351,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Microtubules disorganised,http://www.ebi.ac.uk/cmpo/CMPO_0000147,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Microtubules disorganised,http://www.ebi.ac.uk/cmpo/CMPO_0000147,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Misshapen DNA,http://www.ebi.ac.uk/cmpo/CMPO_0000177,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Motile lamellae,http://www.ebi.ac.uk/cmpo/CMPO_0000278,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,Multiple layers of cells,http://www.ebi.ac.uk/cmpo/CMPO_0000282,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_2,phenotype,No cells,http://www.ebi.ac.uk/cmpo/CMPO_0000301,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Nuclear actin ring,http://www.ebi.ac.uk/cmpo/CMPO_0000302,Gabriella Rustici,2013-11-22 12:00:00
+J1_SyM,J1_SyM_1,phenotype,Variable cell size,http://www.ebi.ac.uk/cmpo/CMPO_0000269,Gabriella Rustici,2013-11-22 12:00:00
