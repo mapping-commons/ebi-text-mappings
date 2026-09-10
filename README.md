@@ -39,6 +39,13 @@ cancer file use their own columns, declared via `column_map` in
 ids such as `MONDO_0004989`, and pipe-separated multi-term values are exploded
 into one mapping per term.
 
+Each source is fetched from its `import_url` on every build, or read from a
+`local_file` checked into the repo for sources whose upstream no longer exists
+(currently only SysMicro).  Files are not split: the largest output, GWAS, is
+around 15 MB.  Should a source ever outgrow a single file, the build script can
+partition it into hash-bucketed files with `split: true` and `split_count` in
+[sources.yml](sources.yml).
+
 ## Building locally
 
 ```bash
