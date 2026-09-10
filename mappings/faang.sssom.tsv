@@ -413,6 +413,7 @@ cDC1	cellType	skos:closeMatch	EFO:0000649	semapv:ManualMappingCuration
 cDC2	cellType	skos:closeMatch	EFO:0000649	semapv:ManualMappingCuration
 caecum	organismPart, cellType	skos:closeMatch	UBERON:0001153	semapv:ManualMappingCuration
 caecum	organismPart, cellType	skos:closeMatch	UBERON:0014390	semapv:ManualMappingCuration
+caecum epithelium	cellType, organismPart	skos:closeMatch	UBERON:0005636	semapv:ManualMappingCuration
 caput epididymis	organismPart, cellType	skos:closeMatch	UBERON:0004358	semapv:ManualMappingCuration
 caput epididymus	organismPart, cellType	skos:closeMatch	UBERON:0004358	semapv:ManualMappingCuration
 cardiac atrium	organismPart, cellType	skos:closeMatch	UBERON:0002081	semapv:ManualMappingCuration
