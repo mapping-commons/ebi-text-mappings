@@ -1,0 +1,118 @@
+#curie_map:
+#  EFO: http://www.ebi.ac.uk/efo/EFO_
+#  MONDO: http://purl.obolibrary.org/obo/MONDO_
+#  ORPHA: http://www.orpha.net/ORDO/Orphanet_
+#mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/opentargets-cancer.sssom.tsv
+#mapping_set_description: Open Targets cancer type (intOGen / Cancer Biomarkers) to EFO mappings
+#subject_type: rdfs literal
+#subject_source: https://platform.opentargets.org
+subject_label	predicate_id	object_id	object_label	mapping_justification
+Acute Myeloid Leukemia	skos:closeMatch	MONDO:0018874	acute myeloid leukemia	semapv:ManualMappingCuration
+Acute lymphoblastic leukemia	skos:closeMatch	MONDO:0004967	acute lymphoblastic leukemia	semapv:ManualMappingCuration
+Adenoid Cystic Carcinoma	skos:closeMatch	MONDO:0004971	adenoid cystic carcinoma	semapv:ManualMappingCuration
+Adenoid cystic carcinoma	skos:closeMatch	MONDO:0004971	adenoid cystic carcinoma	semapv:ManualMappingCuration
+Adrenocortical carcinoma	skos:closeMatch	MONDO:0006639	adrenal cortex carcinoma	semapv:ManualMappingCuration
+Anal Squamous Cell Carcinoma	skos:closeMatch	MONDO:0006082	anal squamous cell carcinoma	semapv:ManualMappingCuration
+Angiosarcoma	skos:closeMatch	MONDO:0016982	angiosarcoma	semapv:ManualMappingCuration
+Anus cancer	skos:closeMatch	MONDO:0001879	anus cancer	semapv:ManualMappingCuration
+Atypical teratoid/rhabdoid tumor	skos:closeMatch	MONDO:0020560	atypical teratoid rhabdoid tumor	semapv:ManualMappingCuration
+Basal Cell Carcinoma	skos:closeMatch	MONDO:0020804	basal cell carcinoma	semapv:ManualMappingCuration
+Bladder cancer	skos:closeMatch	MONDO:0001187	urinary bladder cancer	semapv:ManualMappingCuration
+Bowel cancer	skos:closeMatch	MONDO:0005814	intestinal cancer	semapv:ManualMappingCuration
+Breast adenocarcinoma	skos:closeMatch	MONDO:0004988	breast adenocarcinoma	semapv:ManualMappingCuration
+Burkitt Lymphoma	skos:closeMatch	MONDO:0007243	Burkitt lymphoma	semapv:ManualMappingCuration
+Burkitt lymphoma	skos:closeMatch	MONDO:0007243	Burkitt lymphoma	semapv:ManualMappingCuration
+Cervix squamous cancer	skos:closeMatch	MONDO:0006143	cervical squamous cell carcinoma	semapv:ManualMappingCuration
+Cholangiocarcinoma	skos:closeMatch	MONDO:0019087	cholangiocarcinoma	semapv:ManualMappingCuration
+Chromophobe Renal Cell Carcinoma	skos:closeMatch	MONDO:0017885	chromophobe renal cell carcinoma	semapv:ManualMappingCuration
+Chromophobe renal cell carcinoma	skos:closeMatch	MONDO:0017885	chromophobe renal cell carcinoma	semapv:ManualMappingCuration
+Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	skos:closeMatch	MONDO:0004948	B-cell chronic lymphocytic leukemia	semapv:ManualMappingCuration
+Chronic lymphoblastic leukemia	skos:closeMatch	MONDO:0004948	B-cell chronic lymphocytic leukemia	semapv:ManualMappingCuration
+Colon Adenocarcinoma	skos:closeMatch	MONDO:0002271	colon adenocarcinoma	semapv:ManualMappingCuration
+Colorectal Adenocarcinoma	skos:closeMatch	MONDO:0005008	colorectal adenocarcinoma	semapv:ManualMappingCuration
+Colorectal adenocarcinoma	skos:closeMatch	MONDO:0005008	colorectal adenocarcinoma	semapv:ManualMappingCuration
+Cutaneous Squamous Cell Carcinoma	skos:closeMatch	EFO:1001927	cutaneous squamous cell carcinoma	semapv:ManualMappingCuration
+Cutaneous melanoma of the skin	skos:closeMatch	MONDO:0005012	cutaneous melanoma	semapv:ManualMappingCuration
+Diffuse Large B-Cell Lymphoma, NOS	skos:closeMatch	MONDO:0018905	diffuse large B-cell lymphoma	semapv:ManualMappingCuration
+Diffuse large B-cell lymphoma	skos:closeMatch	MONDO:0018905	diffuse large B-cell lymphoma	semapv:ManualMappingCuration
+Endometrial cancer	skos:closeMatch	MONDO:0011962	endometrial cancer	semapv:ManualMappingCuration
+Ependymoma	skos:closeMatch	MONDO:0016698	ependymoma	semapv:ManualMappingCuration
+Esophageal cancer	skos:closeMatch	MONDO:0007576	esophageal cancer	semapv:ManualMappingCuration
+Ewing Sarcoma	skos:closeMatch	MONDO:0012817	Ewing sarcoma	semapv:ManualMappingCuration
+Ewing's sarcoma	skos:closeMatch	MONDO:0012817	Ewing sarcoma	semapv:ManualMappingCuration
+Gastrointestinal Neuroendocrine Tumors	skos:closeMatch	MONDO:0024503	digestive system neuroendocrine neoplasm	semapv:ManualMappingCuration
+Glioblastoma	skos:closeMatch	MONDO:0018177	glioblastoma	semapv:ManualMappingCuration
+Head and Neck squamous cell carcinoma	skos:closeMatch	MONDO:0010150	head and neck squamous cell carcinoma	semapv:ManualMappingCuration
+Hepatic blastoma	skos:closeMatch	MONDO:0018666	hepatoblastoma	semapv:ManualMappingCuration
+Hepatic cancer	skos:closeMatch	MONDO:0002691	liver cancer	semapv:ManualMappingCuration
+Hepatoblastoma	skos:closeMatch	MONDO:0018666	hepatoblastoma	semapv:ManualMappingCuration
+Hepatocellular Carcinoma	skos:closeMatch	MONDO:0007256	hepatocellular carcinoma	semapv:ManualMappingCuration
+High-Grade Glioma, NOS	skos:closeMatch	MONDO:0100342	malignant glioma	semapv:ManualMappingCuration
+High-grade Glioma	skos:closeMatch	MONDO:0100342	malignant glioma	semapv:ManualMappingCuration
+Kidney Chromophobe	skos:closeMatch	MONDO:0017885	chromophobe renal cell carcinoma	semapv:ManualMappingCuration
+Kidney renal clear cell carcinoma	skos:closeMatch	MONDO:0005005	clear cell renal carcinoma	semapv:ManualMappingCuration
+Kidney renal papillary cell carcinoma	skos:closeMatch	MONDO:0017884	papillary renal cell carcinoma	semapv:ManualMappingCuration
+Leiomyosarcoma	skos:closeMatch	MONDO:0005058	leiomyosarcoma	semapv:ManualMappingCuration
+Liver hepatocellular carcinoma	skos:closeMatch	MONDO:0007256	hepatocellular carcinoma	semapv:ManualMappingCuration
+Low-Grade Glioma, NOS	skos:closeMatch	MONDO:0021637	low grade glioma	semapv:ManualMappingCuration
+Lower grade glioma	skos:closeMatch	MONDO:0021637	low grade glioma	semapv:ManualMappingCuration
+Lung adenocarcinoma	skos:closeMatch	MONDO:0005061	lung adenocarcinoma	semapv:ManualMappingCuration
+Lung neuroendocrine cancer	skos:closeMatch	MONDO:0005454	lung neuroendocrine neoplasm	semapv:ManualMappingCuration
+Lung squamous cell carcinoma	skos:closeMatch	MONDO:0005097	squamous cell lung carcinoma	semapv:ManualMappingCuration
+Lymphoid Neoplasm	skos:closeMatch	MONDO:0005157	lymphoid neoplasm	semapv:ManualMappingCuration
+Lymphoma	skos:closeMatch	MONDO:0005062	lymphoma	semapv:ManualMappingCuration
+Male germ cell tumor	skos:closeMatch	MONDO:0010108	testicular germ cell tumor	semapv:ManualMappingCuration
+Malignant Lymphoma	skos:closeMatch	MONDO:0005062	lymphoma	semapv:ManualMappingCuration
+Medulloblastoma	skos:closeMatch	MONDO:0007959	medulloblastoma	semapv:ManualMappingCuration
+Melanoma	skos:closeMatch	MONDO:0005105	melanoma	semapv:ManualMappingCuration
+Mesothelioma	skos:closeMatch	MONDO:0005065	mesothelioma	semapv:ManualMappingCuration
+Multiple myeloma	skos:closeMatch	MONDO:0009693	plasma cell myeloma	semapv:ManualMappingCuration
+Myelodysplastic Syndromes	skos:closeMatch	MONDO:0018881	myelodysplastic syndrome	semapv:ManualMappingCuration
+Myelodysplastic syndrome neoplasm	skos:closeMatch	MONDO:0018881	myelodysplastic syndrome	semapv:ManualMappingCuration
+Nasopharyngeal Carcinoma	skos:closeMatch	MONDO:0005375	nasopharyngeal neoplasm	semapv:ManualMappingCuration
+Nasopharyngeal cancer	skos:closeMatch	MONDO:0005375	nasopharyngeal neoplasm	semapv:ManualMappingCuration
+Neuroblastoma	skos:closeMatch	MONDO:0005072	neuroblastoma	semapv:ManualMappingCuration
+Non small cell lung cancer	skos:closeMatch	MONDO:0005233	non-small cell lung carcinoma	semapv:ManualMappingCuration
+Non-Hodgkin Lymphoma	skos:closeMatch	MONDO:0018908	non-Hodgkin lymphoma	semapv:ManualMappingCuration
+Non-hodking lymphoma	skos:closeMatch	MONDO:0018908	non-Hodgkin lymphoma	semapv:ManualMappingCuration
+Osteosarcoma	skos:closeMatch	MONDO:0009807	osteosarcoma	semapv:ManualMappingCuration
+Ovarian Epithelial Tumor	skos:closeMatch	MONDO:0002229	ovarian epithelial tumor	semapv:ManualMappingCuration
+Ovary cancer	skos:closeMatch	MONDO:0008170	ovarian cancer	semapv:ManualMappingCuration
+Pancreas	skos:closeMatch	MONDO:0009831	malignant pancreatic neoplasm	semapv:ManualMappingCuration
+Pancreas adenocarcinoma	skos:closeMatch	MONDO:0006047	pancreatic adenocarcinoma	semapv:ManualMappingCuration
+Pancreatic Neuroendocrine Tumor	skos:closeMatch	MONDO:0019954	pancreatic neuroendocrine tumor	semapv:ManualMappingCuration
+Pancreatic neuroendocrine cancer	skos:closeMatch	MONDO:0005893	pancreatic endocrine carcinoma	semapv:ManualMappingCuration
+Papillary Renal Cell Carcinoma	skos:closeMatch	MONDO:0017884	papillary renal cell carcinoma	semapv:ManualMappingCuration
+Paraganglioma	skos:closeMatch	MONDO:0000448	paraganglioma	semapv:ManualMappingCuration
+Penile Squamous Cell Carcinoma	skos:closeMatch	MONDO:0018352	squamous cell carcinoma of penis	semapv:ManualMappingCuration
+Pheochromocytoma and Paraganglioma	skos:closeMatch	EFO:0020005	pheochromocytoma-paraganglioma	semapv:ManualMappingCuration
+Pilocityc astrocytoma	skos:closeMatch	MONDO:0019781	astrocytoma (excluding glioblastoma)	semapv:ManualMappingCuration
+Pilocytic Astrocytoma	skos:closeMatch	MONDO:0016691	pilocytic astrocytoma	semapv:ManualMappingCuration
+Plasma Cell Myeloma	skos:closeMatch	MONDO:0009693	plasma cell myeloma	semapv:ManualMappingCuration
+Pleural Mesothelioma	skos:closeMatch	MONDO:0003308	pleural mesothelioma	semapv:ManualMappingCuration
+Prostate adenocarcinoma	skos:closeMatch	MONDO:0005082	prostate adenocarcinoma	semapv:ManualMappingCuration
+Renal Cell Carcinoma	skos:closeMatch	MONDO:0005086	renal cell carcinoma	semapv:ManualMappingCuration
+Renal Clear Cell Carcinoma	skos:closeMatch	MONDO:0005005	clear cell renal carcinoma	semapv:ManualMappingCuration
+Renal clear cell carcinoma	skos:closeMatch	MONDO:0005005	clear cell renal carcinoma	semapv:ManualMappingCuration
+Renal papillary cell carcinoma	skos:closeMatch	MONDO:0017884	papillary renal cell carcinoma	semapv:ManualMappingCuration
+Retinoblastoma	skos:closeMatch	MONDO:0008380	retinoblastoma	semapv:ManualMappingCuration
+Rhabdomyosarcoma	skos:closeMatch	MONDO:0005212	rhabdomyosarcoma	semapv:ManualMappingCuration
+Salivary Carcinoma	skos:closeMatch	MONDO:0000521	salivary gland carcinoma	semapv:ManualMappingCuration
+Salivary glands cancer	skos:closeMatch	MONDO:0004669	salivary gland cancer	semapv:ManualMappingCuration
+Sarcoma	skos:closeMatch	MONDO:0005089	sarcoma	semapv:ManualMappingCuration
+Skin basal cell carcinoma	skos:closeMatch	MONDO:0020804	basal cell carcinoma	semapv:ManualMappingCuration
+Skin squamous cell carcinoma	skos:closeMatch	MONDO:0002529	skin squamous cell carcinoma	semapv:ManualMappingCuration
+Small Bowel Cancer	skos:closeMatch	MONDO:0000956	small intestine cancer	semapv:ManualMappingCuration
+Small intestine cancer neuroendocrine	skos:closeMatch	MONDO:0018510	small intestine neuroendocrine neoplasm	semapv:ManualMappingCuration
+Small-cell lung cancer	skos:closeMatch	MONDO:0008433	small cell lung carcinoma	semapv:ManualMappingCuration
+Stomach adenocarcinoma	skos:closeMatch	MONDO:0005036	gastric adenocarcinoma	semapv:ManualMappingCuration
+Thymic carcinoma	skos:closeMatch	MONDO:0006451	thymic carcinoma	semapv:ManualMappingCuration
+Thyroid adenocarcinoma	skos:closeMatch	MONDO:0024622	thyroid gland adenocarcinoma	semapv:ManualMappingCuration
+Uterine carcinosarcoma	skos:closeMatch	MONDO:0006485	uterine carcinosarcoma	semapv:ManualMappingCuration
+Uveal Melanoma	skos:closeMatch	MONDO:0006486	uveal melanoma	semapv:ManualMappingCuration
+Uveal melanoma	skos:closeMatch	MONDO:0006486	uveal melanoma	semapv:ManualMappingCuration
+Vulva Cancer	skos:closeMatch	MONDO:0001528	vulva cancer	semapv:ManualMappingCuration
+Vulva/Vagina	skos:closeMatch	MONDO:0001402	vaginal cancer	semapv:ManualMappingCuration
+Well-Differentiated Thyroid Cancer	skos:closeMatch	MONDO:0015447	differentiated thyroid carcinoma	semapv:ManualMappingCuration
+Wilms tumor	skos:closeMatch	ORPHA:654	Nephroblastoma	semapv:ManualMappingCuration
+cutaneous melanoma	skos:closeMatch	MONDO:0005012	cutaneous melanoma	semapv:ManualMappingCuration

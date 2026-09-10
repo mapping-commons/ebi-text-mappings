@@ -6,7 +6,9 @@
 # A source has either an import_url (downloaded on each build) or a local_file
 # (a static copy checked into the repo, relative to the repo root).
 # All sources use the standard zooma columns (PROPERTY_VALUE, SEMANTIC_TAG,
-# PROPERTY_TYPE) unless column_map is specified.
+# PROPERTY_TYPE) unless column_map is specified.  SEMANTIC_TAG may hold full
+# URIs or compact ids such as MONDO_0004989; multiple values are pipe-separated.
+# Set quoted: true for RFC-4180 quoted CSV (zooma files are read unquoted).
 
 sources:
   sysmicro:
@@ -31,9 +33,28 @@ sources:
     date_format: "%Y-%m-%d %H:%M:%S"
 
   cttv:
-    import_url: "https://raw.githubusercontent.com/opentargets/platform_semantic/master/resources/zooma/cttv_indications.csv"
-    subject_source: "https://www.targetvalidation.org"
-    description: "Curated disease indication mappings from Open Targets"
+    # Formerly opentargets/platform_semantic resources/zooma/cttv_indications.csv,
+    # which was archived in 2017.  The live, actively curated file (a superset,
+    # same zooma columns) now lives in the opentargets/curation repo.  The
+    # source keeps its historical zooma name "cttv" so the output path is stable.
+    import_url: "https://raw.githubusercontent.com/opentargets/curation/master/mappings/disease/manual_string.tsv"
+    subject_source: "https://platform.opentargets.org"
+    description: "Curated disease string-to-ontology mappings from Open Targets"
+    date_format: "%Y-%m-%d %H:%M:%S"
+
+  opentargets-cancer:
+    import_url: "https://raw.githubusercontent.com/opentargets/curation/master/mappings/disease/cancer2EFO_mappings.tsv"
+    subject_source: "https://platform.opentargets.org"
+    description: "Open Targets cancer type (intOGen / Cancer Biomarkers) to EFO mappings"
+    column_map:
+      "Cancer_type_name": "PROPERTY_VALUE"
+      "EFO_id": "SEMANTIC_TAG"
+    object_label_column: "EFO_name"
+
+  bmb-wp7:
+    import_url: "https://ftp.ebi.ac.uk/pub/databases/spot/zooma/data/annotations/bmb-wp7/latest/bmb-disease.tsv"
+    subject_source: "https://www.biomedbridges.eu"
+    description: "BioMedBridges WP7 curated disease and phenotype mappings"
     date_format: "%Y-%m-%d %H:%M:%S"
 
   uniprot:
@@ -96,3 +117,13 @@ sources:
       "Disease trait": "PROPERTY_VALUE"
       "EFO URI": "SEMANTIC_TAG"
     object_label_column: "EFO term"
+
+  pgs:
+    import_url: "https://ftp.ebi.ac.uk/pub/databases/spot/pgs/metadata/pgs_all_metadata_scores.csv"
+    subject_source: "https://www.pgscatalog.org"
+    description: "PGS Catalog reported trait to EFO mappings"
+    quoted: true
+    column_map:
+      "Reported Trait": "PROPERTY_VALUE"
+      "Mapped Trait(s) (EFO ID)": "SEMANTIC_TAG"
+    object_label_column: "Mapped Trait(s) (EFO label)"

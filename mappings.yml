@@ -16,6 +16,12 @@ mapping_set_references:
 - mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/cttv.sssom.tsv
   local_name: mappings/cttv.sssom.tsv
   mapping_set_group: cttv
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/opentargets-cancer.sssom.tsv
+  local_name: mappings/opentargets-cancer.sssom.tsv
+  mapping_set_group: opentargets-cancer
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/bmb-wp7.sssom.tsv
+  local_name: mappings/bmb-wp7.sssom.tsv
+  mapping_set_group: bmb-wp7
 - mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/uniprot.sssom.tsv
   local_name: mappings/uniprot.sssom.tsv
   mapping_set_group: uniprot
@@ -46,3 +52,6 @@ mapping_set_references:
 - mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/gwas.sssom.tsv
   local_name: mappings/gwas.sssom.tsv
   mapping_set_group: gwas
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/pgs.sssom.tsv
+  local_name: mappings/pgs.sssom.tsv
+  mapping_set_group: pgs

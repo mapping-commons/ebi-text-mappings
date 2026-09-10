@@ -113,6 +113,18 @@ def uri_to_curie(uri):
     if uri in _curie_cache:
         return _curie_cache[uri]
 
+    if "://" not in uri:
+        # Compact OBO-style identifier (e.g. "MONDO_0004989" or "EFO:0000404")
+        # rather than a full URI: expand via bioregistry, then treat as a URI
+        # so the curie_map records a real expansion.
+        sep = ":" if ":" in uri else "_"
+        prefix, _, identifier = uri.partition(sep)
+        normalised = bioregistry.normalize_curie(f"{prefix}:{identifier}")
+        expanded = bioregistry.get_iri(normalised) if normalised else None
+        result = uri_to_curie(expanded) if expanded else None
+        _curie_cache[uri] = result
+        return result
+
     curie = bioregistry.curie_from_iri(uri)
     if curie is None:
         _curie_cache[uri] = None
@@ -166,7 +178,9 @@ def parse_source(filepath, source_config):
         separator=delimiter,
         infer_schema_length=0,
         truncate_ragged_lines=True,
-        quote_char=None,
+        # Zooma files are unquoted (and may contain stray quotes); sources
+        # with RFC-4180 quoting (e.g. PGS Catalog) set quoted: true.
+        quote_char='"' if source_config.get("quoted") else None,
         encoding="utf8-lossy",
     )
 
@@ -260,11 +274,28 @@ def parse_source(filepath, source_config):
             .rename({"_mapping_date": "mapping_date"})
         )
 
-    # Explode pipe-separated URIs into separate rows
+    # Explode pipe-separated URIs into separate rows.  When object_label is
+    # pipe-separated in parallel (same number of items) explode it alongside;
+    # otherwise the label is ambiguous for that row and is blanked.
+    df = df.with_columns(pl.col("semantic_tag").str.split("|"))
+    if "object_label" in df.columns:
+        df = df.with_columns(
+            pl.when(
+                pl.col("object_label").str.split("|").list.len()
+                == pl.col("semantic_tag").list.len()
+            )
+            .then(pl.col("object_label").str.split("|"))
+            .otherwise(
+                pl.lit("").repeat_by(pl.col("semantic_tag").list.len())
+            )
+            .alias("object_label")
+        )
+        df = df.explode(["semantic_tag", "object_label"])
+        df = df.with_columns(pl.col("object_label").str.strip_chars())
+    else:
+        df = df.explode("semantic_tag")
     df = (
-        df.with_columns(pl.col("semantic_tag").str.split("|"))
-        .explode("semantic_tag")
-        .with_columns(pl.col("semantic_tag").str.strip_chars())
+        df.with_columns(pl.col("semantic_tag").str.strip_chars())
         .filter(pl.col("semantic_tag") != "")
     )
 
