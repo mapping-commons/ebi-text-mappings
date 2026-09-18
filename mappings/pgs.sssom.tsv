@@ -104,6 +104,7 @@ Allergy	skos:closeMatch	MONDO:0005271	allergic disease	semapv:ManualMappingCurat
 Allergy/adverse effect of penicillin	skos:closeMatch	MONDO:0000775	drug allergy	semapv:ManualMappingCuration
 Alzheimer's disease	skos:closeMatch	MONDO:0004975	Alzheimer disease	semapv:ManualMappingCuration
 Alzheimer's disease (algorithmically-defined)	skos:closeMatch	MONDO:0004975	Alzheimer disease	semapv:ManualMappingCuration
+Alzheimer's disease (excluding the APOE region)	skos:closeMatch	MONDO:0004975	Alzheimer disease	semapv:ManualMappingCuration
 Alzheimer's disease (late onset)	skos:closeMatch	MONDO:0004975	Alzheimer disease	semapv:ManualMappingCuration
 Alzheimer's disease (late onset)	skos:closeMatch	EFO:1001870	late-onset Alzheimer's disease	semapv:ManualMappingCuration
 Alzheimer's disease (time-to-event)	skos:closeMatch	MONDO:0004975	Alzheimer disease	semapv:ManualMappingCuration
@@ -539,6 +540,8 @@ Diverticular disease/diverticulitis	skos:closeMatch	MONDO:0004235	diverticulitis
 Diverticulosis	skos:closeMatch	HP:0002253	Colonic diverticula	semapv:ManualMappingCuration
 Dizziness and giddiness Light headedness and vertigo	skos:closeMatch	HP:0002321	Vertigo	semapv:ManualMappingCuration
 Dizziness and giddiness Light headedness and vertigo	skos:closeMatch	EFO:0009847	dizziness	semapv:ManualMappingCuration
+Docosahexaenoic acid	skos:closeMatch	EFO:0007761	docosahexaenoic acid measurement	semapv:ManualMappingCuration
+Docosahexaenoic acid to total fatty acids percentage	skos:closeMatch	EFO:0022262	docosahexaenoic acid to total fatty acids percentage	semapv:ManualMappingCuration
 Dried fruit intake	skos:closeMatch	EFO:0008111	diet measurement	semapv:ManualMappingCuration
 Drinking status	skos:closeMatch	EFO:0004329	alcohol drinking	semapv:ManualMappingCuration
 Drinks per week	skos:closeMatch	OBA:1000840	alcohol consumption quality	semapv:ManualMappingCuration
@@ -1446,6 +1449,8 @@ Ocular cancer	skos:closeMatch	MONDO:0002236	ocular cancer	semapv:ManualMappingCu
 Often felt loved as a child	skos:closeMatch	EFO:0007869	wellbeing measurement	semapv:ManualMappingCuration
 Oily fish consumption	skos:closeMatch	EFO:0010139	fish consumption measurement	semapv:ManualMappingCuration
 Oligoarthritis Juvenile Idiophatic Arthritis	skos:closeMatch	MONDO:0019433	oligoarticular juvenile idiopathic arthritis	semapv:ManualMappingCuration
+Omega-3 fatty acids	skos:closeMatch	EFO:0010119	omega-3 polyunsaturated fatty acid measurement	semapv:ManualMappingCuration
+Omega-3 fatty acids to total fatty acids percentage	skos:closeMatch	OBA:VT0010046	fatty acid amount	semapv:ManualMappingCuration
 Open angle glaucoma	skos:closeMatch	MONDO:0005338	open-angle glaucoma	semapv:ManualMappingCuration
 Oral cavity and pharyngeal cancers	skos:closeMatch	MONDO:0005515	oral cavity cancer	semapv:ManualMappingCuration
 Oral cavity and pharyngeal cancers	skos:closeMatch	MONDO:0005517	pharynx cancer	semapv:ManualMappingCuration
