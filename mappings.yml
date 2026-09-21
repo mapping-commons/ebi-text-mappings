@@ -43,6 +43,9 @@ mapping_set_references:
 - mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/ebi-biosamples.sssom.tsv
   local_name: mappings/ebi-biosamples.sssom.tsv
   mapping_set_group: ebi-biosamples
+- mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/amr-portal.sssom.tsv
+  local_name: mappings/amr-portal.sssom.tsv
+  mapping_set_group: amr-portal
 - mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/faang.sssom.tsv
   local_name: mappings/faang.sssom.tsv
   mapping_set_group: faang

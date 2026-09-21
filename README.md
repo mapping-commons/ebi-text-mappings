@@ -28,6 +28,7 @@ Mappings are drawn from the following EBI data sources (configured in
 | `metabolights.sssom.tsv` | [MetaboLights](https://www.ebi.ac.uk/metabolights) |
 | `ukbiobank.sssom.tsv` | [UK Biobank / EFO](https://github.com/EBISPOT/EFO-UKB-mappings) |
 | `ebi-biosamples.sssom.tsv` | [BioSamples](https://www.ebi.ac.uk/biosamples/) |
+| `amr-portal.sssom.tsv` | [AMR Portal](https://www.ebi.ac.uk/amr/) antimicrobial mappings to ARO |
 | `faang.sssom.tsv` | [FAANG](https://www.ebi.ac.uk/vg/faang) |
 | `hca.sssom.tsv` | [Human Cell Atlas](https://www.ebi.ac.uk/about/collaborations/human-cell-atlas) |
 | `gwas.sssom.tsv` | [GWAS Catalog](http://www.ebi.ac.uk/gwas) |

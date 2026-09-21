@@ -99,6 +99,15 @@ sources:
     description: "Curated BioSamples text-to-ontology mappings"
     date_format: "%Y-%m-%d %H:%M:%S"
 
+  amr-portal:
+    import_url: "https://raw.githubusercontent.com/EBI-Metagenomics/amr_genotypes/main/configs/antibiotics.csv"
+    subject_source: "https://www.ebi.ac.uk/amr/"
+    description: "Manually curated antimicrobial name-to-ontology mappings from the AMR Portal"
+    quoted: true
+    column_map:
+      "antibiotic_name": "PROPERTY_VALUE"
+      "antibiotic_ontology": "SEMANTIC_TAG"
+
   faang:
     import_url: "https://api.faang.org/files/faang_zooma_mappings.tsv"
     subject_source: "https://www.ebi.ac.uk/vg/faang"

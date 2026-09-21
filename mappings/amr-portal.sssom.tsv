@@ -1,0 +1,162 @@
+#curie_map:
+#  ARO: http://purl.obolibrary.org/obo/ARO_
+#mapping_set_id: https://raw.githubusercontent.com/mapping-commons/ebi-text-mappings/main/mappings/amr-portal.sssom.tsv
+#mapping_set_description: Manually curated antimicrobial name-to-ontology mappings from the AMR Portal
+#subject_type: rdfs literal
+#subject_source: https://www.ebi.ac.uk/amr/
+subject_label	predicate_id	object_id	mapping_justification
+Imipenem-EDTA-PA	skos:closeMatch	ARO:3000170	semapv:ManualMappingCuration
+amikacin	skos:closeMatch	ARO:0000013	semapv:ManualMappingCuration
+aminocoumarin antibiotic	skos:closeMatch	ARO:3000103	semapv:ManualMappingCuration
+aminoglycoside antibiotic	skos:closeMatch	ARO:0000016	semapv:ManualMappingCuration
+amoxicillin	skos:closeMatch	ARO:0000064	semapv:ManualMappingCuration
+amoxicillin-clavulanic acid	skos:closeMatch	ARO:3003997	semapv:ManualMappingCuration
+ampicillin	skos:closeMatch	ARO:3000637	semapv:ManualMappingCuration
+ampicillin-sulbactam	skos:closeMatch	ARO:3003998	semapv:ManualMappingCuration
+apramycin	skos:closeMatch	ARO:0000037	semapv:ManualMappingCuration
+arbekacin	skos:closeMatch	ARO:3000654	semapv:ManualMappingCuration
+azithromycin	skos:closeMatch	ARO:3000158	semapv:ManualMappingCuration
+aztreonam	skos:closeMatch	ARO:3000550	semapv:ManualMappingCuration
+aztreonam-avibactam	skos:closeMatch	ARO:3007366	semapv:ManualMappingCuration
+bedaquiline	skos:closeMatch	ARO:3004492	semapv:ManualMappingCuration
+beta-lactam antibiotic	skos:closeMatch	ARO:3000007	semapv:ManualMappingCuration
+bleomycin	skos:closeMatch	ARO:0000053	semapv:ManualMappingCuration
+capreomycin	skos:closeMatch	ARO:3003993	semapv:ManualMappingCuration
+carbapenem	skos:closeMatch	ARO:0000020	semapv:ManualMappingCuration
+carbenicillin	skos:closeMatch	ARO:0000043	semapv:ManualMappingCuration
+cefaclor	skos:closeMatch	ARO:3000644	semapv:ManualMappingCuration
+cefamandole	skos:closeMatch	ARO:3003999	semapv:ManualMappingCuration
+cefazolin	skos:closeMatch	ARO:0000058	semapv:ManualMappingCuration
+cefepime	skos:closeMatch	ARO:0000059	semapv:ManualMappingCuration
+cefepime-taniborbactam	skos:closeMatch	ARO:3007148	semapv:ManualMappingCuration
+cefiderocol	skos:closeMatch	ARO:3004474	semapv:ManualMappingCuration
+cefixime	skos:closeMatch	ARO:3000646	semapv:ManualMappingCuration
+cefmetazole	skos:closeMatch	ARO:3004001	semapv:ManualMappingCuration
+cefoperazone	skos:closeMatch	ARO:3004003	semapv:ManualMappingCuration
+cefotaxime	skos:closeMatch	ARO:3000645	semapv:ManualMappingCuration
+cefotaxime-clavulanic acid	skos:closeMatch	ARO:3004710	semapv:ManualMappingCuration
+cefotetan	skos:closeMatch	ARO:3004004	semapv:ManualMappingCuration
+cefovecin	skos:closeMatch	ARO:3007458	semapv:ManualMappingCuration
+cefoxitin	skos:closeMatch	ARO:0000008	semapv:ManualMappingCuration
+cefpirome	skos:closeMatch	ARO:3004726	semapv:ManualMappingCuration
+cefpodoxime	skos:closeMatch	ARO:3000647	semapv:ManualMappingCuration
+ceftaroline	skos:closeMatch	ARO:3000651	semapv:ManualMappingCuration
+ceftazidime	skos:closeMatch	ARO:0000060	semapv:ManualMappingCuration
+ceftazidime-avibactam	skos:closeMatch	ARO:3007072	semapv:ManualMappingCuration
+ceftazidime-clavulanic acid	skos:closeMatch	ARO:3004705	semapv:ManualMappingCuration
+ceftibuten	skos:closeMatch	ARO:3000648	semapv:ManualMappingCuration
+ceftiofur	skos:closeMatch	ARO:3004006	semapv:ManualMappingCuration
+ceftizoxime	skos:closeMatch	ARO:3004007	semapv:ManualMappingCuration
+ceftolozane-tazobactam	skos:closeMatch	ARO:3004724	semapv:ManualMappingCuration
+ceftriaxone	skos:closeMatch	ARO:0000062	semapv:ManualMappingCuration
+cefuroxime	skos:closeMatch	ARO:0000063	semapv:ManualMappingCuration
+cephalexin	skos:closeMatch	ARO:3000641	semapv:ManualMappingCuration
+cephalosporin	skos:closeMatch	ARO:0000032	semapv:ManualMappingCuration
+chloramphenicol	skos:closeMatch	ARO:3000385	semapv:ManualMappingCuration
+chlortetracycline	skos:closeMatch	ARO:3000528	semapv:ManualMappingCuration
+ciprofloxacin	skos:closeMatch	ARO:0000036	semapv:ManualMappingCuration
+clarithromycin	skos:closeMatch	ARO:0000065	semapv:ManualMappingCuration
+clindamycin	skos:closeMatch	ARO:0000066	semapv:ManualMappingCuration
+clofazimine	skos:closeMatch	ARO:3004012	semapv:ManualMappingCuration
+colistin	skos:closeMatch	ARO:0000067	semapv:ManualMappingCuration
+cycloserine	skos:closeMatch	ARO:3000760	semapv:ManualMappingCuration
+dalbavancin	skos:closeMatch	ARO:3000466	semapv:ManualMappingCuration
+daptomycin	skos:closeMatch	ARO:0000068	semapv:ManualMappingCuration
+delafloxacin	skos:closeMatch	ARO:3004462	semapv:ManualMappingCuration
+dicloxacillin	skos:closeMatch	ARO:3000635	semapv:ManualMappingCuration
+doripenem	skos:closeMatch	ARO:3000640	semapv:ManualMappingCuration
+enrofloxacin	skos:closeMatch	ARO:3007045	semapv:ManualMappingCuration
+eravacycline	skos:closeMatch	ARO:3003979	semapv:ManualMappingCuration
+ertapenem	skos:closeMatch	ARO:0000070	semapv:ManualMappingCuration
+erythromycin	skos:closeMatch	ARO:0000006	semapv:ManualMappingCuration
+ethionamide	skos:closeMatch	ARO:3003474	semapv:ManualMappingCuration
+fidaxomicin	skos:closeMatch	ARO:3001319	semapv:ManualMappingCuration
+florfenicol	skos:closeMatch	ARO:3000461	semapv:ManualMappingCuration
+fluconazole	skos:closeMatch	ARO:3007508	semapv:ManualMappingCuration
+fluoroquinolone	skos:closeMatch	ARO:0000001	semapv:ManualMappingCuration
+fluoroquinolone antibiotic	skos:closeMatch	ARO:0000001	semapv:ManualMappingCuration
+fosfomycin	skos:closeMatch	ARO:0000025	semapv:ManualMappingCuration
+fosmidomycin	skos:closeMatch	ARO:3000758	semapv:ManualMappingCuration
+furazolidone	skos:closeMatch	ARO:3000688	semapv:ManualMappingCuration
+fusidic acid	skos:closeMatch	ARO:3000759	semapv:ManualMappingCuration
+gatifloxacin	skos:closeMatch	ARO:3000659	semapv:ManualMappingCuration
+gentamicin	skos:closeMatch	ARO:3007382	semapv:ManualMappingCuration
+hygromycin B	skos:closeMatch	ARO:3000214	semapv:ManualMappingCuration
+imipenem	skos:closeMatch	ARO:3000170	semapv:ManualMappingCuration
+isoniazid	skos:closeMatch	ARO:3000520	semapv:ManualMappingCuration
+kanamycin A	skos:closeMatch	ARO:0000049	semapv:ManualMappingCuration
+kasugamycin	skos:closeMatch	ARO:3001296	semapv:ManualMappingCuration
+levofloxacin	skos:closeMatch	ARO:0000071	semapv:ManualMappingCuration
+lincosamide antibiotic	skos:closeMatch	ARO:0000017	semapv:ManualMappingCuration
+linezolid	skos:closeMatch	ARO:0000072	semapv:ManualMappingCuration
+marbofloxacin	skos:closeMatch	ARO:3007046	semapv:ManualMappingCuration
+mecillinam	skos:closeMatch	ARO:3000761	semapv:ManualMappingCuration
+meropenem	skos:closeMatch	ARO:0000073	semapv:ManualMappingCuration
+meropenem-vaborbactam	skos:closeMatch	ARO:3007146	semapv:ManualMappingCuration
+methicillin	skos:closeMatch	ARO:0000015	semapv:ManualMappingCuration
+metronidazole	skos:closeMatch	ARO:3000689	semapv:ManualMappingCuration
+mezlocillin	skos:closeMatch	ARO:3000639	semapv:ManualMappingCuration
+minocycline	skos:closeMatch	ARO:3000152	semapv:ManualMappingCuration
+moxifloxacin	skos:closeMatch	ARO:0000074	semapv:ManualMappingCuration
+mupirocin	skos:closeMatch	ARO:3000554	semapv:ManualMappingCuration
+nafcillin	skos:closeMatch	ARO:3004018	semapv:ManualMappingCuration
+nalidixic acid	skos:closeMatch	ARO:3000661	semapv:ManualMappingCuration
+narasin	skos:closeMatch	ARO:3007471	semapv:ManualMappingCuration
+neomycin	skos:closeMatch	ARO:0000005	semapv:ManualMappingCuration
+netilmicin	skos:closeMatch	ARO:0000038	semapv:ManualMappingCuration
+nitrofurantoin	skos:closeMatch	ARO:0000075	semapv:ManualMappingCuration
+norfloxacin	skos:closeMatch	ARO:3000662	semapv:ManualMappingCuration
+ofloxacin	skos:closeMatch	ARO:3000663	semapv:ManualMappingCuration
+omadacycline	skos:closeMatch	ARO:3003936	semapv:ManualMappingCuration
+oxacillin	skos:closeMatch	ARO:0000056	semapv:ManualMappingCuration
+oxytetracycline	skos:closeMatch	ARO:3000668	semapv:ManualMappingCuration
+para-aminosalicylic acid	skos:closeMatch	ARO:3004019	semapv:ManualMappingCuration
+pefloxacin	skos:closeMatch	ARO:3000762	semapv:ManualMappingCuration
+piperacillin	skos:closeMatch	ARO:0000078	semapv:ManualMappingCuration
+piperacillin-tazobactam	skos:closeMatch	ARO:3004021	semapv:ManualMappingCuration
+plazomicin	skos:closeMatch	ARO:3003675	semapv:ManualMappingCuration
+pleuromutilin	skos:closeMatch	ARO:3001317	semapv:ManualMappingCuration
+polymyxin B	skos:closeMatch	ARO:3000454	semapv:ManualMappingCuration
+prothionamide	skos:closeMatch	ARO:3004025	semapv:ManualMappingCuration
+pyrazinamide	skos:closeMatch	ARO:3003413	semapv:ManualMappingCuration
+quinupristin-dalfopristin	skos:closeMatch	ARO:3004022	semapv:ManualMappingCuration
+retapamulin	skos:closeMatch	ARO:3001314	semapv:ManualMappingCuration
+rifabutin	skos:closeMatch	ARO:3000530	semapv:ManualMappingCuration
+rifampin	skos:closeMatch	ARO:3000169	semapv:ManualMappingCuration
+rifamycin antibiotic	skos:closeMatch	ARO:3000157	semapv:ManualMappingCuration
+rifaximin	skos:closeMatch	ARO:3000517	semapv:ManualMappingCuration
+salinomycin	skos:closeMatch	ARO:3007547	semapv:ManualMappingCuration
+sparfloxacin	skos:closeMatch	ARO:3000666	semapv:ManualMappingCuration
+spectinomycin	skos:closeMatch	ARO:0000039	semapv:ManualMappingCuration
+spiramycin	skos:closeMatch	ARO:3000156	semapv:ManualMappingCuration
+streptogramin B antibiotic	skos:closeMatch	ARO:0000050	semapv:ManualMappingCuration
+streptogramin antibiotic	skos:closeMatch	ARO:0000026	semapv:ManualMappingCuration
+streptomycin	skos:closeMatch	ARO:0000040	semapv:ManualMappingCuration
+streptothricin	skos:closeMatch	ARO:0000012	semapv:ManualMappingCuration
+sulbactam	skos:closeMatch	ARO:3000587	semapv:ManualMappingCuration
+sulbactam-durlobactam	skos:closeMatch	ARO:3007467	semapv:ManualMappingCuration
+sulfamethoxazole	skos:closeMatch	ARO:3000329	semapv:ManualMappingCuration
+sulfisoxazole	skos:closeMatch	ARO:3000330	semapv:ManualMappingCuration
+sulfonamide	skos:closeMatch	ARO:3000282	semapv:ManualMappingCuration
+sulfonamide antibiotic	skos:closeMatch	ARO:3000282	semapv:ManualMappingCuration
+tedizolid	skos:closeMatch	ARO:3003897	semapv:ManualMappingCuration
+teicoplanin	skos:closeMatch	ARO:0000029	semapv:ManualMappingCuration
+telavancin	skos:closeMatch	ARO:3000488	semapv:ManualMappingCuration
+telithromycin	skos:closeMatch	ARO:0000057	semapv:ManualMappingCuration
+temocillin	skos:closeMatch	ARO:3003831	semapv:ManualMappingCuration
+tetracycline	skos:closeMatch	ARO:0000051	semapv:ManualMappingCuration
+tetroxoprim	skos:closeMatch	ARO:3000284	semapv:ManualMappingCuration
+tiamulin	skos:closeMatch	ARO:3000671	semapv:ManualMappingCuration
+ticarcillin	skos:closeMatch	ARO:3003832	semapv:ManualMappingCuration
+ticarcillin-clavulanic acid	skos:closeMatch	ARO:3004023	semapv:ManualMappingCuration
+tigecycline	skos:closeMatch	ARO:0000030	semapv:ManualMappingCuration
+tilmicosin	skos:closeMatch	ARO:3007472	semapv:ManualMappingCuration
+tobramycin	skos:closeMatch	ARO:0000052	semapv:ManualMappingCuration
+trimethoprim	skos:closeMatch	ARO:3000188	semapv:ManualMappingCuration
+trimethoprim-sulfamethoxazole	skos:closeMatch	ARO:3004024	semapv:ManualMappingCuration
+trovafloxacin	skos:closeMatch	ARO:3000664	semapv:ManualMappingCuration
+tulathromycin	skos:closeMatch	ARO:3007760	semapv:ManualMappingCuration
+tylosin	skos:closeMatch	ARO:3000145	semapv:ManualMappingCuration
+virginiamycin M1	skos:closeMatch	ARO:3000669	semapv:ManualMappingCuration
+voriconazole	skos:closeMatch	ARO:3007512	semapv:ManualMappingCuration
+zoliflodacin	skos:closeMatch	ARO:3004858	semapv:ManualMappingCuration
