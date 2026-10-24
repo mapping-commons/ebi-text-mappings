@@ -11,7 +11,7 @@
 #subject_type: rdfs literal
 #subject_source: https://www.pgscatalog.org
 subject_label	predicate_id	object_id	object_label	mapping_justification
-25-hydroxyvitamin D	skos:closeMatch	OBA:1000968	vitamin D level	semapv:ManualMappingCuration
+25-hydroxyvitamin D	skos:closeMatch	OBA:1000968	amount of vitamin D	semapv:ManualMappingCuration
 3mm cylindrical power (R)	skos:closeMatch	EFO:0004731	eye measurement	semapv:ManualMappingCuration
 3mm strong meridian (L)	skos:closeMatch	EFO:0004731	eye measurement	semapv:ManualMappingCuration
 3mm strong meridian (R)	skos:closeMatch	EFO:0004731	eye measurement	semapv:ManualMappingCuration
@@ -36,10 +36,13 @@ Abnormal glucose	skos:closeMatch	HP:0011015	Abnormal blood glucose concentration
 Abnormal results of function study of liver	skos:closeMatch	EFO:0009628	abnormal result of function studies	semapv:ManualMappingCuration
 Abnormal tumor markers	skos:closeMatch	EFO:0005127	cancer biomarker measurement	semapv:ManualMappingCuration
 Acne	skos:closeMatch	MONDO:0011438	acne	semapv:ManualMappingCuration
+Actinic keratosis	skos:closeMatch	MONDO:0005173	actinic keratosis	semapv:ManualMappingCuration
 Acute appendicitis	skos:closeMatch	MONDO:0005649	appendicitis	semapv:ManualMappingCuration
 Acute appendicitis (time-to-event)	skos:closeMatch	MONDO:0005649	appendicitis	semapv:ManualMappingCuration
 Acute but ill defined cerebrovascular disease	skos:closeMatch	MONDO:0011057	cerebrovascular disorder	semapv:ManualMappingCuration
 Acute lymphoblastic leukemia	skos:closeMatch	MONDO:0004967	acute lymphoblastic leukemia	semapv:ManualMappingCuration
+Acute lymphocytic leukemia	skos:closeMatch	MONDO:0004967	acute lymphoblastic leukemia	semapv:ManualMappingCuration
+Acute myeloid leukemia	skos:closeMatch	MONDO:0018874	acute myeloid leukemia	semapv:ManualMappingCuration
 Acute myocardial infarction (time-to-event)	skos:closeMatch	MONDO:0005068	myocardial infarction	semapv:ManualMappingCuration
 Acute rejection after kidney transplantation	skos:closeMatch	EFO:0005199	renal transplant outcome measurement	semapv:ManualMappingCuration
 Acute upper respiratory infections of multiple or unspecified sites	skos:closeMatch	MONDO:0024355	respiratory tract infectious disorder	semapv:ManualMappingCuration
@@ -71,10 +74,10 @@ Alanine aminotransferase level	skos:closeMatch	OBA:2050062	serum alanine aminotr
 Alanine transaminase	skos:closeMatch	OBA:2050062	serum alanine aminotransferase amount	semapv:ManualMappingCuration
 Albumin	skos:closeMatch	OBA:2050068	serum albumin amount	semapv:ManualMappingCuration
 Albumin [g/L]	skos:closeMatch	OBA:2050068	serum albumin amount	semapv:ManualMappingCuration
-Alcohol consumption	skos:closeMatch	OBA:1000840	alcohol consumption quality	semapv:ManualMappingCuration
-Alcohol consumption (drinks per week)	skos:closeMatch	OBA:1000840	alcohol consumption quality	semapv:ManualMappingCuration
+Alcohol consumption	skos:closeMatch	OBA:1000840	alcohol consumption characteristic	semapv:ManualMappingCuration
+Alcohol consumption (drinks per week)	skos:closeMatch	OBA:1000840	alcohol consumption characteristic	semapv:ManualMappingCuration
 Alcohol drinker status	skos:closeMatch	EFO:0004329	alcohol drinking	semapv:ManualMappingCuration
-Alcohol intake frequency	skos:closeMatch	OBA:1000840	alcohol consumption quality	semapv:ManualMappingCuration
+Alcohol intake frequency	skos:closeMatch	OBA:1000840	alcohol consumption characteristic	semapv:ManualMappingCuration
 Alcohol metabolism	skos:closeMatch	EFO:0004329	alcohol drinking	semapv:ManualMappingCuration
 Alcohol related disorders	skos:closeMatch	MONDO:0021698	alcohol-related disorders	semapv:ManualMappingCuration
 Alcohol use disorder	skos:closeMatch	MONDO:0007079	alcohol dependence	semapv:ManualMappingCuration
@@ -196,7 +199,7 @@ Autoimmune disease	skos:closeMatch	MONDO:0007179	autoimmune disease	semapv:Manua
 Average heart rate	skos:closeMatch	OBA:1001087	heart rate	semapv:ManualMappingCuration
 Average number of times bowels opened per day	skos:closeMatch	OBA:2045221	bowel opening frequency	semapv:ManualMappingCuration
 Average total household income before tax	skos:closeMatch	EFO:0009695	household income	semapv:ManualMappingCuration
-Average weekly alcohol consumption (beer and cider)	skos:closeMatch	OBA:1000840	alcohol consumption quality	semapv:ManualMappingCuration
+Average weekly alcohol consumption (beer and cider)	skos:closeMatch	OBA:1000840	alcohol consumption characteristic	semapv:ManualMappingCuration
 BMI-adjusted waist-hip ratio	skos:closeMatch	EFO:0007788	BMI-adjusted waist-hip ratio	semapv:ManualMappingCuration
 Balding Type 1	skos:closeMatch	EFO:0007825	balding measurement	semapv:ManualMappingCuration
 Basal cell carcinoma	skos:closeMatch	MONDO:0020804	basal cell carcinoma	semapv:ManualMappingCuration
@@ -365,6 +368,7 @@ Cervical cancer	skos:closeMatch	MONDO:0002974	cervical cancer	semapv:ManualMappi
 Cervical cancer	skos:closeMatch	MONDO:0005131	cervical carcinoma	semapv:ManualMappingCuration
 Cervical cancer and dysplasia	skos:closeMatch	MONDO:0002974	cervical cancer	semapv:ManualMappingCuration
 Cervical intraepithelial neoplasia CIN Cervical dysplasia	skos:closeMatch	MONDO:0022394	cervical intraepithelial neoplasia	semapv:ManualMappingCuration
+Cervix uteri cancer	skos:closeMatch	MONDO:0002974	cervical cancer	semapv:ManualMappingCuration
 Cheese intake	skos:closeMatch	EFO:0008111	diet measurement	semapv:ManualMappingCuration
 Childhood asthma	skos:closeMatch	MONDO:0005405	childhood onset asthma	semapv:ManualMappingCuration
 Childhood steroid-sensitive nephrotic syndrome	skos:closeMatch	MONDO:0005377	nephrotic syndrome	semapv:ManualMappingCuration
@@ -395,8 +399,10 @@ Chronic kidney disease (stage 3 or greater)	skos:closeMatch	MONDO:0005300	chroni
 Chronic kidney disease (stage 3 or higher)	skos:closeMatch	MONDO:0005300	chronic kidney disease	semapv:ManualMappingCuration
 Chronic liver disease and cirrhosis	skos:closeMatch	MONDO:0006644	alcoholic liver cirrhosis	semapv:ManualMappingCuration
 Chronic lymphocytic leukemia	skos:closeMatch	MONDO:0004948	B-cell chronic lymphocytic leukemia	semapv:ManualMappingCuration
+Chronic lymphocytic leukemia and small lymphocitis leukemia	skos:closeMatch	MONDO:0003864	chronic lymphocytic leukemia/small lymphocytic lymphoma	semapv:ManualMappingCuration
 Chronic lymphocytic thyroiditis	skos:closeMatch	MONDO:0007699	Hashimoto thyroiditis	semapv:ManualMappingCuration
 Chronic lymphoid leukemia	skos:closeMatch	MONDO:0005402	lymphoid leukemia	semapv:ManualMappingCuration
+Chronic myeloid leukemia	skos:closeMatch	MONDO:0011996	chronic myeloid leukemia	semapv:ManualMappingCuration
 Chronic obstructive asthma	skos:closeMatch	EFO:0009759	Chronic Obstructive Asthma	semapv:ManualMappingCuration
 Chronic obstructive pulmonary disease	skos:closeMatch	MONDO:0005002	chronic obstructive pulmonary disease	semapv:ManualMappingCuration
 Chronic obstructive pulmonary disease (algorithmically-defined)	skos:closeMatch	MONDO:0005002	chronic obstructive pulmonary disease	semapv:ManualMappingCuration
@@ -453,7 +459,7 @@ Corpus Uteri	skos:closeMatch	MONDO:0006003	uterine corpus cancer	semapv:ManualMa
 Corrected insulin response (at 30mins during OGTT)	skos:closeMatch	EFO:0008473	insulin response measurement	semapv:ManualMappingCuration
 Cough	skos:closeMatch	HP:0012735	Cough	semapv:ManualMappingCuration
 Coxarthrosis [arthrosis of hip] (time-to-event)	skos:closeMatch	MONDO:0006629	osteoarthritis, hip	semapv:ManualMappingCuration
-Creatine	skos:closeMatch	OBA:1001005	creatine level	semapv:ManualMappingCuration
+Creatine	skos:closeMatch	OBA:1001005	amount of creatine	semapv:ManualMappingCuration
 Creatinine	skos:closeMatch	OBA:2050096	serum creatinine amount	semapv:ManualMappingCuration
 Creatinine (enzymatic) in urine	skos:closeMatch	EFO:0007934	creatinine clearance measurement	semapv:ManualMappingCuration
 Creatinine (umol/L)	skos:closeMatch	OBA:2050096	serum creatinine amount	semapv:ManualMappingCuration
@@ -544,7 +550,7 @@ Docosahexaenoic acid	skos:closeMatch	EFO:0007761	docosahexaenoic acid measuremen
 Docosahexaenoic acid to total fatty acids percentage	skos:closeMatch	EFO:0022262	docosahexaenoic acid to total fatty acids percentage	semapv:ManualMappingCuration
 Dried fruit intake	skos:closeMatch	EFO:0008111	diet measurement	semapv:ManualMappingCuration
 Drinking status	skos:closeMatch	EFO:0004329	alcohol drinking	semapv:ManualMappingCuration
-Drinks per week	skos:closeMatch	OBA:1000840	alcohol consumption quality	semapv:ManualMappingCuration
+Drinks per week	skos:closeMatch	OBA:1000840	alcohol consumption characteristic	semapv:ManualMappingCuration
 Duodenal ulcer	skos:closeMatch	MONDO:0005412	duodenal ulcer	semapv:ManualMappingCuration
 Duodenal ulcer (time-to-event)	skos:closeMatch	MONDO:0005412	duodenal ulcer	semapv:ManualMappingCuration
 Duodenitis	skos:closeMatch	MONDO:0004627	duodenitis	semapv:ManualMappingCuration
@@ -602,7 +608,7 @@ Esophagitis, GERD and related diseases	skos:closeMatch	MONDO:0007186	gastroesoph
 Essential (primary hypertension) (time-to-event)	skos:closeMatch	MONDO:0001134	essential hypertension	semapv:ManualMappingCuration
 Essential hypertension	skos:closeMatch	MONDO:0001134	essential hypertension	semapv:ManualMappingCuration
 Estimated glomerular filtration rate	skos:closeMatch	OBA:0003747	glomerular filtration rate	semapv:ManualMappingCuration
-Estimated glomerular filtration rate (Creatine)	skos:closeMatch	OBA:1001005	creatine level	semapv:ManualMappingCuration
+Estimated glomerular filtration rate (Creatine)	skos:closeMatch	OBA:1001005	amount of creatine	semapv:ManualMappingCuration
 Estimated glomerular filtration rate (Creatine)	skos:closeMatch	OBA:0003747	glomerular filtration rate	semapv:ManualMappingCuration
 Estimated glomerular filtration rate (Cystatin C)	skos:closeMatch	EFO:0004617	cystatin C measurement	semapv:ManualMappingCuration
 Estimated glomerular filtration rate (Cystatin C)	skos:closeMatch	OBA:0003747	glomerular filtration rate	semapv:ManualMappingCuration
@@ -664,7 +670,7 @@ Fibroblast growth factor 23 (FGF-23) serum levels	skos:closeMatch	OBA:VT0005416	
 Fibroblastic disorders (time-to-event)	skos:closeMatch	EFO:0009432	fibroblastic disorder	semapv:ManualMappingCuration
 Fibromyalgia	skos:closeMatch	MONDO:0005546	fibromyalgia	semapv:ManualMappingCuration
 Fluid intelligence score	skos:closeMatch	EFO:0004337	intelligence	semapv:ManualMappingCuration
-Folic acid or folate (Vitamin B9)	skos:closeMatch	OBA:1001015	folic acid level	semapv:ManualMappingCuration
+Folic acid or folate (Vitamin B9)	skos:closeMatch	OBA:1001015	amount of folic acid	semapv:ManualMappingCuration
 Follicular cysts of skin and subcutaneous tissue (time-to-event)	skos:closeMatch	EFO:1001329	Follicular Cyst	semapv:ManualMappingCuration
 Follicular lymphoma	skos:closeMatch	MONDO:0018906	follicular lymphoma	semapv:ManualMappingCuration
 Follistatin (FS) serum levels	skos:closeMatch	OBA:VT0005416	blood protein amount	semapv:ManualMappingCuration
@@ -680,8 +686,8 @@ Forearm or wrist fracture	skos:closeMatch	EFO:0009514	upper extremity fracture	s
 Fractalkine (CX3CL1) serum levels	skos:closeMatch	OBA:VT0005416	blood protein amount	semapv:ManualMappingCuration
 Fractured/broken bones in last 5 years	skos:closeMatch	MONDO:0005315	bone fracture	semapv:ManualMappingCuration
 Frailty Index	skos:closeMatch	EFO:0009885	frailty measurement	semapv:ManualMappingCuration
-Free thyroxine concentration	skos:closeMatch	OBA:1001010	thyroxine level	semapv:ManualMappingCuration
-Freq. of drinking alcohol	skos:closeMatch	OBA:1000840	alcohol consumption quality	semapv:ManualMappingCuration
+Free thyroxine concentration	skos:closeMatch	OBA:1001010	amount of thyroxine	semapv:ManualMappingCuration
+Freq. of drinking alcohol	skos:closeMatch	OBA:1000840	alcohol consumption characteristic	semapv:ManualMappingCuration
 Freq. of tiredness / lethargy in last 2 weeks	skos:closeMatch	EFO:0007946	tiredness measurement	semapv:ManualMappingCuration
 Frequency of discomfort/pain in abdomen in last 3 months	skos:closeMatch	HP:0002027	Abdominal pain	semapv:ManualMappingCuration
 Frequency of playing computer games	skos:closeMatch	EFO:0010724	lifestyle measurement	semapv:ManualMappingCuration
@@ -904,7 +910,7 @@ Incident atrial fibrillation	skos:closeMatch	MONDO:0004981	atrial fibrillation	s
 Incident coronary artery disease	skos:closeMatch	MONDO:0005010	coronary artery disorder	semapv:ManualMappingCuration
 Incident hypertension	skos:closeMatch	MONDO:0005044	hypertensive disorder	semapv:ManualMappingCuration
 Incident type 2 diabetes	skos:closeMatch	MONDO:0005148	type 2 diabetes mellitus	semapv:ManualMappingCuration
-Increased alcohol consumption, versus 10 years ago	skos:closeMatch	OBA:1000840	alcohol consumption quality	semapv:ManualMappingCuration
+Increased alcohol consumption, versus 10 years ago	skos:closeMatch	OBA:1000840	alcohol consumption characteristic	semapv:ManualMappingCuration
 Increased alcohol consumption, versus 10 years ago	skos:closeMatch	EFO:0007645	longitudinal alcohol consumption measurement	semapv:ManualMappingCuration
 Inflammation of the eye	skos:closeMatch	MONDO:0005328	eye disorder	semapv:ManualMappingCuration
 Inflammation of the eye	skos:closeMatch	EFO:0005752	eye inflammation	semapv:ManualMappingCuration
@@ -915,7 +921,7 @@ Inguinal hernia	skos:closeMatch	HP:0000023	Inguinal hernia	semapv:ManualMappingC
 Inguinal hernia (time-to-event)	skos:closeMatch	HP:0000023	Inguinal hernia	semapv:ManualMappingCuration
 Insomnia	skos:closeMatch	MONDO:0013600	insomnia	semapv:ManualMappingCuration
 Insomnia	skos:closeMatch	EFO:0007876	insomnia measurement	semapv:ManualMappingCuration
-Insulin growth-like factor-1 level	skos:closeMatch	OBA:2050130	insulin-like protein level	semapv:ManualMappingCuration
+Insulin growth-like factor-1 level	skos:closeMatch	OBA:2050130	amount of insulin-like protein	semapv:ManualMappingCuration
 Insulin resistance	skos:closeMatch	HP:0000855	Insulin resistance	semapv:ManualMappingCuration
 Insulin secretion	skos:closeMatch	OBA:VT0003564	insulin secretion trait	semapv:ManualMappingCuration
 Insulin secretion rate	skos:closeMatch	OBA:VT0003564	insulin secretion trait	semapv:ManualMappingCuration
@@ -971,6 +977,7 @@ Kallikrein-6 (KLK6) serum levels	skos:closeMatch	OBA:VT0005416	blood protein amo
 Keratinocyte cancer	skos:closeMatch	EFO:0010176	keratinocyte carcinoma	semapv:ManualMappingCuration
 Keratitis	skos:closeMatch	MONDO:0003085	keratitis	semapv:ManualMappingCuration
 Keratoconus	skos:closeMatch	MONDO:0015486	keratoconus	semapv:ManualMappingCuration
+Kidney cancer	skos:closeMatch	MONDO:0002367	kidney cancer	semapv:ManualMappingCuration
 Kidney cancer	skos:closeMatch	MONDO:0005206	renal carcinoma	semapv:ManualMappingCuration
 Kidney cancer	skos:closeMatch	MONDO:0005086	renal cell carcinoma	semapv:ManualMappingCuration
 Kidney failure	skos:closeMatch	MONDO:0001106	kidney failure	semapv:ManualMappingCuration
@@ -1048,6 +1055,8 @@ Lipoprotein A [nmol/L]	skos:closeMatch	EFO:0006925	lipoprotein A measurement	sem
 Lipoprotein A concentration [nmol/L]	skos:closeMatch	EFO:0006925	lipoprotein A measurement	semapv:ManualMappingCuration
 Lipoprotein A levels	skos:closeMatch	EFO:0006925	lipoprotein A measurement	semapv:ManualMappingCuration
 Liver fat (MRI-derived)	skos:closeMatch	EFO:0010821	liver fat measurement	semapv:ManualMappingCuration
+Liver fat content	skos:closeMatch	EFO:0010821	liver fat measurement	semapv:ManualMappingCuration
+Liver volume	skos:closeMatch	OBA:2050033	liver volume	semapv:ManualMappingCuration
 Log triglycerides	skos:closeMatch	EFO:0004530	triglyceride measurement	semapv:ManualMappingCuration
 Loneliness	skos:closeMatch	EFO:0007865	loneliness measurement	semapv:ManualMappingCuration
 Long Sleep	skos:closeMatch	OBA:2040171	sleep duration trait	semapv:ManualMappingCuration
@@ -1339,6 +1348,7 @@ Median T2star in thalamus (R)	skos:closeMatch	EFO:0004346	neuroimaging measureme
 Melanoma	skos:closeMatch	MONDO:0005012	cutaneous melanoma	semapv:ManualMappingCuration
 Melanoma	skos:closeMatch	MONDO:0005105	melanoma	semapv:ManualMappingCuration
 Melanoma (malignant)	skos:closeMatch	MONDO:0005105	melanoma	semapv:ManualMappingCuration
+Melanoma (skin)	skos:closeMatch	MONDO:0005105	melanoma	semapv:ManualMappingCuration
 Melanomas of skin (diagnosis or history)	skos:closeMatch	MONDO:0005105	melanoma	semapv:ManualMappingCuration
 Melusin (ITGB1BP2) serum levels	skos:closeMatch	OBA:VT0005416	blood protein amount	semapv:ManualMappingCuration
 Membrane-bound aminopeptidase P (mAmP) serum levels	skos:closeMatch	OBA:VT0005416	blood protein amount	semapv:ManualMappingCuration
@@ -1385,6 +1395,7 @@ Nap during day	skos:closeMatch	EFO:0009818	nap during day, self-reported	semapv:
 Narcolepsy	skos:closeMatch	MONDO:0016158	narcolepsy-cataplexy syndrome	semapv:ManualMappingCuration
 Nasal polyp (time-to-event)	skos:closeMatch	HP:0100582	Nasal polyposis	semapv:ManualMappingCuration
 Nasal polyps	skos:closeMatch	HP:0100582	Nasal polyposis	semapv:ManualMappingCuration
+Nasopharyngeal cancer	skos:closeMatch	MONDO:0015459	nasopharyngeal carcinoma	semapv:ManualMappingCuration
 Nasopharyngeal carcinoma	skos:closeMatch	MONDO:0005375	nasopharyngeal neoplasm	semapv:ManualMappingCuration
 Neoplasm of uncertain behavior	skos:closeMatch	MONDO:0005070	neoplasm	semapv:ManualMappingCuration
 Neoplasm of unspecified nature of digestive system	skos:closeMatch	MONDO:0002516	digestive system cancer	semapv:ManualMappingCuration
@@ -1412,11 +1423,12 @@ Nicotine metabolite ratio	skos:closeMatch	EFO:0007794	nicotine metabolite ratio	
 Nodular lymphoma	skos:closeMatch	MONDO:0018906	follicular lymphoma	semapv:ManualMappingCuration
 Non melanoma skin cancer	skos:closeMatch	EFO:0009260	non-melanoma skin carcinoma	semapv:ManualMappingCuration
 Non-Hodgkin's lymphoma	skos:closeMatch	MONDO:0018908	non-Hodgkin lymphoma	semapv:ManualMappingCuration
-Non-albumin protein [g/L]	skos:closeMatch	OBA:2045206	level of serum globulin type protein	semapv:ManualMappingCuration
+Non-albumin protein [g/L]	skos:closeMatch	OBA:2045206	amount of serum globulin type protein	semapv:ManualMappingCuration
 Non-alcoholic fatty liver disease	skos:closeMatch	MONDO:0013209	metabolic dysfunction-associated steatotic liver disease	semapv:ManualMappingCuration
 Non-alcoholic fatty liver disease activity score	skos:closeMatch	EFO:0008421	non-alcoholic fatty liver disease severity measurement	semapv:ManualMappingCuration
 Non-cancer illness year/age first occurred	skos:closeMatch	MONDO:0000001	disease	semapv:ManualMappingCuration
 Non-insulin-dependent diabetes (time-to-event)	skos:closeMatch	MONDO:0005148	type 2 diabetes mellitus	semapv:ManualMappingCuration
+Non-melanoma skin Cancer	skos:closeMatch	MONDO:0002898	skin cancer	semapv:ManualMappingCuration
 Non-mucinous epithelial ovarian cancer	skos:closeMatch	MONDO:0005140	ovarian carcinoma	semapv:ManualMappingCuration
 Nonalcoholic fatty liver disease	skos:closeMatch	MONDO:0013209	metabolic dysfunction-associated steatotic liver disease	semapv:ManualMappingCuration
 Noninflammatory disorders of ovary fallopian tube and broad ligament	skos:closeMatch	MONDO:0005558	ovarian disorder	semapv:ManualMappingCuration
@@ -1456,6 +1468,7 @@ Oral cavity and pharyngeal cancers	skos:closeMatch	MONDO:0005515	oral cavity can
 Oral cavity and pharyngeal cancers	skos:closeMatch	MONDO:0005517	pharynx cancer	semapv:ManualMappingCuration
 Oral cavity cancer	skos:closeMatch	MONDO:0005515	oral cavity cancer	semapv:ManualMappingCuration
 Organic or persistent insomnia	skos:closeMatch	MONDO:0013600	insomnia	semapv:ManualMappingCuration
+Oropharyngeal cancer	skos:closeMatch	MONDO:0004608	oropharynx cancer	semapv:ManualMappingCuration
 Oropharynx cancer	skos:closeMatch	MONDO:0004608	oropharynx cancer	semapv:ManualMappingCuration
 Osteoarthritis	skos:closeMatch	MONDO:0005178	osteoarthritis	semapv:ManualMappingCuration
 Osteoarthrosis	skos:closeMatch	MONDO:0005178	osteoarthritis	semapv:ManualMappingCuration
@@ -1518,6 +1531,7 @@ Other systemic involvement of connective tissue (time-to-event)	skos:closeMatch	
 Other venous embolism and thrombosis	skos:closeMatch	EFO:0003907	deep vein thrombosis	semapv:ManualMappingCuration
 Otosclerosis	skos:closeMatch	MONDO:0005349	otosclerosis	semapv:ManualMappingCuration
 Otosclerosis (time-to-event)	skos:closeMatch	MONDO:0005349	otosclerosis	semapv:ManualMappingCuration
+Ovarian cancer	skos:closeMatch	MONDO:0008170	ovarian cancer	semapv:ManualMappingCuration
 Ovarian cancer	skos:closeMatch	MONDO:0005140	ovarian carcinoma	semapv:ManualMappingCuration
 Ovarian cancer-related tumor marker CA 125 (CA-125) serum levels	skos:closeMatch	OBA:VT0005416	blood protein amount	semapv:ManualMappingCuration
 Ovarian serous carcinoma	skos:closeMatch	EFO:1001516	ovarian serous carcinoma	semapv:ManualMappingCuration
@@ -1539,6 +1553,7 @@ PQ interval	skos:closeMatch	EFO:0004462	PR interval	semapv:ManualMappingCuration
 PR interval	skos:closeMatch	EFO:0004462	PR interval	semapv:ManualMappingCuration
 Pain in limb	skos:closeMatch	HP:0009763	Limb pain	semapv:ManualMappingCuration
 Palindromic rheumatism	skos:closeMatch	MONDO:0001332	palindromic rheumatism	semapv:ManualMappingCuration
+Pancreas cancer	skos:closeMatch	MONDO:0005192	exocrine pancreatic carcinoma	semapv:ManualMappingCuration
 Pancreatic cancer	skos:closeMatch	MONDO:0005192	exocrine pancreatic carcinoma	semapv:ManualMappingCuration
 Pancreatic cancer	skos:closeMatch	MONDO:0021040	pancreatic neoplasm	semapv:ManualMappingCuration
 Pancreatic ductal adenocarcinoma	skos:closeMatch	MONDO:0005184	pancreatic ductal adenocarcinoma	semapv:ManualMappingCuration
@@ -1752,7 +1767,7 @@ Sensorineural hearing loss	skos:closeMatch	MONDO:0020678	sensorineural hearing l
 Seropositive rheumatoid arthritis	skos:closeMatch	MONDO:0008383	rheumatoid arthritis	semapv:ManualMappingCuration
 Seropositive rheumatoid arthritis (time-to-event)	skos:closeMatch	MONDO:0008383	rheumatoid arthritis	semapv:ManualMappingCuration
 Serous epithelial ovarian cancer	skos:closeMatch	EFO:1001516	ovarian serous carcinoma	semapv:ManualMappingCuration
-Serum 25-Hydroxyvitamin D	skos:closeMatch	OBA:1000968	vitamin D level	semapv:ManualMappingCuration
+Serum 25-Hydroxyvitamin D	skos:closeMatch	OBA:1000968	amount of vitamin D	semapv:ManualMappingCuration
 Serum creatinine	skos:closeMatch	OBA:2050096	serum creatinine amount	semapv:ManualMappingCuration
 Serum glutamate pyruvate transaminase	skos:closeMatch	OBA:2050062	serum alanine aminotransferase amount	semapv:ManualMappingCuration
 Serum glutamic oxaloacetic transaminase	skos:closeMatch	EFO:0004736	aspartate aminotransferase measurement	semapv:ManualMappingCuration
@@ -1832,6 +1847,7 @@ Tea intake	skos:closeMatch	EFO:0010091	tea consumption measurement	semapv:Manual
 Temporomandibular joint disorders	skos:closeMatch	MONDO:0005473	temporomandibular joint disorder	semapv:ManualMappingCuration
 Testicular cancer	skos:closeMatch	MONDO:0005447	testicular cancer	semapv:ManualMappingCuration
 Testicular cancer	skos:closeMatch	MONDO:0010108	testicular germ cell tumor	semapv:ManualMappingCuration
+Testis cancer	skos:closeMatch	MONDO:0005447	testicular cancer	semapv:ManualMappingCuration
 Testosterone (female only)	skos:closeMatch	PATO:0000383	female	semapv:ManualMappingCuration
 Testosterone (female only)	skos:closeMatch	EFO:0004908	testosterone measurement	semapv:ManualMappingCuration
 Testosterone (male only)	skos:closeMatch	PATO:0000384	male	semapv:ManualMappingCuration
@@ -1847,9 +1863,10 @@ Thyroid carcenoma vs benign nodular goiter	skos:closeMatch	EFO:0002751	benign	se
 Thyroid carcenoma vs benign nodular goiter	skos:closeMatch	MONDO:0006869	nodular goiter	semapv:ManualMappingCuration
 Thyroid carcenoma vs benign nodular goiter	skos:closeMatch	MONDO:0015075	thyroid gland carcinoma	semapv:ManualMappingCuration
 Thyroid cyst	skos:closeMatch	EFO:1000894	dermoid cyst	semapv:ManualMappingCuration
+Thyroid gland cancer	skos:closeMatch	MONDO:0015075	thyroid gland carcinoma	semapv:ManualMappingCuration
 Thyroid medication use	skos:closeMatch	EFO:0009933	Thyroid preparation use measurement	semapv:ManualMappingCuration
-Thyroid stimulating hormone concentration	skos:closeMatch	OBA:1000983	Thyroid stimulating hormone level	semapv:ManualMappingCuration
-Thyroid stimulating hormone levels	skos:closeMatch	OBA:1000983	Thyroid stimulating hormone level	semapv:ManualMappingCuration
+Thyroid stimulating hormone concentration	skos:closeMatch	OBA:1000983	amount of Thyroid stimulating hormone	semapv:ManualMappingCuration
+Thyroid stimulating hormone levels	skos:closeMatch	OBA:1000983	amount of Thyroid stimulating hormone	semapv:ManualMappingCuration
 Thyroiditis	skos:closeMatch	MONDO:0004126	thyroiditis	semapv:ManualMappingCuration
 Thyrotoxicosis [hyperthyroidism] (time-to-event)	skos:closeMatch	MONDO:0010138	thyrotoxicosis	semapv:ManualMappingCuration
 Thyrotoxicosis with or without goiter	skos:closeMatch	MONDO:0010138	thyrotoxicosis	semapv:ManualMappingCuration
@@ -1987,9 +2004,9 @@ Vitamin B12	skos:closeMatch	EFO:0004620	vitamin B12 measurement	semapv:ManualMap
 Vitamin B12 deficiency induced anemia (time-to-event)	skos:closeMatch	MONDO:0002280	anemia	semapv:ManualMappingCuration
 Vitamin B12 deficiency induced anemia (time-to-event)	skos:closeMatch	MONDO:0020696	vitamin B12 deficiency	semapv:ManualMappingCuration
 Vitamin B9 intake	skos:closeMatch	EFO:0009116	vitamin supplement exposure measurement	semapv:ManualMappingCuration
-Vitamin D	skos:closeMatch	OBA:1000968	vitamin D level	semapv:ManualMappingCuration
-Vitamin D (nmol/L)	skos:closeMatch	OBA:1000968	vitamin D level	semapv:ManualMappingCuration
-Vitamin D [nmol/L]	skos:closeMatch	OBA:1000968	vitamin D level	semapv:ManualMappingCuration
+Vitamin D	skos:closeMatch	OBA:1000968	amount of vitamin D	semapv:ManualMappingCuration
+Vitamin D (nmol/L)	skos:closeMatch	OBA:1000968	amount of vitamin D	semapv:ManualMappingCuration
+Vitamin D [nmol/L]	skos:closeMatch	OBA:1000968	amount of vitamin D	semapv:ManualMappingCuration
 Vitiligo	skos:closeMatch	MONDO:0008661	vitiligo	semapv:ManualMappingCuration
 Vitiligo (time-to-event)	skos:closeMatch	MONDO:0008661	vitiligo	semapv:ManualMappingCuration
 Volume of accumbens (L)	skos:closeMatch	EFO:0004346	neuroimaging measurement	semapv:ManualMappingCuration
