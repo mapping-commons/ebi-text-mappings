@@ -1671,6 +1671,7 @@ REM sleep behavior disorder	skos:closeMatch	MONDO:0005937	REM sleep behavior dis
 RR interval	skos:closeMatch	EFO:0004831	RR interval	semapv:ManualMappingCuration
 Radius fracture	skos:closeMatch	MONDO:0005325	radius fracture	semapv:ManualMappingCuration
 Rapid decline of glomerular filtration rate (GFR)	skos:closeMatch	EFO:0006829	GFR change measurement	semapv:ManualMappingCuration
+Rapid kidney function decline	skos:closeMatch	EFO:0006836	rapid kidney function decline	semapv:ManualMappingCuration
 Reactive arthropathies (time-to-event)	skos:closeMatch	MONDO:0017376	reactive arthritis	semapv:ManualMappingCuration
 Recent feelings of depression	skos:closeMatch	EFO:0007006	depressive symptom measurement	semapv:ManualMappingCuration
 Recent feelings of foreboding	skos:closeMatch	EFO:0009589	worry measurement	semapv:ManualMappingCuration
